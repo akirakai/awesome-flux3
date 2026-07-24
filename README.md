@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 4_
+_Last updated: 2026-07-25 · Entries: 5_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -71,6 +71,17 @@ _Last updated: 2026-07-25 · Entries: 4_
 - **Workflow/details:** Text-to-video; 15-second cinematic action sequence requested as one continuous shot with no cuts, morphing, or scene transitions.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Hyper realistic blockbuster cinematic 15 second action sequence in one true unbroken continuous shot, with no cuts, no morphing, and no scene transitions.” The complete prompt remains in the original post.
 - **Why included:** Original early-access creator post with attached video, explicit FLUX 3 attribution, a visible prompt, complex action choreography, and a high-signal continuity test.
+
+### 5. Predicted future vs. real robot rollout — Black Forest Labs × mimic robotics
+
+- **Creator:** [Black Forest Labs](https://bfl.ai/) and [mimic robotics](https://www.mimicrobotics.com/)
+- **Published:** 2026-07-23
+- **Original source:** [FLUX 3 × mimic technical showcase](https://bfl.ai/blog/flux-3-mimic)
+- **Model attribution:** Officially identified as FLUX-mimic, a video-action model built on the FLUX 3 backbone
+- **Summary:** The official showcase places the FLUX 3 backbone’s predicted visual future alongside the physical robot rollout decoded from it, demonstrating contact-aware manipulation, recovery after missed grasps, and deployment on real factory tasks.
+- **Workflow/details:** FLUX 3 is jointly trained across image, video, and audio; mimic adds a lightweight action decoder over intermediate video-prediction features. The article reports tasks including component kitting, tight-fixture insertion, assembly, and manipulation of flexible seals and cables, with the optimized system reacting in 101 ms.
+- **Prompt provenance:** `not_provided` — this is a robotics video-action demonstration rather than a published text-to-video prompt example, and the source provides no verbatim prompt.
+- **Why included:** Direct primary source from the model developer and robotics partner, explicit FLUX 3 attribution, paired predicted-video and real-world rollout evidence, and an unusually demanding demonstration of learned physics transferring from video modeling into physical action.
 
 ## How updates work
 
