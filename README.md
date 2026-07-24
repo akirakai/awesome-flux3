@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 1_
+_Last updated: 2026-07-25 · Entries: 2_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -38,6 +38,17 @@ _Last updated: 2026-07-25 · Entries: 1_
 - **Workflow/details:** Text-to-video; the creator reports one-prompt generation across multiple shots, with clips up to 20 seconds.
 - **Prompt provenance:** `not_provided` — the creator mentions a single-prompt workflow, but the actual prompt is not visible in the verified top-level post and has not been inferred.
 - **Why included:** Original creator/tester post with attached video examples, explicit model attribution, convincing realism, and a strong demonstration of multi-shot continuity.
+
+### 2. Official FLUX 3 Video early-access showcase — Black Forest Labs
+
+- **Creator:** [Black Forest Labs (@bfl_ai)](https://x.com/bfl_ai)
+- **Published:** 2026-07-23
+- **Original source:** [FLUX 3 launch article and official showcase](https://bfl.ai/blog/flux-3)
+- **Model attribution:** Official Black Forest Labs release showcase for FLUX 3 Video
+- **Summary:** The official launch showcase presents native-audio video generation across text-to-video, image-to-video, reference video transfer, video-and-audio continuation, keyframe transitions, multilingual dialogue, typography, and multi-shot chaining.
+- **Workflow/details:** FLUX 3 accepts text, image, and video references; generates video with native audio up to 20 seconds; and supports chaining clips into longer sequences. Black Forest Labs reports that its preliminary evaluation set used 10-second, 720p text-to-video clips with audio.
+- **Prompt provenance:** `not_provided` — the launch article describes the workflows and displays official outputs, but does not publish a verified prompt for each showcased clip.
+- **Why included:** Definitive primary source from the model creator, with explicit FLUX 3 attribution, official output examples, reproducible capability details, and unusually broad multimodal video coverage.
 
 ## How updates work
 
