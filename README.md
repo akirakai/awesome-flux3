@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 5_
+_Last updated: 2026-07-25 · Entries: 6_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -82,6 +82,17 @@ _Last updated: 2026-07-25 · Entries: 5_
 - **Workflow/details:** FLUX 3 is jointly trained across image, video, and audio; mimic adds a lightweight action decoder over intermediate video-prediction features. The article reports tasks including component kitting, tight-fixture insertion, assembly, and manipulation of flexible seals and cables, with the optimized system reacting in 101 ms.
 - **Prompt provenance:** `not_provided` — this is a robotics video-action demonstration rather than a published text-to-video prompt example, and the source provides no verbatim prompt.
 - **Why included:** Direct primary source from the model developer and robotics partner, explicit FLUX 3 attribution, paired predicted-video and real-world rollout evidence, and an unusually demanding demonstration of learned physics transferring from video modeling into physical action.
+
+### 6. Mongolia visual-language stress test — Christian Hartmann / CHAIPEAU™
+
+- **Creator:** [Christian Hartmann](https://de.linkedin.com/in/chrtmn) / [CHAIPEAU™](https://www.chaipeau.com/)
+- **Published:** 2026-07-25
+- **Original source:** [Creator post embedded by LinkedIn in a direct reshare](https://de.linkedin.com/posts/dr-tristan-behrens-734967a2_wir-sind-sowas-von-zur%C3%BCck-schaut-mal-was-activity-7486362273700020224-5_eY)
+- **Model attribution:** Hartmann identifies himself as a member of the official Black Forest Labs creator team with exclusive FLUX 3 early access, and explicitly states that all 20 scenes were generated in the official FLUX 3 Discord.
+- **Summary:** Twenty still images from Hartmann’s Mongolia-inspired CHAIPEAU™ series are translated into a coherent audiovisual production, testing whether a tightly controlled visual language—desaturated palette, shadow-heavy lighting, warm anchors, grain, haze, and 2.39:1 composition—survives the move from still imagery into continuous motion and native sound.
+- **Workflow/details:** The creator first deconstructed all 20 source images into palette, lighting, atmosphere, and content constants without using them as visual inputs. Each image became a director-style scene brief with a defined camera move, a continuous 20-second take with no cuts, and sound design written into the prompt. The scenes were generated with native audio, letterboxed to 2.39:1, then assembled using Adobe Creative Cloud and Claude Cowork. Hartmann notes that terrain, leading lines, palette, haze, and light held especially well; for human and wildlife motion drift, simplifying the camera move worked better than adding complexity.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator says the complete scene prompt is in the comments, but it is not visible in the publicly verified source view, so no prompt text has been copied or inferred.
+- **Why included:** A structured, original early-access production from an official BFL creator-team member, with unusually detailed and reproducible workflow notes, 20-second continuous-shot testing, native audio direction, a consistent multi-scene art direction system, and candid observations about where the model succeeds and how to mitigate motion drift.
 
 ## How updates work
 
