@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 6_
+_Last updated: 2026-07-25 · Entries: 7_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -93,6 +93,17 @@ _Last updated: 2026-07-25 · Entries: 6_
 - **Workflow/details:** The creator first deconstructed all 20 source images into palette, lighting, atmosphere, and content constants without using them as visual inputs. Each image became a director-style scene brief with a defined camera move, a continuous 20-second take with no cuts, and sound design written into the prompt. The scenes were generated with native audio, letterboxed to 2.39:1, then assembled using Adobe Creative Cloud and Claude Cowork. Hartmann notes that terrain, leading lines, palette, haze, and light held especially well; for human and wildlife motion drift, simplifying the camera move worked better than adding complexity.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator says the complete scene prompt is in the comments, but it is not visible in the publicly verified source view, so no prompt text has been copied or inferred.
 - **Why included:** A structured, original early-access production from an official BFL creator-team member, with unusually detailed and reproducible workflow notes, 20-second continuous-shot testing, native audio direction, a consistent multi-scene art direction system, and candid observations about where the model succeeds and how to mitigate motion drift.
+
+### 7. Native-audio and mixed-reference capability reel — cheaty
+
+- **Creator:** [cheaty (@cheatyyyy)](https://x.com/cheatyyyy)
+- **Published:** 2026-07-23
+- **Original post:** [View on X](https://x.com/cheatyyyy/status/2080314577385132290)
+- **Model attribution:** Explicitly identified by the early-access creator as FLUX 3
+- **Summary:** A four-video early-access reel highlights FLUX 3’s native audio quality and its ability to generate clips up to 20 seconds while combining image, video, and audio references.
+- **Workflow/details:** The creator reports support for mixed image/video/audio inputs and up to 10 reference assets in one workflow, with the references able to be combined rather than restricted to a single modality.
+- **Prompt provenance:** `not_provided` — the verified post describes model capabilities and includes multiple video outputs, but does not publish a generation prompt for the showcased clips; no prompt has been inferred.
+- **Why included:** Original early-access creator post with four attached video examples, explicit FLUX 3 attribution, concrete multimodal-input details, and a useful native-audio and reference-conditioning capability overview.
 
 ## How updates work
 
