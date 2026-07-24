@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "entries": []
+  "updated_at": "2026-07-24T16:08:48Z",
+  "entries": [
+    {
+      "id": "x-2080318877154852912",
+      "source": "x",
+      "url": "https://x.com/venturetwins/status/2080318877154852912",
+      "post_id": "2080318877154852912",
+      "author": {
+        "name": "Justine Moore",
+        "handle": "venturetwins"
+      },
+      "published_at": "2026-07-23T15:47:25Z",
+      "collected_at": "2026-07-24T16:08:48Z",
+      "model": "FLUX 3 Video",
+      "media_type": "video_thread",
+      "post_text": "I've been playing around with FLUX 3 for the last few week - it's an incredibly impressive model. It can generate up to 20 seconds of video across multiple shots with one prompt. This model is so strong at the little details that make a clip look real - a few favorites.",
+      "summary": "An early-access tester shares a thread of favorite FLUX 3 video generations, emphasizing realistic small details and multi-shot clips lasting up to 20 seconds from a single prompt.",
+      "prompt": {
+        "provenance": "not_provided",
+        "text": null,
+        "notes": "The creator says the model can generate multiple shots from one prompt, but the prompt text is not included in the top-level post. No prompt was inferred from the visuals."
+      },
+      "workflow": {
+        "type": "text-to-video",
+        "details": "Creator-reported capability: one prompt, multiple shots, up to 20 seconds."
+      },
+      "quality": {
+        "score": 9,
+        "rationale": "Explicit FLUX 3 attribution by the person sharing her own early-access generations; attached video thread; demonstrates multi-shot continuity and attention to realism; original source URL is preserved."
+      },
+      "verification": {
+        "model_attribution": "explicit_in_post",
+        "original_creator": true,
+        "has_video": true,
+        "prompt_verified": false,
+        "notes": "The exact X status URL and post text were independently preserved in a public newsletter embedding the original post. FLUX 3's official launch documentation confirms video generation up to 20 seconds."
+      }
+    }
+  ]
 }
