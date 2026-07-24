@@ -5,10 +5,10 @@ A continuously updated, source-first collection of outstanding **FLUX.3 videos p
 Every entry aims to preserve:
 
 - the original X post and creator
-- engagement signals at collection time
+- the original source link
 - the creator's prompt when it is actually present
 - clear prompt provenance (`verbatim_in_post`, `mentioned_not_in_post`, or `not_provided`)
-- a lightweight quality score for sorting, not as a claim of objective quality
+- a short quality rationale
 
 > This project never invents or reverse-engineers a prompt and presents it as the creator's original prompt.
 
@@ -20,10 +20,10 @@ See **[CATALOG.md](CATALOG.md)** for the human-readable collection, or **[data/v
 
 A post is eligible only when it:
 
-1. explicitly names `FLUX.3`, `Flux 3`, or `#FLUX3` in the post text;
-2. contains attached video media;
-3. is an original post rather than a repost;
-4. passes the configured quality threshold;
+1. is explicitly attributed to `FLUX.3`, `Flux 3`, or `#FLUX3` by the original creator or another traceable primary source;
+2. contains or directly links to a video;
+3. is an original source rather than a repost-only page;
+4. demonstrates strong visual quality, originality, technique, or reusable prompting value;
 5. has not already been collected.
 
 Prompt provenance:
@@ -31,48 +31,34 @@ Prompt provenance:
 | Status | Meaning |
 |---|---|
 | `verbatim_in_post` | Prompt text was copied from an explicit prompt section in the original post. |
-| `mentioned_not_in_post` | The creator says a prompt exists elsewhere, but it is not present in the collected post text. |
+| `mentioned_not_in_post` | The creator says a prompt exists elsewhere, but it is not present in the collected source. |
 | `not_provided` | No prompt was found or claimed. |
 
-## Hourly automation
+## Hourly curation
 
-The workflow runs at minute 17 of every hour and can also be launched manually. It uses X API v2 recent search and commits newly accepted entries back to the repository.
+The collection is maintained by a ChatGPT scheduled task that searches X/Twitter and the public web once per hour, verifies model attribution and source provenance, removes duplicates, and writes accepted entries directly to this repository.
 
-### Required setup
+This repository does **not** use GitHub Actions and does not require an `X_BEARER_TOKEN`.
 
-1. Create an X developer app and obtain a Bearer Token.
-2. In this repository, open **Settings → Secrets and variables → Actions**.
-3. Add a repository secret named `X_BEARER_TOKEN`.
-4. Run **Actions → Collect FLUX.3 videos → Run workflow** once to verify it.
+The task only reports when new verified entries are successfully added.
 
-Optional repository variables:
+## Optional local tools
 
-| Variable | Default | Purpose |
-|---|---:|---|
-| `FLUX3_QUERY` | `("FLUX.3" OR "Flux 3" OR #FLUX3) has:videos -is:retweet` | X recent-search query |
-| `FLUX3_MIN_SCORE` | `8` | Minimum quality score |
-| `FLUX3_MAX_RESULTS` | `100` | Results requested per run, 10–100 |
-
-The scheduled workflow exits cleanly without changing files when `X_BEARER_TOKEN` is absent.
-
-## Run locally
+The repository retains a small X API collector and tests for optional manual use:
 
 ```bash
 export X_BEARER_TOKEN='...'
 python scripts/collect_x.py
-```
-
-Run tests:
-
-```bash
 python -m unittest discover -s tests -v
 ```
 
+These scripts are not used by the hourly ChatGPT curation task.
+
 ## Data notes
 
-- Metrics are snapshots from collection time and may later change on X.
-- X recent search covers a limited recent window; this project is designed for continuous collection rather than historical completeness.
-- Video files are not mirrored. The catalog links to the original creator's post and stores only metadata and preview URLs returned by the API.
+- Engagement metrics, when available, are snapshots and may later change.
+- Video files are not mirrored. The catalog links to the original source and stores metadata only.
+- Attribution must be explicit; visual style or publication date alone is not enough to identify a model.
 
 ## Contributing
 
