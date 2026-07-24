@@ -4,14 +4,16 @@
 
 Open an issue containing:
 
-- the original X post URL
+- the original X post or primary-source URL
 - why the result is notable
 - whether the creator explicitly states it was made with FLUX.3
-- whether a prompt is visible in the original post
+- whether a prompt, workflow, or settings are visible in the original source
+
+Accepted items are added directly to the **Curated videos** section of `README.md`.
 
 ## Corrections and removals
 
-Open an issue for incorrect attribution, a deleted post, an inaccurate prompt status, or a creator removal request. Link the affected catalog entry and provide the requested correction.
+Open an issue for incorrect attribution, a deleted post, an inaccurate prompt status, or a creator removal request. Link the affected README entry and provide the requested correction.
 
 ## Standards
 
