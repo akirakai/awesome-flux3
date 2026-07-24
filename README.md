@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 2_
+_Last updated: 2026-07-25 · Entries: 4_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -49,6 +49,28 @@ _Last updated: 2026-07-25 · Entries: 2_
 - **Workflow/details:** FLUX 3 accepts text, image, and video references; generates video with native audio up to 20 seconds; and supports chaining clips into longer sequences. Black Forest Labs reports that its preliminary evaluation set used 10-second, 720p text-to-video clips with audio.
 - **Prompt provenance:** `not_provided` — the launch article describes the workflows and displays official outputs, but does not publish a verified prompt for each showcased clip.
 - **Why included:** Definitive primary source from the model creator, with explicit FLUX 3 attribution, official output examples, reproducible capability details, and unusually broad multimodal video coverage.
+
+### 3. First-person mech vs. kaiju action test — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-07-23
+- **Original post:** [View on X](https://x.com/cfryant/status/2080379186783379947)
+- **Model attribution:** Explicitly labeled by the creator as another FLUX 3 early-access test
+- **Summary:** A first-person GoPro-style action sequence puts the viewer inside a giant mech fighting a kaiju in Seattle, culminating in the Space Needle being used as an improvised weapon.
+- **Workflow/details:** Text-to-video early-access test focused on POV camera coherence, large-scale interaction, fast action staging, and recognizable landmark handling.
+- **Prompt provenance:** `not_provided` — the post describes the scene, but does not explicitly identify that wording as the generation prompt; no prompt has been inferred.
+- **Why included:** Original AI filmmaker post with attached video, explicit FLUX 3 attribution, ambitious first-person choreography, large-scale physical interaction, and a demanding recognizable-location test.
+
+### 4. One-shot rally-car avalanche chase — Umesh
+
+- **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+- **Published:** 2026-07-23
+- **Original post:** [View on X](https://x.com/umesh_ai/status/2080332510358282688)
+- **Model attribution:** Explicitly presented by the creator as an early FLUX 3 test
+- **Summary:** A rally car races along a narrow alpine cliff road while an avalanche closes in, testing long-form action continuity, dynamic camera movement, environmental physics, and sustained tension in one generation.
+- **Workflow/details:** Text-to-video; 15-second cinematic action sequence requested as one continuous shot with no cuts, morphing, or scene transitions.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Hyper realistic blockbuster cinematic 15 second action sequence in one true unbroken continuous shot, with no cuts, no morphing, and no scene transitions.” The complete prompt remains in the original post.
+- **Why included:** Original early-access creator post with attached video, explicit FLUX 3 attribution, a visible prompt, complex action choreography, and a high-signal continuity test.
 
 ## How updates work
 
