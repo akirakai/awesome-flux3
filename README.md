@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 17_
+_Last updated: 2026-07-26 · Entries: 18_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -214,6 +214,18 @@ _Last updated: 2026-07-25 · Entries: 17_
 - **Workflow/details:** Prompt-led video generation with a 20-second duration and sound generated as part of the output. The verified public mirror does not expose the prompt, reference media, seed, resolution, or any post-production details.
 - **Prompt provenance:** `not_provided` — no verbatim generation prompt is visible in the verified source, and none has been reconstructed from the video description.
 - **Why included:** Explicit creator-level FLUX 3 attribution, a demanding full-duration action scene, native sound, strong public engagement, and a useful stress test of large-scale creature choreography and temporal continuity.
+
+### 18. 2003 nostalgia video study — MACBETH
+
+- **Creator:** [MACBETH (@macbethAI)](https://x.com/macbethAI)
+- **Published:** 2026-07-23
+- **Original post:** [View on X](https://x.com/macbethAI/status/2080399545528459746)
+- **Verification sources:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile, preserving the creator wording and engagement snapshot](https://mobile.twstalker.com/robrombach) · [Archived discussion linking the exact creator post to its video rehost](https://boards.4chan.org/g/thread/109353790)
+- **Model attribution:** The creator explicitly captions the work “FLUX 3” and frames it as a nostalgic return to life in 2003; Robin Rombach subsequently amplified the original creator post.
+- **Summary:** A creator-made nostalgia piece uses FLUX 3 to evoke the texture and emotional register of personal video memories from 2003, offering a style-led counterpoint to the collection’s action, robotics, and technical stress tests.
+- **Workflow/details:** The verified sources preserve the creator caption, exact original status ID, a downloadable video mirror, and strong public engagement. No generation settings, duration, reference media, or editing workflow are disclosed.
+- **Prompt provenance:** `not_provided` — the creator supplies only a short concept caption, not a labeled generation prompt, so no additional wording has been inferred from the video.
+- **Why included:** Original creator attribution, exact source URL, independently preserved video evidence, strong engagement, direct amplification by a Black Forest Labs co-founder, and a distinctive everyday-nostalgia aesthetic rather than another conventional cinematic demo.
 
 ## How updates work
 
