@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 16_
+_Last updated: 2026-07-25 · Entries: 17_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -203,6 +203,17 @@ _Last updated: 2026-07-25 · Entries: 16_
 - **Workflow/details:** Text-to-video generation focused on native scene transitions. No exact cut count, duration, reference media, seed, or prompt wording is visible in the verified mirror.
 - **Prompt provenance:** `not_provided` — the creator describes the tested behavior but does not publish a verbatim prompt in the verified source.
 - **Why included:** Original output from an established AI video creator, explicit model attribution, attached video evidence, and a targeted test of native editing grammar that complements the collection’s continuity-focused examples.
+
+### 17. Twenty-second Godzilla action sequence with native sound — Mark Kretschmann
+
+- **Creator:** [Mark Kretschmann (@mark_k)](https://x.com/mark_k)
+- **Published:** 2026-07-25 (secondary mirror reported the post about fifteen hours before verification)
+- **Verification source:** [Secondary mirror preserving the original creator wording, video context, and engagement snapshot](https://w.twstalker.com/zuesenergy)
+- **Model attribution:** Kretschmann explicitly states that FLUX 3 generated the 20-second Godzilla action video, including its sound.
+- **Summary:** A full-length giant-monster action sequence uses the model’s 20-second generation window to test sustained creature motion, destruction staging, extreme scale, camera coherence, and synchronized native audio.
+- **Workflow/details:** Prompt-led video generation with a 20-second duration and sound generated as part of the output. The verified public mirror does not expose the prompt, reference media, seed, resolution, or any post-production details.
+- **Prompt provenance:** `not_provided` — no verbatim generation prompt is visible in the verified source, and none has been reconstructed from the video description.
+- **Why included:** Explicit creator-level FLUX 3 attribution, a demanding full-duration action scene, native sound, strong public engagement, and a useful stress test of large-scale creature choreography and temporal continuity.
 
 ## How updates work
 
