@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 9_
+_Last updated: 2026-07-25 · Entries: 12_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -126,6 +126,39 @@ _Last updated: 2026-07-25 · Entries: 9_
 - **Workflow/details:** The creator says the instruction only asked the character to solve the equation and did not provide the answer. The verified mirrors preserve the original creator handle, explicit FLUX 3 attribution, attached-video marker, and the creator’s statement that the solution emerged in the generated output.
 - **Prompt provenance:** `mentioned_not_in_post` — the post characterizes the instruction as simply asking the character to solve the equation, but does not expose the exact prompt wording; no verbatim prompt has been invented.
 - **Why included:** A highly distinctive capability test beyond cinematic aesthetics, with explicit creator attribution and evidence of sustained symbolic content, readable text, and apparently self-generated intermediate reasoning inside a video sequence.
+
+### 10. Scene-by-scene FLUX 3 montage — DΞV
+
+- **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
+- **Published:** 2026-07-25 (secondary mirror reports the post was published about ten hours before verification)
+- **Verification source:** [Secondary mirror preserving the original creator post and attached-video marker](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** The creator explicitly states that every scene in the final video was created with FLUX 3.
+- **Summary:** Multiple independently generated FLUX 3 scenes are edited into one finished montage, demonstrating a practical scene-by-scene production workflow rather than relying on a single generation for the complete piece.
+- **Workflow/details:** Generate individual scenes with FLUX 3, select the strongest outputs, then stitch them together in an external edit. No exact generation settings or prompts are visible in the verified source.
+- **Prompt provenance:** `not_provided` — the post describes the assembly workflow but does not expose any verbatim scene prompt.
+- **Why included:** Original creator-made video with explicit per-scene FLUX 3 attribution, a clear post-generation editing workflow, and strong public engagement for a newly published multi-scene piece.
+
+### 11. “Mother of all prompts” audiovisual stress test — Yassine Yousfi
+
+- **Creator:** [Yassine Yousfi (@yassineyousfi_)](https://x.com/yassineyousfi_)
+- **Published:** 2026-07-24
+- **Verification source:** [Secondary mirror preserving the original creator post and attached-video marker](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** The creator explicitly presents the video as a FLUX 3 generation and congratulates Black Forest Labs.
+- **Summary:** An audiovisual FLUX 3 showcase framed by the creator as the video-and-sound edition of a highly comprehensive “mother of all prompts,” emphasizing coordinated direction across visuals and native audio.
+- **Workflow/details:** Text-to-video with sound direction included in the same generation brief. The mirror preserves the creator’s description and video marker, but not the full prompt or exact settings.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly refers to a comprehensive prompt, but its text is not visible in the verified public mirror and has not been reconstructed.
+- **Why included:** Original creator output, explicit FLUX 3 attribution, unusually strong engagement, and a high-signal test of whether one detailed brief can coordinate both picture and sound.
+
+### 12. Mountain-scale brutalist megastructure — Tanzim
+
+- **Creator:** [Tanzim (@tanzim31)](https://x.com/tanzim31)
+- **Published:** 2026-07-24
+- **Verification source:** [Secondary mirror preserving the original creator post and attached-video marker](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** The creator states that the clip was one of his first FLUX 3 early-access tests.
+- **Summary:** A lone astronaut is placed against a mountain-sized brutalist megastructure in a full 20-second output, creating an extreme scale-contrast and environmental-coherence test.
+- **Workflow/details:** Early-access text-to-video generation at the model’s 20-second limit, focused on monumental architecture, a tiny human subject, and sustained spatial scale. No exact camera, seed, or generation settings are visible in the verified source.
+- **Prompt provenance:** `not_provided` — the scene is described, but the creator does not explicitly label the wording as the generation prompt, so no prompt text has been inferred.
+- **Why included:** Original early-access creator post with attached video, explicit FLUX 3 attribution, a demanding 20-second scale test, and strong engagement for a newly published architectural scene.
 
 ## How updates work
 
