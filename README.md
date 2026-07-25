@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 7_
+_Last updated: 2026-07-25 · Entries: 9_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -104,6 +104,28 @@ _Last updated: 2026-07-25 · Entries: 7_
 - **Workflow/details:** The creator reports support for mixed image/video/audio inputs and up to 10 reference assets in one workflow, with the references able to be combined rather than restricted to a single modality.
 - **Prompt provenance:** `not_provided` — the verified post describes model capabilities and includes multiple video outputs, but does not publish a generation prompt for the showcased clips; no prompt has been inferred.
 - **Why included:** Original early-access creator post with four attached video examples, explicit FLUX 3 attribution, concrete multimodal-input details, and a useful native-audio and reference-conditioning capability overview.
+
+### 8. Twenty-second detailed-prompt cinematography tests — Jerrod Lew
+
+- **Creator:** [Jerrod Lew (@jerrod_lew)](https://x.com/jerrod_lew)
+- **Published:** 2026-07-24
+- **Verification source:** [Secondary mirror preserving the original creator post and attached video](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** The mirrored original post explicitly states that Lew had been testing FLUX 3 and introduces his own example generations.
+- **Summary:** A set of creator-made FLUX 3 tests focused on full 20-second generations, detailed scene direction, and cinematic shot construction.
+- **Workflow/details:** Lew reports that the model responds well to detailed prompts and produces especially strong cinematography across the attached examples. The publicly indexed mirror preserves the creator handle, post wording, video attachment marker, and engagement snapshot.
+- **Prompt provenance:** `not_provided` — the creator discusses detailed prompting but no verbatim generation prompt is visible in the verified mirror, so none has been reconstructed.
+- **Why included:** Original early-access creator output rather than a compilation account, explicit FLUX 3 attribution, multiple video examples, a full-length 20-second stress test, and a useful creator observation about detailed direction and camera quality.
+
+### 9. Quadratic-equation reasoning inside a generated video — @dingchilling
+
+- **Creator:** [@dingchilling](https://x.com/dingchilling)
+- **Published:** 2026-07-24
+- **Verification sources:** [Secondary mirror preserving the original post text and video marker](https://www.sotwe.com/Ridho_Mrr) · [Independent mirror of the same creator post](https://www.twstalker.com/CoffeeVectors)
+- **Model attribution:** The creator explicitly states that the video was created with FLUX 3 by Black Forest Labs.
+- **Summary:** A generated character solves a quadratic equation on screen without the solution being supplied, testing whether FLUX 3 can combine visual generation, legible mathematical writing, sequential reasoning, and temporal consistency in one video.
+- **Workflow/details:** The creator says the instruction only asked the character to solve the equation and did not provide the answer. The verified mirrors preserve the original creator handle, explicit FLUX 3 attribution, attached-video marker, and the creator’s statement that the solution emerged in the generated output.
+- **Prompt provenance:** `mentioned_not_in_post` — the post characterizes the instruction as simply asking the character to solve the equation, but does not expose the exact prompt wording; no verbatim prompt has been invented.
+- **Why included:** A highly distinctive capability test beyond cinematic aesthetics, with explicit creator attribution and evidence of sustained symbolic content, readable text, and apparently self-generated intermediate reasoning inside a video sequence.
 
 ## How updates work
 
