@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 12_
+_Last updated: 2026-07-25 · Entries: 13_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -159,6 +159,17 @@ _Last updated: 2026-07-25 · Entries: 12_
 - **Workflow/details:** Early-access text-to-video generation at the model’s 20-second limit, focused on monumental architecture, a tiny human subject, and sustained spatial scale. No exact camera, seed, or generation settings are visible in the verified source.
 - **Prompt provenance:** `not_provided` — the scene is described, but the creator does not explicitly label the wording as the generation prompt, so no prompt text has been inferred.
 - **Why included:** Original early-access creator post with attached video, explicit FLUX 3 attribution, a demanding 20-second scale test, and strong engagement for a newly published architectural scene.
+
+### 13. First-party synthetic launch film — Saksham Consul / Black Forest Labs
+
+- **Creator:** [Saksham Consul (@TheNoise2Signal)](https://x.com/TheNoise2Signal), Member of Technical Staff at Black Forest Labs
+- **Published:** 2026-07-24
+- **Verification source:** [Secondary mirror preserving the original team-member post and attached-video marker](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** Consul explicitly introduces FLUX 3 as Black Forest Labs’ unified image, video, audio, and action-prediction model and states that none of the events shown in the attached launch film actually happened.
+- **Summary:** A polished first-party launch film presents a sequence of wholly synthetic scenes as the public-facing reveal of FLUX 3, emphasizing that the footage depicts events that never occurred rather than conventional filmed material.
+- **Workflow/details:** The post identifies the film as work produced by the Black Forest Labs team across two continents, but does not disclose clip-level prompts, reference assets, generation settings, or the extent of external editing.
+- **Prompt provenance:** `not_provided` — no verbatim prompt or shot brief is visible in the verified post, and none has been reconstructed from the film.
+- **Why included:** First-party launch material shared by a named BFL technical team member, explicit FLUX 3 attribution, an attached video, production-level presentation, and a clear provenance statement that the depicted footage is synthetic.
 
 ## How updates work
 
