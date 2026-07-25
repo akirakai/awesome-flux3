@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-25 · Entries: 13_
+_Last updated: 2026-07-25 · Entries: 16_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -170,6 +170,39 @@ _Last updated: 2026-07-25 · Entries: 13_
 - **Workflow/details:** The post identifies the film as work produced by the Black Forest Labs team across two continents, but does not disclose clip-level prompts, reference assets, generation settings, or the extent of external editing.
 - **Prompt provenance:** `not_provided` — no verbatim prompt or shot brief is visible in the verified post, and none has been reconstructed from the film.
 - **Why included:** First-party launch material shared by a named BFL technical team member, explicit FLUX 3 attribution, an attached video, production-level presentation, and a clear provenance statement that the depicted footage is synthetic.
+
+### 14. Native-audio favorite-generation reel — Ostris
+
+- **Creator:** [Ostris (@ostrisai)](https://x.com/ostrisai)
+- **Published:** 2026-07-24 (secondary mirror reported the post about 21 hours before verification)
+- **Verification source:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile, preserving the creator post, four attached outputs, and engagement snapshot](https://mobile.twstalker.com/robrombach)
+- **Model attribution:** Ostris explicitly says he received early access from Black Forest Labs and had been testing FLUX 3 for several days.
+- **Summary:** A four-output reel collects the AI Toolkit creator’s favorite FLUX 3 generations and specifically asks viewers to enable audio, making it a compact test of audiovisual quality across several scene types rather than a single cherry-picked result.
+- **Workflow/details:** Early-access generation with multiple creator-selected outputs and native audio. The verified mirror preserves four attached media items, the creator’s early-access statement, and his invitation to continue through a thread, but does not expose clip-level settings or prompts.
+- **Prompt provenance:** `not_provided` — no verbatim generation prompt is visible in the verified source, and none has been inferred from the outputs.
+- **Why included:** Original work from a well-established generative-model developer, explicit FLUX 3 early-access attribution, multiple audiovisual examples, strong engagement, and direct amplification by a Black Forest Labs co-founder.
+
+### 15. Synchronized split-screen dual-camera test — Umesh
+
+- **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+- **Published:** 2026-07-24
+- **Verification source:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile, preserving the original creator text, prompt excerpt, attached video, and engagement snapshot](https://mobile.twstalker.com/robrombach)
+- **Model attribution:** The creator explicitly labels the result as a FLUX 3 split-screen test.
+- **Summary:** The same real-time action is shown simultaneously from two camera positions in a vertically divided frame, testing whether one generation can maintain synchronized motion, subject identity, scene geometry, and temporal agreement across independent viewpoints.
+- **Workflow/details:** Text-to-video with a compositional constraint: two equal vertical panels, one showing a static wide overhead camera and the other a second angle of the same live action. The public mirror truncates the remainder of the prompt, so no unseen wording has been added.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Split-screen video showing the same real-time action from two different camera angles. The screen is divided vertically into two equal halves. On the left side, show a static, wide overhead view from a ceiling-mounted camera in the back…”
+- **Why included:** Original early-access creator video, explicit FLUX 3 attribution, a visible reproducible prompt, and a demanding multi-view consistency test that goes beyond conventional single-camera cinematic generation.
+
+### 16. Native scene-cut text-to-video test — A.I.Warper
+
+- **Creator:** [A.I.Warper (@AIWarper)](https://x.com/AIWarper)
+- **Published:** 2026-07-25 (secondary mirror reported the post about eleven hours before verification)
+- **Verification source:** [Secondary mirror on AI filmmaker CoffeeVectors’ profile, preserving the original creator wording, attached-video marker, and engagement snapshot](https://www.twstalker.com/CoffeeVectors)
+- **Model attribution:** The creator explicitly identifies the text-to-video output as FLUX 3 and evaluates its handling of native scene cuts.
+- **Summary:** A compact text-to-video experiment tests whether FLUX 3 can create intentional cuts within one generated sequence rather than merely sustaining a single continuous shot.
+- **Workflow/details:** Text-to-video generation focused on native scene transitions. No exact cut count, duration, reference media, seed, or prompt wording is visible in the verified mirror.
+- **Prompt provenance:** `not_provided` — the creator describes the tested behavior but does not publish a verbatim prompt in the verified source.
+- **Why included:** Original output from an established AI video creator, explicit model attribution, attached video evidence, and a targeted test of native editing grammar that complements the collection’s continuity-focused examples.
 
 ## How updates work
 
