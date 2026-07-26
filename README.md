@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-26 · Entries: 18_
+_Last updated: 2026-07-26 · Entries: 19_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -226,6 +226,17 @@ _Last updated: 2026-07-26 · Entries: 18_
 - **Workflow/details:** The verified sources preserve the creator caption, exact original status ID, a downloadable video mirror, and strong public engagement. No generation settings, duration, reference media, or editing workflow are disclosed.
 - **Prompt provenance:** `not_provided` — the creator supplies only a short concept caption, not a labeled generation prompt, so no additional wording has been inferred from the video.
 - **Why included:** Original creator attribution, exact source URL, independently preserved video evidence, strong engagement, direct amplification by a Black Forest Labs co-founder, and a distinctive everyday-nostalgia aesthetic rather than another conventional cinematic demo.
+
+### 19. Exact-prompt community action showcase — ImagineArt
+
+- **Creator:** [ImagineArt community / ImagineArt](https://www.imagine.art/)
+- **Published:** Date not shown; first-party showcase verified 2026-07-26
+- **Original source:** [FLUX 3 Community Creations](https://www.imagine.art/features/flux-3)
+- **Model attribution:** ImagineArt explicitly labels the section “FLUX 3 Community Creations” and embeds three video examples directly beside their generation prompts.
+- **Summary:** Three prompt-to-video examples cover a mounted knight crossing a fiery landscape, a backlit motocross jump with airborne dirt, and a sports car carving tracks through a bright frozen environment.
+- **Workflow/details:** First-party platform community showcase using text-to-video. The page exposes the prompts for each embedded clip, enabling direct prompt-to-output comparison, but does not disclose clip duration, resolution, seed, reference assets, or post-production details.
+- **Prompt provenance:** `verbatim_in_post` — verified prompt: “A knight in full armor rides a white horse, sword raised, through a dramatic, motion-blurred landscape with fiery orange and dark, cloudy skies.” Two additional exact prompts remain visible on the source page.
+- **Why included:** A publicly accessible first-party platform showcase with multiple embedded FLUX 3 videos, explicit model attribution, three distinct motion and environment tests, and unusually useful exact prompt-to-output mappings.
 
 ## How updates work
 
