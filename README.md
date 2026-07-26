@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-26 · Entries: 19_
+_Last updated: 2026-07-26 · Entries: 22_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -237,6 +237,39 @@ _Last updated: 2026-07-26 · Entries: 19_
 - **Workflow/details:** First-party platform community showcase using text-to-video. The page exposes the prompts for each embedded clip, enabling direct prompt-to-output comparison, but does not disclose clip duration, resolution, seed, reference assets, or post-production details.
 - **Prompt provenance:** `verbatim_in_post` — verified prompt: “A knight in full armor rides a white horse, sword raised, through a dramatic, motion-blurred landscape with fiery orange and dark, cloudy skies.” Two additional exact prompts remain visible on the source page.
 - **Why included:** A publicly accessible first-party platform showcase with multiple embedded FLUX 3 videos, explicit model attribution, three distinct motion and environment tests, and unusually useful exact prompt-to-output mappings.
+
+### 20. Six-image reference montage in one generation — Jerrod Lew
+
+- **Creator:** [Jerrod Lew (@jerrod_lew)](https://x.com/jerrod_lew)
+- **Published:** 2026-07-25 (secondary mirror reported the post about 21 hours before verification)
+- **Verification source:** [Secondary mirror preserving the original creator wording, attached-video marker, and engagement snapshot](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** Lew explicitly states that FLUX 3 was prompted with multiple images and credits Black Forest Labs for the launch.
+- **Summary:** Six separate reference images are brought to life and assembled into a single 15-second generated video, testing whether one multimodal prompt can preserve each source while producing a coherent sequence.
+- **Workflow/details:** Multi-image reference-to-video using six images in one prompt; the creator reports that FLUX 3 animated each input and stitched the results together into one 15-second clip. No seed, resolution, audio instructions, or post-production details are visible.
+- **Prompt provenance:** `not_provided` — the post explains the six-image workflow but does not reveal the accompanying text prompt.
+- **Why included:** Original creator test, explicit FLUX 3 attribution, attached video evidence, a reproducible six-reference workflow, and a distinct stress test of multi-image conditioning and automatic sequencing.
+
+### 21. 1993 NYC breakdance reference-image test — A.I.Warper
+
+- **Creator:** [A.I.Warper (@AIWarper)](https://x.com/AIWarper)
+- **Published:** 2026-07-25
+- **Verification sources:** [Secondary mirror preserving the original creator wording and attached-video marker](https://www.sotwe.com/Ridho_Mrr) · [Independent mirror preserving the same exact prompt text and engagement snapshot](https://www.instalker.org/cocktailpeanut)
+- **Model attribution:** The creator explicitly identifies the result as FLUX 3 and compares its behavior favorably with Sora.
+- **Summary:** A character taken from attached reference images performs breakdancing on a flattened cardboard box on a busy 1993 New York sidewalk, testing identity preservation, complex body motion, temporal coherence, and period-specific environment generation.
+- **Workflow/details:** Reference-image-to-video with one or more attached character images and a text brief defining the action, prop, location, and year. Exact generation settings, reference count, duration, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “Girl from the attached ref images is break dancing on a flattened cardboard box on a bustling NYC sidewalk in 1993”
+- **Why included:** Original creator output with explicit FLUX 3 attribution, a fully visible reproducible prompt, strong public engagement, and a demanding combination of reference identity, dance motion, crowd context, and historical styling.
+
+### 22. First-person samurai duel in burning Kyoto — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-07-25
+- **Verification source:** [Secondary mirror preserving the original creator wording, attached-video marker, and engagement snapshot](https://www.sotwe.com/Ridho_Mrr)
+- **Model attribution:** Fryant explicitly labels the video as a new FLUX 3 early-access test and tags Black Forest Labs.
+- **Summary:** A first-person GoPro-style samurai duel unfolds inside a burning Kyoto temple during a clan war, using FLUX 3 as a “time machine” for an immersive historical action sequence.
+- **Workflow/details:** Early-access text-to-video focused on first-person camera coherence, sword-fight choreography, fire and smoke dynamics, historical environment consistency, and sustained action. No exact prompt, duration, seed, references, or post-production details are visible.
+- **Prompt provenance:** `not_provided` — the post gives a scene description but does not explicitly identify it as the verbatim generation prompt.
+- **Why included:** Original AI filmmaker output with explicit FLUX 3 attribution, attached video evidence, substantial engagement, and a demanding historical POV test that is clearly distinct from the creator’s existing mech-versus-kaiju example.
 
 ## How updates work
 
