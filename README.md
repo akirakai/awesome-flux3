@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-26 · Entries: 24_
+_Last updated: 2026-07-26 · Entries: 25_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -292,6 +292,17 @@ _Last updated: 2026-07-26 · Entries: 24_
 - **Workflow/details:** The publicly preserved post confirms a FLUX 3 video concept, but does not disclose duration, references, seed, editing, or generation settings.
 - **Prompt provenance:** `not_provided` — “BROTHER PETER’S CHOIR” is presented as a title/caption, not an explicitly labeled generation prompt, and no prompt has been inferred.
 - **Why included:** Original creator attribution, explicit FLUX 3 labeling, distinctive concept-driven art direction, and independent amplification by established local-AI creator cocktail peanut.
+
+### 25. Vague-prompt dialogue improvisation — Dreaming Tulpa
+
+- **Creator:** [Dreaming Tulpa (@dreamingtulpa)](https://x.com/dreamingtulpa)
+- **Published:** 2026-07-26
+- **Verification sources:** [Secondary mirror preserving the creator’s wording and engagement context](https://twstalker.com/MudgilShreshth) · [Independent secondary mirror](https://www.twstalker.com/hradzka)
+- **Model attribution:** The creator explicitly states that the dialogue test was generated with FLUX 3.
+- **Summary:** A dialogue-driven clip demonstrates that FLUX 3 can improvise a coherent spoken performance from an extremely underspecified instruction rather than a scripted line-by-line brief.
+- **Workflow/details:** Text-to-video with native dialogue; the test intentionally uses a broad conversational cue and leaves the actual wording and delivery to the model.
+- **Prompt provenance:** `verbatim_in_post` — “ranting about ai”
+- **Why included:** Exact visible prompt, original creator attribution, strong real-world engagement, and a distinctive stress test of dialogue generation, semantic improvisation, voice delivery, and audiovisual coherence from minimal direction.
 
 ## How updates work
 
