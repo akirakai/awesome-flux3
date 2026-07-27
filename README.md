@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-27 · Entries: 31_
+_Last updated: 2026-07-27 · Entries: 32_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -369,6 +369,17 @@ _Last updated: 2026-07-27 · Entries: 31_
 - **Workflow/details:** Text-to-video in 16:9; slow low waist-height tracking from behind; worn spacesuit continuity; volumetric fog, subtle particles, footprints, suit sounds, natural film grain, and explicit negative constraints excluding glossy CGI, game-engine aesthetics, fast action, sudden cuts, creatures, and spaceships.
 - **Prompt provenance:** `verbatim_in_post` — “Cinematic ultra-realistic video scene, 16:9 widescreen, bleak daybreak on an alien planet, a lone astronaut walking slowly across a vast mist-covered plain of dark volcanic dust and pale fractured stone…” The complete prompt remains visible in the verification source.
 - **Why included:** Exact reproducible prompt, explicit FLUX 3 attribution, unusually detailed cinematography and negative constraints, and a high-signal test of meditative pacing, environmental persistence, subtle body motion, and photorealistic atmosphere.
+
+### 32. Multilingual and accent-switching dialogue in one 20-second clip — cocktail peanut
+
+- **Creator:** [cocktail peanut (@cocktailpeanut)](https://x.com/cocktailpeanut)
+- **Published:** 2026-07-25
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, video context, and engagement](https://twstalker.com/cocktailpeanut)
+- **Model attribution:** The creator explicitly states that the 20-second video was generated with FLUX 3.
+- **Summary:** A single clip switches among Japanese, American-accented English, and Japanese-accented English, testing multilingual speech, accent control, turn-to-turn continuity, lip synchronization, and native audiovisual timing.
+- **Workflow/details:** One 20-second FLUX 3 dialogue generation containing multiple languages and accent variants; the source does not disclose reference media, seed, or post-production.
+- **Prompt provenance:** `not_provided` — the exact generation prompt is not visible in the verified source and has not been inferred.
+- **Why included:** Original creator wording, explicit model attribution, clear video duration, strong public engagement, and an unusually focused stress test of multilingual dialogue and accent switching within one continuous audiovisual output.
 
 ## How updates work
 
