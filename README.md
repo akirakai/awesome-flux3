@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-27 · Entries: 29_
+_Last updated: 2026-07-27 · Entries: 30_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -347,6 +347,17 @@ _Last updated: 2026-07-27 · Entries: 29_
 - **Workflow/details:** Text-to-video; full assembly chronology; continuous-shot constraint; no cuts.
 - **Prompt provenance:** `verbatim_in_post` — “a Timelapse video of a kid opening a Lego set and constructing a Star Wars X wing. Full timelapse from box opening to final constructed Lego X wing. Continuous shot with no cuts”
 - **Why included:** Exact visible prompt and a difficult long-horizon test of object permanence, stepwise construction, temporal compression, hand-object interaction, and final-state consistency.
+
+### 30. Twenty-second multi-shot cooking tutorial — Jerrod Lew
+
+- **Creator:** [Jerrod Lew (@jerrod_lew)](https://x.com/jerrod_lew)
+- **Published:** 2026-07-27
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-footage context, and engagement](https://ngntipkolamrenang.twstalker.com/jerrod_lew)
+- **Model attribution:** Lew explicitly states that FLUX 3 made the 20-second cooking tutorial.
+- **Summary:** A generated cooking lesson uses multiple shots within one 20-second clip, testing instructional sequencing, ingredient continuity, food handling, camera changes, and native audiovisual coherence.
+- **Workflow/details:** Text-to-video at the 20-second limit with multi-shot prompting; Lew separately notes that the longer duration leaves room for more detailed timestamped shot direction.
+- **Prompt provenance:** `not_provided` — no exact cooking prompt is visible in the verified source, and none has been inferred from the footage.
+- **Why included:** Original creator wording, explicit FLUX 3 attribution, clear attached-footage context, strong early engagement, and a practical multi-shot instructional use case distinct from the existing cinematic and montage examples.
 
 ## How updates work
 
