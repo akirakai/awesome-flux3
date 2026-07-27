@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-27 · Entries: 28_
+_Last updated: 2026-07-27 · Entries: 29_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -336,6 +336,17 @@ _Last updated: 2026-07-27 · Entries: 28_
 - **Workflow/details:** A single-prompt FLUX 3 generation; the exact duration, input references, camera plan, and post-production details are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator states that the clip was made with one prompt, but the prompt text is not visible in the verified source.
 - **Why included:** Explicit creator attribution, one-prompt workflow evidence, strong public engagement, and a high-signal documentary-style use case that differs from the existing venue timelapse and early-access realism reel.
+
+### 29. Continuous LEGO X-wing construction timelapse — A.I.Warper
+
+- **Creator:** [A.I.Warper (@AIWarper)](https://x.com/AIWarper)
+- **Published:** 2026-07-25
+- **Verification sources:** [Secondary mirror preserving the creator text, engagement, and video context](https://ngntipkolamrenang.twstalker.com/tdkardum) · [Independent secondary mirror](https://www.twstalker.com/DeepThinkerAI)
+- **Model attribution:** The creator explicitly prefixes the exact prompt with “FLUX 3.”
+- **Summary:** A child opens a LEGO set and builds a Star Wars X-wing from the unopened box to the completed model in one continuous generated timelapse.
+- **Workflow/details:** Text-to-video; full assembly chronology; continuous-shot constraint; no cuts.
+- **Prompt provenance:** `verbatim_in_post` — “a Timelapse video of a kid opening a Lego set and constructing a Star Wars X wing. Full timelapse from box opening to final constructed Lego X wing. Continuous shot with no cuts”
+- **Why included:** Exact visible prompt and a difficult long-horizon test of object permanence, stepwise construction, temporal compression, hand-object interaction, and final-state consistency.
 
 ## How updates work
 
