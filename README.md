@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-27 · Entries: 33_
+_Last updated: 2026-07-28 · Entries: 34_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -391,6 +391,17 @@ _Last updated: 2026-07-27 · Entries: 33_
 - **Workflow/details:** Text-to-video prompt controlling overcast weather, strong wind, hair motion, Scottish Highlands location, a wide-to-side scene cut, and regional-accent dialogue; duration and generation settings are not disclosed.
 - **Prompt provenance:** `verbatim_in_post` — “Cinematic movie scene, an overcast, windy and storm day, a woman with a Scottish accent stands on the top of a cliff…” The complete prompt remains visible in the verification source.
 - **Why included:** Exact reproducible prompt and a focused test of scene cutting, accent-controlled dialogue, facial performance, wind-driven motion, and atmospheric continuity within one FLUX 3 generation.
+
+### 34. Magical fantasy battle vignette — Jerrod Lew
+
+- **Creator:** [Jerrod Lew (@jerrod_lew)](https://x.com/jerrod_lew)
+- **Published:** 2026-07-26
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator caption, attached-video context, and engagement](https://ngntipkolamrenang.twstalker.com/jerrod_lew)
+- **Model attribution:** Lew explicitly captions the attached video “Created with FLUX 3.”
+- **Summary:** A concise fantasy-action vignette built around a magical battle.
+- **Workflow/details:** The source confirms a FLUX 3 video output, but does not disclose duration, input references, scene breakdown, camera plan, seed, or post-production.
+- **Prompt provenance:** `not_provided` — “A magical battle” is a title or scene description, not an explicitly labeled generation prompt, and no prompt has been inferred.
+- **Why included:** Direct creator attribution preserved by a public mirror, attached-video context, a distinct fantasy-combat use case, and meaningful public engagement.
 
 ## How updates work
 
