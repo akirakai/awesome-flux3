@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-27 · Entries: 27_
+_Last updated: 2026-07-27 · Entries: 28_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -325,6 +325,17 @@ _Last updated: 2026-07-27 · Entries: 27_
 - **Workflow/details:** Single-image reference-to-video; reverse temporal construction; one continuous timelapse; reported as a first-try output.
 - **Prompt provenance:** `verbatim_in_post` — “generate a continuous timelapse of event staff setting this up from an empty room.”
 - **Why included:** Exact visible prompt, a clear single-reference workflow, and an unusually strong test of reverse chronology, scene persistence, coordinated human activity, and long-range structural consistency.
+
+### 28. One-prompt National Geographic-style documentary test — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** 2026-07-27
+- **Verification source:** [Secondary profile mirror preserving the original creator wording, attached-video context, and engagement](https://site.twstalker.com/venturetwins)
+- **Model attribution:** Moore explicitly says the video was made with FLUX 3.
+- **Summary:** Moore says the result is strong enough that she is considering expanding the concept into a full National Geographic-style documentary.
+- **Workflow/details:** A single-prompt FLUX 3 generation; the exact duration, input references, camera plan, and post-production details are not disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator states that the clip was made with one prompt, but the prompt text is not visible in the verified source.
+- **Why included:** Explicit creator attribution, one-prompt workflow evidence, strong public engagement, and a high-signal documentary-style use case that differs from the existing venue timelapse and early-access realism reel.
 
 ## How updates work
 
