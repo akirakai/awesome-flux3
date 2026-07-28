@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-28 · Entries: 37_
+_Last updated: 2026-07-28 · Entries: 38_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -435,6 +435,18 @@ _Last updated: 2026-07-28 · Entries: 37_
 - **Workflow/details:** Image/reference-to-video using annotated source images. The creator says the prompt and source images are in the first comment and candidly notes that the prompt should also have instructed the model to remove or not render the red annotation line.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator points to a prompt in the first comment, but its text is not visible in the verified public source, so nothing has been copied or inferred.
 - **Why included:** A distinctive and reproducible spatial-control workflow, transparent failure analysis, explicit FLUX 3 attribution, attached demonstration context, and amplification by a Black Forest Labs co-founder.
+
+### 38. Realistic FLUX 3 lip-sync showcase — Rebel AI
+
+- **Creator:** [Rebel AI (@realrebelai)](https://x.com/realrebelai)
+- **Published:** 2026-07-24 (based on the verification mirror’s relative timestamp)
+- **Original video:** [Watch on YouTube](https://youtu.be/UlH6TVHw990)
+- **Verification source:** [Secondary mirror preserving the original creator wording, direct video link, and engagement context](https://w.twstalker.com/wildmindai)
+- **Model attribution:** The creator explicitly states that the showcased output was generated with FLUX 3 and describes it as their best result from the model so far.
+- **Summary:** A close-up spoken-performance test emphasizes realistic mouth movement and synchronized lip motion rather than broad cinematic spectacle.
+- **Workflow/details:** Creator-generated FLUX 3 video shared through a direct YouTube link; the verified public post specifically highlights lip-sync quality and realistic mouth articulation. Duration, prompt, references, seed, resolution, and post-production are not disclosed.
+- **Prompt provenance:** `not_provided` — no generation prompt or settings are visible in the verified source, and nothing has been inferred from the footage.
+- **Why included:** Original creator attribution, a direct traceable video link, explicit FLUX 3 labeling, strong engagement, and a focused high-signal test of speech-driven facial motion and lip synchronization.
 
 ## How updates work
 
