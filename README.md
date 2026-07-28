@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-28 · Entries: 41_
+_Last updated: 2026-07-28 · Entries: 42_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -480,6 +480,17 @@ _Last updated: 2026-07-28 · Entries: 41_
 - **Workflow/details:** Video-to-video stylization from a single text instruction; the creator says no additional reference asset was used.
 - **Prompt provenance:** `verbatim_in_post` — “Convert the video into a Flat Vector Illustration style.”
 - **Why included:** Exact visible prompt, explicit creator attribution, strong engagement, first-party workflow clarification, and a distinctive reusable video-editing example rather than another text-to-video showcase.
+
+### 42. First-person time-travel pair: French Revolution and D-Day — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-07-28 (based on the public mirror’s relative timestamp)
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording and two attached-video items](https://twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly captions the post “More FLUX 3 time travel gopro footage” and tags Black Forest Labs.
+- **Summary:** Two first-person GoPro-style historical recreations place the viewer inside the French Revolution and the World War II D-Day invasion.
+- **Workflow/details:** Text-to-video historical-POV concept presented as two separate attached clips; duration, exact prompts, references, seeds, and post-production are not disclosed.
+- **Prompt provenance:** `not_provided` — the caption describes the outputs but is not labeled as the exact generation prompt, and nothing has been inferred.
+- **Why included:** Explicit creator attribution, newly published attached-video evidence, and a demanding expansion of the creator’s time-machine series into crowd-scale upheaval, battlefield action, period detail, and first-person environmental continuity.
 
 ## How updates work
 
