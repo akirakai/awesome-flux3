@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-28 · Entries: 40_
+_Last updated: 2026-07-28 · Entries: 41_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -469,6 +469,17 @@ _Last updated: 2026-07-28 · Entries: 40_
 - **Workflow/details:** A 15-second vertical split-screen with identical timing, identity, and action across a shoulder-height tracking view and a top-down drone view; strict visibility rules keep the dog out of the left panel until the reveal. The creator reports upscaling the result with Topaz Astra.
 - **Prompt provenance:** `verbatim_in_post` — “Split-screen video. Two equal vertical halves. Both halves show the SAME event, at the SAME time, frame-synchronized, filmed by two different cameras.” The complete prompt remains visible in the verification source.
 - **Why included:** Exact visible prompt, explicit model attribution, strong engagement, and a distinctive storytelling test of synchronized identity, occlusion, viewpoint-dependent information, timed reveal, and emotional payoff.
+
+### 41. One-prompt flat-vector video stylization — Purz.ai
+
+- **Creator:** [Purz.ai (@PurzBeats)](https://x.com/PurzBeats)
+- **Published:** 2026-07-26 (based on the public mirrors’ relative timestamps)
+- **Verification sources:** [Secondary mirror on Robin Rombach’s profile preserving the original FLUX 3 post, video context, and engagement](https://mobile.twstalker.com/robrombach) · [Creator-profile mirror preserving the exact prompt follow-up](https://w.twstalker.com/PurzBeats)
+- **Model attribution:** The original creator captions the showcased video “Flux 3 is pretty great”; Black Forest Labs co-founder Robin Rombach reshared it.
+- **Summary:** A source video is transformed into a flat-vector illustration treatment while preserving its underlying motion and scene structure.
+- **Workflow/details:** Video-to-video stylization from a single text instruction; the creator says no additional reference asset was used.
+- **Prompt provenance:** `verbatim_in_post` — “Convert the video into a Flat Vector Illustration style.”
+- **Why included:** Exact visible prompt, explicit creator attribution, strong engagement, first-party workflow clarification, and a distinctive reusable video-editing example rather than another text-to-video showcase.
 
 ## How updates work
 
