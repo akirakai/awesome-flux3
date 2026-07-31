@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-31 · Entries: 51_
+_Last updated: 2026-07-31 · Entries: 52_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -595,6 +595,17 @@ _Last updated: 2026-07-31 · Entries: 51_
 - **Workflow/details:** Creator-posted FLUX 3 video; the publicly indexed source does not disclose duration, input mode, reference assets, exact prompt, seed, resolution, native-audio use, or post-production.
 - **Prompt provenance:** `not_provided` — the caption is an aesthetic assessment rather than an explicitly labeled generation prompt, and nothing has been inferred from the footage.
 - **Why included:** Explicit original-creator attribution, attached-video verification, meaningful public engagement, and a distinctive auteur-cinema quality benchmark that is separate from the creator’s existing multilingual dialogue test.
+
+### 52. Persian-monologue native-dialogue quality test — Shahram Shahbazi
+
+- **Creator:** [Shahram Shahbazi](https://ae.linkedin.com/in/nakoot)
+- **Published:** 2026-07-30 (based on the original creator profile’s relative timestamp; exact time is not exposed)
+- **Original source:** [Creator’s public LinkedIn profile post](https://ae.linkedin.com/in/nakoot)
+- **Model attribution:** Shahbazi explicitly says he gave Flux 3 a prompt containing a Persian monologue and evaluates the resulting output.
+- **Summary:** A Persian-language spoken-performance video tests whether generated native dialogue remains natural instead of drifting into garbled or foreign-sounding phonetics; the creator reports being surprised by the high quality of the Persian output.
+- **Workflow/details:** Prompt-led FLUX 3 video with a Persian monologue and generated speech. Duration, exact prompt, reference inputs, seed, resolution, and post-production are not disclosed in the verified public source.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator states that the prompt contained a Persian monologue, but the exact prompt text is not visible and has not been reconstructed.
+- **Why included:** Original-creator attribution, explicit Flux 3 labeling, a newly published generated-video test, strong early engagement, and a focused evaluation of native dialogue in an underrepresented language that is distinct from the existing Japanese/English accent-switching example.
 
 ## How updates work
 
