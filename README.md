@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-07-31 · Entries: 52_
+_Last updated: 2026-08-01 · Entries: 54_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -606,6 +606,30 @@ _Last updated: 2026-07-31 · Entries: 52_
 - **Workflow/details:** Prompt-led FLUX 3 video with a Persian monologue and generated speech. Duration, exact prompt, reference inputs, seed, resolution, and post-production are not disclosed in the verified public source.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator states that the prompt contained a Persian monologue, but the exact prompt text is not visible and has not been reconstructed.
 - **Why included:** Original-creator attribution, explicit Flux 3 labeling, a newly published generated-video test, strong early engagement, and a focused evaluation of native dialogue in an underrepresented language that is distinct from the existing Japanese/English accent-switching example.
+
+### 53. GPU ASMR early-preview demonstration — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** 2026-07-31
+- **Original post:** [View on X](https://x.com/venturetwins/status/2083018130255913366)
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, and engagement](https://site.twstalker.com/venturetwins)
+- **Model attribution:** Moore explicitly calls the attached result a Flux 3 generation.
+- **Summary:** A playful GPU-themed ASMR video uses computer hardware as the subject of an audio-first generative-media demonstration.
+- **Workflow/details:** Moore reports that Flux 3 was available in an early preview through Nous Research’s Hermes Agent when she published the clip. The source does not expose the exact prompt, input mode, duration, references, seed, resolution, or post-production.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified source, and nothing has been inferred from the footage.
+- **Why included:** Explicit original-creator attribution, a newly published attached video, a distinctive native-audio and tactile-sound use case, a publicly identified access workflow, and meaningful early engagement.
+
+### 54. 1990s elementary-school computer-prediction footage — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** 2026-07-28
+- **Original post:** [View on X](https://x.com/venturetwins/status/2081948871882911999)
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, and engagement](https://site.twstalker.com/venturetwins)
+- **Model attribution:** Moore explicitly states that the historical-footage-style video was generated with Flux 3.
+- **Summary:** Faux 1990s school footage shows elementary students predicting how people will use computers, combining period-specific visual language with an ensemble concept built around individual responses.
+- **Workflow/details:** Creator-generated FLUX 3 historical-footage concept. The verified source does not disclose the exact prompt, duration, input references, seed, resolution, native-audio settings, or editing workflow.
+- **Prompt provenance:** `not_provided` — the caption describes the concept but is not labeled as the exact generation prompt, and nothing has been inferred beyond the visible source wording.
+- **Why included:** Explicit original-creator attribution, attached-video verification, exceptionally strong public engagement, and a distinctive stress test of period realism, ensemble consistency, documentary framing, and believable archival-video aesthetics.
 
 ## How updates work
 
