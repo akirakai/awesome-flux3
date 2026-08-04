@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-03 · Entries: 60_
+_Last updated: 2026-08-05 · Entries: 62_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -702,6 +702,28 @@ _Last updated: 2026-08-03 · Entries: 60_
 - **Workflow/details:** Two equal fixed CCTV views with synchronized timestamps and no cinematic movement. The prompt requires matching people, clothing, umbrella, chip bags, object positions, lighting, and reactions across a ceiling-corner camera and a checkout-facing camera.
 - **Prompt provenance:** `verbatim_in_post` — “Two-way CCTV split-screen showing the same harmless, funny incident inside a convenience shop. Divide the frame into two equal fixed security-camera views with perfectly synchronized timestamps.” The complete prompt remains visible in the verification source.
 - **Why included:** Explicit original-creator attribution, a traceable original status URL, attached downloadable video, exact reproducible prompt, and a controlled same-event test of multi-camera identity, object permanence, physical causality, comic timing, and synchronized reactions.
+
+### 61. Apocalyptic heatwave city realism test — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-03
+- **Original post:** [View on X](https://x.com/opener_ai/status/2084236317760925980)
+- **Model attribution:** The creator labels the visible prompt section “[FLUX 3 FINAL PROMPT]” alongside the attached video result.
+- **Summary:** A photorealistic city street is staged at peak afternoon during an extreme, apocalyptic heatwave, using a dense everyday urban environment as an environmental-realism stress test.
+- **Workflow/details:** Text-to-video from a visible natural-language prompt establishing the city street, peak-afternoon timing, photorealism, and extreme-heat conditions. Duration, reference inputs, seed, resolution, native-audio instructions, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “A photorealistic city street at peak afternoon during an extreme, apocalyptic heatwave.” The complete prompt remains visible in the original post.
+- **Why included:** Newly published original-creator source, explicit FLUX 3 labeling, attached-video context, an exact visible prompt excerpt, and a demanding test of photorealism, dense scene composition, atmosphere, and extreme-environment continuity.
+
+### 62. Twenty-second handheld fennec-fox one-take — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-02
+- **Original post:** [View on X](https://x.com/opener_ai/status/2083730084394099176)
+- **Model attribution:** The creator explicitly says “flux 3 made it!” and tags Black Forest Labs alongside the attached video.
+- **Summary:** An amateur-handheld-style camera rapidly follows a tiny fennec fox through a quiet bedroom in one continuous 20-second take.
+- **Workflow/details:** Text-to-video; 20-second duration; continuous single take; third-person handheld perspective; rapid follow-camera movement. Reference inputs, seed, resolution, native-audio instructions, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “20-second continuous single-take amateur handheld recording, third-person perspective.” The complete prompt remains visible in the original post.
+- **Why included:** Explicit original-creator attribution, a visible exact workflow prompt, full-duration continuous motion, and a demanding test of small-subject tracking, handheld camera coherence, environmental continuity, and long-take temporal stability.
 
 ## How updates work
 
