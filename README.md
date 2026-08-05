@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 66_
+_Last updated: 2026-08-06 · Entries: 67_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -773,6 +773,18 @@ _Last updated: 2026-08-06 · Entries: 66_
 - **Workflow/details:** A creator-generated FLUX 3 dialogue scene containing three spoken languages and subtitles. Duration, exact prompt, reference media, seed, resolution, subtitle instructions, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `not_provided` — no generation prompt is visible in the verified source, and nothing has been inferred from the video.
 - **Why included:** Explicit original-creator attribution, attached-video context, amplification by a Black Forest Labs co-founder, and an unusually focused test combining multilingual native dialogue with subtitle generation, including the underrepresented Javanese language.
+
+### 67. Twenty-second Korean-barbecue food realism test — DΞV
+
+- **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
+- **Published:** Date not exposed; verified 2026-08-06
+- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-post mirror preserving the original caption, exact prompt, attached-video context, and engagement](https://twstalker.com/ptmaster22)
+- **Model attribution:** The creator explicitly introduces the attached result as “Exploring food in FLUX 3.”
+- **Summary:** A woman eats bulgogi in a cozy Korean barbecue restaurant while meat sizzles on the tabletop grill, using an everyday dining scene to test photoreal food, human interaction, and restaurant atmosphere over a full-length clip.
+- **Workflow/details:** Text-to-video; 20-second duration; 720p output; hyper-realistic cinematic treatment. The source does not disclose references, seed, aspect ratio, generation time, or post-production.
+- **Prompt provenance:** `verbatim_in_post` — “A woman eating 불고기 at a cozy Korean barbecue restaurant while meat sizzles on the grill. Hyper-realistic cinematic movie. 20s. Resolution: 720p”
+- **Why included:** Explicit original-creator attribution, an attached video, exact visible prompt and output settings, and a demanding food-realism test combining a human subject, eating motion, grill activity, material detail, and sustained 20-second scene coherence.
 
 
 ## How updates work
