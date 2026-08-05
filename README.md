@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 65_
+_Last updated: 2026-08-06 · Entries: 66_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -761,6 +761,18 @@ _Last updated: 2026-08-06 · Entries: 65_
 - **Workflow/details:** All examples are verified as 720p text-to-video with audio generated in the same pass. FLUX 3 supports 5-, 10-, 15-, and 20-second outputs in this workflow; the author says most examples use the full 20 seconds and almost all begin from a single sentence without shot lists, wardrobe notes, or lighting direction.
 - **Prompt provenance:** `verbatim_in_post` — the source visibly publishes individual prompts, including “a 1969 documentary about Woodstock,” “How the great wall of china was made,” and “A nature documentary about shopping carts returning to the wild.”
 - **Why included:** A traceable original tester and launch-platform source provides an unusually broad, reproducible corpus with embedded outputs, exact prompt text, verified resolution and generation mode, native-audio evidence, factual-sequence tests, typography, multi-shot editing, and clear prompting lessons.
+
+### 66. Three-language conversation with generated subtitles — DΞV
+
+- **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
+- **Published:** 2026-08-02 (based on the secondary verification source’s relative timestamp)
+- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile preserving the original creator wording and video context](https://site.twstalker.com/robrombach)
+- **Model attribution:** The creator explicitly states that FLUX 3 generated the mixed-language scene.
+- **Summary:** One conversational scene moves among English, Japanese, and Javanese while also rendering subtitles, testing speech, language switching, and on-screen text together.
+- **Workflow/details:** A creator-generated FLUX 3 dialogue scene containing three spoken languages and subtitles. Duration, exact prompt, reference media, seed, resolution, subtitle instructions, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `not_provided` — no generation prompt is visible in the verified source, and nothing has been inferred from the video.
+- **Why included:** Explicit original-creator attribution, attached-video context, amplification by a Black Forest Labs co-founder, and an unusually focused test combining multilingual native dialogue with subtitle generation, including the underrepresented Javanese language.
 
 
 ## How updates work
