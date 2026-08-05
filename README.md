@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 63_
+_Last updated: 2026-08-06 · Entries: 64_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -737,6 +737,19 @@ _Last updated: 2026-08-06 · Entries: 63_
 - **Workflow/details:** Text-to-video framed as one uninterrupted period interview, with no on-screen text or shot changes. The verified source does not disclose duration, resolution, seed, reference assets, or post-production.
 - **Prompt provenance:** `verbatim_in_post` — “a recently found color interview with a man in 1957, he predicts every major technological event with accuracy, up until 2025.” The remainder of the visible prompt specifies an uninterrupted serious interview and a silent, contemptuous interviewer.
 - **Why included:** Explicit creator attribution, a visible reproducible prompt, attached-video verification, strong public engagement, and a distinctive stress test of period realism, sustained single-scene performance, character interaction, and narrative coherence.
+
+### 64. Same-prompt FLUX 3 vs. Seedance 2.0 comparison — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-05 (based on the public verification page’s relative timestamp)
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary public hashtag page preserving the original creator caption, attached downloadable video, model labels, and engagement](https://www.twstalker.com/hashtag/%23Seedance)
+- **Model attribution:** Jin.B explicitly says the attached comparison tests “Flux 3 & Seedance 2.0” and tags `#Flux3`, Black Forest Labs, and Dreamina.
+- **Summary:** The creator presents FLUX 3 and Seedance 2.0 outputs generated from the same creative brief, enabling a direct visual comparison rather than unrelated showcase clips.
+- **Workflow/details:** One shared prompt was written with Claude Opus 5 and run through both FLUX 3 and Seedance 2.0; the source preserves the attached comparison video. Exact duration, input references, seeds, resolutions, audio settings, and post-production are not disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator says “Prompts👇,” but the prompt text is not visible in the verified public page and has not been inferred from the footage.
+- **Why included:** Newly published original-creator attribution, an attached downloadable comparison, meaningful early engagement, and a controlled same-prompt benchmark that makes differences in cinematic interpretation and prompt execution easier to assess.
+
 
 ## How updates work
 
