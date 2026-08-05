@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 64_
+_Last updated: 2026-08-06 · Entries: 65_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -749,6 +749,18 @@ _Last updated: 2026-08-06 · Entries: 64_
 - **Workflow/details:** One shared prompt was written with Claude Opus 5 and run through both FLUX 3 and Seedance 2.0; the source preserves the attached comparison video. Exact duration, input references, seeds, resolutions, audio settings, and post-production are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator says “Prompts👇,” but the prompt text is not visible in the verified public page and has not been inferred from the footage.
 - **Why included:** Newly published original-creator attribution, an attached downloadable comparison, meaningful early engagement, and a controlled same-prompt benchmark that makes differences in cinematic interpretation and prompt execution easier to assess.
+
+
+### 65. Thirty one-sentence 720p text-to-video experiments — Bennett Heyn / fal
+
+- **Creator:** [Bennett Heyn](https://fal.ai/learn/tools/flux-3-video-examples-prompts), editor and original tester for fal
+- **Published:** 2026-07-30
+- **Original source:** [View the first-party fal testing guide with embedded clips and prompts](https://fal.ai/learn/tools/flux-3-video-examples-prompts)
+- **Model attribution:** Heyn explicitly identifies every collected clip as generated with Black Forest Labs’ FLUX 3 after several days of direct testing.
+- **Summary:** A 30-video test suite spans period documentaries, historical construction explainers, public-domain literary trailers, modern television scenes, music videos, and format-driven comedy, showing how short prompts can produce complete audiovisual sequences.
+- **Workflow/details:** All examples are verified as 720p text-to-video with audio generated in the same pass. FLUX 3 supports 5-, 10-, 15-, and 20-second outputs in this workflow; the author says most examples use the full 20 seconds and almost all begin from a single sentence without shot lists, wardrobe notes, or lighting direction.
+- **Prompt provenance:** `verbatim_in_post` — the source visibly publishes individual prompts, including “a 1969 documentary about Woodstock,” “How the great wall of china was made,” and “A nature documentary about shopping carts returning to the wild.”
+- **Why included:** A traceable original tester and launch-platform source provides an unusually broad, reproducible corpus with embedded outputs, exact prompt text, verified resolution and generation mode, native-audio evidence, factual-sequence tests, typography, multi-shot editing, and clear prompting lessons.
 
 
 ## How updates work
