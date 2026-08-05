@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-05 · Entries: 62_
+_Last updated: 2026-08-06 · Entries: 63_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -724,6 +724,19 @@ _Last updated: 2026-08-05 · Entries: 62_
 - **Workflow/details:** Text-to-video; 20-second duration; continuous single take; third-person handheld perspective; rapid follow-camera movement. Reference inputs, seed, resolution, native-audio instructions, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “20-second continuous single-take amateur handheld recording, third-person perspective.” The complete prompt remains visible in the original post.
 - **Why included:** Explicit original-creator attribution, a visible exact workflow prompt, full-duration continuous motion, and a demanding test of small-subject tracking, handheld camera coherence, environmental continuity, and long-take temporal stability.
+
+
+### 63. Faux 1957 interview predicting the technological future — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** 2026-08-05 (based on the public index timestamp)
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary profile mirror preserving the original creator attribution, prompt wording, attached-video context, and engagement](https://twstalker.com/nathanbenaich)
+- **Model attribution:** The original creator explicitly prefixes the attached generation with “FLUX 3.”
+- **Summary:** A faux archival color interview places a serious visionary in 1957 and has him accurately anticipate major technological developments through 2025, while a skeptical interviewer silently reacts.
+- **Workflow/details:** Text-to-video framed as one uninterrupted period interview, with no on-screen text or shot changes. The verified source does not disclose duration, resolution, seed, reference assets, or post-production.
+- **Prompt provenance:** `verbatim_in_post` — “a recently found color interview with a man in 1957, he predicts every major technological event with accuracy, up until 2025.” The remainder of the visible prompt specifies an uninterrupted serious interview and a silent, contemptuous interviewer.
+- **Why included:** Explicit creator attribution, a visible reproducible prompt, attached-video verification, strong public engagement, and a distinctive stress test of period realism, sustained single-scene performance, character interaction, and narrative coherence.
 
 ## How updates work
 
