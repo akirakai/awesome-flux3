@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 70_
+_Last updated: 2026-08-07 · Entries: 71_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -725,7 +725,6 @@ _Last updated: 2026-08-06 · Entries: 70_
 - **Prompt provenance:** `verbatim_in_post` — “20-second continuous single-take amateur handheld recording, third-person perspective.” The complete prompt remains visible in the original post.
 - **Why included:** Explicit original-creator attribution, a visible exact workflow prompt, full-duration continuous motion, and a demanding test of small-subject tracking, handheld camera coherence, environmental continuity, and long-take temporal stability.
 
-
 ### 63. Faux 1957 interview predicting the technological future — fofr
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
@@ -749,7 +748,6 @@ _Last updated: 2026-08-06 · Entries: 70_
 - **Workflow/details:** One shared prompt was written with Claude Opus 5 and run through both FLUX 3 and Seedance 2.0; the source preserves the attached comparison video. Exact duration, input references, seeds, resolutions, audio settings, and post-production are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator says “Prompts👇,” but the prompt text is not visible in the verified public page and has not been inferred from the footage.
 - **Why included:** Newly published original-creator attribution, an attached downloadable comparison, meaningful early engagement, and a controlled same-prompt benchmark that makes differences in cinematic interpretation and prompt execution easier to assess.
-
 
 ### 65. Thirty one-sentence 720p text-to-video experiments — Bennett Heyn / fal
 
@@ -821,6 +819,18 @@ _Last updated: 2026-08-06 · Entries: 70_
 - **Workflow/details:** Single-prompt FLUX 3 video generation. The creator specifically identifies surface tension, microgravity, water refraction, and coherence among those interacting details as the test targets. Duration, resolution, seed, reference inputs, native-audio instructions, and post-production are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt produced the video, but the exact prompt text is not visible in the verified source and has not been inferred.
 - **Why included:** First-party team attribution, a traceable original status, attached-video verification, and a focused physical-coherence test combining fluid behavior, weightlessness, and refractive optics in one scene.
+
+### 71. One-prompt 20-second self-edited voiceover sequence — VORTEX
+
+- **Creator:** [VORTEX: AI Bros & AI Arena (@VORTEX_Promos)](https://x.com/VORTEX_Promos)
+- **Published:** 2026-08-06 (based on the public verification page’s relative timestamp)
+- **Original source profile:** [VORTEX on X](https://x.com/VORTEX_Promos) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, and engagement](https://twstalker.com/VORTEX_Promos)
+- **Model attribution:** The creator explicitly introduces the attached result with “Flux 3 is pretty good!”
+- **Summary:** A full 20-second audiovisual sequence is generated from one prompt, with FLUX 3 assembling the edits and producing a voiceover without requiring an on-screen lip-synced speaker.
+- **Workflow/details:** Single-prompt FLUX 3 generation; 20-second duration; model-directed editing; generated voiceover; no lip-sync requirement. The source does not disclose the prompt text, input references, seed, resolution, aspect ratio, or post-production.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator states that one prompt produced the video, but the exact prompt is not visible in the verified source and has not been inferred.
+- **Why included:** Newly published explicit creator attribution, preserved attached-video context, strong public engagement, and a production-oriented demonstration of full-duration autonomous editing and voiceover generation from a single prompt.
 
 ## How updates work
 
