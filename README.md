@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 67_
+_Last updated: 2026-08-06 · Entries: 68_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -786,6 +786,17 @@ _Last updated: 2026-08-06 · Entries: 67_
 - **Prompt provenance:** `verbatim_in_post` — “A woman eating 불고기 at a cozy Korean barbecue restaurant while meat sizzles on the grill. Hyper-realistic cinematic movie. 20s. Resolution: 720p”
 - **Why included:** Explicit original-creator attribution, an attached video, exact visible prompt and output settings, and a demanding food-realism test combining a human subject, eating motion, grill activity, material detail, and sustained 20-second scene coherence.
 
+### 68. Frame-synchronized rainy café near-miss and glass catch — Umesh
+
+- **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+- **Published:** 2026-07-26
+- **Original post:** [View on X](https://x.com/umesh_ai/status/2081376099519644043)
+- **Verification source:** [Secondary mirror preserving the original creator wording, full prompt, attached-video context, and engagement](https://twstalker.com/dawngames2017)
+- **Model attribution:** Umesh explicitly introduces the attached generation with “Prompt on Flux 3.”
+- **Summary:** A rainy outdoor-café incident is shown simultaneously from a fixed elevated wide camera and a moving waist-level camera as a cyclist passes a waiter, a glass slides across a tilting tray, the waiter catches it, colored liquid spills, and a striped umbrella twists in the wind.
+- **Workflow/details:** Text-to-video split-screen with two synchronized views. The left side keeps the full café terrace visible; the right tracks the waiter and uses brief foreground and arm occlusions. The prompt anchors the near-miss at the 2-second mark and requires matching identities, drink colors, hand positions, tray angle, liquid trajectory, umbrella motion, pavement reflections, weather, timing, and physical consequences across both cameras. Duration, seed, resolution, references, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “Split-screen video showing the same continuous real-time event from two different camera angles. The screen is divided vertically into two equal halves. On the left side, show a static, elevated wide shot of an outdoor café terrace during light rain.” The complete prompt remains visible in the verification source.
+- **Why included:** Explicit original-creator attribution, a traceable original status URL, an attached-video mirror, an exact reproducible prompt, strong public engagement, and an unusually demanding test of cross-view synchronization, occlusion, reflections, liquid physics, object permanence, and causal consistency.
 
 ## How updates work
 
