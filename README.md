@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 72_
+_Last updated: 2026-08-07 · Entries: 74_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -842,6 +842,30 @@ _Last updated: 2026-08-07 · Entries: 72_
 - **Workflow/details:** The same structured H3 prompt is submitted to both models for each scenario. The published prompts combine `integrated_multimodal_description`, dialogue, `overall_soundscape`, and `non_diegetic_music`; the cartoon test additionally uses first-frame/reference retention fields. In the public discussion, the creator reports stronger FLUX 3 visuals in the Viking and dragon tests, while judging H3 stronger in the nature-documentary and cartoon examples and markedly better for audio.
 - **Prompt provenance:** `verbatim_in_post` — “Live-action cinematic fantasy with grounded historical realism, photographed on 65 mm large-format film.” Full prompts for all four scenarios remain visible in the original post.
 - **Why included:** Newly published primary creator post, explicit FLUX 3 attribution, attached comparison media, exact reproducible prompts, identical cross-model inputs, and unusually broad stress testing of camera motion, large-scene consistency, creature physics, dialogue, stylization, reference retention, and native audio.
+
+### 73. Four-way synchronized aircraft engine-failure return — Future Vibes AI
+
+- **Creator:** [Future Vibes AI (@FutureVibesAi)](https://x.com/FutureVibesAi)
+- **Published:** 2026-08-06 (based on the public verification page’s relative timestamp)
+- **Original source profile:** [Future Vibes AI on X](https://x.com/FutureVibesAi) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, exact prompt, clip context, and engagement](https://mobile.twstalker.com/FutureVibesAi)
+- **Model attribution:** The creator explicitly introduces the clip with “Split Screen clip with Flux 3.”
+- **Summary:** A passenger aircraft’s single-engine failure and controlled return are shown simultaneously from the cabin, an exterior tracking camera, the cockpit, and an aerial view, with the failure, reactions, stabilization, and return path synchronized across all four panels.
+- **Workflow/details:** Four synchronized camera panels; the engine failure is anchored at the 2-second mark, followed by brief yaw, immediate pilot correction, passenger reaction, stabilization, and a controlled return toward the airport while emergency vehicles prepare. The prompt requires matching aircraft attitude, engine behavior, pilot actions, passenger reactions, weather, and flight path across every view. Duration, resolution, seed, reference inputs, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “Four-way synchronized cinematic split-screen showing the same passenger aircraft experiencing a single-engine failure shortly after takeoff.” The complete prompt remains visible in the verification source.
+- **Why included:** Newly published explicit creator attribution, an exact reproducible prompt, strong public engagement, and a demanding multi-camera test of procedural aviation behavior, aerodynamics, causal timing, human reactions, and scene geometry.
+
+### 74. Four-way synchronized mountain helicopter rescue — Future Vibes AI
+
+- **Creator:** [Future Vibes AI (@FutureVibesAi)](https://x.com/FutureVibesAi)
+- **Published:** 2026-08-05 (based on the public verification page’s relative timestamp)
+- **Original source profile:** [Future Vibes AI on X](https://x.com/FutureVibesAi) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, exact prompt, clip context, and engagement](https://mobile.twstalker.com/FutureVibesAi)
+- **Model attribution:** The creator explicitly introduces the clip with “Split screen clip with Flux 3.”
+- **Summary:** A dangerous alpine helicopter rescue is shown simultaneously from the cabin, an exterior side-following view, the cockpit, and an aerial camera as a wind gust destabilizes the hover and a stranded climber is extracted by cable.
+- **Workflow/details:** Four synchronized camera panels; at the 2-second mark a strong wind pushes the helicopter sideways, the pilot corrects, the rescue crew lowers a cable, the climber is secured and lifted, and rotor wash drives snow around the aircraft. The prompt requires matching helicopter orientation, cable movement, wind direction, rotor wash, climber position, and lighting across every view. Duration, resolution, seed, reference inputs, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “Four-way perfectly synchronized split-screen showing the same helicopter rescue operation during a dangerous mountain snowstorm.” The complete prompt remains visible in the verification source.
+- **Why included:** Newly published explicit creator attribution, an exact reproducible prompt, and a physically demanding multi-view rescue sequence combining aircraft control, cable dynamics, weather, rotor wash, spatial consistency, and synchronized causal action.
 
 ## How updates work
 
