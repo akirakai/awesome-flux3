@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 69_
+_Last updated: 2026-08-06 · Entries: 70_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -809,6 +809,18 @@ _Last updated: 2026-08-06 · Entries: 69_
 - **Workflow/details:** Creator-run FLUX 3 video benchmark using the recurring otter, laptop, and airplane concept; the post directly compares the new output with an earlier July 2024 generation. Duration, reference inputs, seed, resolution, native-audio instructions, and post-production are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator describes the benchmark concept and says the new clip is a variation, but the exact generation prompt is not visible and has not been reconstructed.
 - **Why included:** Newly published original-creator attribution, attached-video verification, substantial early engagement, and a rare longitudinal benchmark that makes two years of progress in subject fidelity, lighting, scene coherence, motion, and surprise-driven staging directly comparable.
+
+### 70. One-prompt microgravity nature documentary — Thomas the Cosmic / Black Forest Labs
+
+- **Creator:** [Thomas the Cosmic (@thomasthecosmic)](https://x.com/thomasthecosmic), technical staff at Black Forest Labs
+- **Published:** 2026-07-28
+- **Original post:** [View on X](https://x.com/thomasthecosmic/status/2082111480900538608)
+- **Verification source:** [Secondary public mirror preserving the original creator caption, status link, model attribution, and attached-video context](https://w.twstalker.com/thomasthecosmic)
+- **Model attribution:** The creator explicitly says “FLUX 3 makes a microgravity nature documentary from one prompt” and tags Black Forest Labs.
+- **Summary:** A nature-documentary-style scene depicts water and subjects behaving in microgravity, emphasizing surface tension, free-floating motion, and optical refraction through water.
+- **Workflow/details:** Single-prompt FLUX 3 video generation. The creator specifically identifies surface tension, microgravity, water refraction, and coherence among those interacting details as the test targets. Duration, resolution, seed, reference inputs, native-audio instructions, and post-production are not disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt produced the video, but the exact prompt text is not visible in the verified source and has not been inferred.
+- **Why included:** First-party team attribution, a traceable original status, attached-video verification, and a focused physical-coherence test combining fluid behavior, weightlessness, and refractive optics in one scene.
 
 ## How updates work
 
