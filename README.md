@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-06 · Entries: 68_
+_Last updated: 2026-08-06 · Entries: 69_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -797,6 +797,18 @@ _Last updated: 2026-08-06 · Entries: 68_
 - **Workflow/details:** Text-to-video split-screen with two synchronized views. The left side keeps the full café terrace visible; the right tracks the waiter and uses brief foreground and arm occlusions. The prompt anchors the near-miss at the 2-second mark and requires matching identities, drink colors, hand positions, tray angle, liquid trajectory, umbrella motion, pavement reflections, weather, timing, and physical consequences across both cameras. Duration, seed, resolution, references, and post-production are not disclosed.
 - **Prompt provenance:** `verbatim_in_post` — “Split-screen video showing the same continuous real-time event from two different camera angles. The screen is divided vertically into two equal halves. On the left side, show a static, elevated wide shot of an outdoor café terrace during light rain.” The complete prompt remains visible in the verification source.
 - **Why included:** Explicit original-creator attribution, a traceable original status URL, an attached-video mirror, an exact reproducible prompt, strong public engagement, and an unusually demanding test of cross-view synchronization, occlusion, reflections, liquid physics, object permanence, and causal consistency.
+
+### 69. Otter-on-an-airplane longitudinal benchmark variation — Ethan Mollick
+
+- **Creator:** [Ethan Mollick (@emollick)](https://x.com/emollick)
+- **Published:** 2026-08-06
+- **Original source profile:** [Ethan Mollick on X](https://x.com/emollick) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror preserving the original creator wording, attached-video context, quoted earlier benchmark, and engagement](https://www.twstalker.com/Ahmdnet2)
+- **Model attribution:** Mollick explicitly calls the attached result a test of “the new Flux 3 video model” and says the model is “really good.”
+- **Summary:** Mollick revisits his long-running benchmark of an otter using a laptop on an airplane, adds a variation that becomes apparent several seconds into the clip, and places it beside his two-year-old comparison point.
+- **Workflow/details:** Creator-run FLUX 3 video benchmark using the recurring otter, laptop, and airplane concept; the post directly compares the new output with an earlier July 2024 generation. Duration, reference inputs, seed, resolution, native-audio instructions, and post-production are not disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator describes the benchmark concept and says the new clip is a variation, but the exact generation prompt is not visible and has not been reconstructed.
+- **Why included:** Newly published original-creator attribution, attached-video verification, substantial early engagement, and a rare longitudinal benchmark that makes two years of progress in subject fidelity, lighting, scene coherence, motion, and surprise-driven staging directly comparable.
 
 ## How updates work
 
