@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 71_
+_Last updated: 2026-08-07 · Entries: 72_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -831,6 +831,17 @@ _Last updated: 2026-08-07 · Entries: 71_
 - **Workflow/details:** Single-prompt FLUX 3 generation; 20-second duration; model-directed editing; generated voiceover; no lip-sync requirement. The source does not disclose the prompt text, input references, seed, resolution, aspect ratio, or post-production.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator states that one prompt produced the video, but the exact prompt is not visible in the verified source and has not been inferred.
 - **Why included:** Newly published explicit creator attribution, preserved attached-video context, strong public engagement, and a production-oriented demonstration of full-duration autonomous editing and voiceover generation from a single prompt.
+
+### 72. Same-prompt FLUX 3 vs. MiniMax H3 four-scenario comparison — Reddit creator
+
+- **Creator:** Original poster in [r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/) — the creator username is not exposed by the current public index.
+- **Published:** 2026-08-06
+- **Original source:** [A few Flux 3 vs H3 comparisons](https://www.reddit.com/r/StableDiffusion/comments/1vhf7e8/a_few_flux_3_vs_h3_comparisons/)
+- **Model attribution:** The creator says they noticed “Flux 3 is up on API” and personally ran comparison renders using the same H3-formatted prompt for FLUX 3 and MiniMax H3.
+- **Summary:** Four controlled comparisons cover a Viking longship selfie, first-person dragon flight over a medieval capital, a photoreal nature-documentary creature shot, and a stylized skeleton-witch animation.
+- **Workflow/details:** The same structured H3 prompt is submitted to both models for each scenario. The published prompts combine `integrated_multimodal_description`, dialogue, `overall_soundscape`, and `non_diegetic_music`; the cartoon test additionally uses first-frame/reference retention fields. In the public discussion, the creator reports stronger FLUX 3 visuals in the Viking and dragon tests, while judging H3 stronger in the nature-documentary and cartoon examples and markedly better for audio.
+- **Prompt provenance:** `verbatim_in_post` — “Live-action cinematic fantasy with grounded historical realism, photographed on 65 mm large-format film.” Full prompts for all four scenarios remain visible in the original post.
+- **Why included:** Newly published primary creator post, explicit FLUX 3 attribution, attached comparison media, exact reproducible prompts, identical cross-model inputs, and unusually broad stress testing of camera motion, large-scene consistency, creature physics, dialogue, stylization, reference retention, and native audio.
 
 ## How updates work
 
