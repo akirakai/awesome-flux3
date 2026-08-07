@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 77_
+_Last updated: 2026-08-07 · Entries: 78_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -901,6 +901,18 @@ _Last updated: 2026-08-07 · Entries: 77_
 - **Workflow/details:** One-prompt text-to-video; 1080p; 20-second duration. In the discussion, the creator confirms that they explicitly requested every cut and visible action, FLUX 3 followed that direction, and the dialogue itself was not specified by the creator. Exact seed, aspect ratio, reference media, audio wording, and post-production are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt contained the cut and action instructions, but the exact prompt text is not publicly visible and has not been reconstructed.
 - **Why included:** Newly published primary creator post with attached video, explicit FLUX 3 attribution, verified 1080p/20-second settings, a reproducible one-prompt multi-cut workflow, model-generated dialogue, and meaningful community engagement.
+
+### 78. Bootleg phone-recorded live-metal encore — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
+- **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
+- **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
+- **Workflow/details:** Text-to-video from one concise prompt specifying a bootleg phone-camera look, small live venue, encore structure, chorus peak, and featured solo. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “a bootlegged phone recording of a metal band playing in a small venue, they're doing the encore and they are hitting the chorus of their big number, there's an amazing solo”
+- **Why included:** Newly published explicit creator attribution, an exact reproducible prompt, attached-video verification, strong early engagement, and a distinctive audiovisual stress test of live-music staging, performance timing, crowd-scale venue realism, and convincing low-fi phone capture.
 
 ## How updates work
 
