@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 79_
+_Last updated: 2026-08-08 · Entries: 80_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -924,6 +924,18 @@ _Last updated: 2026-08-07 · Entries: 79_
 - **Workflow/details:** Text-to-video; 20-second duration; one unbroken take; low floor-level handheld follow camera that intentionally reacts slightly late, allows imperfect framing, camera shake, and brief focus slips. The creator also stages physical interaction beats including a falling pillow, trailing toilet paper, a knocked remote, and dirt smearing the lens.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explains how the camera prompt and route were structured, but the exact full generation prompt is not publicly visible and has not been reconstructed.
 - **Why included:** Newly published primary creator post, explicit FLUX 3 attribution, a concrete Atlas Cloud workflow, and a demanding full-20-second continuity test combining multi-room spatial handoffs, small-subject tracking, deliberate handheld imperfection, object interaction, and persistent physical causality.
+
+### 80. Structured kaiju-destruction FLUX 3 vs. Seedance 2.0 benchmark — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-06 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, full structured prompt, and engagement](https://mobile.twstalker.com/opener_ai)
+- **Model attribution:** Jin.B explicitly says the attached comparison runs “Flux 3 vs Seedance 2.0” and describes using closely matched timing/settings for the two outputs.
+- **Summary:** A photorealistic stormy-coastal kaiju sequence pits a skyscraper-scale deep-sea octopus against a city, with the creature crushing buses and streetlights, pulling down a glass tower, sprinting through intersections, vaulting a full block, and charging through waterfront cranes.
+- **Workflow/details:** Controlled cross-model comparison from one highly structured prompt. The visible setup specifies 15 seconds, rapid creature movement, controlled cameras, five time-coded camera/action beats, storm lighting, VFX, native audio design, and hard constraints to keep all eight tentacles connected, distinct, and readable while avoiding anatomy drift, flicker, weightless debris, and chaotic camera motion. Jin.B notes using closely matched 20s/15s settings for the two models.
+- **Prompt provenance:** `verbatim_in_post` — “Build the monster, city, scale, and destruction entirely from text. … Photorealistic kaiju disaster film, stormy coastal metropolis, grounded structural destruction. … A colossal deep-sea octopus taller than nearby skyscrapers. … It never stops or poses. Four tentacles pull its body rapidly forward while the others destroy obstacles.” The complete time-coded prompt remains visible in the verification source.
+- **Why included:** Original-creator attribution, attached comparison video, a visible reproducible structured prompt, substantial public engagement, and an unusually difficult benchmark of multi-limb anatomy, fast physical action, time-coded cinematography, city-scale destruction, weather, debris, audio, and cross-model prompt adherence.
 
 ## How updates work
 
