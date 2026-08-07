@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 78_
+_Last updated: 2026-08-07 · Entries: 79_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -913,6 +913,17 @@ _Last updated: 2026-08-07 · Entries: 78_
 - **Workflow/details:** Text-to-video from one concise prompt specifying a bootleg phone-camera look, small live venue, encore structure, chorus peak, and featured solo. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “a bootlegged phone recording of a metal band playing in a small venue, they're doing the encore and they are hitting the chorus of their big number, there's an amazing solo”
 - **Why included:** Newly published explicit creator attribution, an exact reproducible prompt, attached-video verification, strong early engagement, and a distinctive audiovisual stress test of live-music staging, performance timing, crowd-scale venue realism, and convincing low-fi phone capture.
+
+### 79. Twenty-second multi-room fennec-fox chase in one unbroken take — Reddit creator
+
+- **Creator:** Original poster in [r/generativeAI](https://www.reddit.com/r/generativeAI/) — the creator username is not exposed by the current public index.
+- **Published:** 2026-08-06
+- **Original source:** [A tweaked 20-second single-take fox chase prompt held zero cuts start to finish in FLUX3](https://www.reddit.com/r/generativeAI/comments/1vgy8if/a_tweaked_20second_singletake_fox_chase_prompt/)
+- **Model attribution:** The creator explicitly says the full generation was run on “FLUX 3 on Atlas Cloud,” and the original post title also identifies the model as FLUX3.
+- **Summary:** A fennec fox sprints through a dark house at night while a low handheld camera follows continuously from bedroom to hallway, bathroom, stairs, kitchen, dining room, living room, laundry basket, plant corner, and entryway without a cut.
+- **Workflow/details:** Text-to-video; 20-second duration; one unbroken take; low floor-level handheld follow camera that intentionally reacts slightly late, allows imperfect framing, camera shake, and brief focus slips. The creator also stages physical interaction beats including a falling pillow, trailing toilet paper, a knocked remote, and dirt smearing the lens.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explains how the camera prompt and route were structured, but the exact full generation prompt is not publicly visible and has not been reconstructed.
+- **Why included:** Newly published primary creator post, explicit FLUX 3 attribution, a concrete Atlas Cloud workflow, and a demanding full-20-second continuity test combining multi-room spatial handoffs, small-subject tracking, deliberate handheld imperfection, object interaction, and persistent physical causality.
 
 ## How updates work
 
