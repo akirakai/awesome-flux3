@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 75_
+_Last updated: 2026-08-07 · Entries: 76_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -878,6 +878,18 @@ _Last updated: 2026-08-07 · Entries: 75_
 - **Workflow/details:** Four-way split-screen text-to-video with synchronized viewpoints and continuous tracking of one aircraft. The public verification extract preserves the cross-camera synchronization requirement and the beginning of the panel-by-panel prompt, but does not expose the complete camera descriptions, duration, resolution, seed, reference inputs, or post-production.
 - **Prompt provenance:** `verbatim_in_post` — “Four-way split-screen showing the same emergency airplane river landing from four synchronized camera perspectives.” The verified source also visibly states that each panel follows the aircraft continuously as the event unfolds.
 - **Why included:** Explicit original-creator attribution, attached-video context, a visible reproducible prompt opening, strong public engagement, and a demanding multi-view stress test of aircraft identity, continuous tracking, event timing, spatial consistency, and synchronized action over water.
+
+### 76. Regency-manor astronaut tracking-shot stress test — Ethan Mollick
+
+- **Creator:** [Ethan Mollick (@emollick)](https://x.com/emollick)
+- **Published:** 2026-08-07 (based on the public verification page’s relative timestamp)
+- **Original source profile:** [Ethan Mollick on X](https://x.com/emollick) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, visible full prompt, attached-video context, and engagement](https://mobile.twstalker.com/emollick)
+- **Model attribution:** Mollick explicitly identifies the attached result as produced by Flux 3 and introduces the visible text as the prompt used for it.
+- **Summary:** A tracking shot follows an open-helmet astronaut through a Regency dance inside a traditional manor, pushes through the crowd into a hammered-tin-paneled room with an unarmed knight-versus-ninja fight, then shifts to her point of view toward a stained-glass flower-and-serpent motif.
+- **Workflow/details:** Text-to-video from one visible prompt; continuous subject-following camera movement, crowd interaction, a room-to-room transition, secondary fight choreography, and a final POV handoff are all directed in the same generation. Duration, resolution, seed, reference inputs, native-audio instructions, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “tracking shot that follows a female astronaut with her helmet open as she walks through a regency dance in a traditional manor”. The complete prompt remains visible in the verification source.
+- **Why included:** Newly published original-creator attribution, an exact visible prompt, attached-video verification, substantial early engagement, and a demanding cinematic test of camera continuity, crowd staging, architectural transition, multi-character choreography, viewpoint change, and scene persistence.
 
 ## How updates work
 
