@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-07 · Entries: 76_
+_Last updated: 2026-08-07 · Entries: 77_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -890,6 +890,17 @@ _Last updated: 2026-08-07 · Entries: 76_
 - **Workflow/details:** Text-to-video from one visible prompt; continuous subject-following camera movement, crowd interaction, a room-to-room transition, secondary fight choreography, and a final POV handoff are all directed in the same generation. Duration, resolution, seed, reference inputs, native-audio instructions, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “tracking shot that follows a female astronaut with her helmet open as she walks through a regency dance in a traditional manor”. The complete prompt remains visible in the verification source.
 - **Why included:** Newly published original-creator attribution, an exact visible prompt, attached-video verification, substantial early engagement, and a demanding cinematic test of camera continuity, crowd staging, architectural transition, multi-character choreography, viewpoint change, and scene persistence.
+
+### 77. One-prompt 1080p “Lost Footage” multi-cut sequence — Reddit creator
+
+- **Creator:** Original poster in [r/FluxAI](https://www.reddit.com/r/FluxAI/) — the creator username is not exposed by the current public index.
+- **Published:** 2026-08-05
+- **Original source:** [FLUX 3 Test (Lost Footage)](https://www.reddit.com/r/FluxAI/comments/1vg5flb/flux_3_test_lost_footage/)
+- **Model attribution:** The creator explicitly captions the attached result “Just having fun with FLUX3” and identifies the output as 1080p and 20 seconds long.
+- **Summary:** A “lost footage” styled audiovisual sequence uses a single FLUX 3 prompt to execute multiple planned cuts and actions across a full 20-second clip, while the model independently supplies the spoken dialogue.
+- **Workflow/details:** One-prompt text-to-video; 1080p; 20-second duration. In the discussion, the creator confirms that they explicitly requested every cut and visible action, FLUX 3 followed that direction, and the dialogue itself was not specified by the creator. Exact seed, aspect ratio, reference media, audio wording, and post-production are not disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt contained the cut and action instructions, but the exact prompt text is not publicly visible and has not been reconstructed.
+- **Why included:** Newly published primary creator post with attached video, explicit FLUX 3 attribution, verified 1080p/20-second settings, a reproducible one-prompt multi-cut workflow, model-generated dialogue, and meaningful community engagement.
 
 ## How updates work
 
