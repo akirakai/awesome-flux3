@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-08 · Entries: 82_
+_Last updated: 2026-08-09 · Entries: 83_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -960,6 +960,18 @@ _Last updated: 2026-08-08 · Entries: 82_
 - **Workflow/details:** Prompt-led generation using an intentionally low-fi phone-recording aesthetic, a small live venue, spoken band introduction, a named first song (“SVG”), and non-human performers. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified sources.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “bootlegged phone recording of a shoegaze band called "Pelicans on Bikes" playing in a small venue, they introduce themselves”. The remaining prompt text is visibly preserved in the verification source.
 - **Why included:** Newly published same-creator FLUX 3 thread attribution, visible prompt text, strong public engagement, and first-party signal from Black Forest Labs co-founder Robin Rombach. The result is a distinctive audiovisual stress test of animal identity consistency, live-band staging, spoken introduction, generated music/performance timing, and convincing low-fi phone capture.
+
+### 83. 1995 television documentary explaining the internet — Bennett / Generative Media
+
+- **Creator:** [Bennett | Generative Media | AI SEO @ fal (@influencer_seo)](https://x.com/influencer_seo)
+- **Published:** 2026-08-08 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [Bennett on X](https://x.com/influencer_seo) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror directly preserving the original creator post, model attribution, prompt, and evaluation](https://twstalker.com/ZachyAshworth)
+- **Model attribution:** The creator explicitly labels the post “Flux 3 Prompt” and evaluates the resulting FLUX 3 generation.
+- **Summary:** A deliberately period-authentic 1995 TV documentary explains the internet using bulky computers, office cubicles, slow demonstrations, animated graphics, formal narration, and carefully staged explanations of email.
+- **Workflow/details:** Minimal text-to-video prompting: the creator uses a single short era-and-format instruction rather than a long shot list, then notes that FLUX 3 reproduced not just period technology but the pacing, framing, performances, production design, optimism, and awkward explanatory tone of mid-1990s television.
+- **Prompt provenance:** `verbatim_in_post` — “a 1995 television documentary explaining the internet”
+- **Why included:** Newly published creator-attributed FLUX 3 example with an exact compact prompt and unusually strong style/era semantics. It is valuable as a reusable test showing that a short prompt can target both a historical period and the period-specific media grammar through which people of that era imagined new technology.
 
 ## How updates work
 
