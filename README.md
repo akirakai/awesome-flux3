@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-08 · Entries: 81_
+_Last updated: 2026-08-08 · Entries: 82_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -948,6 +948,18 @@ _Last updated: 2026-08-08 · Entries: 81_
 - **Workflow/details:** Controlled cross-model comparison from a Claude Opus 5-authored prompt. The visible FLUX 3 brief specifies a moving nighttime subway car, continuous POV with no cuts, handheld/body-cam rocking, cold green-cyan lighting, blue tunnel strobes, staged passenger disappearances across three blackouts, then a sequence of physically progressive ceiling impacts. It runs to 20 seconds and includes explicit native-audio cues such as rail clatter, fluorescent buzz, ballast clicks, metallic cracks, glass shattering, and bending steel.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Single continuous first-person POV shot, no cuts. A standing passenger inside a moving subway car at night. The entire frame rocks and jolts with the train throughout, handheld body-cam energy.” The complete 20-second FLUX 3 prompt remains visible in the verification source.
 - **Why included:** Newly published original-creator comparison with explicit FLUX 3 labeling, attached video, exact visible prompt, controlled shared-prompt methodology, and a difficult test of temporal continuity, disappearing-character logic, lighting transitions, handheld motion, object persistence, progressive physical damage, audio timing, and scene-state consistency.
+
+### 82. Pelican shoegaze band “Pelicans on Bikes” — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** 2026-08-08 (based on the public verification mirrors’ relative timestamps)
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public indexes did not expose the direct status URL.
+- **Verification sources:** [Secondary mirror preserving fofr’s follow-up and its quoted same-creator FLUX 3 parent post](https://twstalker.com/ZachyAshworth); [Black Forest Labs co-founder Robin Rombach’s public profile mirror resharing the follow-up](https://site.twstalker.com/robrombach).
+- **Model attribution:** The follow-up is shown directly beneath and quoting fofr’s immediately preceding same-creator post, which explicitly prefixes the generation series with “Flux 3:”. Robin Rombach then reshared the “Pelicans on Bikes” follow-up and praised its prompting.
+- **Summary:** A deliberately bootleg-looking phone recording captures a shoegaze band named “Pelicans on Bikes” introducing itself in a small venue and launching into its first song, while every performer is rendered as an actual pelican.
+- **Workflow/details:** Prompt-led generation using an intentionally low-fi phone-recording aesthetic, a small live venue, spoken band introduction, a named first song (“SVG”), and non-human performers. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified sources.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “bootlegged phone recording of a shoegaze band called "Pelicans on Bikes" playing in a small venue, they introduce themselves”. The remaining prompt text is visibly preserved in the verification source.
+- **Why included:** Newly published same-creator FLUX 3 thread attribution, visible prompt text, strong public engagement, and first-party signal from Black Forest Labs co-founder Robin Rombach. The result is a distinctive audiovisual stress test of animal identity consistency, live-band staging, spoken introduction, generated music/performance timing, and convincing low-fi phone capture.
 
 ## How updates work
 
