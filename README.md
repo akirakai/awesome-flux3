@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-08 · Entries: 80_
+_Last updated: 2026-08-08 · Entries: 81_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -936,6 +936,18 @@ _Last updated: 2026-08-08 · Entries: 80_
 - **Workflow/details:** Controlled cross-model comparison from one highly structured prompt. The visible setup specifies 15 seconds, rapid creature movement, controlled cameras, five time-coded camera/action beats, storm lighting, VFX, native audio design, and hard constraints to keep all eight tentacles connected, distinct, and readable while avoiding anatomy drift, flicker, weightless debris, and chaotic camera motion. Jin.B notes using closely matched 20s/15s settings for the two models.
 - **Prompt provenance:** `verbatim_in_post` — “Build the monster, city, scale, and destruction entirely from text. … Photorealistic kaiju disaster film, stormy coastal metropolis, grounded structural destruction. … A colossal deep-sea octopus taller than nearby skyscrapers. … It never stops or poses. Four tentacles pull its body rapidly forward while the others destroy obstacles.” The complete time-coded prompt remains visible in the verification source.
 - **Why included:** Original-creator attribution, attached comparison video, a visible reproducible structured prompt, substantial public engagement, and an unusually difficult benchmark of multi-limb anatomy, fast physical action, time-coded cinematography, city-scale destruction, weather, debris, audio, and cross-model prompt adherence.
+
+### 81. Blackout-disappearance subway FLUX 3 vs. Seedance 2.0 benchmark — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original comparison caption, attached-video context, and FLUX 3 prompt follow-up](https://mobile.twstalker.com/opener_ai)
+- **Model attribution:** Jin.B explicitly says the attached comparison tests “Flux 3 & Seedance 2.0,” tags `#Flux3` and Black Forest Labs, then publishes a follow-up labeled “[Flux3 prompt].”
+- **Summary:** A single continuous first-person subway shot uses timed blackouts to make passengers disappear while the moving train, camera sway, surviving passengers, empty seats, abandoned objects, and later ceiling impacts preserve scene continuity.
+- **Workflow/details:** Controlled cross-model comparison from a Claude Opus 5-authored prompt. The visible FLUX 3 brief specifies a moving nighttime subway car, continuous POV with no cuts, handheld/body-cam rocking, cold green-cyan lighting, blue tunnel strobes, staged passenger disappearances across three blackouts, then a sequence of physically progressive ceiling impacts. It runs to 20 seconds and includes explicit native-audio cues such as rail clatter, fluorescent buzz, ballast clicks, metallic cracks, glass shattering, and bending steel.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Single continuous first-person POV shot, no cuts. A standing passenger inside a moving subway car at night. The entire frame rocks and jolts with the train throughout, handheld body-cam energy.” The complete 20-second FLUX 3 prompt remains visible in the verification source.
+- **Why included:** Newly published original-creator comparison with explicit FLUX 3 labeling, attached video, exact visible prompt, controlled shared-prompt methodology, and a difficult test of temporal continuity, disappearing-character logic, lighting transitions, handheld motion, object persistence, progressive physical damage, audio timing, and scene-state consistency.
 
 ## How updates work
 
