@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 83_
+_Last updated: 2026-08-09 · Entries: 85_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -958,7 +958,7 @@ _Last updated: 2026-08-09 · Entries: 83_
 - **Model attribution:** The follow-up is shown directly beneath and quoting fofr’s immediately preceding same-creator post, which explicitly prefixes the generation series with “Flux 3:”. Robin Rombach then reshared the “Pelicans on Bikes” follow-up and praised its prompting.
 - **Summary:** A deliberately bootleg-looking phone recording captures a shoegaze band named “Pelicans on Bikes” introducing itself in a small venue and launching into its first song, while every performer is rendered as an actual pelican.
 - **Workflow/details:** Prompt-led generation using an intentionally low-fi phone-recording aesthetic, a small live venue, spoken band introduction, a named first song (“SVG”), and non-human performers. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified sources.
-- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “bootlegged phone recording of a shoegaze band called "Pelicans on Bikes" playing in a small venue, they introduce themselves”. The remaining prompt text is visibly preserved in the verification source.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “bootlegged phone recording of a shoegaze band called \"Pelicans on Bikes\" playing in a small venue, they introduce themselves”. The remaining prompt text is visibly preserved in the verification source.
 - **Why included:** Newly published same-creator FLUX 3 thread attribution, visible prompt text, strong public engagement, and first-party signal from Black Forest Labs co-founder Robin Rombach. The result is a distinctive audiovisual stress test of animal identity consistency, live-band staging, spoken introduction, generated music/performance timing, and convincing low-fi phone capture.
 
 ### 83. 1995 television documentary explaining the internet — Bennett / Generative Media
@@ -972,6 +972,30 @@ _Last updated: 2026-08-09 · Entries: 83_
 - **Workflow/details:** Minimal text-to-video prompting: the creator uses a single short era-and-format instruction rather than a long shot list, then notes that FLUX 3 reproduced not just period technology but the pacing, framing, performances, production design, optimism, and awkward explanatory tone of mid-1990s television.
 - **Prompt provenance:** `verbatim_in_post` — “a 1995 television documentary explaining the internet”
 - **Why included:** Newly published creator-attributed FLUX 3 example with an exact compact prompt and unusually strong style/era semantics. It is valuable as a reusable test showing that a short prompt can target both a historical period and the period-specific media grammar through which people of that era imagined new technology.
+
+### 84. Rocket-launcher lawyer argument — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-07
+- **Original post:** [View on X](https://x.com/cfryant/status/2085732465205735927)
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, post identity, attached-media context, and engagement](https://twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly captions the clip “When lawyers argue, but with rocket launchers. FLUX 3”.
+- **Summary:** A darkly comic action vignette literalizes a heated lawyer argument by escalating the confrontation to rocket launchers.
+- **Workflow/details:** Creator-posted FLUX 3 video built around a concise high-level premise rather than a publicly disclosed shot list. The verified public source does not disclose duration, resolution, input references, seed, native-audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible caption describes the finished concept but is not explicitly labeled as the generation prompt, so no prompt text is inferred.
+- **Why included:** Traceable original status, explicit creator attribution, thousands of early views, and a distinctive compact concept that stresses multi-character staging, escalation, action timing, and comedic readability without relying on a long visible prompt.
+
+### 85. Household spider-removal comedy — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-06
+- **Original post:** [View on X](https://x.com/cfryant/status/2085492904286396422)
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, post identity, attached-media context, and engagement](https://twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly captions the clip “When your girlfriend tells you to take care of a spider. FLUX 3”.
+- **Summary:** A familiar household request to deal with a spider is turned into an exaggerated visual-comedy scenario, using an immediately legible everyday setup as the joke’s anchor.
+- **Workflow/details:** Creator-posted FLUX 3 video from an experienced AI filmmaker. The public verification source preserves the concept and strong early engagement but does not disclose duration, exact generation prompt, input references, seed, resolution, audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the caption states the premise but is not labeled as the exact generation prompt, and nothing has been reconstructed from the footage.
+- **Why included:** Explicit original-creator FLUX 3 attribution, a traceable status URL, roughly eight thousand views in the verified mirror snapshot, and a concise comedy setup that provides a useful test of believable everyday context, reaction timing, and escalation.
 
 ## How updates work
 
