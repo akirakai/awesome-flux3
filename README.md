@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 89_
+_Last updated: 2026-08-10 · Entries: 90_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1044,6 +1044,18 @@ _Last updated: 2026-08-09 · Entries: 89_
 - **Workflow/details:** The visible source specifies a 20-second duration, 16:9 aspect ratio, photorealistic live-action smartphone-video aesthetics, and five time-coded beats spanning 0–20 seconds. It directs a handheld push through the crowd, close-ups and screen inserts, escalating rhythm-game performance, crowd reactions, flashing machine feedback, and a final score beat. Seed, resolution, reference inputs, and post-production are not exposed in the verified public source.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “A fully realistic live-action style video set inside a vibrant Japanese arcade at night. A real orange tabby cat is standing in front of a rhythm game machine, surrounded by glowing neon lights, arcade cabinets, reflective floors, and excited onlookers.” The public verification source preserves the subsequent time-coded 0–20 second prompt; no wording has been reconstructed from the footage.
 - **Why included:** Explicit original-creator FLUX 3 attribution, a visible full-duration structured prompt, reproducible duration and aspect-ratio settings, attached-video verification, public engagement, and a demanding stress test of animal motion, fast paw-to-machine interaction, legible arcade feedback, handheld camera grammar, reflective lighting, crowd continuity, and synchronized escalation across a complete 20-second sequence.
+
+### 90. “When you have your own Kuato” body-horror comedy vignette — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-06
+- **Original post:** [View on X](https://x.com/cfryant/status/2085404360201113665)
+- **Verification source:** [Secondary creator-profile mirror preserving the original caption and engagement context](https://twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly labels the attached video “FLUX 3.”
+- **Summary:** A compact body-horror/comedy vignette built around the recognizable premise “When you have your own Kuato,” using a concise visual gag rather than a generic model demo.
+- **Workflow/details:** No duration, references, seed, editing workflow, or generation settings are publicly disclosed in the verified source.
+- **Prompt provenance:** `not_provided` — the visible caption is presented as the concept/title, not as an explicitly labeled generation prompt.
+- **Why included:** Original creator attribution, explicit FLUX 3 labeling, a distinctive concept from an experienced AI filmmaker, and meaningful engagement in the preserved source snapshot (about 9K views and 63 likes).
 
 ## How updates work
 
