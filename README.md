@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 86_
+_Last updated: 2026-08-09 · Entries: 87_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1008,6 +1008,18 @@ _Last updated: 2026-08-09 · Entries: 86_
 - **Workflow/details:** One prompt; one generation; single shot; no edit. No verified seed, duration, resolution, reference inputs, or post-production settings are publicly exposed beyond the creator's explicit no-edit statement.
 - **Prompt provenance:** `verbatim_in_post` — the accessible LinkedIn index visibly places “Clear the noise.” immediately after “Prompt below 👇”. Because the public index may truncate subsequent text, no additional prompt wording is copied or inferred.
 - **Why included:** First-party creator attribution, explicit Flux 3 Video labeling, a highly reproducible one-pass/no-edit workflow, visible prompt text, and strong public engagement across LinkedIn activity snapshots.
+
+### 87. Southeast Asian vernacular school-vlog realism tests — MXVDXN // DAN
+
+- **Creator:** [MXVDXN // DAN (@mxvdxn)](https://x.com/mxvdxn)
+- **Published:** 2026-07-27
+- **Original post:** [View on X](https://x.com/mxvdxn/status/2081801246474904031)
+- **Verification sources:** [Secondary creator-profile mirror preserving MXVDXN’s original FLUX 3 test notes and engagement](https://www.instalker.org/mxvdxn) · [Public discussion preserving the exact original status ID and identifying the attached work as FLUX.3 Southeast Asian schoolgirl vlogs](https://boards.4chan.org/g/thread/109386035/ldg-local-diffusion-general)
+- **Model attribution:** MXVDXN explicitly says he tested FLUX 3 and later labels the same test series “FLUX 3 by @bfl_ai”; the preserved original-status reference independently identifies the attached vlog footage as FLUX.3.
+- **Summary:** Raw Southeast Asian school-vlog footage tests whether FLUX 3 can reproduce local vernacular rather than generic cinematic language, with emphasis on region-specific faces, dialect, gestures, intonation, and everyday handheld-video texture.
+- **Workflow/details:** The creator deliberately avoided polished Hollywood-style prompting and instead stress-tested local Southeast Asian nuance and a raw handheld aesthetic. He reports especially strong dialect, gesture, intonation, and natural-looking faces, while candidly noting that crowd control, high-dynamic performance, distortion, and face consistency from character references still need work.
+- **Prompt provenance:** `not_provided` — the creator explains the creative goal and evaluation criteria but does not expose the exact generation prompt for the verified vlog post, so no prompt text has been inferred.
+- **Why included:** Traceable original status, explicit creator-side FLUX 3 attribution, roughly twenty-two thousand views in the verification snapshot, distinctive regional-language and cultural-specificity testing, and unusually useful qualitative failure notes alongside the creator’s praise for realism.
 
 ## How updates work
 
