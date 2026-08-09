@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 88_
+_Last updated: 2026-08-09 · Entries: 89_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1032,6 +1032,18 @@ _Last updated: 2026-08-09 · Entries: 88_
 - **Workflow/details:** Creator-posted FLUX 3 historical-POV generation built around first-person GoPro camera language, period production design, multi-character gunfight staging, and an interior-to-exterior action transition. The verified public source does not disclose duration, exact prompt, reference media, seed, resolution, native-audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible caption describes the generated scene but is not explicitly labeled as the generation prompt, so no prompt text has been inferred.
 - **Why included:** Explicit original-creator FLUX 3 attribution preserved by a public secondary source, strong public engagement, and a demanding historical-action test combining period fidelity, first-person camera coherence, sustained combat staging, spatial continuity, and a location transition from enclosed speakeasy to open street.
+
+### 89. Twenty-second live-action arcade rhythm-game cat — あいきみ
+
+- **Creator:** [あいきみ (@AiWithYou1)](https://x.com/AiWithYou1)
+- **Published:** Date not exposed; verified 2026-08-09
+- **Original source profile:** [あいきみ on X](https://x.com/AiWithYou1) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary public mirror preserving a retweet of the original creator post, explicit FLUX 3 wording, visible settings, prompt text, attached-video context, and engagement](https://ww.twstalker.com/o81morimori)
+- **Model attribution:** The original creator explicitly opens the post with “FLUX 3の20秒生成いいね” and then lists a 20-second generation setup and time-coded video prompt.
+- **Summary:** A photorealistic orange tabby performs an impossibly precise rhythm-game run inside a neon Japanese arcade while a handheld smartphone-style camera moves through an excited crowd, cuts between the cat’s paws, face, game screen, and reactions, and finishes on a record-breaking score.
+- **Workflow/details:** The visible source specifies a 20-second duration, 16:9 aspect ratio, photorealistic live-action smartphone-video aesthetics, and five time-coded beats spanning 0–20 seconds. It directs a handheld push through the crowd, close-ups and screen inserts, escalating rhythm-game performance, crowd reactions, flashing machine feedback, and a final score beat. Seed, resolution, reference inputs, and post-production are not exposed in the verified public source.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “A fully realistic live-action style video set inside a vibrant Japanese arcade at night. A real orange tabby cat is standing in front of a rhythm game machine, surrounded by glowing neon lights, arcade cabinets, reflective floors, and excited onlookers.” The public verification source preserves the subsequent time-coded 0–20 second prompt; no wording has been reconstructed from the footage.
+- **Why included:** Explicit original-creator FLUX 3 attribution, a visible full-duration structured prompt, reproducible duration and aspect-ratio settings, attached-video verification, public engagement, and a demanding stress test of animal motion, fast paw-to-machine interaction, legible arcade feedback, handheld camera grammar, reflective lighting, crowd continuity, and synchronized escalation across a complete 20-second sequence.
 
 ## How updates work
 
