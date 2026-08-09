@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 87_
+_Last updated: 2026-08-09 · Entries: 88_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1020,6 +1020,18 @@ _Last updated: 2026-08-09 · Entries: 87_
 - **Workflow/details:** The creator deliberately avoided polished Hollywood-style prompting and instead stress-tested local Southeast Asian nuance and a raw handheld aesthetic. He reports especially strong dialect, gesture, intonation, and natural-looking faces, while candidly noting that crowd control, high-dynamic performance, distortion, and face consistency from character references still need work.
 - **Prompt provenance:** `not_provided` — the creator explains the creative goal and evaluation criteria but does not expose the exact generation prompt for the verified vlog post, so no prompt text has been inferred.
 - **Why included:** Traceable original status, explicit creator-side FLUX 3 attribution, roughly twenty-two thousand views in the verification snapshot, distinctive regional-language and cultural-specificity testing, and unusually useful qualitative failure notes alongside the creator’s praise for realism.
+
+### 88. 1920s speakeasy-to-street gangster shootout — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror preserving a retweet of the original creator post, original wording, attribution, attached-video context, and engagement](https://twstalker.com/cdcwatson)
+- **Model attribution:** Fryant explicitly calls the attached work “Another early access FLUX 3 time travel gopro video” and tags Black Forest Labs.
+- **Summary:** A first-person GoPro-style historical action sequence drops the viewer into a 1920s gangster shootout inside a speakeasy, then carries the confrontation out into the street.
+- **Workflow/details:** Creator-posted FLUX 3 historical-POV generation built around first-person GoPro camera language, period production design, multi-character gunfight staging, and an interior-to-exterior action transition. The verified public source does not disclose duration, exact prompt, reference media, seed, resolution, native-audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible caption describes the generated scene but is not explicitly labeled as the generation prompt, so no prompt text has been inferred.
+- **Why included:** Explicit original-creator FLUX 3 attribution preserved by a public secondary source, strong public engagement, and a demanding historical-action test combining period fidelity, first-person camera coherence, sustained combat staging, spatial continuity, and a location transition from enclosed speakeasy to open street.
 
 ## How updates work
 
