@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-09 · Entries: 85_
+_Last updated: 2026-08-09 · Entries: 86_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -996,6 +996,18 @@ _Last updated: 2026-08-09 · Entries: 85_
 - **Workflow/details:** Creator-posted FLUX 3 video from an experienced AI filmmaker. The public verification source preserves the concept and strong early engagement but does not disclose duration, exact generation prompt, input references, seed, resolution, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the caption states the premise but is not labeled as the exact generation prompt, and nothing has been reconstructed from the footage.
 - **Why included:** Explicit original-creator FLUX 3 attribution, a traceable status URL, roughly eight thousand views in the verified mirror snapshot, and a concise comedy setup that provides a useful test of believable everyday context, reaction timing, and escalation.
+
+### 86. One-prompt, one-generation Fable 5 + Flux 3 Video single-shot — Yuval Avidani
+
+- **Creator:** [Yuval Avidani](https://il.linkedin.com/in/yuval-avidani-87081474)
+- **Published:** Date not exposed; verified 2026-08-09
+- **Original source profile:** [Yuval Avidani on LinkedIn](https://il.linkedin.com/in/yuval-avidani-87081474) — the public index exposes the creator's activity but not a stable direct activity URL.
+- **Verification source:** [Secondary LinkedIn profile preserving Yuval's original activity wording and relative timestamp](https://eg.linkedin.com/in/mohamedali-linked)
+- **Model attribution:** Yuval explicitly labels the generation “Fable 5 + Flux 3 Video”; his first-party profile describes it as one prompt and one generation, while the public LinkedIn verification copy preserves “Single shot. No edit.”
+- **Summary:** A one-pass FLUX 3 Video test is presented as a single-shot result produced from one prompt and one generation, with no editing, making the finished clip a compact demonstration of end-to-end prompt execution rather than an externally assembled sequence.
+- **Workflow/details:** One prompt; one generation; single shot; no edit. No verified seed, duration, resolution, reference inputs, or post-production settings are publicly exposed beyond the creator's explicit no-edit statement.
+- **Prompt provenance:** `verbatim_in_post` — the accessible LinkedIn index visibly places “Clear the noise.” immediately after “Prompt below 👇”. Because the public index may truncate subsequent text, no additional prompt wording is copied or inferred.
+- **Why included:** First-party creator attribution, explicit Flux 3 Video labeling, a highly reproducible one-pass/no-edit workflow, visible prompt text, and strong public engagement across LinkedIn activity snapshots.
 
 ## How updates work
 
