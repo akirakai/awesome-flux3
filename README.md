@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-10 · Entries: 93_
+_Last updated: 2026-08-11 · Entries: 95_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1092,6 +1092,30 @@ _Last updated: 2026-08-10 · Entries: 93_
 - **Workflow/details:** Early-access FLUX 3 video; 20-second output. The verified source does not disclose the exact generation prompt, reference media, seed, resolution, native-audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — “A supercar commercial but it’s actually grandma” is presented as the test concept/caption, not explicitly as the generation prompt, so no prompt text is inferred.
 - **Why included:** Explicit original-creator FLUX 3 attribution, verified full-20-second output, substantial engagement in the preserved creator post, and a production-oriented commercial concept from an experienced AI filmmaker.
+
+### 94. Handheld Saturn-view space-cruise room — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** 2026-08-10 (based on the secondary verification index’s relative timestamp)
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public index directly quoting the original creator post, model attribution, prompt text, and video context](https://aihot.virxact.com/all?category=tip&channel=x&page=1)
+- **Model attribution:** fofr explicitly begins the creator post with “Imagining a space cruise with Flux 3:” before the visible prompt.
+- **Summary:** Amateur handheld tourist POV inside a plush space-cruise cabin frames Saturn through a large window, keeps the room reflection visible in the glass, then turns the room lights off halfway through so the exterior view becomes clearer.
+- **Workflow/details:** Prompt-led text-to-video using amateur handheld POV, a comfortable interior, a large reflective window, Saturn as the exterior anchor, and a mid-shot lighting-state change. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “amateur handheld pov footage of a tourist in their plush and comfortable room of a space cruise, carpeted floor and comfy bed, large window shows a view of Saturn, you can see their reflection in the window, they turn off the light half way through so we can see outside better”
+- **Why included:** Newly surfaced creator-attributed Flux 3 video with an exact prompt and a compact but difficult realism test combining reflective glass, interior/exterior exposure, a deliberate lighting transition, handheld camera language, and a persistent astronomical background.
+
+### 95. Sofa-mounted GoPro Saturn timelapse aboard a space cruise — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** 2026-08-10 (based on the secondary verification index’s relative timestamp)
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public index directly quoting the original creator prompt and same-creator FLUX 3 Saturn follow-up](https://aihot.virxact.com/all?category=tip&channel=x&page=1)
+- **Model attribution:** The paired same-creator Saturn posts are preserved together: the prompt post describes the timelapse, while fofr immediately follows with “I'm impressed that Flux 3 can handle other more interesting angles of Saturn too.” The verification page explicitly identifies the video as a Flux 3 generation.
+- **Summary:** An intentionally amateur timelapse watches a space-cruise cabin orbit Saturn from an unusual angle, with changing room reflections and lighting while background passengers streak through the frame; the camera is a GoPro on a tripod placed beside the window, deliberately perched on a sofa.
+- **Workflow/details:** Prompt-led timelapse video with a mostly fixed GoPro/tripod viewpoint, a moving orbital exterior, interior reflections, intermittent lights-off states, accelerated background human movement, and an explicit audio constraint of calm music with no sound effects. Duration, resolution, seed, reference media, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “an amateur timelapse video taken by a tourist from ` plush and comfortable room on a space cruise, timelapse is as it orbits around saturn at a peculiar angle, at times you can see the reflection of the room, at other times the lights are off, it's from a gopro on a tripod mounted next to the window. in a timelapse fashion we see people moving around quickly in the background, no sound effects, just calm music You can tell it's amateur as they put the tripod on a sofa.”
+- **Why included:** Newly published creator-attributed FLUX 3 follow-up with visible prompt text and a distinctive temporal-photography stress test: orbital motion, reflections, exposure changes, accelerated human motion, deliberately imperfect camera placement, and explicit non-diegetic audio direction all have to coexist coherently.
 
 ## How updates work
 
