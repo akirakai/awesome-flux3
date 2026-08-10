@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-10 · Entries: 90_
+_Last updated: 2026-08-10 · Entries: 91_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1056,6 +1056,18 @@ _Last updated: 2026-08-10 · Entries: 90_
 - **Workflow/details:** No duration, references, seed, editing workflow, or generation settings are publicly disclosed in the verified source.
 - **Prompt provenance:** `not_provided` — the visible caption is presented as the concept/title, not as an explicitly labeled generation prompt.
 - **Why included:** Original creator attribution, explicit FLUX 3 labeling, a distinctive concept from an experienced AI filmmaker, and meaningful engagement in the preserved source snapshot (about 9K views and 63 likes).
+
+### 91. “Snakes on a Plane, but in reverse” concept vignette — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-07
+- **Original post:** [View on X](https://x.com/cfryant/status/2085860627222765641)
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator caption and traceable status link](https://twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly captions the creator-posted video “Snakes on a Plane, but in reverse. FLUX 3”.
+- **Summary:** A compact comedy/action vignette inverts the familiar “Snakes on a Plane” premise, using a one-line high-concept setup as the basis for the generated scene.
+- **Workflow/details:** Creator-posted FLUX 3 video from an experienced AI filmmaker. The verified public source does not disclose duration, exact generation prompt, references, seed, resolution, native-audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible caption is presented as the concept/title, not as an explicitly labeled generation prompt, so no prompt text is inferred.
+- **Why included:** Explicit original-creator FLUX 3 attribution, a traceable original status URL, a concise high-concept premise, and a distinct test of visual-comedy readability and model interpretation from minimal public direction.
 
 ## How updates work
 
