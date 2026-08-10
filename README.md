@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-10 · Entries: 91_
+_Last updated: 2026-08-10 · Entries: 92_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1068,6 +1068,18 @@ _Last updated: 2026-08-10 · Entries: 91_
 - **Workflow/details:** Creator-posted FLUX 3 video from an experienced AI filmmaker. The verified public source does not disclose duration, exact generation prompt, references, seed, resolution, native-audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible caption is presented as the concept/title, not as an explicitly labeled generation prompt, so no prompt text is inferred.
 - **Why included:** Explicit original-creator FLUX 3 attribution, a traceable original status URL, a concise high-concept premise, and a distinct test of visual-comedy readability and model interpretation from minimal public direction.
+
+### 92. Faux 1999 CNN broadcast announcing text-to-video AI — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** 2026-08-09 (based on the first-party profile’s relative timestamp)
+- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose a stable direct status URL.
+- **Verification source:** [Andreessen Horowitz’s first-party Justine Moore profile embedding her original X activity, visible prompt, and attached-media links](https://a16z.com/author/justine-moore/)
+- **Model attribution:** The first-party profile preserves Moore’s FLUX 3 launch post and the adjacent creator prompt addressed to Black Forest Labs, with the prompt itself ending in an on-screen “FLUX 3” reveal.
+- **Summary:** A faux archival 1999 CNN broadcast has an anchor announce that researchers demonstrated AI capable of generating convincing video from text; a second anchor laughs off the claim before the single continuous shot glitches into a FLUX 3 reveal.
+- **Workflow/details:** Prompt-led text-to-video using a 1999 archival-news aesthetic, spoken anchor dialogue, one uninterrupted shot, an intentional screen glitch, and a final model-name typography reveal. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “1999 CNN broadcast that looks archival. Anchor: ‘Today researchers demonstrated an AI that can generate convincing video from text.’” The same visible prompt continues with the second anchor’s reaction, single-take constraint, glitch, and FLUX 3 reveal.
+- **Why included:** Fresh first-party creator evidence with visible prompt text and attached-media links, plus a compact reproducible test of period-specific broadcast grammar, dialogue, comedic timing, continuous-shot control, transition timing, and legible typography.
 
 ## How updates work
 
