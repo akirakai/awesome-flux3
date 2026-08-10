@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-10 · Entries: 92_
+_Last updated: 2026-08-10 · Entries: 93_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1080,6 +1080,18 @@ _Last updated: 2026-08-10 · Entries: 92_
 - **Workflow/details:** Prompt-led text-to-video using a 1999 archival-news aesthetic, spoken anchor dialogue, one uninterrupted shot, an intentional screen glitch, and a final model-name typography reveal. Duration, resolution, seed, reference media, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “1999 CNN broadcast that looks archival. Anchor: ‘Today researchers demonstrated an AI that can generate convincing video from text.’” The same visible prompt continues with the second anchor’s reaction, single-take constraint, glitch, and FLUX 3 reveal.
 - **Why included:** Fresh first-party creator evidence with visible prompt text and attached-media links, plus a compact reproducible test of period-specific broadcast grammar, dialogue, comedic timing, continuous-shot control, transition timing, and legible typography.
+
+### 93. Twenty-second “supercar commercial, but it’s actually grandma” — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** Date not exposed; verified 2026-08-10
+- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the public index did not expose the direct status URL.
+- **Verification source:** [Secondary mirror preserving a retweet of the original creator post, explicit FLUX 3 attribution, 20-second setting, attached-video context, and engagement](https://mobile.twstalker.com/doerstokyo342)
+- **Model attribution:** Fryant explicitly says he received FLUX 3 early access and introduces the attached clip as one of his tests.
+- **Summary:** A full-length generative commercial flips a conventional supercar-ad premise by making the star “actually grandma,” using a compact high-concept setup as a production-oriented FLUX 3 demonstration.
+- **Workflow/details:** Early-access FLUX 3 video; 20-second output. The verified source does not disclose the exact generation prompt, reference media, seed, resolution, native-audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — “A supercar commercial but it’s actually grandma” is presented as the test concept/caption, not explicitly as the generation prompt, so no prompt text is inferred.
+- **Why included:** Explicit original-creator FLUX 3 attribution, verified full-20-second output, substantial engagement in the preserved creator post, and a production-oriented commercial concept from an experienced AI filmmaker.
 
 ## How updates work
 
