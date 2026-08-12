@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-12 · Entries: 97_
+_Last updated: 2026-08-12 · Entries: 98_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1140,6 +1140,17 @@ _Last updated: 2026-08-12 · Entries: 97_
 - **Workflow/details:** Creator-posted FLUX 3 media. The first-party profile preserves the original caption and attached-media link but does not expose duration, exact generation prompt, input references, seed, resolution, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible caption describes the concept but is not explicitly labeled as the generation prompt, so no prompt text is inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution preserved on a first-party profile, attached-media verification, and a distinctive anachronistic scene concept that tests whether historically specific costume and character cues remain readable inside a contemporary context.
+
+### 98. Three five-second realism benchmarks vs. Sora 2 and MiniMax H3 — Timely_Collar1960
+
+- **Creator:** [Timely_Collar1960](https://www.reddit.com/user/Timely_Collar1960/)
+- **Published:** 2026-08-12
+- **Original source:** [Sora 2 vs Flux 3 & MiniMax H3 – Part 2 with Prompts Included](https://www.reddit.com/r/SoraAi/comments/1vlicif/sora_2_vs_flux_3_minimax_h3_part_2_with_prompts/)
+- **Model attribution:** The creator explicitly names Flux 3 in the comparison title, states that the exact same prompt was used for all three models, and separately evaluates the Flux 3 outputs as having fewer errors plus stronger camera motion and fine-detail handling.
+- **Summary:** Three photorealistic everyday-scene benchmarks compare FLUX 3 against Sora 2 and MiniMax H3: a teenage dancer self-recording in a bedroom, a surgeon scrubbing outside an operating theatre, and a woman shopping in an upscale grocery store. The FLUX 3 clips are presented inside a controlled same-prompt comparison rather than as isolated cherry-picked examples.
+- **Workflow/details:** Three test prompts; each model receives the exact same prompt; clips are kept to 5 seconds each. The prompts deliberately specify practical camera grammar and capture aesthetics, including a phone-as-camera bedroom setup, a RED Komodo / 35 mm clinical setup, and handheld documentary grocery-store tracking. The creator also notes that their access path supports video uploads in addition to text-to-video and image-to-video.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt from Test 1: “A teenage girl practises a choreographed dance routine alone in her bedroom at 9pm, phone propped against her mirror recording her.” The complete Test 1, Test 2, and Test 3 prompts are visibly published in the original post; no wording has been inferred from the footage.
+- **Why included:** Fresh primary creator post with attached media, explicit Flux 3 attribution, three visible reproducible prompts, controlled same-prompt methodology, and direct qualitative comparison against two strong competing video models. The creator specifically reports fewer visual errors and more convincing camera motion/details from Flux 3, making the post unusually useful for evaluating photorealism and prompt adherence rather than just showcasing a single aesthetic demo.
 
 ## How updates work
 
