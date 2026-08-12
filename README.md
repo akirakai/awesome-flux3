@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-13 · Entries: 100_
+_Last updated: 2026-08-13 · Entries: 101_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -906,7 +906,7 @@ _Last updated: 2026-08-13 · Entries: 100_
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose the direct status URL.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
 - **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
@@ -1174,6 +1174,18 @@ _Last updated: 2026-08-13 · Entries: 100_
 - **Workflow/details:** Text-to-video from one very short natural-language prompt with no visible shot list, camera directions, or detailed staging. Duration, resolution, seed, reference media, audio settings, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “Medieval peasants encountering an escalator”
 - **Why included:** Newly surfaced creator-attributed FLUX 3 video with an exact highly reusable minimal prompt, roughly three thousand views and 44 likes in the preserved snapshot, and a compact but difficult test of anachronistic world understanding, human reaction, mechanical motion, spatial interaction, and comedic readability from almost no explicit direction.
+
+### 101. Ant-scale Formula 1 racing concept — Blendi
+
+- **Creator:** [Blendi (@BlendiByl)](https://x.com/BlendiByl)
+- **Published:** Date not exposed; verified 2026-08-13
+- **Original source profile:** [Blendi on X](https://x.com/BlendiByl) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public mirror directly preserving the original creator post and its engagement context](https://www.twstalker.com/johnsavage_ai)
+- **Model attribution:** Blendi explicitly calls the attached work “my favorite flux 3 generation yet” and states that the prompt is provided below the creator post.
+- **Summary:** A miniature Formula 1 racing concept built around ants, using a compact surreal premise to test scale, fast motion, racing readability, and physically coherent interaction at macro size.
+- **Workflow/details:** The verified public mirror preserves the creator’s FLUX 3 attribution and the concept label “Ant F1 racing,” but does not expose the full prompt text, duration, resolution, seed, reference media, audio settings, or post-production.
+- **Prompt provenance:** `mentioned_not_in_post` — Blendi explicitly says “Prompt below 👇,” but the prompt text itself is not visible in the accessible verification source, so no wording has been reconstructed or inferred.
+- **Why included:** Fresh original-creator FLUX 3 attribution, roughly four thousand views and 84 likes in the preserved snapshot, the creator’s own “favorite generation yet” quality signal, and a distinctive macro-scale action concept that differs clearly from the already-listed medieval-escalator example.
 
 ## How updates work
 
