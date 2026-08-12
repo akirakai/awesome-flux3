@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-12 · Entries: 99_
+_Last updated: 2026-08-13 · Entries: 100_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1162,6 +1162,18 @@ _Last updated: 2026-08-12 · Entries: 99_
 - **Workflow/details:** Same prompt used for both models. The visible prompt specifies 9:16, 15 seconds, 50 mm medium/waist-up framing for character shots, a final product close-up, time-coded transition beats, strict face/body consistency, no subtitles or music, and synchronized sound directions. The creator separately states that MiniMax H3 used 0.8 MP, no speed LoRA, Spectrum and Sage Attention at 20 steps; the FLUX 3 service’s exact resolution and generation settings are not disclosed, so the creator’s “probably 720p” remark is not treated as verified.
 - **Prompt provenance:** `verbatim_in_post` — “9:16 vertical, 15 seconds, high-saturation commercial style: photo-realistic character on flat graphic animation backgrounds”. The complete time-coded prompt remains visibly published in the original thread.
 - **Why included:** Newly published primary creator post with attached comparison media, explicit Flux 3 Pro attribution, a same-prompt cross-model setup, and an unusually reproducible commercial brief that stress-tests identity across outfit changes, transition choreography, stylized/photoreal compositing, product-text rendering, synchronized effects, and English lip-sync.
+
+### 100. Minimal-prompt medieval peasants meet an escalator — Blendi
+
+- **Creator:** [Blendi (@BlendiByl)](https://x.com/BlendiByl)
+- **Published:** Date not exposed; verified 2026-08-13
+- **Original source profile:** [Blendi on X](https://x.com/BlendiByl) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public mirror directly quoting the original creator post, exact prompt, explicit model attribution, attached-video context, and engagement](https://www.twstalker.com/johnsavage_ai)
+- **Model attribution:** The preserved original creator post explicitly introduces the attached generation with “flux 3 prompt:” before the visible prompt text.
+- **Summary:** Medieval peasants encounter a modern escalator, turning a deliberately tiny anachronistic premise into a visual-comedy and world-model test of period characters reacting to unfamiliar moving infrastructure.
+- **Workflow/details:** Text-to-video from one very short natural-language prompt with no visible shot list, camera directions, or detailed staging. Duration, resolution, seed, reference media, audio settings, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “Medieval peasants encountering an escalator”
+- **Why included:** Newly surfaced creator-attributed FLUX 3 video with an exact highly reusable minimal prompt, roughly three thousand views and 44 likes in the preserved snapshot, and a compact but difficult test of anachronistic world understanding, human reaction, mechanical motion, spatial interaction, and comedic readability from almost no explicit direction.
 
 ## How updates work
 
