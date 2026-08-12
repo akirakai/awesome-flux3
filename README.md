@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-12 · Entries: 98_
+_Last updated: 2026-08-12 · Entries: 99_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1151,6 +1151,17 @@ _Last updated: 2026-08-12 · Entries: 98_
 - **Workflow/details:** Three test prompts; each model receives the exact same prompt; clips are kept to 5 seconds each. The prompts deliberately specify practical camera grammar and capture aesthetics, including a phone-as-camera bedroom setup, a RED Komodo / 35 mm clinical setup, and handheld documentary grocery-store tracking. The creator also notes that their access path supports video uploads in addition to text-to-video and image-to-video.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt from Test 1: “A teenage girl practises a choreographed dance routine alone in her bedroom at 9pm, phone propped against her mirror recording her.” The complete Test 1, Test 2, and Test 3 prompts are visibly published in the original post; no wording has been inferred from the footage.
 - **Why included:** Fresh primary creator post with attached media, explicit Flux 3 attribution, three visible reproducible prompts, controlled same-prompt methodology, and direct qualitative comparison against two strong competing video models. The creator specifically reports fewer visual errors and more convincing camera motion/details from Flux 3, making the post unusually useful for evaluating photorealism and prompt adherence rather than just showcasing a single aesthetic demo.
+
+### 99. Fifteen-second ice-cream commercial benchmark — Reddit creator
+
+- **Creator:** Original poster in [r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/) — the creator username is not exposed by the current public index.
+- **Published:** 2026-08-12
+- **Original source:** [Ice cream ad MiniMax H3 vs Flux 3 Pro](https://www.reddit.com/r/StableDiffusion/comments/1vm775g/ice_cream_ad_minimax_h3_vs_flux_3_pro/)
+- **Model attribution:** The creator explicitly labels one comparison output “Flux 3 pro” and states that the same prompt was used for Flux 3 and MiniMax H3.
+- **Summary:** A vertical 15-second ice-cream commercial keeps one photorealistic young woman recognizable through multiple outfit and setting changes, shifting between flat graphic-animation backgrounds and product-focused realism while using in-frame transitions, product close-ups, synchronized effects, and a final lip-synced line.
+- **Workflow/details:** Same prompt used for both models. The visible prompt specifies 9:16, 15 seconds, 50 mm medium/waist-up framing for character shots, a final product close-up, time-coded transition beats, strict face/body consistency, no subtitles or music, and synchronized sound directions. The creator separately states that MiniMax H3 used 0.8 MP, no speed LoRA, Spectrum and Sage Attention at 20 steps; the FLUX 3 service’s exact resolution and generation settings are not disclosed, so the creator’s “probably 720p” remark is not treated as verified.
+- **Prompt provenance:** `verbatim_in_post` — “9:16 vertical, 15 seconds, high-saturation commercial style: photo-realistic character on flat graphic animation backgrounds”. The complete time-coded prompt remains visibly published in the original thread.
+- **Why included:** Newly published primary creator post with attached comparison media, explicit Flux 3 Pro attribution, a same-prompt cross-model setup, and an unusually reproducible commercial brief that stress-tests identity across outfit changes, transition choreography, stylized/photoreal compositing, product-text rendering, synchronized effects, and English lip-sync.
 
 ## How updates work
 
