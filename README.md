@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-12 · Entries: 96_
+_Last updated: 2026-08-12 · Entries: 97_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1128,6 +1128,18 @@ _Last updated: 2026-08-12 · Entries: 96_
 - **Workflow/details:** Prompt-led text-to-video from a single concise self-referential instruction. No verified duration, resolution, seed, reference media, audio settings, or post-production details are publicly exposed.
 - **Prompt provenance:** `verbatim_in_post` — “a 90s documentary that is a documentary about this exact documentary, the documentary includes clips from itself”
 - **Why included:** Exact reproducible prompt, explicit original-creator FLUX 3 attribution, attached-video context, and strong early engagement in the preserved snapshot (about 6K views and 230 likes). The recursive premise is also a distinctive stress test of period media grammar, self-reference, nested visual continuity, and narrative coherence.
+
+### 97. “Knights in the modern world” anachronistic vignette — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** Date not exposed; verified 2026-08-12
+- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose a stable direct status URL.
+- **Verification source:** [Andreessen Horowitz’s first-party Justine Moore profile embedding her original X activity and attached-media link](https://a16z.com/author/justine-moore/)
+- **Model attribution:** Moore explicitly captions the attached work “Knights in the modern world (made with FLUX 3 😉).”
+- **Summary:** A concise anachronistic concept places medieval knights into a modern-world setting, using the historical-versus-contemporary contrast as the scene’s core visual premise.
+- **Workflow/details:** Creator-posted FLUX 3 media. The first-party profile preserves the original caption and attached-media link but does not expose duration, exact generation prompt, input references, seed, resolution, audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible caption describes the concept but is not explicitly labeled as the generation prompt, so no prompt text is inferred.
+- **Why included:** Fresh original-creator FLUX 3 attribution preserved on a first-party profile, attached-media verification, and a distinctive anachronistic scene concept that tests whether historically specific costume and character cues remain readable inside a contemporary context.
 
 ## How updates work
 
