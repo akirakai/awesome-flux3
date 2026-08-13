@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-13 · Entries: 103_
+_Last updated: 2026-08-13 · Entries: 104_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1211,6 +1211,18 @@ _Last updated: 2026-08-13 · Entries: 103_
 - **Workflow/details:** Side-by-side or paired cross-model benchmark between Flux 3 and Seedance 2.0. The verified public source does not expose the exact shared prompt, duration, resolution, seed, reference media, audio settings, or post-production, so none of those details are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified source.
 - **Why included:** Fresh original-creator Flux 3 attribution, a clearly stated comparison against Seedance 2.0, roughly 4K views in the preserved creator-post snapshot, and a useful style-fidelity benchmark focused on whether a model can reproduce the distinctive texture and pacing of 1990s television rather than merely generate a plausible-looking scene.
+
+### 104. Analog-horror Michael Jackson vignette — Kadeka
+
+- **Creator:** [Kadeka (@Berserkr_777)](https://x.com/Berserkr_777)
+- **Published:** 2026-08-12 (based on the public verification mirrors’ relative timestamps)
+- **Original source profile:** [Kadeka on X](https://x.com/Berserkr_777) — the accessible public indexes did not expose a stable direct status URL.
+- **Verification sources:** [Secondary public mirror preserving a retweet of the original Kadeka post, explicit Flux 3 wording, and engagement](https://mobile.twstalker.com/KeyTryer) · [Independent public mirror preserving the same original creator post](https://twstalker.com/ZachyAshworth)
+- **Model attribution:** Kadeka explicitly says, “Analog Horror Michael Jackson videos were not on my Flux 3 bingo card.”
+- **Summary:** A Michael Jackson-themed analog-horror video uses the degraded, uncanny grammar of found-footage horror rather than polished cinematic imagery, making recognizable celebrity imagery collide with an intentionally unsettling archival-video aesthetic.
+- **Workflow/details:** Creator-posted FLUX 3 video. The verified public mirrors preserve the explicit model attribution and attached-post context but do not expose duration, resolution, seed, reference media, exact prompt, audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible creator caption describes the concept but does not present generation prompt text, so no prompt has been reconstructed or inferred.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, clear identification as a video, roughly 3K–5K views and 44–70 likes across preserved snapshots, and a distinctive analog-horror style test that differs materially from Kadeka’s existing VHS-to-IMAX camera-format experiment.
 
 ## How updates work
 
