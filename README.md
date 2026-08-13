@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-13 · Entries: 104_
+_Last updated: 2026-08-13 · Entries: 105_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1223,6 +1223,19 @@ _Last updated: 2026-08-13 · Entries: 104_
 - **Workflow/details:** Creator-posted FLUX 3 video. The verified public mirrors preserve the explicit model attribution and attached-post context but do not expose duration, resolution, seed, reference media, exact prompt, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible creator caption describes the concept but does not present generation prompt text, so no prompt has been reconstructed or inferred.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, clear identification as a video, roughly 3K–5K views and 44–70 likes across preserved snapshots, and a distinctive analog-horror style test that differs materially from Kadeka’s existing VHS-to-IMAX camera-format experiment.
+
+
+### 105. Twenty-second Japanese fantasy creature-selection sequence — Pablo Prompt
+
+- **Creator:** [Pablo Prompt (@pabloprompt)](https://x.com/pabloprompt)
+- **Published:** Date not exposed; verified 2026-08-13
+- **Original source profile:** [Pablo Prompt on X](https://x.com/pabloprompt) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving Pablo Prompt’s original FLUX 3 wording, attached-video context, full prompt, and engagement](https://www.twstalker.com/pabloprompt)
+- **Model attribution:** Pablo explicitly says this is one of his first videos created with FLUX 3 after receiving early access, then posts the generation prompt directly beneath it.
+- **Summary:** A live-action Japanese coming-of-age fantasy sequence follows a 15-year-old arriving late at a hilltop research laboratory, choosing one of three metallic spheres, and releasing a small ember-marked fox-like creature, with Japanese dialogue and a warm cinematic visual language across the full clip.
+- **Workflow/details:** Text-to-video; exactly 20 seconds; nine time-coded beats from 0–20s; live-action 35mm-grain look with warm amber/soft-teal grading; clean multi-angle cuts; diegetic sound only; Japanese dialogue with explicit lip-sync direction; detailed continuity specifications for the teenager, professor, three identical devices, and creature; negative constraints prohibit text, subtitles, logos, anime styling, and a CGI look.
+- **Prompt provenance:** `verbatim_in_post` — “Cinematic live-action Japanese coming-of-age fantasy film. Modern hilltop research laboratory, warm morning sunlight through large windows, shallow depth of field, 35mm grain, warm amber and soft teal grading, clean cuts between angles, diegetic sound only. Exactly 20 seconds. TEENAGER: 15-year-old Japanese boy, messy black hair, worn red baseball cap with black brim, light blue baseball jersey over a black T-shirt, jeans, green backpack. PROFESSOR: Japanese man in his mid-60s, gray hair, white lab coat over a red polo shirt. DEVICES: Three identical tennis-ball-sized metallic spheres, glossy royal-blue top half with a yellow stripe, white bottom half, white central button. CREATURE: A cat-sized fox-like quadruped, burnt ginger-orange fur, cream white muzzle and belly, dark paws, copper-amber eyes, two tiny black horn nubs, glowing ember cracks on its shoulders and a big bushy crimson tail burning like a living flame. Real fur always visible, never a body made of fire. 0-2s: [Wide Tracking] He sprints up a gravel path to the laboratory, breathless, dust rising. 2-4s: [Interior Medium] The door slides open, he stumbles in, bows and gasps in Japanese: \"すみません！遅れました！\" 4-6s: [Reverse Medium] The professor turns from his workbench, smiles and says in Japanese: \"やっと来たな。さあ、選びなさい。\" 6-8s: [Slow Push-In] He pulls a white cloth off a metal pedestal revealing exactly three identical spheres. Insert on the boy's wide eyes. 8-11s: [Over-the-Shoulder] He steps closer, hand hovering hesitantly over each sphere, then looks back at the professor, who nods. 11-12.5s: [Close-Up] He grabs one, lifts it to eye level and whispers in Japanese: \"決めた。\" Two spheres remain behind him. 12.5-14s: [Low Angle] He throws it at the polished floor, it spins, bounces with a metallic sound and rests intact without breaking. 14-16s: [Floor-Level Close-Up] The button pulses gold, the seam parts and a compact spiral of golden-orange energy and embers rises above it. 16-18s: [Low-Angle Reveal] The energy condenses into the creature, fur forming beneath the fading sparks. It lands on all fours and shakes off a cloud of embers. 18-20s: [Intimate Close-Up] It looks up, tilts its head and chirps. He crouches grinning and says in Japanese: \"よろしくな。\" It presses its head into his palm, tail swaying, embers drifting. Photorealistic skin and fur detail, accurate Japanese lip sync, seamless continuity and identical character design across every cut, no text, no subtitles, no logos, no anime style, no CGI look.”
+- **Why included:** Fresh original-creator FLUX 3 attribution with substantial early engagement, an exact full prompt, and unusually dense reproducible direction. The single generation stress-tests nine-shot continuity, object counts and persistence, Japanese speech/lip sync, human interaction, transformation effects, creature identity, fur/fire separation, sound, and cinematic editing over a full 20 seconds.
 
 ## How updates work
 
