@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-13 · Entries: 101_
+_Last updated: 2026-08-13 · Entries: 103_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1186,6 +1186,31 @@ _Last updated: 2026-08-13 · Entries: 101_
 - **Workflow/details:** The verified public mirror preserves the creator’s FLUX 3 attribution and the concept label “Ant F1 racing,” but does not expose the full prompt text, duration, resolution, seed, reference media, audio settings, or post-production.
 - **Prompt provenance:** `mentioned_not_in_post` — Blendi explicitly says “Prompt below 👇,” but the prompt text itself is not visible in the accessible verification source, so no wording has been reconstructed or inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution, roughly four thousand views and 84 likes in the preserved snapshot, the creator’s own “favorite generation yet” quality signal, and a distinctive macro-scale action concept that differs clearly from the already-listed medieval-escalator example.
+
+
+### 102. Believable TikTok/Reels-style short-form realism — DΞV
+
+- **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
+- **Published:** Date not exposed; verified 2026-08-13
+- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public mirror directly quoting the original creator post, explicit FLUX 3 attribution, short-form-video wording, and engagement](https://www.twstalker.com/johnsavage_ai)
+- **Model attribution:** DΞV explicitly says FLUX 3 is good at creating TikTok- and Reels-style videos and describes the results as very believable.
+- **Summary:** A creator-posted short-form social-video realism test targets the feed-native visual grammar of TikTok and Instagram Reels rather than polished cinematic footage, emphasizing everyday authenticity and the kind of natural capture style viewers associate with real social posts.
+- **Workflow/details:** Creator-posted FLUX 3 short-form video generation. The verified public source does not expose duration, resolution, seed, reference inputs, exact prompt, audio instructions, or post-production.
+- **Prompt provenance:** `not_provided` — the visible creator caption describes the target format and perceived realism but does not present generation prompt text.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, a clearly identified short-form-video use case, and a realism target distinct from the cinematic and documentary examples already curated. The preserved snapshot shows roughly 2K views and 39 likes, while the secondary verifier independently characterizes the result as not looking AI-generated.
+
+### 103. Authentic 1990s soap-opera benchmark vs. Seedance 2.0 — Vlad Dubchak
+
+- **Creator:** [Vlad Dubchak (@vladdubchak_x)](https://x.com/vladdubchak_x)
+- **Published:** Date not exposed; verified 2026-08-13
+- **Original source profile:** [Vlad Dubchak on X](https://x.com/vladdubchak_x) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary public mirror directly quoting the original creator comparison, explicit Flux 3 attribution, video-style target, and engagement](https://www.twstalker.com/johnsavage_ai)
+- **Model attribution:** Dubchak explicitly frames the attached work as another “Flux 3 vs Seedance 2.0” round and evaluates which model can reproduce an authentic 1990s soap-opera style.
+- **Summary:** A direct cross-model video comparison asks FLUX 3 and Seedance 2.0 to reproduce the recognizable look and media grammar of a 1990s soap opera, using period-style authenticity rather than generic cinematic polish as the differentiator.
+- **Workflow/details:** Side-by-side or paired cross-model benchmark between Flux 3 and Seedance 2.0. The verified public source does not expose the exact shared prompt, duration, resolution, seed, reference media, audio settings, or post-production, so none of those details are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified source.
+- **Why included:** Fresh original-creator Flux 3 attribution, a clearly stated comparison against Seedance 2.0, roughly 4K views in the preserved creator-post snapshot, and a useful style-fidelity benchmark focused on whether a model can reproduce the distinctive texture and pacing of 1990s television rather than merely generate a plausible-looking scene.
 
 ## How updates work
 
