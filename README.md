@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-14 · Entries: 106_
+_Last updated: 2026-08-14 · Entries: 107_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1248,6 +1248,34 @@ _Last updated: 2026-08-14 · Entries: 106_
 - **Workflow/details:** Prompt-led FLUX 3 generation from a short meta-narrative instruction. Fryant notes that a more advanced version of the prompt is available only to subscribers; that paywalled text was not accessed, copied, or reconstructed. Duration, resolution, seed, reference media, audio instructions, and post-production are not publicly disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “Video that looks like it's really going somewhere but then ends up wasting everyone's time.” This is the publicly visible base prompt; the separately mentioned subscriber-only advanced version is intentionally excluded.
 - **Why included:** Explicit original-creator FLUX 3 attribution, a publicly visible reusable prompt, attached-video context, and strong engagement in the preserved snapshot (about 20K views and 79 likes). More importantly, it is a distinctive test of high-level narrative intent: pacing, expectation-setting, apparent story progression, and an intentional anti-climactic payoff from one compact instruction.
+
+### 107. Rain-soaked Chinese alley relationship drama — Practical_Low29
+
+- **Creator:** [Practical_Low29](https://www.reddit.com/user/Practical_Low29/)
+- **Published:** 2026-08-13
+- **Original source:** [Reddit creator post with attached FLUX 3 video and full prompt](https://www.reddit.com/r/FluxAI/comments/1vn4z31/first_flux_3_test_surprisingly_realistic/)
+- **Model attribution:** The original creator explicitly titles the post “First Flux 3 test, surprisingly realistic” and states that this was their first Flux 3 test.
+- **Summary:** A restrained late-night relationship argument unfolds in a rain-wet Chinese residential alley across three hard-cut beats: a woman walks away from a man, confronts him outside a noodle shop, then ends the exchange after a long silence while an electric scooter passes behind them.
+- **Workflow/details:** One 20-second text-to-video prompt with three explicitly staged hard cuts. The prompt specifies Mandarin dialogue, a handheld follow shot for beat one, an eye-level 50 mm two-shot for beat two, a static wide shot for beat three, practical wet-street reflections, restrained acting and facial emotion, and diegetic ambience only—footsteps, extractor fan, distant traffic, scooter and breathing—with no music, subtitles, or on-screen text. The creator reports that FLUX 3 handled wet pavement, night lighting, awkward pauses, subtle expressions, and overall realism especially well, while judging fight choreography and flashy effects weaker than Seedance 2.0.
+- **Prompt provenance:** `verbatim_in_post` — the complete prompt is visibly published in the original creator post:
+
+> A 20-second scene in a narrow residential alley in a Chinese city late at night, in three hard-cut beats. The ground is still wet from rain and reflects the warm yellow lightbox of a small noodle shop.
+>
+> A young Chinese woman walks quickly away from the camera with her arms crossed. A young Chinese man catches up beside her and says quietly in Mandarin: “你能不能别走这么快。” She doesn’t answer.
+>
+> HARD CUT.
+>
+> She stops and turns to face him, speaking quietly so the neighbors won’t hear: “你根本就没听我说话。” He starts to reach for her arm but stops halfway. “……我听了。” She looks at him and asks: “那你说我刚才说什么了。”
+>
+> HARD CUT.
+>
+> He says nothing. Three full seconds of silence. Her eyes turn red, but no tears fall. She looks away, exhales, and says quietly: “算了。” Neither of them moves as an electric scooter passes behind them.
+>
+> Camera: handheld follow shot for the first beat, an eye-level 50mm two-shot for the second, and a static wide shot from the far end of the alley for the third.
+>
+> Audio: quiet tired voices, footsteps on wet pavement, the noodle shop’s extractor fan, distant traffic, a passing electric scooter, and his slightly heavy breathing. No music, no subtitles, no on-screen text.
+
+- **Why included:** Newly published primary creator post with attached video, explicit Flux 3 attribution, and a fully reproducible prompt. It is a high-signal realism test because the difficulty comes from understated performance rather than spectacle: multilingual dialogue, three-shot continuity, subtle facial acting, held silence, interrupted physical gesture, environmental reflections, background traffic causality, and tightly specified native audio all have to remain coherent across a full 20-second scene.
 
 ## How updates work
 
