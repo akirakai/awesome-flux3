@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-14 · Entries: 107_
+_Last updated: 2026-08-14 · Entries: 108_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1276,6 +1276,18 @@ _Last updated: 2026-08-14 · Entries: 107_
 > Audio: quiet tired voices, footsteps on wet pavement, the noodle shop’s extractor fan, distant traffic, a passing electric scooter, and his slightly heavy breathing. No music, no subtitles, no on-screen text.
 
 - **Why included:** Newly published primary creator post with attached video, explicit Flux 3 attribution, and a fully reproducible prompt. It is a high-signal realism test because the difficulty comes from understated performance rather than spectacle: multilingual dialogue, three-shot continuity, subtle facial acting, held silence, interrupted physical gesture, environmental reflections, background traffic causality, and tightly specified native audio all have to remain coherent across a full 20-second scene.
+
+### 108. Multi-character color-coded destination steering — FossyCat
+
+- **Creator:** [FossyCat (@FossyCatAI)](https://x.com/FossyCatAI)
+- **Published:** Date not exposed; verified 2026-08-14
+- **Original source profile:** [FossyCat on X](https://x.com/FossyCatAI) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording and attached-media test](https://www.twstalker.com/FossyCatAI)
+- **Model attribution:** FossyCat explicitly introduces the result with “More Flux 3 testing.”
+- **Summary:** A multi-character motion-control test guides separate characters toward predetermined destinations while trying to prevent either character from drifting away from its assigned target.
+- **Workflow/details:** The creator says the prompt assigns each character to a color-coded space, using those visually distinct destination regions as control anchors. The public source does not expose duration, resolution, seed, reference media, exact prompt text, audio settings, or post-production.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explains the prompt strategy (“prompt guides each character to color-coded space”) but does not publish the exact generation prompt, so no wording has been reconstructed or inferred.
+- **Why included:** Fresh explicit original-creator Flux 3 attribution and a highly reusable spatial-control idea. The test targets independent multi-character trajectory adherence, destination binding, identity separation, and drift prevention rather than generic aesthetics, making it a useful technical benchmark for choreographing several subjects in one generation.
 
 ## How updates work
 
