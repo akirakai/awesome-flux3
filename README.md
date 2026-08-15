@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-15 · Entries: 110_
+_Last updated: 2026-08-15 · Entries: 114_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1310,6 +1310,50 @@ _Last updated: 2026-08-15 · Entries: 110_
 - **Workflow/details:** Single text-to-video API call; 10-second duration; 1280×704; exact `positivePrompt` visibly published in both prose and request code. Runware states the clip above came from that single call; the model returns an MP4 with synchronized audio, and audio is enabled by default in this workflow. No reference media or post-production are disclosed for the hero example.
 - **Prompt provenance:** `verbatim_in_post` — “An unbroken continuous 10-second shot inside a small independent bookshop on a rainy autumn afternoon in Amsterdam. Warm interior lighting from dim brass sconces…” The complete prompt remains visible in the source.
 - **Why included:** A first-party generation-platform guide pairs an embedded FLUX 3 output with the exact model ID, request dimensions, duration, and visible prompt. It is unusually reproducible and simultaneously tests directed hold-then-pan camera motion, subtle event-timed animal behavior, interior realism, and synchronized multi-layer ambience.
+
+### 111. Formula-car finish-line continuation with victory salute — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-08-04 (date shown on the Runware FLUX 3 model guide)
+- **Original source:** [Runware FLUX 3 video-continuation guide with generated continuation and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/video-continuation)
+- **Model attribution:** Runware identifies the page as Black Forest Labs’ FLUX 3 Video and the request code uses model ID `bfl:flux@3-video`.
+- **Summary:** A red Formula-style car crosses the finish line at full speed; the generated continuation opens on that terminal frame, decelerates toward the paddock, and has the driver raise a gloved victory salute while the engine and crowd audio evolve with the action.
+- **Workflow/details:** Video-to-video continuation through `inputs.video`; one source clip; 8-second continuation at 720p; native audio. The source’s final frames anchor the car identity, track, camera position, lighting, subject state, and ambient audio while the prompt directs the new action.
+- **Prompt provenance:** `verbatim_in_post` — “Continue the reference video from its final frames. The racing car decelerates smoothly over the next three seconds…” The complete prompt remains visible in the source.
+- **Why included:** First-party generated-video evidence with a visible source clip, exact model ID, prompt, reference count, duration, and resolution; it is a demanding benchmark of temporal, visual, physical, and audio continuity across a video-to-video boundary.
+
+### 112. First-frame chef-knife and lime animation — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-08-04 (date shown on the Runware FLUX 3 model guide)
+- **Original source:** [Runware FLUX 3 keyframes guide with source image, generated video, and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/keyframes)
+- **Model attribution:** Runware identifies the guide as Black Forest Labs’ FLUX 3 Video; the exact request uses model ID `bfl:flux@3-video`.
+- **Summary:** A product-packshot image of a walnut-handled Damascus chef’s knife becomes an 8-second video in which a hand picks up the knife and slices a lime while preserving the source composition and warm product lighting.
+- **Workflow/details:** One image reference pinned to `frameImages[0].frame = "first"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
+- **Prompt provenance:** `verbatim_in_post` — “Use this image as the first frame. An 8-second clip: the camera holds locked on the knife for a beat…” The complete prompt remains visible in the source.
+- **Why included:** First-party embedded source/output pairing with exact reference placement, model ID, duration, resolution, and prompt; it cleanly tests first-frame fidelity, hand-object interaction, product-material continuity, motion onset, and synchronized foley.
+
+### 113. Home-podcast lip-sync with layered native ambience — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-08-04 (date shown on the Runware FLUX 3 model guide)
+- **Original source:** [Runware FLUX 3 audio-and-speech guide with generated clip and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/audio-and-speech)
+- **Model attribution:** Runware identifies the page as Black Forest Labs’ FLUX 3 Video and the exact request uses model ID `bfl:flux@3-video`.
+- **Summary:** A woman in a home podcast studio delivers a quoted line directly into a brass microphone while FLUX 3 synchronizes her mouth to the words and layers room tone, laptop-fan hum, and distant traffic into the same generated MP4.
+- **Workflow/details:** One text-to-video request; 8 seconds; 704×1280. Audio is generated in the same request and enabled by default; the visible-speaker-plus-quoted-line pattern is used for lip-sync, with explicit no-music, no-text, and no-subtitles constraints.
+- **Prompt provenance:** `verbatim_in_post` — “An 8-second interior shot in a home podcast studio. A woman in her late twenties with a warm auburn bob…” The complete prompt remains visible in the source.
+- **Why included:** First-party embedded result with exact model ID, dimensions, duration, dialogue pattern, and audio design; it is a reproducible test of speech generation, lip-sync, portrait framing, and multiple spatial ambience layers without a post-hoc audio pass.
+
+### 114. Three-cut boutique coffee commercial with continuous music bed — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-08-04 (date shown on the Runware FLUX 3 model guide)
+- **Original source:** [Runware FLUX 3 multi-shot-sequences guide with generated clip and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/multi-shot-sequences)
+- **Model attribution:** Runware identifies the page as Black Forest Labs’ FLUX 3 Video and the exact generation request uses model ID `bfl:flux@3-video`.
+- **Summary:** A 15-second coffee-brand spot makes two real hard cuts—from roasting beans, to a Chemex pour, to an overhead finished cup—while a warm indie-folk guitar bed persists across all three shots and the diegetic ambience changes with each scene.
+- **Workflow/details:** Single `videoInference` call; 15 seconds; 1440×608; three shots defined entirely inside `positivePrompt` with `HARD CUT` tokens; one continuous music bed plus shot-specific ambient sound. No external clip stitching is used for the demonstrated sequence.
+- **Prompt provenance:** `verbatim_in_post` — “A 15-second boutique coffee brand spot with three real cuts. SHOT ONE: extreme close-up of dark specialty coffee beans cascading…” The complete prompt remains visible in the source.
+- **Why included:** First-party generated-video evidence with exact model ID, dimensions, duration, shot grammar, and prompt; it is a strong production benchmark for native multi-shot editing, visual contrast between setups, audio continuity, and commercial pacing within one generation.
 
 ## How updates work
 
