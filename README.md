@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-14 · Entries: 109_
+_Last updated: 2026-08-15 · Entries: 110_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1299,6 +1299,17 @@ _Last updated: 2026-08-14 · Entries: 109_
 - **Workflow/details:** The creator used MiniMax H3’s official ComfyUI image-to-video workflow for the comparison side and generated the Flux 3 side on Black Forest Labs’ official page with all default settings. The visible prompt coordinates tactile hand-to-metal contact, servo-driven neck motion, eye contact, a camera push-in, fire directed at the camera, and diegetic mechanical, breathing, roar, and flame audio with no music.
 - **Prompt provenance:** `verbatim_in_post` — “The woman raises her left hand and reaches out toward the dragon's neck, fingertips making contact with the cool metal scales”. The complete prompt remains visible in the original Reddit post.
 - **Why included:** Newly published primary creator post with attached comparison video, explicit Flux 3 attribution, a visible reproducible prompt, verified use of the official BFL interface and defaults, and a demanding combination of human-creature interaction, scale, articulated mechanical motion, gaze, fire physics, camera timing, and synchronized diegetic audio.
+
+### 110. Amsterdam bookshop cat with layered native audio — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-08-04 (date shown on the Runware FLUX 3 model guide)
+- **Original source:** [Runware FLUX 3 prompting guide with embedded generated clip and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/prompting)
+- **Model attribution:** Runware explicitly identifies the page as Black Forest Labs’ FLUX 3 Video and the exact generation request uses model ID `bfl:flux@3-video`.
+- **Summary:** A continuous rainy-afternoon shot begins on an empty Amsterdam bookshop, pans across the shelves, and settles on a tabby cat; a distant thunder roll coincides with the cat’s ear twitch while room tone, a wall clock, rain, and thunder form layered native audio.
+- **Workflow/details:** Single text-to-video API call; 10-second duration; 1280×704; exact `positivePrompt` visibly published in both prose and request code. Runware states the clip above came from that single call; the model returns an MP4 with synchronized audio, and audio is enabled by default in this workflow. No reference media or post-production are disclosed for the hero example.
+- **Prompt provenance:** `verbatim_in_post` — “An unbroken continuous 10-second shot inside a small independent bookshop on a rainy autumn afternoon in Amsterdam. Warm interior lighting from dim brass sconces…” The complete prompt remains visible in the source.
+- **Why included:** A first-party generation-platform guide pairs an embedded FLUX 3 output with the exact model ID, request dimensions, duration, and visible prompt. It is unusually reproducible and simultaneously tests directed hold-then-pan camera motion, subtle event-timed animal behavior, interior realism, and synchronized multi-layer ambience.
 
 ## How updates work
 
