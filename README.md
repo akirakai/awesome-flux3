@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-15 · Entries: 114_
+_Last updated: 2026-08-16 · Entries: 115_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -576,7 +576,7 @@ _Last updated: 2026-08-15 · Entries: 114_
 
 - **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
 - **Published:** 2026-07-30 (based on the verification page’s relative timestamp)
-- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose the direct status URL.
+- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Official Andreessen Horowitz creator profile embedding the original X post and attached-video link](https://a16z.com/author/justine-moore/)
 - **Model attribution:** Moore explicitly says she has started making AI horror-movie trailers with Flux 3 and identifies the attached trailer as “Contaminated.”
 - **Summary:** A concept-driven AI horror trailer titled “Contaminated,” presented as the first visible installment in an ongoing FLUX 3 trailer series.
@@ -764,7 +764,7 @@ _Last updated: 2026-08-15 · Entries: 114_
 
 - **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
 - **Published:** 2026-08-02 (based on the secondary verification source’s relative timestamp)
-- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose the direct status URL.
+- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile preserving the original creator wording and video context](https://site.twstalker.com/robrombach)
 - **Model attribution:** The creator explicitly states that FLUX 3 generated the mixed-language scene.
 - **Summary:** One conversational scene moves among English, Japanese, and Javanese while also rendering subtitles, testing speech, language switching, and on-screen text together.
@@ -906,7 +906,7 @@ _Last updated: 2026-08-15 · Entries: 114_
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose a stable direct status URL.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
 - **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
@@ -1187,7 +1187,6 @@ _Last updated: 2026-08-15 · Entries: 114_
 - **Prompt provenance:** `mentioned_not_in_post` — Blendi explicitly says “Prompt below 👇,” but the prompt text itself is not visible in the accessible verification source, so no wording has been reconstructed or inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution, roughly four thousand views and 84 likes in the preserved snapshot, the creator’s own “favorite generation yet” quality signal, and a distinctive macro-scale action concept that differs clearly from the already-listed medieval-escalator example.
 
-
 ### 102. Believable TikTok/Reels-style short-form realism — DΞV
 
 - **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
@@ -1223,7 +1222,6 @@ _Last updated: 2026-08-15 · Entries: 114_
 - **Workflow/details:** Creator-posted FLUX 3 video. The verified public mirrors preserve the explicit model attribution and attached-post context but do not expose duration, resolution, seed, reference media, exact prompt, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible creator caption describes the concept but does not present generation prompt text, so no prompt has been reconstructed or inferred.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, clear identification as a video, roughly 3K–5K views and 44–70 likes across preserved snapshots, and a distinctive analog-horror style test that differs materially from Kadeka’s existing VHS-to-IMAX camera-format experiment.
-
 
 ### 105. Twenty-second Japanese fantasy creature-selection sequence — Pablo Prompt
 
@@ -1354,6 +1352,18 @@ _Last updated: 2026-08-15 · Entries: 114_
 - **Workflow/details:** Single `videoInference` call; 15 seconds; 1440×608; three shots defined entirely inside `positivePrompt` with `HARD CUT` tokens; one continuous music bed plus shot-specific ambient sound. No external clip stitching is used for the demonstrated sequence.
 - **Prompt provenance:** `verbatim_in_post` — “A 15-second boutique coffee brand spot with three real cuts. SHOT ONE: extreme close-up of dark specialty coffee beans cascading…” The complete prompt remains visible in the source.
 - **Why included:** First-party generated-video evidence with exact model ID, dimensions, duration, shot grammar, and prompt; it is a strong production benchmark for native multi-shot editing, visual contrast between setups, audio continuity, and commercial pacing within one generation.
+
+### 115. Synchronized living-room robot-vacuum comedy from two natural cameras — Umesh
+
+- **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+- **Published:** Date not exposed; verified 2026-08-16
+- **Original source profile:** [Umesh on X](https://x.com/umesh_ai) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror directly preserving Umesh’s original FLUX 3 wording, full prompt, attached-video context, and engagement](https://mobile.twstalker.com/umesh_ai)
+- **Model attribution:** Umesh explicitly introduces the attached generation with “Prompt on Flux 3”.
+- **Summary:** A harmless living-room comedy is shown simultaneously from a wide corner view and a closer opposite-side camera as a person sits with popcorn, accidentally activates a robot vacuum, lifts their feet, watches the vacuum push a slipper, and reacts while a curious cat follows the moving object and jumps onto the sofa.
+- **Workflow/details:** Two synchronized natural-camera views rather than CCTV styling. The prompt fixes the left camera wide enough to preserve the room layout and the right camera close enough for facial expressions and props, anchors the triggering action at the 2-second mark, and requires identical person, cat, vacuum, popcorn, slipper, furniture, movement, lighting, and reactions across both perspectives. Cameras stay steady with realistic home-video quality, warm indoor light, natural movement, no cuts, and no dramatic effects.
+- **Prompt provenance:** `verbatim_in_post` — “Two-shot split-screen showing the same harmless, funny incident in a cozy house living room. Both shots happen at the same time from different perspectives, like two cameras recording the scene naturally. Do not use CCTV styling, timestamps, security overlays, or distorted footage.” The complete prompt remains visible in the verification source.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, an attached video, the full reproducible prompt, and meaningful early engagement (roughly 3K views and 58 likes in the preserved snapshot). Technically, it is a strong same-event consistency benchmark because two visually different but synchronized cameras must preserve identity, object positions, small prop motion, human reaction timing, animal behavior, and causal sequencing without relying on CCTV artifacts.
 
 ## How updates work
 
