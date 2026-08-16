@@ -576,7 +576,7 @@ _Last updated: 2026-08-16 · Entries: 115_
 
 - **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
 - **Published:** 2026-07-30 (based on the verification page’s relative timestamp)
-- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose a stable direct status URL.
+- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the public index did not expose the direct status URL.
 - **Verification source:** [Official Andreessen Horowitz creator profile embedding the original X post and attached-video link](https://a16z.com/author/justine-moore/)
 - **Model attribution:** Moore explicitly says she has started making AI horror-movie trailers with Flux 3 and identifies the attached trailer as “Contaminated.”
 - **Summary:** A concept-driven AI horror trailer titled “Contaminated,” presented as the first visible installment in an ongoing FLUX 3 trailer series.
@@ -764,7 +764,7 @@ _Last updated: 2026-08-16 · Entries: 115_
 
 - **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
 - **Published:** 2026-08-02 (based on the secondary verification source’s relative timestamp)
-- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose a stable direct status URL.
+- **Original source profile:** [DΞV on X](https://x.com/junwatu) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary mirror on Black Forest Labs co-founder Robin Rombach’s profile preserving the original creator wording and video context](https://site.twstalker.com/robrombach)
 - **Model attribution:** The creator explicitly states that FLUX 3 generated the mixed-language scene.
 - **Summary:** One conversational scene moves among English, Japanese, and Javanese while also rendering subtitles, testing speech, language switching, and on-screen text together.
@@ -906,7 +906,7 @@ _Last updated: 2026-08-16 · Entries: 115_
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
 - **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
@@ -1187,6 +1187,7 @@ _Last updated: 2026-08-16 · Entries: 115_
 - **Prompt provenance:** `mentioned_not_in_post` — Blendi explicitly says “Prompt below 👇,” but the prompt text itself is not visible in the accessible verification source, so no wording has been reconstructed or inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution, roughly four thousand views and 84 likes in the preserved snapshot, the creator’s own “favorite generation yet” quality signal, and a distinctive macro-scale action concept that differs clearly from the already-listed medieval-escalator example.
 
+
 ### 102. Believable TikTok/Reels-style short-form realism — DΞV
 
 - **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
@@ -1222,6 +1223,7 @@ _Last updated: 2026-08-16 · Entries: 115_
 - **Workflow/details:** Creator-posted FLUX 3 video. The verified public mirrors preserve the explicit model attribution and attached-post context but do not expose duration, resolution, seed, reference media, exact prompt, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible creator caption describes the concept but does not present generation prompt text, so no prompt has been reconstructed or inferred.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, clear identification as a video, roughly 3K–5K views and 44–70 likes across preserved snapshots, and a distinctive analog-horror style test that differs materially from Kadeka’s existing VHS-to-IMAX camera-format experiment.
+
 
 ### 105. Twenty-second Japanese fantasy creature-selection sequence — Pablo Prompt
 
