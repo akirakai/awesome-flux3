@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-17 · Entries: 116_
+_Last updated: 2026-08-17 · Entries: 117_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1377,6 +1377,17 @@ _Last updated: 2026-08-17 · Entries: 116_
 - **Workflow/details:** Officially supports text-to-video, image-to-video with multiple keyframes, video continuation, and native audio with lip-sync, effects, and ambience. Outputs run up to 20 seconds at native 1080p. Draft mode generates a fast lower-cost preview; an approved draft can be sent back for a full-quality render of the same video. The model is available through the API and partner tools; 2K, 4K, and open weights are announced as upcoming.
 - **Prompt provenance:** `not_provided` — the general-availability showcase does not expose clip-level generation prompts, so none are inferred from the reel.
 - **Why included:** Definitive first-party release video from the model maker, newly published after the early-access phase, with broad stylistic coverage, concrete production settings and workflow details, and a strong public quality signal.
+
+### 117. 1990s “Override” hacker-gameshow benchmark vs. MiniMax H3 and Seedance 2.5 — Georg Neumann
+
+- **Creator:** Georg Neumann
+- **Published:** Date not exposed; verified 2026-08-17 (the public LinkedIn page shows a relative one-week timestamp).
+- **Original source:** [Georg Neumann’s public LinkedIn post with the attached three-model comparison video](https://de.linkedin.com/posts/georg-neumann_flux-3-minimax-h3-und-seedance-25-in-einer-activity-7490640245982494720-SCv6)
+- **Model attribution:** Neumann explicitly says the attached video compares FLUX 3, MiniMax H3, and Seedance 2.5, and states that the FLUX 3 version was generated through the Black Forest Labs Playground.
+- **Summary:** A retro 1990s hacker gameshow concept called “Override,” inspired by the film *Hackers*, is rendered across three current video models, with a German-speaking host and period-style television presentation providing a practical side-by-side benchmark.
+- **Workflow/details:** FLUX 3 was generated through the Black Forest Labs Playground; Seedance 2.5 through CapCut/Dreamina; and MiniMax H3 locally on an RTX 6000 Ada with 48 GB VRAM, where Neumann reports roughly 96 minutes for the H3 render. The public page includes a transcript of the German host dialogue. No verified FLUX 3 duration, resolution, seed, reference inputs, or post-production settings are disclosed.
+- **Prompt provenance:** `not_provided` — the creator explains the “Override” concept and the model-specific generation paths, but does not publish the exact FLUX 3 generation prompt, so none has been reconstructed or inferred.
+- **Why included:** Primary creator source with an attached comparison video, explicit FLUX 3 attribution, concrete generation-tool details, and a high-signal cross-model test of German speech, retro broadcast styling, presenter performance, and audiovisual coherence. It is especially useful because the same creative concept is shown across three newly released systems rather than as an isolated showcase clip.
 
 ## How updates work
 
