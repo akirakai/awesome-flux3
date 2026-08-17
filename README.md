@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-17 · Entries: 117_
+_Last updated: 2026-08-18 · Entries: 118_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1187,7 +1187,6 @@ _Last updated: 2026-08-17 · Entries: 117_
 - **Prompt provenance:** `mentioned_not_in_post` — Blendi explicitly says “Prompt below 👇,” but the prompt text itself is not visible in the accessible verification source, so no wording has been reconstructed or inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution, roughly four thousand views and 84 likes in the preserved snapshot, the creator’s own “favorite generation yet” quality signal, and a distinctive macro-scale action concept that differs clearly from the already-listed medieval-escalator example.
 
-
 ### 102. Believable TikTok/Reels-style short-form realism — DΞV
 
 - **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
@@ -1223,7 +1222,6 @@ _Last updated: 2026-08-17 · Entries: 117_
 - **Workflow/details:** Creator-posted FLUX 3 video. The verified public mirrors preserve the explicit model attribution and attached-post context but do not expose duration, resolution, seed, reference media, exact prompt, audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible creator caption describes the concept but does not present generation prompt text, so no prompt has been reconstructed or inferred.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, clear identification as a video, roughly 3K–5K views and 44–70 likes across preserved snapshots, and a distinctive analog-horror style test that differs materially from Kadeka’s existing VHS-to-IMAX camera-format experiment.
-
 
 ### 105. Twenty-second Japanese fantasy creature-selection sequence — Pablo Prompt
 
@@ -1388,6 +1386,18 @@ _Last updated: 2026-08-17 · Entries: 117_
 - **Workflow/details:** FLUX 3 was generated through the Black Forest Labs Playground; Seedance 2.5 through CapCut/Dreamina; and MiniMax H3 locally on an RTX 6000 Ada with 48 GB VRAM, where Neumann reports roughly 96 minutes for the H3 render. The public page includes a transcript of the German host dialogue. No verified FLUX 3 duration, resolution, seed, reference inputs, or post-production settings are disclosed.
 - **Prompt provenance:** `not_provided` — the creator explains the “Override” concept and the model-specific generation paths, but does not publish the exact FLUX 3 generation prompt, so none has been reconstructed or inferred.
 - **Why included:** Primary creator source with an attached comparison video, explicit FLUX 3 attribution, concrete generation-tool details, and a high-signal cross-model test of German speech, retro broadcast styling, presenter performance, and audiovisual coherence. It is especially useful because the same creative concept is shown across three newly released systems rather than as an isolated showcase clip.
+
+### 118. Same-prompt K-pop comeback teaser with render telemetry — Photogenic Weekend
+
+- **Creator:** [Photogenic Weekend (@PhotogenicWeekE)](https://x.com/PhotogenicWeekE)
+- **Published:** Date not exposed; verified 2026-08-18 (the public verification mirror shows a relative four-hour timestamp).
+- **Original source profile:** [Photogenic Weekend on X](https://x.com/PhotogenicWeekE) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, quoted source prompt, FLUX 3 render metadata, attached-result context, and engagement](https://twstalker.com/PhotogenicWeekE)
+- **Model attribution:** Photogenic Weekend explicitly says FLUX.3 access had become available, that the quoted prompt was entered unchanged, and reports the render metadata as `modelFLUX 3`.
+- **Summary:** A high-budget K-pop girl-group comeback-teaser brief originally used for a MiniMax H3 example is rerun unchanged through FLUX 3, creating a direct same-prompt benchmark centered on a seven-member adult Korean idol group with distinct identities and a polished music-video presentation.
+- **Workflow/details:** FLUX 3 text-to-video; 1280×704; 15-second output; creator-reported cost approximately $2.72 USD and latency 287.88 seconds. The creator explicitly says the quoted prompt was used as-is, making the result a controlled prompt-transfer comparison rather than a separately rewritten FLUX-specific brief. The quoted source prompt targets 16:9, 2K and seven original Korean adult female idols with distinct faces, hairstyles, and outfits; the actual FLUX render metadata shown by the creator is 1280×704.
+- **Prompt provenance:** `verbatim_in_post` — the creator quotes the prompt being reused unchanged. Verified visible excerpt: “Create a 15-second, 16:9, 2K, high-budget K-pop girl-group comeback teaser. The group consists of seven original Korean female idols, all aged 22 or older. They must not resemble any real celebrities. Give each member a distinct face, hairstyle, outfit, and …” The public mirror truncates the remainder, so no missing text has been reconstructed or inferred.
+- **Why included:** Fresh original-creator FLUX 3 attribution with attached-result context, unusually concrete runtime/cost/resolution metadata, a visible prompt excerpt, and a clean unchanged-prompt cross-model methodology. It is a useful production benchmark for multi-character identity separation, polished music-video staging, and how FLUX 3 interprets a prompt authored for another current video model.
 
 ## How updates work
 
