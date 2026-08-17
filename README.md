@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-16 · Entries: 115_
+_Last updated: 2026-08-17 · Entries: 116_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1366,6 +1366,17 @@ _Last updated: 2026-08-16 · Entries: 115_
 - **Workflow/details:** Two synchronized natural-camera views rather than CCTV styling. The prompt fixes the left camera wide enough to preserve the room layout and the right camera close enough for facial expressions and props, anchors the triggering action at the 2-second mark, and requires identical person, cat, vacuum, popcorn, slipper, furniture, movement, lighting, and reactions across both perspectives. Cameras stay steady with realistic home-video quality, warm indoor light, natural movement, no cuts, and no dramatic effects.
 - **Prompt provenance:** `verbatim_in_post` — “Two-shot split-screen showing the same harmless, funny incident in a cozy house living room. Both shots happen at the same time from different perspectives, like two cameras recording the scene naturally. Do not use CCTV styling, timestamps, security overlays, or distorted footage.” The complete prompt remains visible in the verification source.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, an attached video, the full reproducible prompt, and meaningful early engagement (roughly 3K views and 58 likes in the preserved snapshot). Technically, it is a strong same-event consistency benchmark because two visually different but synchronized cameras must preserve identity, object positions, small prop motion, human reaction timing, animal behavior, and causal sequencing without relying on CCTV artifacts.
+
+### 116. Official FLUX 3 Video general-availability showcase — Black Forest Labs
+
+- **Creator:** [Black Forest Labs (@bfl_ai)](https://x.com/bfl_ai)
+- **Published:** Date not exposed; verified 2026-08-17
+- **Original source:** [Black Forest Labs official LinkedIn page](https://de.linkedin.com/company/bflai)
+- **Model attribution:** Black Forest Labs explicitly announces “FLUX 3 Video is here” in the official public-launch showcase; a BFL team member independently describes the release as general availability.
+- **Summary:** The first-party launch reel spans documentary realism, animation, product film, typography, and dialogue scenes, emphasizing accurate motion, sound, and interaction across a broad range of production styles.
+- **Workflow/details:** Officially supports text-to-video, image-to-video with multiple keyframes, video continuation, and native audio with lip-sync, effects, and ambience. Outputs run up to 20 seconds at native 1080p. Draft mode generates a fast lower-cost preview; an approved draft can be sent back for a full-quality render of the same video. The model is available through the API and partner tools; 2K, 4K, and open weights are announced as upcoming.
+- **Prompt provenance:** `not_provided` — the general-availability showcase does not expose clip-level generation prompts, so none are inferred from the reel.
+- **Why included:** Definitive first-party release video from the model maker, newly published after the early-access phase, with broad stylistic coverage, concrete production settings and workflow details, and a strong public quality signal.
 
 ## How updates work
 
