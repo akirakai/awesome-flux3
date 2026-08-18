@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-18 · Entries: 121_
+_Last updated: 2026-08-18 · Entries: 122_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1432,6 +1432,18 @@ _Last updated: 2026-08-18 · Entries: 121_
 - **Workflow/details:** The creator says current FLUX 3 inference is still fairly slow, notes that 1080p is already live, and says 2K and 4K are forthcoming. The public post does not establish that this particular clip was rendered at 1080p and does not disclose its exact prompt, duration, input mode, reference media, seed, audio settings, or post-production.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the original creator post, and nothing has been inferred from the footage.
 - **Why included:** Fresh primary creator post with attached media, explicit FLUX 3 attribution, a focused real-world realism/color-grading target, and a strong qualitative quality signal from an early commenter who believed the synthetic clip was a real story.
+
+### 122. Japanese text-and-audio text-to-video test — 聖星あい
+
+- **Creator:** [聖星あい＠AI愛好家 (@seisei_ai_1st)](https://x.com/seisei_ai_1st)
+- **Published:** 2026-08-18 (the secondary verification source showed “about 10 hours ago” at verification)
+- **Original source profile:** [聖星あい on X](https://x.com/seisei_ai_1st) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, explicit `#FLUX3` attribution, attached tweet video, follow-up evaluation, and engagement](https://www.sotwe.com/seisei_ai_1st)
+- **Model attribution:** The creator explicitly describes the attached output as text-to-video and tags it `#FLUX3`.
+- **Summary:** A Japanese-language text-to-video test focuses on FLUX 3’s ability to generate clean Japanese text together with spoken Japanese audio and caption-like on-screen typography.
+- **Workflow/details:** Text-to-video. In creator follow-ups, 聖星あい says the Japanese audio and on-screen captions may be among the best of recent video models and specifically reports fewer Japanese-caption failures than the Seedance family. The creator also notes that the music only pays homage to the original because the original music is rights-protected. No verified duration, resolution, seed, reference media, exact prompt, or post-production settings are publicly exposed.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public source, and nothing has been reconstructed from the video.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, an attached tweet video, roughly 4K views and 65 likes in the preserved snapshot, and a high-signal multilingual benchmark centered on Japanese speech plus in-video text rendering—an area the creator directly compares favorably against Seedance.
 
 ## How updates work
 
