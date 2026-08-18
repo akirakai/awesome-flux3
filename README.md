@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-18 · Entries: 118_
+_Last updated: 2026-08-18 · Entries: 119_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1398,6 +1398,18 @@ _Last updated: 2026-08-18 · Entries: 118_
 - **Workflow/details:** FLUX 3 text-to-video; 1280×704; 15-second output; creator-reported cost approximately $2.72 USD and latency 287.88 seconds. The creator explicitly says the quoted prompt was used as-is, making the result a controlled prompt-transfer comparison rather than a separately rewritten FLUX-specific brief. The quoted source prompt targets 16:9, 2K and seven original Korean adult female idols with distinct faces, hairstyles, and outfits; the actual FLUX render metadata shown by the creator is 1280×704.
 - **Prompt provenance:** `verbatim_in_post` — the creator quotes the prompt being reused unchanged. Verified visible excerpt: “Create a 15-second, 16:9, 2K, high-budget K-pop girl-group comeback teaser. The group consists of seven original Korean female idols, all aged 22 or older. They must not resemble any real celebrities. Give each member a distinct face, hairstyle, outfit, and …” The public mirror truncates the remainder, so no missing text has been reconstructed or inferred.
 - **Why included:** Fresh original-creator FLUX 3 attribution with attached-result context, unusually concrete runtime/cost/resolution metadata, a visible prompt excerpt, and a clean unchanged-prompt cross-model methodology. It is a useful production benchmark for multi-character identity separation, polished music-video staging, and how FLUX 3 interprets a prompt authored for another current video model.
+
+### 119. Arabic-dialect AI rant from a minimal prompt — MrDejie
+
+- **Creator:** [MrDejie (@mrdejie)](https://x.com/mrdejie)
+- **Published:** Date not exposed; verified 2026-08-18 (the public verification mirror shows a relative four-day timestamp).
+- **Original source profile:** [MrDejie on X](https://x.com/mrdejie) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original MrDejie post, exact prompt, attached-video context, and engagement](https://mobile.twstalker.com/Abdullah4AI)
+- **Model attribution:** MrDejie explicitly introduces the attached result with “Look what Flux 3 made.”
+- **Summary:** An older man delivers an improvised rant about AI in an Arabic dialect, turning an extremely short scene brief into a spoken performance with facial motion, dialectal speech, and native audiovisual timing.
+- **Workflow/details:** FLUX 3 text-to-video from a minimal natural-language prompt. The verified source does not disclose duration, resolution, seed, reference media, audio parameters, or post-production.
+- **Prompt provenance:** `verbatim_in_post` — “an old man ranting about AI in Arabic dialect”
+- **Why included:** Fresh traceable original-creator attribution with an attached video, exact reproducible prompt, and strong public engagement in the preserved snapshot (about 20K views and 63 likes). Technically, it is a compact multilingual stress test of dialect delivery, semantic improvisation, facial performance, lip synchronization, and coherent native audio from almost no direction.
 
 ## How updates work
 
