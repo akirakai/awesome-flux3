@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-18 · Entries: 120_
+_Last updated: 2026-08-18 · Entries: 121_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1421,6 +1421,17 @@ _Last updated: 2026-08-18 · Entries: 120_
 - **Workflow/details:** Controlled FLUX 3 vs. Seedance 2.0 comparison using the same prompt with no extra instructions. The visible brief is time-coded from 0–20 seconds, uses two locked-off cameras, standard-definition late-1990s television styling, scripted dialogue, CRT/keyboard room tone with no music, and an attached reference image of a Claude square-icon logo. The creator reports FLUX 3 as stronger in this test for native audio, 1990s/2000s film grading, in-video text rendering, and temporal scene consistency.
 - **Prompt provenance:** `verbatim_in_post` — “Late-1990s public-television computer show, shot on standard-definition studio video. Flat even lighting, mild grain, slightly washed colors with oversaturated blues. A tech-lab set with beige CRT monitors, stacked tower PCs, tangled gray cables, and a world-map backdrop. Two locked-off cameras, no handheld shake.” The complete 0–20 second prompt remains visibly published in the companion creator thread.
 - **Why included:** Newly published primary creator posts with attached comparison media, explicit FLUX 3 attribution, an exact full prompt, same-prompt/no-extra-instructions methodology, a disclosed reference image, and unusually concrete creator evaluation of audio, period grading, temporal consistency, and text rendering. It is a strong reproducible benchmark for retro-video semantics, generated dialogue, screen text, shot transitions, timing, and native audio rather than a generic aesthetic showcase.
+
+### 121. Real-story color-grading realism test — MAXFUSION.AI
+
+- **Creator:** [MAXFUSION.AI / u/mementomori2344323](https://www.reddit.com/user/mementomori2344323/)
+- **Published:** 2026-08-18
+- **Original source:** [FLUX 3 color grading and realism is superior to any other model in this style](https://www.reddit.com/r/FluxAI/comments/1vg1dk0/flux_3_color_grading_and_realism_is_superior_to/)
+- **Model attribution:** The original creator explicitly titles the attached-media post “FLUX 3 color grading and realism is superior to any other model in this style,” and the post carries the `FLUX 3` flair.
+- **Summary:** A realism-focused FLUX 3 video is presented specifically as a color-grading and photorealism benchmark rather than a stylized effects showcase; one early viewer says they initially mistook it for a real story.
+- **Workflow/details:** The creator says current FLUX 3 inference is still fairly slow, notes that 1080p is already live, and says 2K and 4K are forthcoming. The public post does not establish that this particular clip was rendered at 1080p and does not disclose its exact prompt, duration, input mode, reference media, seed, audio settings, or post-production.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the original creator post, and nothing has been inferred from the footage.
+- **Why included:** Fresh primary creator post with attached media, explicit FLUX 3 attribution, a focused real-world realism/color-grading target, and a strong qualitative quality signal from an early commenter who believed the synthetic clip was a real story.
 
 ## How updates work
 
