@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-18 · Entries: 119_
+_Last updated: 2026-08-18 · Entries: 120_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1410,6 +1410,17 @@ _Last updated: 2026-08-18 · Entries: 119_
 - **Workflow/details:** FLUX 3 text-to-video from a minimal natural-language prompt. The verified source does not disclose duration, resolution, seed, reference media, audio parameters, or post-production.
 - **Prompt provenance:** `verbatim_in_post` — “an old man ranting about AI in Arabic dialect”
 - **Why included:** Fresh traceable original-creator attribution with an attached video, exact reproducible prompt, and strong public engagement in the preserved snapshot (about 20K views and 63 likes). Technically, it is a compact multilingual stress test of dialect delivery, semantic improvisation, facial performance, lip synchronization, and coherent native audio from almost no direction.
+
+### 120. Late-1990s public-TV computer-show benchmark vs. Seedance 2.0 — MAXFUSION.AI
+
+- **Creator:** [MAXFUSION.AI / u/mementomori2344323](https://www.reddit.com/user/mementomori2344323/)
+- **Published:** 2026-08-18 (based on the original Reddit posts’ relative four-hour timestamps)
+- **Original sources:** [FLUX 3 vs SEEDANCE 2.0](https://www.reddit.com/r/FluxAI/comments/1vanc9z/flux_3_vs_seedance_20/) · [Same-prompt companion thread with the full prompt](https://www.reddit.com/r/Seedance_AI/comments/1vana5s/seedance_20_vs_flux_3_head_to_head_comparison_on/)
+- **Model attribution:** The creator explicitly titles the primary post “FLUX 3 vs SEEDANCE 2.0,” states that both models received the exact same prompt, and separately confirms that no extra instructions were given.
+- **Summary:** A faux late-1990s public-television computer show has a host type a request to plan his daughter’s wedding into a beige CRT chat interface while a skeptical co-host watches; the sequence cuts to the screen and back as the software generates a wedding checklist and the hosts deliver dry period-TV dialogue.
+- **Workflow/details:** Controlled FLUX 3 vs. Seedance 2.0 comparison using the same prompt with no extra instructions. The visible brief is time-coded from 0–20 seconds, uses two locked-off cameras, standard-definition late-1990s television styling, scripted dialogue, CRT/keyboard room tone with no music, and an attached reference image of a Claude square-icon logo. The creator reports FLUX 3 as stronger in this test for native audio, 1990s/2000s film grading, in-video text rendering, and temporal scene consistency.
+- **Prompt provenance:** `verbatim_in_post` — “Late-1990s public-television computer show, shot on standard-definition studio video. Flat even lighting, mild grain, slightly washed colors with oversaturated blues. A tech-lab set with beige CRT monitors, stacked tower PCs, tangled gray cables, and a world-map backdrop. Two locked-off cameras, no handheld shake.” The complete 0–20 second prompt remains visibly published in the companion creator thread.
+- **Why included:** Newly published primary creator posts with attached comparison media, explicit FLUX 3 attribution, an exact full prompt, same-prompt/no-extra-instructions methodology, a disclosed reference image, and unusually concrete creator evaluation of audio, period grading, temporal consistency, and text rendering. It is a strong reproducible benchmark for retro-video semantics, generated dialogue, screen text, shot transitions, timing, and native audio rather than a generic aesthetic showcase.
 
 ## How updates work
 
