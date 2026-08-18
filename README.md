@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-18 · Entries: 122_
+_Last updated: 2026-08-18 · Entries: 124_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1444,6 +1444,30 @@ _Last updated: 2026-08-18 · Entries: 122_
 - **Workflow/details:** Text-to-video. In creator follow-ups, 聖星あい says the Japanese audio and on-screen captions may be among the best of recent video models and specifically reports fewer Japanese-caption failures than the Seedance family. The creator also notes that the music only pays homage to the original because the original music is rights-protected. No verified duration, resolution, seed, reference media, exact prompt, or post-production settings are publicly exposed.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public source, and nothing has been reconstructed from the video.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, an attached tweet video, roughly 4K views and 65 likes in the preserved snapshot, and a high-signal multilingual benchmark centered on Japanese speech plus in-video text rendering—an area the creator directly compares favorably against Seedance.
+
+### 123. RIFTFALL retro-FPS cinematic trailer — VORTEX
+
+- **Creator:** [VORTEX: AI Bros & AI Arena (@VORTEX_Promos)](https://x.com/VORTEX_Promos)
+- **Published:** 2026-08-16 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [VORTEX on X](https://x.com/VORTEX_Promos) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, explicit FLUX 3 attribution, attached-video context, and engagement](https://twstalker.com/VORTEX_Promos)
+- **Model attribution:** The creator explicitly says, “I made this Riftfall trailer with it,” immediately after identifying the model as FLUX 3 Video.
+- **Summary:** A cinematic trailer for the creator’s retro FPS project RIFTFALL, used as a production-style test of FLUX 3’s game-trailer aesthetics and shot-to-shot cinematic presentation.
+- **Workflow/details:** The creator identifies the trailer as made with FLUX 3 and, in the same post, describes FLUX 3’s general capabilities. The verified source does not establish this trailer’s exact duration, resolution, input mode, reference assets, seed, audio configuration, shot-generation count, or post-production workflow, so those details are not inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt or shot brief is visible in the verified public source, and nothing has been reconstructed from the footage.
+- **Why included:** Fresh traceable original-creator attribution, an attached trailer, roughly 60K views and 248 likes in the preserved snapshot, and a strong production-oriented test of cinematic game-trailer staging, pacing, action, and visual coherence rather than a generic single-shot demo.
+
+### 124. Four-minute “WINGED” mythic short film — Tony Simons
+
+- **Creator:** [Tony Simons (@tonysimons_)](https://x.com/tonysimons_)
+- **Published:** 2026-08-18 (based on the public verification mirror’s relative timestamp)
+- **Original source profile:** [Tony Simons on X](https://x.com/tonysimons_) — the accessible public index did not expose a stable direct status URL.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, FLUX 3 attribution, contest context, attached-film post, and engagement](https://w.twstalker.com/tonysimons_)
+- **Model attribution:** Simons explicitly calls WINGED “a mythic short film built end-to-end with @NousResearch Hermes and @bfl_ai FLUX 3” and identifies it as his FLUX 3 Short Film Contest entry.
+- **Summary:** A four-minute mythic short in which the sun is dying, Night has stolen Zeus’s final decree, and Hermes has one chance to deliver a message that can only be spoken once.
+- **Workflow/details:** End-to-end film workflow using Nous Research’s Hermes Agent with FLUX 3; the creator explicitly states the finished piece is four minutes long. The public source does not expose the exact prompt, number or duration of generated shots, resolution, seeds, reference assets, audio settings, or any manual-versus-agent editing breakdown, so those details are left unclaimed.
+- **Prompt provenance:** `not_provided` — the story synopsis is visible, but it is not labeled as the exact generation prompt and has not been treated as one.
+- **Why included:** Fresh original-creator attribution and a rare multi-minute narrative use of FLUX 3, making it an unusually ambitious production-scale test of end-to-end shot orchestration, continuity, and story pacing beyond a single benchmark clip.
 
 ## How updates work
 
