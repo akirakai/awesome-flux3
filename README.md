@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-19 · Entries: 126_
+_Last updated: 2026-08-19 · Entries: 127_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1492,6 +1492,18 @@ _Last updated: 2026-08-19 · Entries: 126_
 - **Workflow/details:** Diego Jr says he forgot to correctly account for the intended 16:9 or 9:16 aspect ratio in the prompt and that the very first output from that flawed prompt unexpectedly became the best generation. The verified source does not expose the exact prompt, duration, resolution, seed, reference assets, audio settings, or post-processing, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly discusses the prompt and its aspect-ratio mistake, but the exact prompt text is not visible in the verified public source and has not been reconstructed.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution preserved by a public secondary mirror, attached-video context, a strong public quality signal (roughly 103K views and 411 likes in one preserved snapshot), convincing accidental period-video texture, and an unusually useful candid note about a flawed prompt outperforming the intended setup.
+
+### 127. Twenty-second office mockumentary with readable prop text and timed dialogue — Brent Lynch
+
+- **Creator:** [Brent Lynch (@BrentLynch)](https://x.com/BrentLynch)
+- **Published:** Date not exposed; verified 2026-08-19 (the public creator-profile mirror shows a relative two-day timestamp).
+- **Original source profile:** [Brent Lynch on X](https://x.com/BrentLynch) — the accessible public index does not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Lynch’s original wording, explicit FLUX 3 attribution, complete visible prompt, attached-video context, and engagement](https://mobile.twstalker.com/BrentLynch)
+- **Model attribution:** Lynch explicitly titles the attached generation “FLUX 3 20-Second Office Mockumentary Parody” while announcing that FLUX 3 is broadly available.
+- **Summary:** An original workplace mockumentary uses four speaking characters, awkward documentary looks to camera, crash zooms, nested prop boxes labeled “FLUX 3” and “NOT THAT OFFICE,” and a final silent reaction beat to parody familiar office-comedy grammar without reproducing an existing cast.
+- **Workflow/details:** One 20-second prompt divided into five timed beats: 0–5, 5–9, 9–14, 14–17, and 17–20 seconds. The brief specifies unfamiliar actors, handheld documentary camerawork, awkward crash zooms, fluorescent office lighting, restrained performances, precisely timed dialogue and pauses, readable prop labels, realistic office ambience, and no music or laugh track.
+- **Prompt provenance:** `verbatim_in_post` — “Original workplace mockumentary with unfamiliar actors, handheld documentary camera, awkward crash zooms, fluorescent office lighting, dry performances, no resemblance to any existing television cast. The office is crowded with boxes labeled ‘FLUX 3’ and ‘NOT THAT OFFICE.’ 0–5 seconds: A cute short-haired blonde woman turns to her handsome dark-haired coworker and says, relieved, ‘Black Forest Labs released FLUX Three finally.’ the handsome coworker sighs deeply. ‘Thank God. One more The Office Minimax H Three clip and I was quitting the internet.’ 5–9 seconds: Both look directly into the documentary camera. Slow uncomfortable zoom. 9–14 seconds: Their dark-haired boss suddenly leans into frame holding a box labeled ‘NOT THAT OFFICE.’ He smiles proudly. ‘Great news. This office is completely original.’ 14–17 seconds: Crash zoom to a nerdy supervisor with glasses. He quietly says, ‘Legally, he has to keep saying that.’ 17–20 seconds: The blonde woman opens a ‘FLUX 3’ box. It contains another smaller box labeled ‘NOT THAT OFFICE.’ Everyone silently looks at the camera. Realistic office ambience, restrained acting, precise comedic pauses, readable box labels, no music, no laugh track.”
+- **Why included:** Fresh explicit creator-side FLUX 3 attribution with an attached 20-second video and a fully visible, highly reproducible prompt. It is a demanding combined test of multi-character dialogue assignment, lip-sync, timed comedic pacing, documentary camera grammar, readable in-scene typography, nested-object continuity, and native ambience across the full 20-second window.
 
 ## How updates work
 
