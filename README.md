@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-19 · Entries: 127_
+_Last updated: 2026-08-19 · Entries: 129_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1504,6 +1504,30 @@ _Last updated: 2026-08-19 · Entries: 127_
 - **Workflow/details:** One 20-second prompt divided into five timed beats: 0–5, 5–9, 9–14, 14–17, and 17–20 seconds. The brief specifies unfamiliar actors, handheld documentary camerawork, awkward crash zooms, fluorescent office lighting, restrained performances, precisely timed dialogue and pauses, readable prop labels, realistic office ambience, and no music or laugh track.
 - **Prompt provenance:** `verbatim_in_post` — “Original workplace mockumentary with unfamiliar actors, handheld documentary camera, awkward crash zooms, fluorescent office lighting, dry performances, no resemblance to any existing television cast. The office is crowded with boxes labeled ‘FLUX 3’ and ‘NOT THAT OFFICE.’ 0–5 seconds: A cute short-haired blonde woman turns to her handsome dark-haired coworker and says, relieved, ‘Black Forest Labs released FLUX Three finally.’ the handsome coworker sighs deeply. ‘Thank God. One more The Office Minimax H Three clip and I was quitting the internet.’ 5–9 seconds: Both look directly into the documentary camera. Slow uncomfortable zoom. 9–14 seconds: Their dark-haired boss suddenly leans into frame holding a box labeled ‘NOT THAT OFFICE.’ He smiles proudly. ‘Great news. This office is completely original.’ 14–17 seconds: Crash zoom to a nerdy supervisor with glasses. He quietly says, ‘Legally, he has to keep saying that.’ 17–20 seconds: The blonde woman opens a ‘FLUX 3’ box. It contains another smaller box labeled ‘NOT THAT OFFICE.’ Everyone silently looks at the camera. Realistic office ambience, restrained acting, precise comedic pauses, readable box labels, no music, no laugh track.”
 - **Why included:** Fresh explicit creator-side FLUX 3 attribution with an attached 20-second video and a fully visible, highly reproducible prompt. It is a demanding combined test of multi-character dialogue assignment, lip-sync, timed comedic pacing, documentary camera grammar, readable in-scene typography, nested-object continuity, and native ambience across the full 20-second window.
+
+
+### 128. Endless-room handheld sprint through surreal spaces — fofr
+
+- **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
+- **Published:** Date not reliably exposed; verified 2026-08-19.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public indexes do not expose a stable direct status URL for this video.
+- **Verification sources:** [Secondary public thread preserving fofr’s original caption, explicit FLUX 3 attribution, prompt excerpt, video context, and engagement](https://w.twstalker.com/minchoi) · [Secondary creator-retweet mirror preserving the same original creator post and prompt](https://mobile.twstalker.com/Felirami)
+- **Model attribution:** fofr explicitly captions the attached generation “I love how strange Flux 3 makes this.”
+- **Summary:** An amateur-handheld POV sprints continuously through an apparently endless succession of radically different, surreal rooms without stopping, using rapid spatial change rather than conventional cuts as the central effect.
+- **Workflow/details:** Prompt-led text-to-video from one compact instruction emphasizing amateur handheld capture, continuous forward sprinting, nonstop motion, and a new strange room after room. Duration, resolution, seed, reference media, audio settings, and post-production are not disclosed in the verified public sources.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “an amateur handheld recording of a sprint through room after room after room, non stop, never ending rooms are all completely different to each other”. The complete one-line prompt remains visible in the verification sources.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, a visible reproducible prompt, and a strong public quality signal: preserved mirrors show roughly 90K–116K views and around one thousand likes. The concept is also a demanding long-horizon test of continuous camera motion, scene-to-scene spatial transformation, novelty, and temporal coherence without relying on a detailed shot list.
+
+### 129. Agentic children’s-book-to-animation test workflow — Georg Neumann
+
+- **Creator:** [Georg Neumann](https://de.linkedin.com/in/georg-neumann)
+- **Published:** Date not exposed; verified 2026-08-19.
+- **Original source:** [Georg Neumann’s public LinkedIn post with the attached FLUX 3 test generations](https://de.linkedin.com/posts/georg-neumann_ich-mach-einen-animationsfilm-aus-kinderbuch-activity-7490330694716571648-PZhq)
+- **Model attribution:** Neumann explicitly closes the post with “Videos generiert mit FLUX 3” while describing the attached first test generations.
+- **Summary:** Early animated-film tests adapt the creator’s daughter’s children’s book into moving scenes with spoken-character audio, while the post documents the upstream planning and reference pipeline used to turn the book into a full shot plan.
+- **Workflow/details:** Claude Cowork is given the book folder containing PDFs and images, then briefed to turn the existing story into a film and supporting shot list rather than merely animate each spread. Through MCP, Claude accesses a Magnific project containing the book spreads, references, and character sheets and generates supporting images. Neumann reports ending with a complete film concept and storyboard in an Excel sheet, prompts included, plus 27 reference images that he only had to curate and refine; the next production step is iterating all 27 video clips, with voice consistency called out as a forthcoming challenge.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator says the storyboard contains prompts, but the exact FLUX 3 clip prompts are not publicly visible in the verified post, so none have been reconstructed or inferred.
+- **Why included:** Primary creator source with attached video and transcript, explicit FLUX 3 attribution, and one of the most concrete end-to-end production workflows surfaced in this collection: agentic story breakdown, multimodal source ingestion, MCP-based reference generation, character assets, a 27-shot plan, human curation, and planned voice-continuity work.
 
 ## How updates work
 
