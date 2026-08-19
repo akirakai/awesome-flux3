@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-19 · Entries: 125_
+_Last updated: 2026-08-19 · Entries: 126_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1480,6 +1480,18 @@ _Last updated: 2026-08-19 · Entries: 125_
 - **Workflow/details:** Verified duration is 20 seconds. The public verification source does not expose resolution, input/reference mode, seed, generation count, audio parameters, or post-production, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator caption says “Prompt below,” but the publicly indexed verification source does not expose the prompt text; no missing wording has been reconstructed or inferred.
 - **Why included:** Fresh explicit creator-side FLUX 3 attribution, an attached 20-second video, and a strong public quality signal (about 35.8K views in the preserved index). It is a useful long-horizon stress test of identity and voice persistence across FLUX 3’s full 20-second window.
+
+### 126. Accidental 1980s Handycam realism from an aspect-ratio-mistake prompt — Diego Jr
+
+- **Creator:** [Diego Jr (@CallMeDiegoJr)](https://x.com/CallMeDiegoJr)
+- **Published:** Date not reliably exposed; verified 2026-08-19.
+- **Original source profile:** [Diego Jr on X](https://x.com/CallMeDiegoJr) — the accessible public indexes do not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Diego Jr’s original wording, explicit Flux 3 attribution, attached-video context, and engagement](https://ww.twstalker.com/CallMeDiegoJr)
+- **Model attribution:** The creator explicitly opens the post with “Still Flux 3” while discussing this specific video and its generation prompt.
+- **Summary:** A live-action-looking generation whose image texture and wardrobe read to the creator like footage captured on a 1980s Handycam, making the clip a strong test of period-specific consumer-video realism rather than polished modern cinematography.
+- **Workflow/details:** Diego Jr says he forgot to correctly account for the intended 16:9 or 9:16 aspect ratio in the prompt and that the very first output from that flawed prompt unexpectedly became the best generation. The verified source does not expose the exact prompt, duration, resolution, seed, reference assets, audio settings, or post-processing, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly discusses the prompt and its aspect-ratio mistake, but the exact prompt text is not visible in the verified public source and has not been reconstructed.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution preserved by a public secondary mirror, attached-video context, a strong public quality signal (roughly 103K views and 411 likes in one preserved snapshot), convincing accidental period-video texture, and an unusually useful candid note about a flawed prompt outperforming the intended setup.
 
 ## How updates work
 
