@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-19 · Entries: 129_
+_Last updated: 2026-08-19 · Entries: 131_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1528,6 +1528,30 @@ _Last updated: 2026-08-19 · Entries: 129_
 - **Workflow/details:** Claude Cowork is given the book folder containing PDFs and images, then briefed to turn the existing story into a film and supporting shot list rather than merely animate each spread. Through MCP, Claude accesses a Magnific project containing the book spreads, references, and character sheets and generates supporting images. Neumann reports ending with a complete film concept and storyboard in an Excel sheet, prompts included, plus 27 reference images that he only had to curate and refine; the next production step is iterating all 27 video clips, with voice consistency called out as a forthcoming challenge.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator says the storyboard contains prompts, but the exact FLUX 3 clip prompts are not publicly visible in the verified post, so none have been reconstructed or inferred.
 - **Why included:** Primary creator source with attached video and transcript, explicit FLUX 3 attribution, and one of the most concrete end-to-end production workflows surfaced in this collection: agentic story breakdown, multimodal source ingestion, MCP-based reference generation, character assets, a 27-shot plan, human curation, and planned voice-continuity work.
+
+### 130. Rain-soaked 1980s ninja trailer with dialogue-to-title transition — Brent Lynch
+
+- **Creator:** [Brent Lynch (@BrentLynch)](https://x.com/BrentLynch)
+- **Published:** 2026-08-16 (based on the secondary verification source’s relative three-day timestamp at verification).
+- **Original source profile:** [Brent Lynch on X](https://x.com/BrentLynch) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Lynch’s original creator wording, explicit FLUX 3 attribution, complete visible prompt, attached-video context, and engagement](https://mobile.twstalker.com/BrentLynch)
+- **Model attribution:** Lynch explicitly opens the attached generation with “FINALLY! ⚔️ I GOT FLUX 3! TIME FOR NINJAS!” and tags Black Forest Labs in the published prompt.
+- **Summary:** A rain-soaked rooftop confrontation between a ninja and a woman plays like a restrained early-1980s thriller, then turns a lightning white-out into an in-generation transition to a fictional theatrical title card, “NIGHT OF THE AI DROPS,” followed by a coming-soon tagline.
+- **Workflow/details:** One long prompt coordinates two-character dialogue, held eye lines and restrained acting, a slow push-in with anamorphic over-the-shoulder framing, rain and traffic ambience, synth underscore, thunder, a lightning-driven transition, analog film texture, trailer-announcer voiceover, and readable title/tagline typography.
+- **Prompt provenance:** `verbatim_in_post` — visible prompt begins: “A cold, controlled confrontation between two rivals on a rain-soaked rooftop at night shot with the discipline of a 1980's thriller: clean geometric framing, wide nocturnal cityscapes bleeding blue and amber through the rain…” The complete prompt remains publicly visible in the verification source.
+- **Why included:** Traceable original-creator FLUX 3 attribution, attached-video context, roughly 3K views and 56 likes in the preserved snapshot, and an unusually detailed audiovisual brief. It stress-tests multi-speaker dialogue, understated performance, weather and lighting continuity, native sound design, a motivated scene-to-title transition, and generated typography in one cohesive cinematic sequence.
+
+### 131. Fifteen-second kinetic-typography path-writing motion-design test — LudovicCreator
+
+- **Creator:** [LudovicCreator (@LudovicCreator)](https://x.com/LudovicCreator)
+- **Published:** 2026-08-19 (the public verification index showed “10 hours ago” at verification).
+- **Original source profile:** [LudovicCreator on X](https://x.com/LudovicCreator) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, explicit FLUX 3 attribution, attached-video context, Pixio AI workflow note, and full prompt comment](https://w.twstalker.com/LudovicCreator)
+- **Model attribution:** The creator explicitly captions the attached piece “🎨 FLUX 3 🎨 Testing Motion design with Flux 3” and says it was made in Pixio AI.
+- **Summary:** A vertical motivational motion-design piece turns a warm luminous line into both a walking path and a writing stroke, progressively revealing a three-line quote as the palette moves from near-dark midnight blue toward a calmer dawn-like blue and the composition builds from hesitation to momentum.
+- **Workflow/details:** 15 seconds at 9:16. The visible prompt specifies five timed stages, exact final line breaks, handwritten-to-serif text resolution, a golden path/writing stroke, subtle paper texture and particles, restrained glow, parallax, one very slow camera push, controlled scale emphasis on “path,” gold emphasis on “courage,” a static final hold, and explicit spelling/readability/stability constraints. It also directs original minimal sound design with piano, ambient pad, pen texture, footstep-like ticks, shimmer accents, and a resolving chord.
+- **Prompt provenance:** `verbatim_in_post` — the visible prompt begins: “Create a 15-second, 9:16 premium cinematic kinetic-typography film built around the exact quote:” and then supplies the exact sentence to be animated. The complete time-coded prompt remains visible in the creator’s first-comment post preserved by the verification source.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, attached-video context, a complete reproducible prompt, and a less-common motion-design benchmark rather than another generic realism clip. It tests legible animated typography, controlled graphic motion, temporal text stability, layout, palette progression, camera/parallax behavior, and synchronized sound cues across a full 15-second design sequence.
 
 ## How updates work
 
