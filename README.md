@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 132_
+_Last updated: 2026-08-20 · Entries: 134_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1505,7 +1505,6 @@ _Last updated: 2026-08-20 · Entries: 132_
 - **Prompt provenance:** `verbatim_in_post` — “Original workplace mockumentary with unfamiliar actors, handheld documentary camera, awkward crash zooms, fluorescent office lighting, dry performances, no resemblance to any existing television cast. The office is crowded with boxes labeled ‘FLUX 3’ and ‘NOT THAT OFFICE.’ 0–5 seconds: A cute short-haired blonde woman turns to her handsome dark-haired coworker and says, relieved, ‘Black Forest Labs released FLUX Three finally.’ the handsome coworker sighs deeply. ‘Thank God. One more The Office Minimax H Three clip and I was quitting the internet.’ 5–9 seconds: Both look directly into the documentary camera. Slow uncomfortable zoom. 9–14 seconds: Their dark-haired boss suddenly leans into frame holding a box labeled ‘NOT THAT OFFICE.’ He smiles proudly. ‘Great news. This office is completely original.’ 14–17 seconds: Crash zoom to a nerdy supervisor with glasses. He quietly says, ‘Legally, he has to keep saying that.’ 17–20 seconds: The blonde woman opens a ‘FLUX 3’ box. It contains another smaller box labeled ‘NOT THAT OFFICE.’ Everyone silently looks at the camera. Realistic office ambience, restrained acting, precise comedic pauses, readable box labels, no music, no laugh track.”
 - **Why included:** Fresh explicit creator-side FLUX 3 attribution with an attached 20-second video and a fully visible, highly reproducible prompt. It is a demanding combined test of multi-character dialogue assignment, lip-sync, timed comedic pacing, documentary camera grammar, readable in-scene typography, nested-object continuity, and native ambience across the full 20-second window.
 
-
 ### 128. Endless-room handheld sprint through surreal spaces — fofr
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
@@ -1564,6 +1563,30 @@ _Last updated: 2026-08-20 · Entries: 132_
 - **Workflow/details:** The visible prompt specifies 20 seconds, 9:16, synchronized native audio, one consistent face/hair/outfit/voice, arm’s-length front-facing smartphone capture, slight hand shake, imperfect framing, brief autofocus/exposure changes, wind interaction, and three timed beats. It directs a palm-cover transition from the penthouse to the marina, a later whip-pan to the moving yacht, exact English dialogue with lip-sync, coastal ambience plus a soft house beat, and negative constraints excluding subtitles, logos, third-person/drone shots, beauty filtering, plastic skin, hand distortion, outfit changes, and face changes. The comparison post publishes one detailed prompt but does not expose model-specific generation settings or explicitly document any hidden per-model modifications.
 - **Prompt provenance:** `verbatim_in_post` — “Create a photorealistic 20-second, 9:16 Instagram Reels-style selfie vlog with synchronized native audio.” The complete time-coded prompt remains visible in the verification source; no wording has been reconstructed from the footage.
 - **Why included:** Newly published explicit original-creator FLUX 3 attribution, attached comparison context, a complete highly reproducible prompt, and a strong practical stress test of UGC realism, long-horizon identity and voice consistency, multi-location transitions, phone-camera imperfections, native ambience, exact dialogue, and lip-sync across a full 20-second vertical clip.
+
+### 133. Five-language Charles de Gaulle transfer-desk dialogue test — Koh Terai
+
+- **Creator:** [Koh Terai (@koh_terai)](https://x.com/koh_terai)
+- **Published:** 2026-08-14 (based on the public verification mirror’s relative six-day timestamp at verification).
+- **Original source profile:** [Koh Terai on X](https://x.com/koh_terai) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Terai’s original wording, explicit FLUX.3 attribution, complete visible prompt, and video context](https://site.twstalker.com/koh_terai)
+- **Model attribution:** Terai explicitly says, “I tried getting FLUX.3 to speak 5 languages in one video,” before publishing the exact prompt.
+- **Summary:** A crowded airline transfer desk at Charles de Gaulle handles a cancellation through French, Arabic, English, Portuguese, and Russian dialogue, ending on a narrative turn where the agent prioritizes a silent passenger with a printed order of service over the growing queue.
+- **Workflow/details:** One visible natural-language FLUX.3 prompt coordinates a single location, one agent, a growing line, six speaking turns across five languages, departure-board and luggage continuity, fluorescent airport lighting, and a final story beat driven by the last passenger’s document and the agent’s phone call. The verified source does not disclose duration, resolution, seed, reference media, or post-production.
+- **Prompt provenance:** `verbatim_in_post` — “An airline transfer desk at Charles de Gaulle after a cancellation. One agent, a long queue, a screen full of red. AGENT (French): \"Monsieur, je vous mets sur le vol de dix-huit heures.\" PASSENGER 1: \"Et ma valise ?\" AGENT: \"Elle suit.\" PASSENGER 2 (Arabic): \"هل هناك رحلة أبكر؟\" AGENT: \"لا، للأسف.\" PASSENGER 3 (English): \"Will I make my connection?\" AGENT: \"It'll be tight. But yes.\" PASSENGER 4 (Portuguese): \"E se eu perder?\" AGENT: \"Nós reservamos outro.\" The last passenger has been waiting without speaking. When she reaches the desk she puts down a printed order of service, not a ticket. PASSENGER 5 (Russian, very flat): \"Мне нужно быть там завтра в одиннадцать.\" The agent looks at the paper. Then at the clock. Then she picks up the phone. AGENT (Russian): \"Подождите. Не уходите.\" She turns away from the queue, which is now eleven people long, and starts making calls. Departure boards, roller bags, fluorescent light. The story: an agent decides one passenger matters more than the queue.”
+- **Why included:** Fresh original-creator FLUX.3 attribution and an unusually reproducible multilingual performance test. The prompt demands speaker assignment, five-language speech, turn-taking, facial and queue continuity, semantic context across languages, prop/story-state persistence, and a coherent dramatic payoff rather than merely testing isolated lip-sync.
+
+### 134. “Future Dance” CRT-glitch motion test — Ralph Edelman
+
+- **Creator:** [Ralph Edelman (@Ralph_Edelman)](https://x.com/Ralph_Edelman)
+- **Published:** Date not exposed; verified 2026-08-20 (the public verification mirror labels the creator post “4 days ago”).
+- **Original source profile:** [Ralph Edelman on X](https://x.com/Ralph_Edelman) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary mirror on Leonardo.Ai’s public profile preserving Edelman’s original creator post, exact prompt, explicit Flux 3 Video attribution, and engagement](https://twstalker.com/LeonardoAi)
+- **Model attribution:** Edelman explicitly captions the work “Future Dance Created with @LeonardoAi using Flux 3 Video” before the prompt; Leonardo.Ai subsequently reshared the creator post.
+- **Summary:** An energetic futuristic dancer moves while the camera smoothly zooms in and the background continuously changes color, with aggressive CRT breakup, RGB separation, chromatic aberration, datamoshing, pixel tearing, VHS tracking errors, and eventual signal-collapse styling layered through the motion.
+- **Workflow/details:** Generated in Leonardo.Ai using Flux 3 Video. The visible prompt combines energetic human dance motion, a smooth zoom-in, continuous background color changes, and a dense stack of temporal glitch treatments. Duration, resolution, seed, reference inputs, audio direction, and post-production are not disclosed in the verified source.
+- **Prompt provenance:** `verbatim_in_post` — “A [subject] in a full futuristic dancing outfit moves and dances energetically as the camera smoothly zooms in, while the background continuously changes color. Extreme CRT digital glitch, violent RGB splitting, neon color bleeding, extreme chromatic aberration, psychedelic color shifts, oversaturated neon colors, inverted color flashes, rainbow channel separation, color-channel displacement, massive pixel tearing, datamoshing, scanline distortion, frame tearing, VHS tracking errors, pixel scrambling, fragmented frames, digital corruption, complete signal collapse.”
+- **Why included:** Traceable original-creator attribution, an exact public prompt, and first-party platform amplification from Leonardo.Ai. It is a distinctive motion-design stress test because fast human movement, smooth camera motion, evolving color, and a large stack of unstable temporal glitch effects all need to remain intentionally readable rather than collapsing into uncontrolled artifacts.
 
 ## How updates work
 
