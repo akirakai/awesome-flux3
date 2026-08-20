@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 134_
+_Last updated: 2026-08-20 · Entries: 135_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1587,6 +1587,18 @@ _Last updated: 2026-08-20 · Entries: 134_
 - **Workflow/details:** Generated in Leonardo.Ai using Flux 3 Video. The visible prompt combines energetic human dance motion, a smooth zoom-in, continuous background color changes, and a dense stack of temporal glitch treatments. Duration, resolution, seed, reference inputs, audio direction, and post-production are not disclosed in the verified source.
 - **Prompt provenance:** `verbatim_in_post` — “A [subject] in a full futuristic dancing outfit moves and dances energetically as the camera smoothly zooms in, while the background continuously changes color. Extreme CRT digital glitch, violent RGB splitting, neon color bleeding, extreme chromatic aberration, psychedelic color shifts, oversaturated neon colors, inverted color flashes, rainbow channel separation, color-channel displacement, massive pixel tearing, datamoshing, scanline distortion, frame tearing, VHS tracking errors, pixel scrambling, fragmented frames, digital corruption, complete signal collapse.”
 - **Why included:** Traceable original-creator attribution, an exact public prompt, and first-party platform amplification from Leonardo.Ai. It is a distinctive motion-design stress test because fast human movement, smooth camera motion, evolving color, and a large stack of unstable temporal glitch effects all need to remain intentionally readable rather than collapsing into uncontrolled artifacts.
+
+### 135. Tearful close-up emotional-realism test — 𝐙𝐞𝐧𝐠
+
+- **Creator:** [𝐙𝐞𝐧𝐠 💜 (@zeng_wt)](https://x.com/zeng_wt)
+- **Published:** Date not exposed; verified 2026-08-20 (the public verification source labels the creator post “a week ago”).
+- **Original source profile:** [𝐙𝐞𝐧𝐠 on X](https://x.com/zeng_wt) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary verification on Leonardo.Ai’s public profile preserving the original creator post, explicit FLUX 3 attribution, attached-video context, and Leonardo.Ai reshare](https://twstalker.com/LeonardoAi)
+- **Model attribution:** Zeng explicitly says the emotional-realism video was generated with “FLUX 3” and “Created in @LeonardoAi”; Leonardo.Ai’s official account reshared the original creator post.
+- **Summary:** A close-up performance centers on a visibly tearful character, using subtle facial emotion, wet-eye detail, and naturalistic skin rendering as a realism test rather than relying on spectacle or fast motion.
+- **Workflow/details:** Generated in Leonardo.Ai using FLUX 3 Video. The verified public source does not expose duration, resolution, seed, reference inputs, audio direction, or post-production details.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified source, and none has been reconstructed from the footage.
+- **Why included:** Traceable original-creator FLUX 3 attribution plus first-party platform amplification from Leonardo.Ai. The example targets a difficult failure mode for generated video — sustained, believable facial emotion with tears and photoreal close-up detail — and was singled out by the creator specifically for its emotional depth and realism.
 
 ## How updates work
 
