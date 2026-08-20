@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 141_
+_Last updated: 2026-08-21 · Entries: 142_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1669,6 +1669,18 @@ _Last updated: 2026-08-21 · Entries: 141_
 - **Workflow/details:** Stelzer says the channel is built inside the Glif harness from a defined world, characters, rules, and his creative taste. At verification it was not yet fully autonomous: he remained the creative director, sent ideas from his phone, let Glif execute, and manually selected what to publish. His stated direction is toward full self-driving media channels and an open-source harness/Glif-agent workflow for entertainment, brand, and marketing use.
 - **Prompt provenance:** `not_provided` — no exact FLUX 3 generation prompt is visible in the verified source, so the channel concept and workflow notes are not presented as a prompt.
 - **Why included:** Explicit creator-level Flux3 attribution, directly quoted WORM TV media context, strong public engagement (about 68.6K views and 571 likes in the preserved snapshot), and unusually reusable agentic-production notes. It demonstrates FLUX 3 as part of a persistent world/character system for recurring AI-native media rather than only a single generated clip.
+
+### 142. Oil-painting style animation persistence test — NOBU
+
+- **Creator:** [NOBU (@nbykos)](https://x.com/nbykos)
+- **Published:** Date not reliably exposed; verified 2026-08-21 (public mirrors place the creator post roughly one to two days earlier).
+- **Original source profile:** [NOBU on X](https://x.com/nbykos) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving NOBU’s original wording, explicit Flux 3 attribution, attached-video context, follow-up observations, and engagement](https://ww.twstalker.com/nbykos)
+- **Model attribution:** NOBU explicitly captions the attached video “Flux 3 の期待度が上がってきた 油彩スタイルが動く,” directly identifying Flux 3 as the model behind the moving oil-painting-style result.
+- **Summary:** A stylized animation preserves an oil-painting look through motion instead of collapsing back toward ordinary rendered frames, using persistent painterly texture as the core test.
+- **Workflow/details:** In a follow-up, NOBU says that in his own test the model reproduced the oil-painting animation by effectively redrawing the whole frame uniformly. He also says he has been testing Flux 3 through Runway and fal generally, but the public source does not establish which platform produced this exact clip. Duration, resolution, seed, reference inputs, exact prompt, audio settings, and post-production are not publicly verified.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public source. A viewer asks whether special prompting beyond ideas like maintaining the oil-painting look and low FPS was used, but NOBU’s exact prompt is not exposed, so none is reconstructed.
+- **Why included:** Fresh explicit original-creator Flux 3 attribution, attached-video context, strong public engagement (roughly 13K–16K views across preserved snapshots), and a distinctive temporal-style-consistency benchmark. Maintaining an oil-painted surface coherently while the scene moves is a materially different challenge from generic cinematic realism and gives the collection a useful style-persistence example.
 
 ## How updates work
 
