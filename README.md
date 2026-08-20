@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 137_
+_Last updated: 2026-08-20 · Entries: 138_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1621,6 +1621,18 @@ _Last updated: 2026-08-20 · Entries: 137_
 - **Workflow/details:** ContentStudio states the trailer was generated in one pass with native audio and no separate scoring step. The post highlights up to 20-second outputs, synchronized action-driven sound, human-readable facial expressions, a style range from candid camcorder footage to full cinematics, and accurate in-scene text/animated typography. The exact duration, resolution, seed, reference media, prompt, and post-production settings for this specific trailer are not disclosed.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source, and none has been reconstructed from the footage.
 - **Why included:** Newly published first-party attached-video example with explicit FLUX 3 attribution and a production-oriented single-pass claim. It is a useful quality benchmark because trailer pacing has to coordinate cinematic motion, facial performance, readable typography, impact timing, footsteps, and native sound without a separate audio pass.
+
+### 138. Lissy PONY branded-series teaser with consistent characters and custom voices — Blue Ocean Entertainment / Burda Media
+
+- **Creator:** [Blue Ocean Entertainment AG](https://www.linkedin.com/company/blue-ocean-entertainment-ag/) / [Hubert Burda Media](https://www.linkedin.com/company/hubert-burda-media/)
+- **Published:** 2026-08-20 (Blue Ocean Entertainment’s first-party LinkedIn page showed the teaser post as approximately 47 minutes old at verification).
+- **Original source:** [Blue Ocean Entertainment AG’s first-party LinkedIn page with the official teaser](https://www.linkedin.com/company/blue-ocean-entertainment-ag/)
+- **Supporting first-party source:** [Hubert Burda Media’s LinkedIn announcement](https://www.linkedin.com/company/hubert-burda-media/)
+- **Model attribution:** Blue Ocean explicitly states that the series’ visual content is created with FLUX 3 from Black Forest Labs and tags `#FLUX3`; Burda Media separately identifies itself as an official FLUX 3 release partner and says the teaser demonstrates the model’s new video capabilities.
+- **Summary:** The official teaser brings Blue Ocean’s established Lissy PONY children’s IP into animated video, centered on unicorn Tamani and her pony friends around the Crystal Academy, while preserving a recognizable branded visual world and character identity.
+- **Workflow/details:** FLUX 3 is used for the visual video generation, while ElevenLabs supplies individual character voices. Blue Ocean says the project is designed to preserve the existing brand and characters as they move from print/comic media into video; the planned series will launch in autumn 2026 in German, French, Spanish, Polish, and English. Burda describes the broader workflow as combining visually consistent characters, recognizable voices, and AI-assisted synchronization for international scaling. Exact FLUX 3 duration, resolution, reference assets, generation settings, and post-production for the teaser are not disclosed.
+- **Prompt provenance:** `not_provided` — neither first-party source exposes an exact FLUX 3 generation prompt, so none has been reconstructed or inferred from the teaser.
+- **Why included:** Fresh first-party release-partner material with an official attached/embedded teaser and unambiguous FLUX 3 attribution. Unlike a one-off demo, it is a production-oriented test of adapting an existing commercial IP into repeatable video while maintaining character/world consistency, integrating distinct voices, and preparing multilingual distribution at series scale.
 
 ## How updates work
 
