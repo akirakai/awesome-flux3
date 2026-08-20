@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 142_
+_Last updated: 2026-08-21 · Entries: 141_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -906,7 +906,7 @@ _Last updated: 2026-08-21 · Entries: 142_
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
 - **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
@@ -1669,18 +1669,6 @@ _Last updated: 2026-08-21 · Entries: 142_
 - **Workflow/details:** Stelzer says the channel is built inside the Glif harness from a defined world, characters, rules, and his creative taste. At verification it was not yet fully autonomous: he remained the creative director, sent ideas from his phone, let Glif execute, and manually selected what to publish. His stated direction is toward full self-driving media channels and an open-source harness/Glif-agent workflow for entertainment, brand, and marketing use.
 - **Prompt provenance:** `not_provided` — no exact FLUX 3 generation prompt is visible in the verified source, so the channel concept and workflow notes are not presented as a prompt.
 - **Why included:** Explicit creator-level Flux3 attribution, directly quoted WORM TV media context, strong public engagement (about 68.6K views and 571 likes in the preserved snapshot), and unusually reusable agentic-production notes. It demonstrates FLUX 3 as part of a persistent world/character system for recurring AI-native media rather than only a single generated clip.
-
-### 142. Single-still 20-second automatic multi-camera architecture sequence — Maurizio Gastoni
-
-- **Creator:** [Maurizio Gastoni](https://dk.linkedin.com/in/maurizio-gastoni)
-- **Published:** 2026-08-20 (based on the creator profile’s relative one-day timestamp at verification).
-- **Original source profile:** [Maurizio Gastoni on LinkedIn](https://dk.linkedin.com/in/maurizio-gastoni) — the accessible public index did not expose a stable direct activity URL for this post.
-- **Verification source:** [Secondary LinkedIn profile directly preserving Gastoni’s original creator post and attribution](https://de.linkedin.com/in/bernhard-rose-a90542251).
-- **Model attribution:** Gastoni explicitly says he received early access to FLUX 3 Video from Black Forest Labs and identifies this as his first FLUX 3 Video test.
-- **Summary:** One architectural hero still is expanded into a 20-second sequence with six additional camera viewpoints generated automatically, with sound and music produced in the same pass.
-- **Workflow/details:** Single hero image → early-access FLUX 3 Video through Discord → 20-second multi-camera output with six generated angles. Gastoni deliberately tests a common failure mode: whether geometry, materials, lighting, and spatial identity remain coherent across changing viewpoints. He reports that the output is still soft in resolution and says the early-access Discord workflow did not provide clean generation-time numbers. In follow-up comments, he describes the result as useful for camera and movement ideation, client communication, and b-roll before a full 3D animation, and says this particular pass was made without 3D in roughly an hour; that timing is creator-reported rather than an independent benchmark.
-- **Prompt provenance:** `mentioned_not_in_post` — Gastoni says the prompt structure was simple and offers to share it, but the verified public source does not expose the actual prompt text, so none has been reconstructed.
-- **Why included:** A production-oriented FLUX 3 spatial-consistency stress test rather than a single beauty shot: one still must support six new viewpoints over 20 seconds while maintaining the same architectural scene, with same-pass audio and music. The creator also publishes a concrete limitation (soft resolution) and practical previsualization use cases.
 
 ## How updates work
 
