@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 139_
+_Last updated: 2026-08-20 · Entries: 140_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1645,6 +1645,18 @@ _Last updated: 2026-08-20 · Entries: 139_
 - **Workflow/details:** The creator wrote 28 scenes before generation, each specifying subject, camera package, runtime, audio, and negative prompt, then dropped one duplicate macro before rendering. Format was locked three ways—in the prompt body, the generation field, and negative instructions excluding wrong ratios—and palette-defining colors were written both as hex values and words. The final 27 scenes were generated in the official FLUX 3 Discord with native audio and native 16:9, then cut end to end with no crop and no grading rescue; the creator reports stable palette, haze, terrain, and light behavior across scenes that never saw one another.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator details the scene-specification method and says all 28 scenes were written in advance, but the accessible verified source does not expose a complete generation prompt, so none has been copied or reconstructed.
 - **Why included:** A rare production-scale FLUX 3 stress test rather than a single clip: 27 independently generated scenes must preserve environmental language, palette, light, audio treatment, and native framing across six minutes. The post also publishes concrete failure-prevention lessons—especially ratio locking and duplicated color specification—making the workflow unusually reusable.
+
+### 140. One-line Hyperframes explainer with agentic script, lip-sync, effects, and music — Yuval Avidani
+
+- **Creator:** [Yuval Avidani](https://il.linkedin.com/in/yuval-avidani-87081474)
+- **Published:** Date not exposed; verified 2026-08-20.
+- **Original source profile:** [Yuval Avidani on LinkedIn](https://il.linkedin.com/in/yuval-avidani-87081474) — the public index did not expose a stable direct activity URL for this Hyperframes post.
+- **Verification source:** [Secondary LinkedIn activity page preserving Yuval’s original creator wording, attached-video context, exact prompt, workflow description, and engagement](https://il.linkedin.com/in/aviranm)
+- **Model attribution:** Yuval explicitly says the attached video was created with the new Flux 3 Video model.
+- **Summary:** A short YouTube-commenter-style explainer about HeyGen’s Hyperframes is generated from a single terse brief and an attached portrait of the creator, with the system researching the topic, creating a script and expanded internal direction, combining animations, and producing a finished social-style explainer.
+- **Workflow/details:** The creator reports a one-prompt, no-video-editing workflow. Starting inputs were the visible one-line prompt plus his attached image. He says FLUX 3 researched Hyperframes, wrote its own more detailed prompt and script, incorporated animations, and generated lip-sync, effects, and background music; he also notes support for portrait or landscape output. The internal expanded prompt and script are not exposed, so those details are not reconstructed.
+- **Prompt provenance:** `verbatim_in_post` — “A YouTube commenter video explaining about HeyGen’s Hyperframes in 20 seconds.” This is the exact user-level prompt visibly published in the verified source; no hidden expanded prompt wording has been inferred.
+- **Why included:** Explicit original-creator Flux 3 Video attribution, attached-video context, an exact highly reusable minimal prompt, and an unusually agentic end-to-end workflow. The example is especially useful for social/explainer production because it combines topic research, reference-image identity, script creation, animation, lip-sync, effects, music, and a finished no-edit result from a single short instruction.
 
 ## How updates work
 
