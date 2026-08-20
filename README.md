@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 136_
+_Last updated: 2026-08-20 · Entries: 137_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1610,6 +1610,17 @@ _Last updated: 2026-08-20 · Entries: 136_
 - **Workflow/details:** Controlled same-prompt comparison: ContentStudio states “No edits. No cherry picking.” and places both outputs side by side. The brief specifies 15 seconds, realistic food textures, cinematic lighting, natural hand movement, smooth camera transitions, slow-motion inserts, sparks, and premium commercial styling. No model-specific seed, resolution, reference media, or hidden generation parameters are disclosed.
 - **Prompt provenance:** `verbatim_in_post` — “Create a 15-second luxury restaurant advertisement. A chef prepares a gourmet steak over an open flame while sparks rise into the air. Slow-motion close-ups capture slicing, plating, and pouring sauce. The camera moves through the kitchen before ending with the finished dish on an elegant dining table. Realistic food textures, cinematic lighting, natural hand movement, smooth camera transitions, premium commercial quality”
 - **Why included:** Fresh first-party platform source with attached comparison media, exact model attribution, a complete reproducible prompt, and a controlled no-edit same-prompt methodology. It is a useful production benchmark for food texture, flame and spark behavior, hand-object interaction, slicing and plating continuity, liquid sauce motion, camera travel, slow motion, and commercial-grade lighting without relying on a hand-picked bespoke prompt for each model.
+
+### 137. Single-pass cinematic trailer with native synchronized audio — ContentStudio
+
+- **Creator:** [ContentStudio](https://contentstudio.io/)
+- **Published:** 2026-08-20 (the first-party LinkedIn page showed the post as approximately 15 hours old at verification).
+- **Original source:** [ContentStudio’s first-party LinkedIn page with the attached “Flux 3 Trailer” video](https://www.linkedin.com/company/contentstudio/)
+- **Model attribution:** ContentStudio explicitly states, “Flux 3 generated this trailer in a single pass,” and identifies FLUX 3 as the model used for both picture and audio.
+- **Summary:** A polished trailer-style generation demonstrates cinematic staging while keeping action-linked sound synchronized inside the same render, including impacts, footsteps, facial performance, on-screen text, and animated typography.
+- **Workflow/details:** ContentStudio states the trailer was generated in one pass with native audio and no separate scoring step. The post highlights up to 20-second outputs, synchronized action-driven sound, human-readable facial expressions, a style range from candid camcorder footage to full cinematics, and accurate in-scene text/animated typography. The exact duration, resolution, seed, reference media, prompt, and post-production settings for this specific trailer are not disclosed.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source, and none has been reconstructed from the footage.
+- **Why included:** Newly published first-party attached-video example with explicit FLUX 3 attribution and a production-oriented single-pass claim. It is a useful quality benchmark because trailer pacing has to coordinate cinematic motion, facial performance, readable typography, impact timing, footsteps, and native sound without a separate audio pass.
 
 ## How updates work
 
