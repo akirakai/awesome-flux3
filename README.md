@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-20 · Entries: 140_
+_Last updated: 2026-08-21 · Entries: 141_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1657,6 +1657,18 @@ _Last updated: 2026-08-20 · Entries: 140_
 - **Workflow/details:** The creator reports a one-prompt, no-video-editing workflow. Starting inputs were the visible one-line prompt plus his attached image. He says FLUX 3 researched Hyperframes, wrote its own more detailed prompt and script, incorporated animations, and generated lip-sync, effects, and background music; he also notes support for portrait or landscape output. The internal expanded prompt and script are not exposed, so those details are not reconstructed.
 - **Prompt provenance:** `verbatim_in_post` — “A YouTube commenter video explaining about HeyGen’s Hyperframes in 20 seconds.” This is the exact user-level prompt visibly published in the verified source; no hidden expanded prompt wording has been inferred.
 - **Why included:** Explicit original-creator Flux 3 Video attribution, attached-video context, an exact highly reusable minimal prompt, and an unusually agentic end-to-end workflow. The example is especially useful for social/explainer production because it combines topic research, reference-image identity, script creation, animation, lip-sync, effects, music, and a finished no-edit result from a single short instruction.
+
+### 141. Agentic 1980s WORM TV singularity-news channel — Fabian Stelzer / Glif
+
+- **Creator:** [Fabian Stelzer (@fabianstelzer)](https://x.com/fabianstelzer) / [WORM TV (@wormtelevision)](https://x.com/wormtelevision)
+- **Published:** 2026-08-16 (based on the secondary verification source’s relative five-day timestamp at verification).
+- **Original source profiles:** [Fabian Stelzer on X](https://x.com/fabianstelzer) · [WORM TV on X](https://x.com/wormtelevision) — the accessible public index did not expose stable direct status URLs for the launch post and workflow follow-ups.
+- **Verification source:** [Secondary public creator-profile mirror preserving Stelzer’s original explicit Flux3 attribution, the quoted WORM TV launch-post media context, workflow follow-ups, and engagement](https://zamantika.com/profile/fabianstelzer)
+- **Model attribution:** Stelzer explicitly describes WORM TV as an “autonomous interdimensional Flux3 powered 80s news channel covering the singularity.”
+- **Summary:** A recurring retro-1980s, intergalactic-news format turns current AI developments into an ongoing fictional broadcast world, with recurring reporters and street-interview segments rather than a standalone one-off clip. The preserved launch post covers topics including Anthropic watermarks and DeepSeek V4 Pro.
+- **Workflow/details:** Stelzer says the channel is built inside the Glif harness from a defined world, characters, rules, and his creative taste. At verification it was not yet fully autonomous: he remained the creative director, sent ideas from his phone, let Glif execute, and manually selected what to publish. His stated direction is toward full self-driving media channels and an open-source harness/Glif-agent workflow for entertainment, brand, and marketing use.
+- **Prompt provenance:** `not_provided` — no exact FLUX 3 generation prompt is visible in the verified source, so the channel concept and workflow notes are not presented as a prompt.
+- **Why included:** Explicit creator-level Flux3 attribution, directly quoted WORM TV media context, strong public engagement (about 68.6K views and 571 likes in the preserved snapshot), and unusually reusable agentic-production notes. It demonstrates FLUX 3 as part of a persistent world/character system for recurring AI-native media rather than only a single generated clip.
 
 ## How updates work
 
