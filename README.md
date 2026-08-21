@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 145_
+_Last updated: 2026-08-21 · Entries: 146_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1716,6 +1716,17 @@ _Last updated: 2026-08-21 · Entries: 145_
 - **Workflow/details:** The creator explicitly says the prompt is in the original post, but the accessible verification mirror does not expose that prompt text. Duration, resolution, seed, reference assets, audio instructions, and post-production are therefore left unclaimed rather than inferred from the footage.
 - **Prompt provenance:** `mentioned_not_in_post` — Fryant says “prompt in the post,” but the prompt itself is not visible in the verified public mirror, so no wording is copied or reconstructed.
 - **Why included:** Traceable original-creator FLUX 3 attribution, attached-video context, and a strong public quality signal in the preserved snapshot (about 32K views and 247 likes). The concept is also a demanding action benchmark: sustained helicopter pursuit, rapid robot parkour, changing camera-to-subject geometry, urban spatial continuity, and physically readable articulated motion must remain coherent at speed.
+
+### 146. Five-second rainy-Tokyo ramen-shop native-audio API example — Cloudflare Workers AI
+
+- **Creator:** [Cloudflare Workers AI](https://developers.cloudflare.com/ai/) using Black Forest Labs’ FLUX 3 Video model.
+- **Published:** Date not stated on the model page; Cloudflare’s models index was last updated 2026-08-12; verified 2026-08-21.
+- **Original source:** [Cloudflare’s first-party FLUX 3 Video model documentation and runnable example](https://developers.cloudflare.com/ai/models/black-forest-labs/flux-3-video/)
+- **Model attribution:** Cloudflare explicitly identifies the model as “FLUX 3 Video” with model ID `black-forest-labs/flux-3-video`, and the documented response directly links to the generated MP4.
+- **Summary:** A cozy ramen shop on a rainy Tokyo night is rendered with visible broth steam while rain patter and quiet kitchen sounds are generated alongside the picture.
+- **Workflow/details:** Text-to-video via Workers AI with `mode: "t2v"`, `resolution: "hd"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
+- **Prompt provenance:** `verbatim_in_post` — “A cozy ramen shop on a rainy Tokyo night, steam rising from the broth. Rain patter and quiet kitchen sounds.”
+- **Why included:** A first-party platform example with an actual linked FLUX 3 video, exact model identifier, complete visible prompt, and reproducible generation parameters. It is a compact native-audio benchmark tying a visually simple atmospheric scene to synchronized environmental sound without relying on inferred settings.
 
 ## How updates work
 
