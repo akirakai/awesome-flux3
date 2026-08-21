@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 146_
+_Last updated: 2026-08-22 · Entries: 147_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1724,9 +1724,20 @@ _Last updated: 2026-08-21 · Entries: 146_
 - **Original source:** [Cloudflare’s first-party FLUX 3 Video model documentation and runnable example](https://developers.cloudflare.com/ai/models/black-forest-labs/flux-3-video/)
 - **Model attribution:** Cloudflare explicitly identifies the model as “FLUX 3 Video” with model ID `black-forest-labs/flux-3-video`, and the documented response directly links to the generated MP4.
 - **Summary:** A cozy ramen shop on a rainy Tokyo night is rendered with visible broth steam while rain patter and quiet kitchen sounds are generated alongside the picture.
-- **Workflow/details:** Text-to-video via Workers AI with `mode: "t2v"`, `resolution: "hd"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
+- **Workflow/details:** Text-to-video via Workers AI with `mode: \"t2v\"`, `resolution: \"hd\"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
 - **Prompt provenance:** `verbatim_in_post` — “A cozy ramen shop on a rainy Tokyo night, steam rising from the broth. Rain patter and quiet kitchen sounds.”
 - **Why included:** A first-party platform example with an actual linked FLUX 3 video, exact model identifier, complete visible prompt, and reproducible generation parameters. It is a compact native-audio benchmark tying a visually simple atmospheric scene to synchronized environmental sound without relying on inferred settings.
+
+### 147. FLUX 3-powered 2K/4K super-resolution comparison — Black Forest Labs / Cyril Diagne
+
+- **Creator:** [Black Forest Labs](https://bfl.ai/) / [Cyril Diagne](https://bfl.ai/blog/flux-video-upscale)
+- **Published:** 2026-08-20
+- **Original source:** [FLUX Video Upscale product page](https://bfl.ai/video-upscaler) · [Launch article](https://bfl.ai/blog/flux-video-upscale)
+- **Model attribution:** Black Forest Labs explicitly describes FLUX Video Upscale as “FLUX 3 powered super-resolution” and says it is tuned for FLUX 3 output.
+- **Summary:** First-party original-vs-upscaled video comparisons demonstrate FLUX 3-aware super-resolution that regenerates video at higher resolution while preserving motion and style and repairing details such as faces and natural textures.
+- **Workflow/details:** Accepts 480p+ source video; 1.5×, 2×, or 3× upscale factors; Precise mode (`creativity: 0`) uses 4 steps at $0.07/MP/s, while Creative mode (`creativity: 1`) uses 8 steps at $0.10/MP/s and can add or repair more detail. Inputs can be up to 20 seconds / 50 MB; source audio is preserved; standard output is 24 fps; Creative mode can optionally be steered with a prompt.
+- **Prompt provenance:** `not_provided` — the product documents optional prompt steering, but no exact prompt is published for the showcased comparison videos.
+- **Why included:** A newly published first-party FLUX 3 video workflow with embedded comparison media and unusually reproducible controls for resolution, mode, steps, pricing, duration, audio, and optional prompt steering.
 
 ## How updates work
 
