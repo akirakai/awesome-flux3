@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 143_
+_Last updated: 2026-08-21 · Entries: 145_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1692,6 +1692,30 @@ _Last updated: 2026-08-21 · Entries: 143_
 - **Workflow/details:** Text-to-video at full-quality HD, 5 seconds, 21:9, `draft: false`, `generate_audio: true`. The returned file measured 1440×608 with an AAC audio track; Goel reports a 62-second render and a billed cost of $1.2155 for this run. The broader hands-on article also records the endpoint’s 5–20 second duration control, HD/FHD tiers, draft-preview workflow, and measured per-render costs.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Cinematic anamorphic wide shot: a lone radio operator in a rain-lashed coastal signal station at night, green CRT glow lighting her face from below”. The complete prompt, including dialogue, camera movement, ambience, and no-music instruction, remains visible in the original source.
 - **Why included:** Newly published first-party hands-on test with an embedded FLUX 3 output, exact public prompt, precise generation parameters, real billed cost and render-time telemetry, plus a demanding combination of widescreen composition, controlled camera motion, intelligible scripted dialogue, lip-sync, weather, and layered native audio.
+
+### 144. Fifteen-second cyber-grunge rap editorial performance — AI_poruru(world)
+
+- **Creator:** [AI_poruru(world) (@poruru_ai)](https://x.com/poruru_ai)
+- **Published:** 2026-08-12 (date preserved by Yahoo! Japan’s public X real-time index).
+- **Original source profile:** [AI_poruru(world) on X](https://x.com/poruru_ai) — the accessible public indexes did not expose a stable direct status URL for the video/prompt thread.
+- **Verification sources:** [Secondary creator-profile mirror preserving the original FLUX 3 prompt follow-up, parent-video context, and engagement](https://www.twstalker.com/poruru_ai) · [Yahoo! Japan real-time X index preserving the creator, exact date, and prompt excerpt](https://search.yahoo.co.jp/realtime/search?ei=UTF-8&p=second+video&save=5)
+- **Model attribution:** The creator explicitly labels the prompt follow-up `FLUX 3:プロンプト` and, in the adjacent parent post, identifies the associated clip as FLUX 3 Video.
+- **Summary:** A high-fashion dark-pop/rap performance is staged as a kinetic cyber-grunge editorial film, using scanned-magazine grain, halftone and distressed-print texture, red-black graphic energy, close facial performance, and five hard-cut movement beats rather than static beauty posing.
+- **Workflow/details:** The visible brief specifies 15 seconds and five 3-second sections. It directs an extreme close-up push-in, a tight three-quarter tracking angle, a backward-dolly medium close-up, a mini-orbit close-up, and a final aggressive push-in, with continuous hair, shoulder, hand, facial, and body motion. The prompt also specifies two reference roles—one for performer identity/outfit and one for visual style—although the actual reference assets and model-side settings are not preserved in the public verification sources. An adjacent creator post describes the associated FLUX 3 test as 15 seconds at 720p.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “15-second cyber-grunge rap music video.” The full time-coded prompt remains visible in the secondary verification source; no missing text has been reconstructed.
+- **Why included:** Explicit original-creator FLUX 3 attribution, a visible structured prompt, traceable video-thread context, and unusually reusable direction for high-motion performance video: identity/style references, hard-cut rhythm, close-up camera choreography, body momentum, hair physics, editorial surface treatment, and anti-static constraints are all specified in one compact 15-second plan.
+
+### 145. Police-helicopter chase with a parkouring robot — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-08-13 (based on the public verification mirror’s preserved relative timestamp at crawl).
+- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the accessible public index did not expose a stable direct status URL for this post.
+- **Verification source:** [Secondary public mirror preserving a retweet of Fryant’s original creator caption, explicit FLUX 3 attribution, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
+- **Model attribution:** Fryant explicitly captions the attached work “Police helicopter chase with a parkouring robot. FLUX 3” and tags Black Forest Labs.
+- **Summary:** A police-helicopter pursuit tracks a robot performing parkour, combining fast aerial chase language with agile articulated locomotion and urban action staging.
+- **Workflow/details:** The creator explicitly says the prompt is in the original post, but the accessible verification mirror does not expose that prompt text. Duration, resolution, seed, reference assets, audio instructions, and post-production are therefore left unclaimed rather than inferred from the footage.
+- **Prompt provenance:** `mentioned_not_in_post` — Fryant says “prompt in the post,” but the prompt itself is not visible in the verified public mirror, so no wording is copied or reconstructed.
+- **Why included:** Traceable original-creator FLUX 3 attribution, attached-video context, and a strong public quality signal in the preserved snapshot (about 32K views and 247 likes). The concept is also a demanding action benchmark: sustained helicopter pursuit, rapid robot parkour, changing camera-to-subject geometry, urban spatial continuity, and physically readable articulated motion must remain coherent at speed.
 
 ## How updates work
 
