@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-21 · Entries: 142_
+_Last updated: 2026-08-21 · Entries: 143_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1681,6 +1681,17 @@ _Last updated: 2026-08-21 · Entries: 142_
 - **Workflow/details:** In a follow-up, NOBU says that in his own test the model reproduced the oil-painting animation by effectively redrawing the whole frame uniformly. He also says he has been testing Flux 3 through Runway and fal generally, but the public source does not establish which platform produced this exact clip. Duration, resolution, seed, reference inputs, exact prompt, audio settings, and post-production are not publicly verified.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public source. A viewer asks whether special prompting beyond ideas like maintaining the oil-painting look and low FPS was used, but NOBU’s exact prompt is not exposed, so none is reconstructed.
 - **Why included:** Fresh explicit original-creator Flux 3 attribution, attached-video context, strong public engagement (roughly 13K–16K views across preserved snapshots), and a distinctive temporal-style-consistency benchmark. Maintaining an oil-painted surface coherently while the scene moves is a materially different challenge from generic cinematic realism and gives the collection a useful style-persistence example.
+
+### 143. 21:9 coastal signal-station dialogue previs with measured render telemetry — Himanshu Goel / Segmind
+
+- **Creator:** [Himanshu Goel](https://blog.segmind.com/author/himanshu/) / [Segmind](https://www.segmind.com/)
+- **Published:** 2026-08-19
+- **Original source:** [FLUX 3 Text to Video: Features, Real Costs and How It Compares](https://blog.segmind.com/flux-3-text-to-video-features-real-costs-and-how-it-compares/)
+- **Model attribution:** Goel explicitly documents running the clip through Segmind’s `flux-3-text-to-video` endpoint and labels the embedded result “FLUX 3 output, film previs at 21:9 with a scripted line.”
+- **Summary:** A cinematic anamorphic night scene places a lone radio operator in a rain-lashed coastal signal station, delivering a scripted line into a desk microphone while the camera slowly dollies in and native audio layers rain, electronics hum, and radio static.
+- **Workflow/details:** Text-to-video at full-quality HD, 5 seconds, 21:9, `draft: false`, `generate_audio: true`. The returned file measured 1440×608 with an AAC audio track; Goel reports a 62-second render and a billed cost of $1.2155 for this run. The broader hands-on article also records the endpoint’s 5–20 second duration control, HD/FHD tiers, draft-preview workflow, and measured per-render costs.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Cinematic anamorphic wide shot: a lone radio operator in a rain-lashed coastal signal station at night, green CRT glow lighting her face from below”. The complete prompt, including dialogue, camera movement, ambience, and no-music instruction, remains visible in the original source.
+- **Why included:** Newly published first-party hands-on test with an embedded FLUX 3 output, exact public prompt, precise generation parameters, real billed cost and render-time telemetry, plus a demanding combination of widescreen composition, controlled camera motion, intelligible scripted dialogue, lip-sync, weather, and layered native audio.
 
 ## How updates work
 
