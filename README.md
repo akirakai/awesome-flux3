@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-22 · Entries: 147_
+_Last updated: 2026-08-22 · Entries: 150_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1738,6 +1738,39 @@ _Last updated: 2026-08-22 · Entries: 147_
 - **Workflow/details:** Accepts 480p+ source video; 1.5×, 2×, or 3× upscale factors; Precise mode (`creativity: 0`) uses 4 steps at $0.07/MP/s, while Creative mode (`creativity: 1`) uses 8 steps at $0.10/MP/s and can add or repair more detail. Inputs can be up to 20 seconds / 50 MB; source audio is preserved; standard output is 24 fps; Creative mode can optionally be steered with a prompt.
 - **Prompt provenance:** `not_provided` — the product documents optional prompt steering, but no exact prompt is published for the showcased comparison videos.
 - **Why included:** A newly published first-party FLUX 3 video workflow with embedded comparison media and unusually reproducible controls for resolution, mode, steps, pricing, duration, audio, and optional prompt steering.
+
+### 148. Ten-second carrier-deck three-shot launch with native audio — John Ozuysal / fal
+
+- **Creator:** [John Ozuysal](https://fal.ai/learn/tools/how-to-use-flux-3) / [fal](https://fal.ai/)
+- **Published:** 2026-08-12 (the first-party guide’s last-updated date; the clip’s original publication date is not separately stated).
+- **Original source:** [fal’s first-party “How To Use FLUX 3: Prompts & Workflows” guide with the embedded generated video](https://fal.ai/learn/tools/how-to-use-flux-3)
+- **Model attribution:** fal explicitly labels the embedded result “Generated using FLUX 3 on fal, an AI model from Black Forest Labs.”
+- **Summary:** A golden-hour aircraft-carrier launch is covered like a real deck operation across three planned angles: long-lens taxi and catapult lock, a low deck-level launch, then a tilt-up holding the jet into a climbing turn.
+- **Workflow/details:** Text-to-video; 10-second duration; timestep prompting at 0.0–3.5s, 3.5–7.0s, and 7.0–10.0s with explicit `HARD CUT` markers. The prompt coordinates long-lens heat haze, a low wide camera, tilt-up tracking, anamorphic flare, deck-crew action, and continuous turbine, catapult, wind, and radio audio. The guide supports 720p/1080p generally, but this clip’s exact resolution and aspect ratio are not separately stated, so none is inferred.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Golden hour on a carrier deck, cut like coverage of a real deck operation. Grainy anamorphic, hard raking sun, heavy flare across the lens.” The complete time-coded prompt remains visible in the first-party source.
+- **Why included:** First-party embedded FLUX 3 output with explicit attribution, exact duration, visible prompt, timed cuts, camera choreography, physical action, and native-audio direction. It is a strong reproducible benchmark of multi-shot editorial grammar inside one generation.
+
+### 149. Astronaut re-entry dialogue and lighting-change image-to-video — John Ozuysal / fal
+
+- **Creator:** [John Ozuysal](https://fal.ai/learn/tools/how-to-use-flux-3) / [fal](https://fal.ai/)
+- **Published:** 2026-08-12 (the first-party guide’s last-updated date; the clip’s original publication date is not separately stated).
+- **Original source:** [fal’s first-party FLUX 3 workflow guide with source still, prompt, and embedded generated video](https://fal.ai/learn/tools/how-to-use-flux-3)
+- **Model attribution:** fal explicitly labels the embedded result “Generated using FLUX 3 on fal, an AI model from Black Forest Labs.”
+- **Summary:** A close spacecraft portrait animates from a still: the astronaut flips an overhead switch, addresses the lens, then re-entry begins as orange light fills the window and sweeps across her visor and instrument panel.
+- **Workflow/details:** Image-to-video from one Seedream 5.0 source portrait. The prompt explicitly preserves the same face, white pressure suit, and switch banks, calls for a slight push-in, scripted dialogue, changing practical light, structural groan, hull buffeting, and a rising roar, with no music, on-screen text, or subtitles. The exact clip duration, resolution, seed, and post-production are not separately disclosed.
+- **Prompt provenance:** `verbatim_in_post` — the visible spoken line is: “Tell them we made it to the far side.” The complete generation prompt remains visible in the first-party source.
+- **Why included:** First-party source/output pairing with explicit FLUX 3 attribution and a highly reusable image-to-video pattern combining identity retention, precise human action, direct-to-camera speech, environmental state change, moving light, camera motion, and layered native sound.
+
+### 150. 21:9 three-keyframe vault-heist interpolation — John Ozuysal / fal
+
+- **Creator:** [John Ozuysal](https://fal.ai/learn/tools/how-to-use-flux-3) / [fal](https://fal.ai/)
+- **Published:** 2026-08-12 (the first-party guide’s last-updated date; the clip’s original publication date is not separately stated).
+- **Original source:** [fal’s first-party FLUX 3 workflow guide with all three keyframes, prompt, and embedded generated video](https://fal.ai/learn/tools/how-to-use-flux-3)
+- **Model attribution:** fal explicitly labels the final video “Generated using FLUX 3 on fal, an AI model from Black Forest Labs.”
+- **Summary:** A heist-film vault opening is storyboarded with three fixed compositions: hands on the brass dial in near darkness, the heavy door partway open with warm light spilling out, then a suited figure silhouetted in the fully open doorway.
+- **Workflow/details:** Keyframes-to-video; 10 seconds; 21:9. Three keyframes are pinned at frames 0, 96, and 216; fal documents FLUX 3’s frame indexing at 24 fps, placing them at 0s, 4s, and 9s with one second of motion runway after the final composition. The source frames were created with Nano Banana 2 Lite and its edit mode. The video prompt specifies a locked-off low angle, one continuous move, dial/bolt/hinge sounds, and a final breath with no music.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “The final beat of a heist picture. The hands work the dial until the lock gives, the door swings out under its own weight”. The complete video prompt and all three source-frame prompts remain visible in the first-party guide.
+- **Why included:** Exceptionally reproducible first-party example with embedded output, explicit FLUX 3 attribution, exact duration/aspect ratio, exact keyframe indices, source-frame provenance, and visible prompt. It demonstrates storyboard-like temporal control rather than relying on text prompting alone.
 
 ## How updates work
 
