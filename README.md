@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-22 · Entries: 152_
+_Last updated: 2026-08-22 · Entries: 153_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1327,7 +1327,7 @@ _Last updated: 2026-08-22 · Entries: 152_
 - **Original source:** [Runware FLUX 3 keyframes guide with source image, generated video, and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/keyframes)
 - **Model attribution:** Runware identifies the guide as Black Forest Labs’ FLUX 3 Video; the exact request uses model ID `bfl:flux@3-video`.
 - **Summary:** A product-packshot image of a walnut-handled Damascus chef’s knife becomes an 8-second video in which a hand picks up the knife and slices a lime while preserving the source composition and warm product lighting.
-- **Workflow/details:** One image reference pinned to `frameImages[0].frame = \"first\"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
+- **Workflow/details:** One image reference pinned to `frameImages[0].frame = "first"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
 - **Prompt provenance:** `verbatim_in_post` — “Use this image as the first frame. An 8-second clip: the camera holds locked on the knife for a beat…” The complete prompt remains visible in the source.
 - **Why included:** First-party embedded source/output pairing with exact reference placement, model ID, duration, resolution, and prompt; it cleanly tests first-frame fidelity, hand-object interaction, product-material continuity, motion onset, and synchronized foley.
 
@@ -1724,7 +1724,7 @@ _Last updated: 2026-08-22 · Entries: 152_
 - **Original source:** [Cloudflare’s first-party FLUX 3 Video model documentation and runnable example](https://developers.cloudflare.com/ai/models/black-forest-labs/flux-3-video/)
 - **Model attribution:** Cloudflare explicitly identifies the model as “FLUX 3 Video” with model ID `black-forest-labs/flux-3-video`, and the documented response directly links to the generated MP4.
 - **Summary:** A cozy ramen shop on a rainy Tokyo night is rendered with visible broth steam while rain patter and quiet kitchen sounds are generated alongside the picture.
-- **Workflow/details:** Text-to-video via Workers AI with `mode: \"t2v\"`, `resolution: \"hd\"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
+- **Workflow/details:** Text-to-video via Workers AI with `mode: "t2v"`, `resolution: "hd"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
 - **Prompt provenance:** `verbatim_in_post` — “A cozy ramen shop on a rainy Tokyo night, steam rising from the broth. Rain patter and quiet kitchen sounds.”
 - **Why included:** A first-party platform example with an actual linked FLUX 3 video, exact model identifier, complete visible prompt, and reproducible generation parameters. It is a compact native-audio benchmark tying a visually simple atmospheric scene to synchronized environmental sound without relying on inferred settings.
 
@@ -1795,6 +1795,18 @@ _Last updated: 2026-08-22 · Entries: 152_
 - **Workflow/details:** Text-to-video for a 20-second, one-continuous-shot vacation-video aesthetic with no cuts. The prompt time-codes 0–5s cabin movement, 5–10s approach/reflection, 10–13s lights-off and natural auto-exposure adaptation, and 13–20s the clearer exterior reveal. It specifies handheld walking bounce, slight tremor, imperfect framing, autofocus hunting, physically coherent glass reflections, warm-to-blue/green lighting change, spacecraft ventilation/footsteps/fabric/light-switch/breathing audio, and strict no-teleportation/no-HUD/no-floating-camera constraints.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Overview: Amateur first-person handheld phone footage recorded by a tourist inside a comfortable private room aboard a commercial orbital hotel above Earth. It feels like a casual vacation video, not a polished sci-fi movie. One continuous shot, no cuts.” The complete time-coded prompt remains visible in the verification source.
 - **Why included:** Fresh explicit creator-side Flux3 attribution and a highly reproducible long-take brief. The clip is a high-signal realism benchmark because the scene must preserve room/window/Earth geometry while coordinating handheld motion, reflections, a physical switch action, delayed smartphone exposure adaptation, environmental sound, and a lighting-driven reveal over the full 20 seconds.
+
+### 153. Late-night train-station UGC influencer continuity test — Kaan
+
+- **Creator:** [Kaan (@kaanakz)](https://x.com/kaanakz)
+- **Published:** Date not reliably exposed; verified 2026-08-22 (the public verification mirror shows a relative three-day timestamp).
+- **Original source profile:** [Kaan on X](https://x.com/kaanakz) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Kaan’s original “Made with Flux 3” wording, attached-video context, and complete visible prompt](https://w.twstalker.com/kaanakz)
+- **Model attribution:** Kaan explicitly introduces the attached result with “Made with Flux 3.”
+- **Summary:** A late-night European travel-vlog sequence follows the same synthetic influencer through an almost-empty train station as she races for the last train, misses it at the closing doors, processes the awkward failure, and decides to walk home.
+- **Workflow/details:** Prompt-led roughly 20-second sequence written as 10 cuts mixing selfie, handheld POV, fixed external, close-selfie, wide, and rear-follow shots. The brief specifies a DV/16 mm-tape camcorder look, realistic hand shake, delayed low-light autofocus, exposure shifts, motion blur, fluorescent station lighting, readable departure-board timing, exact dialogue beats, breathing, station announcements, environmental sound, and strict continuity while avoiding a polished commercial finish.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “STYLE: Realistic late-night European travel vlog. Casual, spontaneous, slightly cinematic but never overly polished.” The complete roughly 20-second / 10-cut prompt remains visible in the verification source.
+- **Why included:** Fresh explicit creator-side FLUX 3 attribution plus a fully visible, unusually reproducible prompt. It is a demanding UGC-realism benchmark for one-character identity persistence across ten edits, mixed camera grammar, low-light autofocus/exposure behavior, text-in-scene, train-door timing, natural dialogue, breathing, ambience, and an understated narrative payoff.
 
 ## How updates work
 
