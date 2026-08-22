@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-22 · Entries: 153_
+_Last updated: 2026-08-22 · Entries: 154_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1807,6 +1807,18 @@ _Last updated: 2026-08-22 · Entries: 153_
 - **Workflow/details:** Prompt-led roughly 20-second sequence written as 10 cuts mixing selfie, handheld POV, fixed external, close-selfie, wide, and rear-follow shots. The brief specifies a DV/16 mm-tape camcorder look, realistic hand shake, delayed low-light autofocus, exposure shifts, motion blur, fluorescent station lighting, readable departure-board timing, exact dialogue beats, breathing, station announcements, environmental sound, and strict continuity while avoiding a polished commercial finish.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “STYLE: Realistic late-night European travel vlog. Casual, spontaneous, slightly cinematic but never overly polished.” The complete roughly 20-second / 10-cut prompt remains visible in the verification source.
 - **Why included:** Fresh explicit creator-side FLUX 3 attribution plus a fully visible, unusually reproducible prompt. It is a demanding UGC-realism benchmark for one-character identity persistence across ten edits, mixed camera grammar, low-light autofocus/exposure behavior, text-in-scene, train-door timing, natural dialogue, breathing, ambience, and an understated narrative payoff.
+
+### 154. Gen Z street interviews in 1964 time-travel vignette — ΛRMIN
+
+- **Creator:** [ΛRMIN (@Arminn_Ai)](https://x.com/Arminn_Ai)
+- **Published:** 2026-08-19 (based on the current public verification mirror’s relative three-day timestamp at verification).
+- **Original source profile:** [ΛRMIN on X](https://x.com/Arminn_Ai) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving ΛRMIN’s original wording, explicit FLUX 3 attribution, attached-video context, same-creator follow-up, and engagement](https://w.twstalker.com/Arminn_Ai)
+- **Model attribution:** ΛRMIN explicitly captions the original attached video “Made with FLUX 3” and later describes the same idea as “Having a blast with FLUX 3.”
+- **Summary:** A Gen Z interviewer is dropped into 1964 and runs wild street interviews, combining contemporary short-form interview behavior with a mid-1960s setting as an anachronistic time-travel comedy.
+- **Workflow/details:** Creator-posted FLUX 3 video built around a 1964 street-interview premise. The accessible verification source preserves the attached-video post and a same-creator follow-up but does not expose duration, resolution, seed, reference media, exact dialogue, audio settings, or post-production, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says “prompt below 👇” and later says the prompt is in the quoted post, but the accessible verification source does not expose the prompt text; no missing wording has been reconstructed.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, attached-video context, and a strong public signal (about 11K views and 80 likes in the preserved snapshot). The concept is a distinctive benchmark for period styling, temporal/anachronistic world consistency, human performance, dialogue/street-interview staging, and comedic readability from a compact premise.
 
 ## How updates work
 
