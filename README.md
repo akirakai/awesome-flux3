@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-22 · Entries: 150_
+_Last updated: 2026-08-22 · Entries: 152_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1771,6 +1771,30 @@ _Last updated: 2026-08-22 · Entries: 150_
 - **Workflow/details:** Keyframes-to-video; 10 seconds; 21:9. Three keyframes are pinned at frames 0, 96, and 216; fal documents FLUX 3’s frame indexing at 24 fps, placing them at 0s, 4s, and 9s with one second of motion runway after the final composition. The source frames were created with Nano Banana 2 Lite and its edit mode. The video prompt specifies a locked-off low angle, one continuous move, dial/bolt/hinge sounds, and a final breath with no music.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “The final beat of a heist picture. The hands work the dial until the lock gives, the door swings out under its own weight”. The complete video prompt and all three source-frame prompts remain visible in the first-party guide.
 - **Why included:** Exceptionally reproducible first-party example with embedded output, explicit FLUX 3 attribution, exact duration/aspect ratio, exact keyframe indices, source-frame provenance, and visible prompt. It demonstrates storyboard-like temporal control rather than relying on text prompting alone.
+
+### 151. Sunday-morning UGC influencer realism with deliberate DV imperfections — Kaan
+
+- **Creator:** [Kaan (@kaanakz)](https://x.com/kaanakz)
+- **Published:** 2026-08-18 (based on the secondary verification mirror’s relative timestamp at verification).
+- **Original source profile:** [Kaan on X](https://x.com/kaanakz) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Kaan’s original “Made with Flux 3” wording, complete visible prompt, video context, and engagement](https://w.twstalker.com/kaanakz)
+- **Model attribution:** Kaan explicitly introduces the attached result with “Made with Flux 3.”
+- **Summary:** A synthetic Sunday-morning lifestyle vlog follows one adult woman from bed through curtains, bathroom, coffee and breakfast, tidying, skincare, dressing, and a balcony finish while trying to retain the imperfect look and behavior of casual social footage instead of polished advertising.
+- **Workflow/details:** Prompt-led FLUX 3 video built around a DV/16 mm-tape-inspired handheld language: selfie and first-person capture mixed with occasional fixed external cuts, realistic shake, crooked framing, autofocus delay, exposure variation, motion blur, subtle vintage tape texture, and soft morning lighting. The prompt scripts short dialogue beats and requires consistent identity, natural breathing/movement, home ambience, and continuity through several apartment spaces. Duration, resolution, seed, reference assets, and post-production are not publicly verified.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “CAMERA: DV 16mm tape camcorder handheld aesthetic. Gorgeous glamorous European woman films herself in selfie-cam and first-person style during a slow Sunday morning at home. Realistic hand shake, crooked framing, delayed autofocus, occasional motion blur.” The complete storyboard prompt remains visible in the verification source.
+- **Why included:** Fresh explicit creator-side FLUX 3 attribution, a fully visible reproducible prompt, and a strong public quality signal (about 21K views and 217 likes in the preserved snapshot). It is a practical UGC-realism stress test of identity persistence, multi-room staging, imperfect consumer-camera behavior, natural dialogue, facial performance, and mundane action continuity.
+
+### 152. Twenty-second orbital-hotel vacation POV with reflection-to-exposure transition — Jin.B
+
+- **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
+- **Published:** 2026-08-19 (based on the secondary verification mirror’s relative timestamp at verification).
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving Jin.B’s original Flux3 attribution, attached-video context, complete visible prompt, and engagement](https://mobile.twstalker.com/opener_ai)
+- **Model attribution:** Jin.B explicitly says “Flux3 is amazing at making natural-looking videos,” calls out T2V, labels the following text `[FLUX 3 PROMPT]`, and tags `#flux3`.
+- **Summary:** Amateur first-person phone footage moves through a private orbital-hotel cabin toward a huge observation window; the bright room initially dominates the glass reflection, then the tourist switches off the cabin lights and the phone takes a beat to adapt, revealing a much clearer Earth, city lights, and green aurora outside.
+- **Workflow/details:** Text-to-video for a 20-second, one-continuous-shot vacation-video aesthetic with no cuts. The prompt time-codes 0–5s cabin movement, 5–10s approach/reflection, 10–13s lights-off and natural auto-exposure adaptation, and 13–20s the clearer exterior reveal. It specifies handheld walking bounce, slight tremor, imperfect framing, autofocus hunting, physically coherent glass reflections, warm-to-blue/green lighting change, spacecraft ventilation/footsteps/fabric/light-switch/breathing audio, and strict no-teleportation/no-HUD/no-floating-camera constraints.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Overview: Amateur first-person handheld phone footage recorded by a tourist inside a comfortable private room aboard a commercial orbital hotel above Earth. It feels like a casual vacation video, not a polished sci-fi movie. One continuous shot, no cuts.” The complete time-coded prompt remains visible in the verification source.
+- **Why included:** Fresh explicit creator-side Flux3 attribution and a highly reproducible long-take brief. The clip is a high-signal realism benchmark because the scene must preserve room/window/Earth geometry while coordinating handheld motion, reflections, a physical switch action, delayed smartphone exposure adaptation, environmental sound, and a lighting-driven reveal over the full 20 seconds.
 
 ## How updates work
 
