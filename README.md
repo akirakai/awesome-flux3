@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-22 · Entries: 155_
+_Last updated: 2026-08-22 · Entries: 156_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1831,6 +1831,18 @@ _Last updated: 2026-08-22 · Entries: 155_
 - **Workflow/details:** Schöneberg built ComfyUI nodes for the new BFL upscaling API and ran a four-way comparison. He records 480p+ input support, 1.5×/2×/3× scaling up to 4K, Precise mode at 4 steps for faster identity-preserving output, and Creative mode at 8 steps for stronger repair/detail synthesis. LinkedIn’s resolution limits are why he presents a 400% crop of the small subject.
 - **Prompt provenance:** `not_provided` — this is a video-super-resolution benchmark and the creator does not publish an exact prompt for the tested clip; none has been inferred.
 - **Why included:** Fresh traceable creator-side `#FLUX3` attribution, attached video-comparison context, a concrete ComfyUI/API workflow, and a difficult small-subject reconstruction benchmark against three named competing upscalers. The preserved source also shows 71 reactions, indicating meaningful public interest.
+
+### 156. Stop-sign-pigeon chain-reaction animation benchmark vs. Seedance 2.5 — Framer 🇱🇹
+
+- **Creator:** [Framer 🇱🇹 (@Framer_X)](https://x.com/Framer_X)
+- **Published:** 2026-08-22 (based on the secondary verification mirror’s relative 18-hour timestamp at verification).
+- **Original source profile:** [Framer on X](https://x.com/Framer_X) — the accessible public index did not expose a stable direct status URL for this comparison.
+- **Verification sources:** [Secondary creator-profile mirror preserving Framer’s original wording, explicit Flux 3 vs. Seedance 2.5 attribution, attached-video context, prompt follow-up, and engagement](https://www6.twstalker.com/framer_x) · [Independent secondary page preserving the same comparison prompt and creator attribution](https://renoise.ai/showcase/awesome-seedance-2-5-prompts)
+- **Model attribution:** Framer explicitly captions the attached comparison “Flux 3 vs. Seedance 2.5 for AI animation” and says both were tested using variations of the same prompt and the same source image.
+- **Summary:** A nervous traffic officer fights a pigeon perched on his STOP sign while surrounding drivers swerve and collide; after the bird leaves and the officer nervously tries to play it off, a final overhead gag ends the sequence.
+- **Workflow/details:** Direct FLUX 3 vs. Seedance 2.5 comparison from one source image and a shared multi-cut prompt. The brief coordinates exact spoken dialogue, close/medium/wide cuts, pigeon motion, synchronized traffic chain reactions, character reaction continuity, and layered audio cues including whistle blasts, wings, horns, tire screeches, metallic crashes, and comic impacts. The creator says he tried a few prompt variations; exact provider, duration, resolution, seed, and model-specific settings are not publicly verified.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “The officer nervously squeezes the STOP sign pole with both hands as his eyes dart between the moving cars.” The complete multi-cut prompt remains visible in the verification sources.
+- **Why included:** Fresh explicit original-creator Flux 3 attribution, attached comparison video, a visible reusable prompt, same-source-image benchmark design, and a strong public quality signal (about 20K views and 167 likes in the preserved snapshot). The sequence stress-tests animated-character continuity, dialogue, comic timing, bird/prop interaction, multi-vehicle causal motion, rapid cuts, and synchronized sound in one benchmark.
 
 ## How updates work
 
