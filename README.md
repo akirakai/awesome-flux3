@@ -26,7 +26,7 @@ An item is accepted only when it:
 
 ## Curated videos
 
-_Last updated: 2026-08-23 · Entries: 159_
+_Last updated: 2026-08-23 · Entries: 160_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1877,6 +1877,18 @@ _Last updated: 2026-08-23 · Entries: 159_
 - **Workflow/details:** One prompt; one continuous 20-second take; no cuts, edits, compositing, or hidden transition. The creator says the same mosquito remains singular, the backyard is not re-rolled, and the device stays fixed while the camera moves with real inertia from extreme macro to a wide orbit. He also says roughly half the prompt was devoted to restraint-oriented negative constraints, explicitly naming no giant beam, no explosion, no holographic HUD, and no floating text; the resulting laser stayed thin and physically believable.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator discusses how the prompt was structured and publicly names several negative constraints, but the complete generation prompt is not visible in the verified source, so no full prompt has been copied or reconstructed.
 - **Why included:** A high-signal long-take continuity benchmark with explicit original-creator FLUX 3 attribution and unusually concrete evaluation notes. It combines tiny fast subject tracking, macro-to-wide camera travel, fixed-world geometry, single-subject identity, sensor/laser causality, physically restrained VFX, and strict anti-cheat constraints across a full 20 seconds.
+
+### 160. Three-clip minimal-instruction atmospheric montage — Int.Lab
+
+- **Creator:** [Int.Lab (@IntLab0000)](https://x.com/IntLab0000)
+- **Published:** Date not reliably exposed; verified 2026-08-23 (current public mirrors place the parent post about four to five days earlier).
+- **Original source profile:** [Int.Lab on X](https://x.com/IntLab0000) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving the original “Test (Flux 3)” post, same-creator workflow follow-up, attached-media context, and engagement](https://w.twstalker.com/IntLab0000)
+- **Model attribution:** Int.Lab explicitly captions the parent attached-media post “Test (Flux 3).” In a same-creator follow-up about that test, he says the piece combines three video materials generated with Flux.
+- **Summary:** Three separately generated FLUX 3 video materials are combined into one short atmospheric piece; the experiment intentionally uses sparse direction and evaluates whether the resulting footage can still carry rich visual information.
+- **Workflow/details:** Generate three Flux video materials, combine them externally, and keep the initial instruction intentionally light. Int.Lab says the combination produced an atmosphere he liked and that the experiment was specifically about packing a lot of visual information into the footage with little direction. Duration, resolution, seed, provider, reference inputs, audio settings, exact edit structure, and post-production beyond combining the three clips are not publicly disclosed.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator describes using minimal instruction for the experiment but does not expose the exact generation wording, so no prompt text has been reconstructed or inferred.
+- **Why included:** Explicit original-creator FLUX 3 attribution, attached-media context preserved by a public secondary source, a concrete three-clip workflow and creator-side quality assessment, plus meaningful public engagement (roughly 30 likes and about 1K views in preserved snapshots). The example is a useful counterpoint to heavily scripted prompts because it tests how much atmosphere and visual density FLUX 3 can generate from deliberately sparse direction before external assembly.
 
 ## How updates work
 
