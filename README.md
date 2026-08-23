@@ -24,9 +24,17 @@ An item is accepted only when it:
 | `mentioned_not_in_post` | The creator refers to a prompt, but it is not visible in the verified source. |
 | `not_provided` | No prompt was found or claimed. |
 
+<!--
+
 ## Curated videos
 
 _Last updated: 2026-08-23 · Entries: 160_
+
+-->
+
+## Curated videos
+
+_Last updated: 2026-08-23 · Entries: 161_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1889,6 +1897,17 @@ _Last updated: 2026-08-23 · Entries: 160_
 - **Workflow/details:** Generate three Flux video materials, combine them externally, and keep the initial instruction intentionally light. Int.Lab says the combination produced an atmosphere he liked and that the experiment was specifically about packing a lot of visual information into the footage with little direction. Duration, resolution, seed, provider, reference inputs, audio settings, exact edit structure, and post-production beyond combining the three clips are not publicly disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator describes using minimal instruction for the experiment but does not expose the exact generation wording, so no prompt text has been reconstructed or inferred.
 - **Why included:** Explicit original-creator FLUX 3 attribution, attached-media context preserved by a public secondary source, a concrete three-clip workflow and creator-side quality assessment, plus meaningful public engagement (roughly 30 likes and about 1K views in preserved snapshots). The example is a useful counterpoint to heavily scripted prompts because it tests how much atmosphere and visual density FLUX 3 can generate from deliberately sparse direction before external assembly.
+
+### 161. 400% meerkat-detail FLUX 3 Video Upscale benchmark vs. Topaz/Starlight/Flash VSR — Dennis Schöneberg
+
+- **Creator:** [Dennis Schöneberg](https://de.linkedin.com/in/dennis-schoeneberg)
+- **Published:** 2026-08-21 (based on LinkedIn’s public two-day relative timestamp at verification).
+- **Original source:** [Dennis Schöneberg’s LinkedIn creator activity page](https://de.linkedin.com/in/dennis-schoeneberg) — the public index exposes the original creator post on-profile but not a stable direct activity permalink.
+- **Model attribution:** Schöneberg explicitly identifies the test as **FLUX 3 Video Upscale**, tags `#FLUX3`, and reports the shown result from **FLUX 3 Creative**.
+- **Summary:** A 400%-zoomed tiny-detail comparison uses a meerkat in a garden to pit FLUX 3 Video Upscale against Topaz Astra 2, Topaz Starlight Precise 2, and Flash VSR; Schöneberg reports that FLUX 3 Creative preserves a recognizable head and posture while the competing outputs mutate the subject more heavily.
+- **Workflow/details:** Schöneberg built ComfyUI nodes for the new API and ran the same difficult tiny-detail target across the named upscalers. He documents FLUX Video Upscale as accepting source video from 480p, regenerating up to native 4K at 1.5×/2×/3×, with Precise at 4 steps for fidelity/identity and Creative at 8 steps for stronger repair/detail generation. The LinkedIn upload is a 400% zoom-in because the platform would not show the full-resolution comparison fairly.
+- **Prompt provenance:** `not_provided` — no text prompt for the source clip or upscale pass is visible in the verified creator post.
+- **Why included:** A fresh, primary creator-side technical benchmark with named competitors, concrete mode/step settings, ComfyUI workflow context, and a deliberately unforgiving tiny-subject reconstruction target rather than a generic launch reel.
 
 ## How updates work
 
