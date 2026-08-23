@@ -24,9 +24,17 @@ An item is accepted only when it:
 | `mentioned_not_in_post` | The creator refers to a prompt, but it is not visible in the verified source. |
 | `not_provided` | No prompt was found or claimed. |
 
+<!--
+
 ## Curated videos
 
 _Last updated: 2026-07-25 · Entries: 2_
+
+-->
+
+## Curated videos
+
+_Last updated: 2026-08-23 · Entries: 161_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -49,6 +57,17 @@ _Last updated: 2026-07-25 · Entries: 2_
 - **Workflow/details:** FLUX 3 accepts text, image, and video references; generates video with native audio up to 20 seconds; and supports chaining clips into longer sequences. Black Forest Labs reports that its preliminary evaluation set used 10-second, 720p text-to-video clips with audio.
 - **Prompt provenance:** `not_provided` — the launch article describes the workflows and displays official outputs, but does not publish a verified prompt for each showcased clip.
 - **Why included:** Definitive primary source from the model creator, with explicit FLUX 3 attribution, official output examples, reproducible capability details, and unusually broad multimodal video coverage.
+
+### 161. 400% meerkat-detail FLUX 3 Video Upscale benchmark vs. Topaz/Starlight/Flash VSR — Dennis Schöneberg
+
+- **Creator:** [Dennis Schöneberg](https://de.linkedin.com/in/dennis-schoeneberg)
+- **Published:** 2026-08-21 (based on LinkedIn’s public two-day relative timestamp at verification).
+- **Original source:** [Dennis Schöneberg’s LinkedIn creator activity page](https://de.linkedin.com/in/dennis-schoeneberg) — the public index exposes the original creator post on-profile but not a stable direct activity permalink.
+- **Model attribution:** Schöneberg explicitly identifies the test as **FLUX 3 Video Upscale**, tags `#FLUX3`, and reports the shown result from **FLUX 3 Creative**.
+- **Summary:** A 400%-zoomed tiny-detail comparison uses a meerkat in a garden to pit FLUX 3 Video Upscale against Topaz Astra 2, Topaz Starlight Precise 2, and Flash VSR; Schöneberg reports that FLUX 3 Creative preserves a recognizable head and posture while the competing outputs mutate the subject more heavily.
+- **Workflow/details:** Schöneberg built ComfyUI nodes for the new API and ran the same difficult tiny-detail target across the named upscalers. He documents FLUX Video Upscale as accepting source video from 480p, regenerating up to native 4K at 1.5×/2×/3×, with Precise at 4 steps for fidelity/identity and Creative at 8 steps for stronger repair/detail generation. The LinkedIn upload is a 400% zoom-in because the platform would not show the full-resolution comparison fairly.
+- **Prompt provenance:** `not_provided` — no text prompt for the source clip or upscale pass is visible in the verified creator post.
+- **Why included:** A fresh, primary creator-side technical benchmark with named competitors, concrete mode/step settings, ComfyUI workflow context, and a deliberately unforgiving tiny-subject reconstruction target rather than a generic launch reel.
 
 ## How updates work
 
