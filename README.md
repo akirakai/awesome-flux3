@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-23 · Entries: 162_
+_Last updated: 2026-08-23 · Entries: 163_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1921,6 +1921,18 @@ _Last updated: 2026-08-23 · Entries: 162_
 - **Workflow/details:** Creator-generated Flux 3 video. Rahul specifically calls out the acting, sound, and camera movements as the details that made the clip feel real to him. The verified sources do not disclose duration, resolution, input/reference mode, seed, exact generation settings, audio workflow, or post-production, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public sources, and nothing has been reconstructed from the video description.
 - **Why included:** Explicit original-creator Flux 3 attribution, creator-side confirmation that he made the clip, primary LinkedIn corroboration, and a strong public quality signal (about 264K views and 1K likes in the preserved mirror snapshot). The scene is a useful realism benchmark because casual vlog acting, handheld camera behavior, environmental sound, everyday residential context, and an unusual animal reveal all have to remain believable enough that the creator says he would have taken it for real footage had he not made it himself.
+
+### 163. Causality-driven iPhone-POV offshore-rig disaster — seeksteve
+
+- **Creator:** [seeksteve (@seeksteve)](https://x.com/seeksteve)
+- **Published:** 2026-08-18 (based on the secondary verification mirror’s relative five-day timestamp at verification).
+- **Original source profile:** [seeksteve on X](https://x.com/seeksteve) — the accessible public index did not expose a stable direct status URL for this video/tutorial post.
+- **Verification source:** [Secondary public mirror preserving a retweet of the original creator post, explicit FLUX 3 wording, prompt text, workflow notes, and video-example context](https://instalker.org/2017_nonsense)
+- **Model attribution:** seeksteve explicitly labels the visible generation text “prompt using flux 3” and discusses recent FLUX 3 behavior while explaining the same video example.
+- **Summary:** A first-person phone-POV disaster on a doomed offshore rig escalates from rough seas to an erupting giant octopus, storm damage, snapped cables, explosions, structural collapse, and a final underwater plunge.
+- **Workflow/details:** Single continuous unbroken POV. The creator front-loads the recording environment, motivates every camera jolt from physical or emotional causes instead of generic shake, sequences the disaster as a causal timeline, mixes specific and vague capture-failure cues, and uses diegetic reactions and breathing with no music. He also says an explicit no-phone/no-hands constraint was added after five undesirable hand-related generations.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “First-person POV: you ARE the phone being held by a worker on a doomed offshore rig. The phone is never shown…” The complete public prompt remains visible in the verification source; no text has been reconstructed.
+- **Why included:** A traceable original-creator FLUX 3 tutorial with a video example and unusually reusable analysis of causal prompting, camera physics, temporal sequencing, failure-state realism, native audio, and negative-constraint iteration.
 
 ## How updates work
 
