@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-23 · Entries: 161_
+_Last updated: 2026-08-23 · Entries: 162_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1908,6 +1908,19 @@ _Last updated: 2026-08-23 · Entries: 161_
 - **Workflow/details:** Schöneberg built ComfyUI nodes for the new API and ran the same difficult tiny-detail target across the named upscalers. He documents FLUX Video Upscale as accepting source video from 480p, regenerating up to native 4K at 1.5×/2×/3×, with Precise at 4 steps for fidelity/identity and Creative at 8 steps for stronger repair/detail generation. The LinkedIn upload is a 400% zoom-in because the platform would not show the full-resolution comparison fairly.
 - **Prompt provenance:** `not_provided` — no text prompt for the source clip or upscale pass is visible in the verified creator post.
 - **Why included:** A fresh, primary creator-side technical benchmark with named competitors, concrete mode/step settings, ComfyUI workflow context, and a deliberately unforgiving tiny-subject reconstruction target rather than a generic launch reel.
+
+### 162. Mumbai colony vlog with a neighborhood leopard — Rahul Nanda
+
+- **Creator:** [Rahul Nanda (@rahulnanda86)](https://x.com/rahulnanda86)
+- **Published:** 2026-08-18 (based on the public verification mirror’s relative five-day timestamp at verification).
+- **Original source profile:** [Rahul Nanda on X](https://x.com/rahulnanda86) — the accessible public index did not expose a stable direct status URL for this video.
+- **Primary corroboration:** [Rahul Nanda’s public LinkedIn profile](https://in.linkedin.com/in/rahulnanda86) preserves the same vlog post in his creator activity.
+- **Verification source:** [Secondary public mirror preserving a retweet of Rahul’s original creator wording, explicit Flux 3 attribution, video description, and engagement](https://twstalker.com/bag_of_ideas)
+- **Model attribution:** Rahul explicitly says, “Made using @bfl_ai Flux 3 video!” and states that he made the video himself.
+- **Summary:** A vlog-style young woman casually shows viewers around her residential colony in Mumbai and reveals a neighborhood leopard, using an everyday phone-video premise to push synthetic footage toward ordinary social-media realism.
+- **Workflow/details:** Creator-generated Flux 3 video. Rahul specifically calls out the acting, sound, and camera movements as the details that made the clip feel real to him. The verified sources do not disclose duration, resolution, input/reference mode, seed, exact generation settings, audio workflow, or post-production, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public sources, and nothing has been reconstructed from the video description.
+- **Why included:** Explicit original-creator Flux 3 attribution, creator-side confirmation that he made the clip, primary LinkedIn corroboration, and a strong public quality signal (about 264K views and 1K likes in the preserved mirror snapshot). The scene is a useful realism benchmark because casual vlog acting, handheld camera behavior, environmental sound, everyday residential context, and an unusual animal reveal all have to remain believable enough that the creator says he would have taken it for real footage had he not made it himself.
 
 ## How updates work
 
