@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-24 · Entries: 165_
+_Last updated: 2026-08-24 · Entries: 166_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1957,6 +1957,18 @@ _Last updated: 2026-08-24 · Entries: 165_
 - **Workflow/details:** Direct two-model comparison centered on a zero-gravity transition. The creator explicitly evaluates motion, character consistency, physics, object interaction, and camera stability. Exact prompt text, duration, resolution, reference inputs, provider settings, and post-production are not disclosed in the verified post, so none are inferred.
 - **Prompt provenance:** `not_provided` — the post describes the benchmark scenario but does not identify that prose as the exact generation prompt.
 - **Why included:** Fresh original-creator `#FLUX3` comparison with attached video and a technically demanding causal scene: multiple humans and props must transition into weightlessness while retaining identity, object relationships, coherent room geometry, and a rotating camera. It is a useful cross-model physics benchmark rather than a generic beauty shot.
+
+### 166. 360-degree orbit museum-gravity collapse with focal anchoring — LudovicCreator
+
+- **Creator:** [LudovicCreator (@LudovicCreator)](https://x.com/LudovicCreator)
+- **Published:** 2026-08-24 (based on the secondary verification mirror’s relative seven-hour timestamp at verification).
+- **Original source profile:** [LudovicCreator on X](https://x.com/LudovicCreator) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary creator-profile mirror preserving LudovicCreator’s original wording, explicit FLUX 3 attribution, exact prompt, attached-video context, and engagement](https://w.twstalker.com/LudovicCreator)
+- **Model attribution:** LudovicCreator explicitly introduces the visible generation text with “Prompt made with FLUX 3”.
+- **Summary:** A grieving curator remains almost frozen at the center of a slow 360-degree museum orbit while the gallery progressively tilts and loses gravity around them: portraits drift from walls, busts slide onto the ceiling, exhibit labels float, and spotlights swing overhead.
+- **Workflow/details:** The creator explains the shot as a focal-anchoring and multi-layered-parallax exercise: keep the subject dead center during a continuous 360-degree camera track, distribute motion across near-field, mid-ground, and ceiling planes, use warm track lighting, and specify a 24 mm wide lens with controlled rotation so the environment can deconstruct without losing spatial orientation.
+- **Prompt provenance:** `verbatim_in_post` — “Camera locked in a slow 360-degree roll around a grieving curator standing alone in a museum gallery as the room appears to tilt, rotate, and lose gravity around them. Framed portraits drift off the walls, marble busts slide along the floor then up the ceiling, exhibit labels float like torn thoughts, spotlights swing in slow arcs, and a security guard remains strangely calm by the doorway. 24mm wide lens, controlled rotation, surreal practical movement, subject nearly frozen in the center. Emotional collapse made physical dizzying, theatrical, impossible.”
+- **Why included:** Fresh explicit creator-side FLUX 3 attribution and a fully visible prompt with unusually reusable camera-direction notes. The scene is a difficult temporal-spatial benchmark: the model must preserve a stable centered subject while executing continuous orbital camera motion, layered parallax, multiple independently moving props, changing gravity cues, and coherent museum geometry.
 
 ## How updates work
 
