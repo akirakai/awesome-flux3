@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-23 · Entries: 163_
+_Last updated: 2026-08-24 · Entries: 165_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1933,6 +1933,30 @@ _Last updated: 2026-08-23 · Entries: 163_
 - **Workflow/details:** Single continuous unbroken POV. The creator front-loads the recording environment, motivates every camera jolt from physical or emotional causes instead of generic shake, sequences the disaster as a causal timeline, mixes specific and vague capture-failure cues, and uses diegetic reactions and breathing with no music. He also says an explicit no-phone/no-hands constraint was added after five undesirable hand-related generations.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “First-person POV: you ARE the phone being held by a worker on a doomed offshore rig. The phone is never shown…” The complete public prompt remains visible in the verification source; no text has been reconstructed.
 - **Why included:** A traceable original-creator FLUX 3 tutorial with a video example and unusually reusable analysis of causal prompting, camera physics, temporal sequencing, failure-state realism, native audio, and negative-constraint iteration.
+
+### 164. 640p-to-2K 3× upscale benchmark vs. Topaz — Lyss Sky
+
+- **Creator:** [Lyss Sky | Art & Gaming (@LazerLyss)](https://x.com/LazerLyss)
+- **Published:** 2026-08-21 (based on the public verification mirror’s relative three-day timestamp at verification).
+- **Original source profile:** [Lyss Sky on X](https://x.com/LazerLyss) — the accessible public index did not expose a stable direct status URL for this comparison.
+- **Verification source:** [Secondary BFL-team profile mirror preserving Stephen’s retweet of Lyss Sky’s original creator post, explicit FLUX3 attribution, attached comparison media, settings, and quality assessment](https://www.twstalker.com/stephenbtl)
+- **Model attribution:** Lyss explicitly identifies the left side as “FLUX3 at 3x upscale” and tags Black Forest Labs’ `@bfl_ai`.
+- **Summary:** A side-by-side upscaling comparison takes 640p source footage to a FLUX 3 3× result at 2K/24 fps and compares it with a Topaz/OpenArt result rendered at 4K/60 fps, focusing on natural detail recovery and artifact behavior.
+- **Workflow/details:** Same 640p source; FLUX 3 Video Upscale at 3× yielding the creator-reported 2K/24 fps output; comparator is Topaz via OpenArt at 4K/60 fps. The public post does not identify the FLUX upscale mode, step count, prompt steering, or source clip provenance beyond the 640p original, so those are not inferred.
+- **Prompt provenance:** `not_provided` — no text prompt or upscale-steering prompt is visible in the verified source.
+- **Why included:** Fresh original-creator FLUX3 attribution with attached side-by-side video, concrete input/output resolution and frame-rate telemetry, and a direct third-party quality comparison. Lyss reports the FLUX 3 result as more natural and crisp and specifically calls out the absence of artifacts, making this a useful real-world complement to the existing official and ComfyUI-focused upscaler examples.
+
+### 165. Zero-gravity fight physics benchmark vs. Seedance 2.5 — Atlas Cloud
+
+- **Creator:** [Atlas Cloud (@atlas_cloud_ai)](https://x.com/atlas_cloud_ai)
+- **Published:** 2026-08-22 (based on the public verification mirror’s relative two-day timestamp at verification).
+- **Original source profile:** [Atlas Cloud on X](https://x.com/atlas_cloud_ai) — the accessible public index did not expose a stable direct status URL for this comparison.
+- **Verification source:** [Secondary creator-profile mirror preserving Atlas Cloud’s original post, explicit FLUX 3 vs. Seedance 2.5 attribution, attached-video context, and benchmark description](https://www6.twstalker.com/atlas_cloud_ai)
+- **Model attribution:** Atlas Cloud explicitly frames the attached comparison as “FLUX 3 vs Seedance 2.5” and tags `#FLUX3`.
+- **Summary:** A fight scene abruptly loses gravity mid-action: fighters, furniture, and debris begin floating while the camera rotates with the room, creating a same-concept stress test against Seedance 2.5.
+- **Workflow/details:** Direct two-model comparison centered on a zero-gravity transition. The creator explicitly evaluates motion, character consistency, physics, object interaction, and camera stability. Exact prompt text, duration, resolution, reference inputs, provider settings, and post-production are not disclosed in the verified post, so none are inferred.
+- **Prompt provenance:** `not_provided` — the post describes the benchmark scenario but does not identify that prose as the exact generation prompt.
+- **Why included:** Fresh original-creator `#FLUX3` comparison with attached video and a technically demanding causal scene: multiple humans and props must transition into weightlessness while retaining identity, object relationships, coherent room geometry, and a rotating camera. It is a useful cross-model physics benchmark rather than a generic beauty shot.
 
 ## How updates work
 
