@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-24 · Entries: 166_
+_Last updated: 2026-08-25 · Entries: 168_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1931,7 +1931,7 @@ _Last updated: 2026-08-24 · Entries: 166_
 - **Model attribution:** seeksteve explicitly labels the visible generation text “prompt using flux 3” and discusses recent FLUX 3 behavior while explaining the same video example.
 - **Summary:** A first-person phone-POV disaster on a doomed offshore rig escalates from rough seas to an erupting giant octopus, storm damage, snapped cables, explosions, structural collapse, and a final underwater plunge.
 - **Workflow/details:** Single continuous unbroken POV. The creator front-loads the recording environment, motivates every camera jolt from physical or emotional causes instead of generic shake, sequences the disaster as a causal timeline, mixes specific and vague capture-failure cues, and uses diegetic reactions and breathing with no music. He also says an explicit no-phone/no-hands constraint was added after five undesirable hand-related generations.
-- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “First-person POV: you ARE the phone being held by a worker on a doomed offshore rig. The phone is never shown…” The complete public prompt remains visible in the verification source; no text has been reconstructed.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “First-person POV: you ARE the phone being held by a worker on a doomed offshore rig. The phone is never shown and no hands are ever shown in frame, any hand entering frame would break this POV and is forbidden. Single continuous unbroken shot at the rough grey ocean, rusted steel and overcast sky filling the frame. Camera is extremely reactive to everything happening to the rig: it jolts, whips and reels with every impact, every lurch and groan of the structure. Constant unexpected action.” The complete public prompt remains visible in the verification source; no text has been reconstructed.
 - **Why included:** A traceable original-creator FLUX 3 tutorial with a video example and unusually reusable analysis of causal prompting, camera physics, temporal sequencing, failure-state realism, native audio, and negative-constraint iteration.
 
 ### 164. 640p-to-2K 3× upscale benchmark vs. Topaz — Lyss Sky
@@ -1969,6 +1969,30 @@ _Last updated: 2026-08-24 · Entries: 166_
 - **Workflow/details:** The creator explains the shot as a focal-anchoring and multi-layered-parallax exercise: keep the subject dead center during a continuous 360-degree camera track, distribute motion across near-field, mid-ground, and ceiling planes, use warm track lighting, and specify a 24 mm wide lens with controlled rotation so the environment can deconstruct without losing spatial orientation.
 - **Prompt provenance:** `verbatim_in_post` — “Camera locked in a slow 360-degree roll around a grieving curator standing alone in a museum gallery as the room appears to tilt, rotate, and lose gravity around them. Framed portraits drift off the walls, marble busts slide along the floor then up the ceiling, exhibit labels float like torn thoughts, spotlights swing in slow arcs, and a security guard remains strangely calm by the doorway. 24mm wide lens, controlled rotation, surreal practical movement, subject nearly frozen in the center. Emotional collapse made physical dizzying, theatrical, impossible.”
 - **Why included:** Fresh explicit creator-side FLUX 3 attribution and a fully visible prompt with unusually reusable camera-direction notes. The scene is a difficult temporal-spatial benchmark: the model must preserve a stable centered subject while executing continuous orbital camera motion, layered parallax, multiple independently moving props, changing gravity cues, and coherent museum geometry.
+
+### 167. Rickshaw driver takes a train to beat traffic — Rahul Nanda
+
+- **Creator:** [Rahul Nanda (@rahulnanda86)](https://x.com/rahulnanda86)
+- **Published:** 2026-08-24 (based on the secondary verification mirror’s relative 18-hour timestamp at verification).
+- **Original source profile:** [Rahul Nanda on X](https://x.com/rahulnanda86) — the accessible public index did not expose a stable direct status URL for this video.
+- **Verification source:** [Secondary public mirror preserving a retweet of Rahul’s original creator wording, explicit Flux 3 attribution, attached-video context, and engagement](https://www.twstalker.com/Shreyas54125712)
+- **Model attribution:** Rahul explicitly captions the creator-posted video “Ricshawalla takes a train to beat traffic!! Made using Flux 3.”
+- **Summary:** A rickshaw driver tries to beat road traffic by taking the train, turning an immediately legible urban-commute joke into an everyday-realism FLUX 3 video rather than a stylized effects showcase.
+- **Workflow/details:** Creator-generated Flux 3 video. The verified source does not disclose duration, resolution, input/reference mode, seed, prompt, native-audio settings, or post-production, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public source, and the concise caption is treated as a concept/title rather than a generation prompt.
+- **Why included:** Fresh explicit original-creator Flux 3 attribution, traceable creator identity, attached-video context, and a very strong public quality signal (about 193K views and 156 likes in the preserved snapshot). The simple real-world premise is a useful plausibility benchmark for vehicle identity, commuter-space staging, urban motion, and comedic timing without relying on an elaborate visible prompt.
+
+### 168. Twenty-second prompt-adherence benchmark from a 30-second Korean home-video brief — seeksteve
+
+- **Creator:** [seeksteve (@seeksteve)](https://x.com/seeksteve)
+- **Published:** 2026-08-24 (based on the secondary verification mirror’s relative 20-hour timestamp at verification).
+- **Original source profile:** [seeksteve on X](https://x.com/seeksteve) — the accessible public index did not expose a stable direct status URL for this comparison.
+- **Verification source:** [Secondary public mirror preserving a retweet of seeksteve’s original comparison wording, quoted source prompt, explicit Flux 3 attribution, attached-video context, and engagement](https://ww.twstalker.com/bonkuratv)
+- **Model attribution:** seeksteve explicitly says he is “testing prompt adherence between seedance 2.5 and flux 3” and states that he adapted the timing from 30 seconds to 20 seconds.
+- **Summary:** A controlled prompt-adherence comparison reuses beech’s ultra-realistic candid-home-video concept of an elderly Korean man spending an ordinary late morning in a residential neighborhood, compressing the original 30-second brief into a FLUX 3-compatible 20-second version.
+- **Workflow/details:** seeksteve credits the original prompt to [beech (@beechinour)](https://x.com/beechinour) and says he adapted its timing from 30s to 20s for the comparison. The preserved source prompt emphasizes a consistent elderly Korean subject, weathered skin, clothes and posture, plus an authentic low-rise residential neighborhood with alleys, plants, laundry lines, bicycles, utility poles, overhead wires and mature trees. Exact provider settings, resolution, seed, reference media, audio configuration, and any additional edits are not exposed.
+- **Prompt provenance:** `mentioned_not_in_post` — the verified source visibly quotes the opening of beech’s original 30-second prompt (“Create a 30-second ultra-realistic candid home-video sequence of an elderly Korean man in his mid-70s living an ordinary late morning in a quiet Korean residential neighborhood.”), but seeksteve’s exact 20-second adapted prompt is not publicly exposed, so no missing wording is reconstructed.
+- **Why included:** Fresh explicit creator-side Flux 3 comparison, transparent prompt provenance, a controlled duration adaptation instead of a loosely matched concept, and a strong public quality signal (about 32K views and 324 likes in the preserved snapshot). It is a useful realism/prompt-adherence benchmark for identity, wardrobe, environment persistence, natural human motion, and mundane documentary-video plausibility.
 
 ## How updates work
 
