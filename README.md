@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-25 · Entries: 168_
+_Last updated: 2026-08-27 · Entries: 169_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1993,6 +1993,17 @@ _Last updated: 2026-08-25 · Entries: 168_
 - **Workflow/details:** seeksteve credits the original prompt to [beech (@beechinour)](https://x.com/beechinour) and says he adapted its timing from 30s to 20s for the comparison. The preserved source prompt emphasizes a consistent elderly Korean subject, weathered skin, clothes and posture, plus an authentic low-rise residential neighborhood with alleys, plants, laundry lines, bicycles, utility poles, overhead wires and mature trees. Exact provider settings, resolution, seed, reference media, audio configuration, and any additional edits are not exposed.
 - **Prompt provenance:** `mentioned_not_in_post` — the verified source visibly quotes the opening of beech’s original 30-second prompt (“Create a 30-second ultra-realistic candid home-video sequence of an elderly Korean man in his mid-70s living an ordinary late morning in a quiet Korean residential neighborhood.”), but seeksteve’s exact 20-second adapted prompt is not publicly exposed, so no missing wording is reconstructed.
 - **Why included:** Fresh explicit creator-side Flux 3 comparison, transparent prompt provenance, a controlled duration adaptation instead of a loosely matched concept, and a strong public quality signal (about 32K views and 324 likes in the preserved snapshot). It is a useful realism/prompt-adherence benchmark for identity, wardrobe, environment persistence, natural human motion, and mundane documentary-video plausibility.
+
+### 169. Architecture prompt-and-video workflow suite with start-frame motion and native ambience — RunDiffusion
+
+- **Creator:** [RunDiffusion](https://www.rundiffusion.com/)
+- **Published:** 2026-08-26 (public search index; the guide page itself does not expose a byline date).
+- **Original source:** [FLUX 3 Prompt Guide for Architecture and AI Video](https://www.rundiffusion.com/flux-3-prompt-guide)
+- **Model attribution:** RunDiffusion explicitly says architecture teams use FLUX 3 on RunDiffusion and presents embedded video outputs inside the guide while its documented workflow selects `Flux 3 Video`.
+- **Summary:** A newly published first-party architecture suite demonstrates FLUX 3 across text-to-video, start-frame animation, start-and-end transitions, timestamped motion beats, synchronized ambience and foley, and video continuation. A representative embedded clip begins from an approved adaptive-reuse headquarters courtyard rendering, then slowly dollies toward a lit glass-and-timber atrium as grasses and a reflecting pool move naturally.
+- **Workflow/details:** RunDiffusion documents `Flux 3 Video`, `Flux 3 Extend Video`, `Flux 3 Draft Video`, and `Flux 3 Draft Extend Video`; accepted inputs include text, one start image, a start-and-end image pair, or an existing source clip. Most tools support up to 20 seconds, with optional synchronized dialogue, ambience, physical effects, and music. The guide also demonstrates short prompts, labeled fields, timestep prompting, start/end anchors, and continuation workflows.
+- **Prompt provenance:** `verbatim_in_post` — “Wide shot of an adaptive-reuse headquarters courtyard in warm evening light. The camera slowly dollies forward along the central stone path toward the illuminated glass-and-timber atrium. Ornamental grasses move lightly and the reflecting pool ripples. Light wind through the grasses and faint water movement.”
+- **Why included:** Fresh first-party source with multiple embedded FLUX 3 videos, exact visible prompts, concrete workflow controls, and highly reusable architecture-specific direction. The representative start-frame clip is a subtle but demanding test of geometry/material retention, measured camera motion, vegetation and water physics, reflections, lighting, and scene-matched native ambience rather than spectacle.
 
 ## How updates work
 
