@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-27 · Entries: 169_
+_Last updated: 2026-08-28 · Entries: 170_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2004,6 +2004,18 @@ _Last updated: 2026-08-27 · Entries: 169_
 - **Workflow/details:** RunDiffusion documents `Flux 3 Video`, `Flux 3 Extend Video`, `Flux 3 Draft Video`, and `Flux 3 Draft Extend Video`; accepted inputs include text, one start image, a start-and-end image pair, or an existing source clip. Most tools support up to 20 seconds, with optional synchronized dialogue, ambience, physical effects, and music. The guide also demonstrates short prompts, labeled fields, timestep prompting, start/end anchors, and continuation workflows.
 - **Prompt provenance:** `verbatim_in_post` — “Wide shot of an adaptive-reuse headquarters courtyard in warm evening light. The camera slowly dollies forward along the central stone path toward the illuminated glass-and-timber atrium. Ornamental grasses move lightly and the reflecting pool ripples. Light wind through the grasses and faint water movement.”
 - **Why included:** Fresh first-party source with multiple embedded FLUX 3 videos, exact visible prompts, concrete workflow controls, and highly reusable architecture-specific direction. The representative start-frame clip is a subtle but demanding test of geometry/material retention, measured camera motion, vegetation and water physics, reflections, lighting, and scene-matched native ambience rather than spectacle.
+
+### 170. 480p Seedance 2.5 → FLUX 3 Precise 1080p cost-saving upscale workflow — Halim Alrasihi
+
+- **Creator:** [Halim Alrasihi (@HalimAlrasihi)](https://x.com/HalimAlrasihi)
+- **Published:** 2026-08-27 (based on public creator-profile mirrors’ relative one-day timestamp at verification).
+- **Original source profile:** [Halim Alrasihi on X](https://x.com/HalimAlrasihi) — the accessible public indexes did not expose a stable direct status URL for this video.
+- **Verification sources:** [Secondary creator-profile mirror preserving the original wording, follow-up workflow details, and engagement](https://twstalker.com/HalimAlrasihi) · [Secondary public mirror directly preserving a retweet of the original creator post with an attached-video marker](https://www.sotwe.com/bonkuratv)
+- **Model attribution:** Halim explicitly calls the finishing model the “new FLUX 3 video upscaler” and identifies the mode as “FLUX 3 precise” while describing this specific clip workflow.
+- **Summary:** A low-resolution Seedance 2.5 generation is used as the source, then FLUX 3 Precise reconstructs it to 1080p, demonstrating a practical two-model path aimed at retaining good motion and fine detail while avoiding the cost of repeated native-1080p generations.
+- **Workflow/details:** Seedance 2.5 at 480p → FLUX 3 Precise upscale to 1080p. Halim says the source video is 480p, reports roughly one minute for a 7–10 second upscale, and recommends generating or rerolling at 480p or 720p before upscaling because direct Seedance 2.5 1080p generation was nearly 3× more expensive in his workflow. He says he runs FLUX through Black Forest Labs’ official platform. No source-generation prompt, seed, exact FLUX API parameters, or post-processing beyond the upscale is publicly verified.
+- **Prompt provenance:** `not_provided` — no exact generation prompt for the Seedance source clip or text steering for the FLUX 3 upscale pass is visible in the verified public sources.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution with attached-video context, a highly reusable cost/quality pipeline, concrete source/output resolution and turnaround notes, and a strong public quality signal (more than 50K views and 500 likes in preserved creator-profile snapshots). Unlike a generic upscaler demo, this documents a pragmatic cross-model production strategy: reroll motion cheaply at low resolution, then spend on FLUX 3 Precise only after choosing a keeper.
 
 ## How updates work
 
