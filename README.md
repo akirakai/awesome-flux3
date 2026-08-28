@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-28 · Entries: 170_
+_Last updated: 2026-08-29 · Entries: 171_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2016,6 +2016,17 @@ _Last updated: 2026-08-28 · Entries: 170_
 - **Workflow/details:** Seedance 2.5 at 480p → FLUX 3 Precise upscale to 1080p. Halim says the source video is 480p, reports roughly one minute for a 7–10 second upscale, and recommends generating or rerolling at 480p or 720p before upscaling because direct Seedance 2.5 1080p generation was nearly 3× more expensive in his workflow. He says he runs FLUX through Black Forest Labs’ official platform. No source-generation prompt, seed, exact FLUX API parameters, or post-processing beyond the upscale is publicly verified.
 - **Prompt provenance:** `not_provided` — no exact generation prompt for the Seedance source clip or text steering for the FLUX 3 upscale pass is visible in the verified public sources.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution with attached-video context, a highly reusable cost/quality pipeline, concrete source/output resolution and turnaround notes, and a strong public quality signal (more than 50K views and 500 likes in preserved creator-profile snapshots). Unlike a generic upscaler demo, this documents a pragmatic cross-model production strategy: reroll motion cheaply at low resolution, then spend on FLUX 3 Precise only after choosing a keeper.
+
+### 171. Eight-model seven-reference first-generation benchmark — Tianyu Xu
+
+- **Creator:** [Tianyu Xu](https://www.linkedin.com/in/tianyuxu/)
+- **Published:** 2026-08-25
+- **Original source:** [Tianyu Xu’s LinkedIn reference-to-video comparison](https://www.linkedin.com/posts/tianyuxu_reference-to-video-comparison-seedance-activity-7497985288783151104-J5ty)
+- **Model attribution:** Xu explicitly names **FLUX 3** as one of the eight models in his own reference-to-video comparison and presents its result among the examples in the post.
+- **Summary:** A controlled creator-authored benchmark compares Seedance 2.5, WAN 3, FLUX 3, MiniMax H3, Seedance 2.0, Seedance 2.0 Mini, Kling 3 Omni, and Grok Imagine 1.5 on one shared creative setup, making the FLUX 3 output directly comparable with seven current peers.
+- **Workflow/details:** Xu states that every model used the same prompt and the same set of seven reference images; each example was the first generated video, with no cherry-picking, no edits, and native audio. The public post does not document any model-specific adaptation of the seven-reference input, so none is inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — Xu explicitly says all eight models used the same prompt, but the exact prompt text is not visible in the verified public post and has not been reconstructed.
+- **Why included:** Fresh primary creator source with attached comparison media, unambiguous FLUX 3 attribution, strong public engagement, and an unusually rigorous anti-cherry-picking methodology: shared prompt, shared visual inputs, first outputs only, no edits, and native audio across eight current video models.
 
 ## How updates work
 
