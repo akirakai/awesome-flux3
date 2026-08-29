@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-29 · Entries: 175_
+_Last updated: 2026-08-29 · Entries: 176_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2055,6 +2055,17 @@ _Last updated: 2026-08-29 · Entries: 175_
 - **Workflow/details:** Attached side-by-side comparison video. Design Arena reports 23.7 seconds for the fal H3 Max/M3 Max sample and 10 minutes 55 seconds for the FLUX 3 Video sample. The public reply does not expose the exact prompt, source frame, duration, resolution, seed, audio settings, queue conditions, or hardware, so the timing is recorded only as this specific sample rather than generalized into a model-wide speed claim.
 - **Prompt provenance:** `not_provided` — no exact prompt is visible in the verified source, and none has been inferred from the comparison footage.
 - **Why included:** Newly published, traceable benchmark-source attribution with an attached comparison video, explicit FLUX 3 labeling, concrete measured timing, and a strong public signal (about 27K views in the preserved snapshot). It is useful for practical quality-versus-latency evaluation while remaining careful not to overgeneralize from one timed example.
+
+### 176. Commercial-visual pure-T2V benchmark vs. Seedance 2.5 / 2.0 — 铃雨云AIGC
+
+- **Creator:** 铃雨云AIGC
+- **Published:** 2026-08-29 (based on ZCOOL’s relative “18 hours ago” timestamp at verification).
+- **Original source:** [Creator’s ZCOOL post with embedded comparison video](https://www.zcool.com.cn/work/ZNzQwMTkwMjA%3D.html)
+- **Model attribution:** The creator explicitly states that the video compares `FLUX3`, Seedance 2.5, and Seedance 2.0 in a pure text-to-video test.
+- **Summary:** A creator-run commercial-visual benchmark compares the three models across fashion advertising, multi-character scenes, character MV, branded shorts, and other production-oriented looks, focusing on face stability, character consistency, clothing/material detail, body motion, interaction, camera movement, shot changes, spatial relationships, composition, and fashion/commercial visual language.
+- **Workflow/details:** The entire comparison is pure text-to-video with no reference characters or real-person footage. Seedance 2.5 and 2.0 were each generated three times from prompts in the same direction and the strongest overall take was selected; all shown outputs preserve the original model result with no extra AI repair or local rerendering. FLUX3 was rendered at 1080p, while Seedance 2.5 and 2.0 were rendered at 720p; the creator notes that clip length and generation conditions differ and explicitly does not frame the test as a strict benchmark.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified creator page, so none has been copied or inferred.
+- **Why included:** Newly published primary creator source with an embedded video, explicit FLUX3 attribution, unusually transparent comparison methodology, verified output-resolution differences, and candid quality notes. The creator finds FLUX3 especially strong in composition, materials, lighting, fashion aesthetics, and designed-looking pure-T2V results while also documenting weaker stability, character dynamics, controllability, and image-to-video behavior, making the post useful as both a showcase and a production-oriented failure analysis.
 
 ## How updates work
 
