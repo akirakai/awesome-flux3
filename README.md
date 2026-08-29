@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-29 · Entries: 174_
+_Last updated: 2026-08-29 · Entries: 175_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2043,6 +2043,18 @@ _Last updated: 2026-08-29 · Entries: 174_
 - **Workflow/details:** Creator-identified FLUX 3 Text2video-audio workflow; the finished film is published in 4K and runs about eight minutes. The verified public sources do not expose clip-level prompts, seeds, reference assets, source render resolution, provider settings, or post-production/editing details, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified primary sources, and nothing has been reconstructed from the film.
 - **Why included:** Fresh original-creator primary source with explicit FLUX 3 attribution and a full-length attached video. The unusually long runtime, cohesive retro-OVA art direction, space-horror staging, and complete audiovisual presentation make it a production-scale quality example rather than a short isolated demo.
+
+### 175. Side-by-side FLUX 3 vs. MiniMax H3 Max timing sample — Design Arena
+
+- **Creator:** [Design Arena (@DesignArena)](https://x.com/DesignArena)
+- **Published:** 2026-08-28 (based on the secondary verification mirror’s relative one-day timestamp at verification on 2026-08-29).
+- **Original source profile:** [Design Arena on X](https://x.com/DesignArena) — the accessible public indexes did not expose a stable direct status URL for this reply video.
+- **Verification source:** [Secondary creator-profile mirror preserving Design Arena’s original comparison caption, attached tweet-video marker, explicit model attribution, reported generation times, and engagement](https://www.sotwe.com/Designarena)
+- **Model attribution:** Design Arena explicitly labels one side “Flux 3 Video by @bfl_ai.” In the same thread, the comparison target is identified as MiniMax H3 Max; the reply abbreviates that side as “M3 Max by @fal.”
+- **Summary:** A fresh side-by-side benchmark places an actual FLUX 3 Video output next to fal’s H3 Max output, letting viewers inspect the visual results while Design Arena publishes the observed generation time for each sample.
+- **Workflow/details:** Attached side-by-side comparison video. Design Arena reports 23.7 seconds for the fal H3 Max/M3 Max sample and 10 minutes 55 seconds for the FLUX 3 Video sample. The public reply does not expose the exact prompt, source frame, duration, resolution, seed, audio settings, queue conditions, or hardware, so the timing is recorded only as this specific sample rather than generalized into a model-wide speed claim.
+- **Prompt provenance:** `not_provided` — no exact prompt is visible in the verified source, and none has been inferred from the comparison footage.
+- **Why included:** Newly published, traceable benchmark-source attribution with an attached comparison video, explicit FLUX 3 labeling, concrete measured timing, and a strong public signal (about 27K views in the preserved snapshot). It is useful for practical quality-versus-latency evaluation while remaining careful not to overgeneralize from one timed example.
 
 ## How updates work
 
