@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-29 · Entries: 173_
+_Last updated: 2026-08-29 · Entries: 174_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2032,6 +2032,17 @@ _Last updated: 2026-08-29 · Entries: 173_
 - **Workflow/details:** The visible brief coordinates camera movement, sequential action, 1970s neo-noir film treatment, lighting changes, prop behavior, and layered audio—damp-carpet footsteps, fluorescent buzz, vending-machine rattle, rain, door creak, and distant TV—with explicit no-music/no-logo/no-extra-people constraints. ElevenLabs also documents optional image or clip references plus text-to-video, image-to-video, and video-reference workflows. No clip-specific duration, seed, or reference settings are exposed.
 - **Prompt provenance:** `verbatim_in_post` — visible prompt begins: “Slow handheld tracking shot behind a detective walking down a narrow motel hallway at midnight”. The complete prompt remains visibly published on the first-party page.
 - **Why included:** Fresh first-party source with a directly presented FLUX 3 generation and a highly detailed reproducible prompt. It is a strong long-shot continuity test of camera geometry, lighting-state transitions, subtle prop motion, character performance, and precisely layered audiovisual ambience.
+
+### 174. Eight-minute retro-OVA space-horror short “AVERNUS-9” — Iskarioto Dystopian AI Films
+
+- **Creator:** [Iskarioto Dystopian AI Films (@Iskarioto)](https://www.youtube.com/@Iskarioto)
+- **Published:** 2026-08-26
+- **Original source:** [“AVERNUS-9” | Space Horror Short Film (Flux 3) [4K]](https://youtu.be/6NQl2fjAkyI)
+- **Model attribution:** The creator’s original YouTube upload explicitly says “Created with Flux 3 Text2video-audio,” and the creator’s public X/Instagram profiles repeat the FLUX 3 attribution for the same film.
+- **Summary:** An approximately eight-minute animated space-horror short built as a retro 1980s OVA/cyberpunk homage, expanding FLUX 3 from a benchmark clip into a sustained narrative audiovisual production.
+- **Workflow/details:** Creator-identified FLUX 3 Text2video-audio workflow; the finished film is published in 4K and runs about eight minutes. The verified public sources do not expose clip-level prompts, seeds, reference assets, source render resolution, provider settings, or post-production/editing details, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified primary sources, and nothing has been reconstructed from the film.
+- **Why included:** Fresh original-creator primary source with explicit FLUX 3 attribution and a full-length attached video. The unusually long runtime, cohesive retro-OVA art direction, space-horror staging, and complete audiovisual presentation make it a production-scale quality example rather than a short isolated demo.
 
 ## How updates work
 
