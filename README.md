@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-08-29 · Entries: 176_
+_Last updated: 2026-09-01 · Entries: 177_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -937,7 +937,7 @@ _Last updated: 2026-08-29 · Entries: 176_
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
 - **Published:** 2026-08-06 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose the direct status URL.
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, full structured prompt, and engagement](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison runs “Flux 3 vs Seedance 2.0” and describes using closely matched timing/settings for the two outputs.
 - **Summary:** A photorealistic stormy-coastal kaiju sequence pits a skyscraper-scale deep-sea octopus against a city, with the creature crushing buses and streetlights, pulling down a glass tower, sprinting through intersections, vaulting a full block, and charging through waterfront cranes.
@@ -949,7 +949,7 @@ _Last updated: 2026-08-29 · Entries: 176_
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose the direct status URL.
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original comparison caption, attached-video context, and FLUX 3 prompt follow-up](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison tests “Flux 3 & Seedance 2.0,” tags `#Flux3` and Black Forest Labs, then publishes a follow-up labeled “[Flux3 prompt].”
 - **Summary:** A single continuous first-person subway shot uses timed blackouts to make passengers disappear while the moving train, camera sway, surviving passengers, empty seats, abandoned objects, and later ceiling impacts preserve scene continuity.
@@ -2066,6 +2066,18 @@ _Last updated: 2026-08-29 · Entries: 176_
 - **Workflow/details:** The entire comparison is pure text-to-video with no reference characters or real-person footage. Seedance 2.5 and 2.0 were each generated three times from prompts in the same direction and the strongest overall take was selected; all shown outputs preserve the original model result with no extra AI repair or local rerendering. FLUX3 was rendered at 1080p, while Seedance 2.5 and 2.0 were rendered at 720p; the creator notes that clip length and generation conditions differ and explicitly does not frame the test as a strict benchmark.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified creator page, so none has been copied or inferred.
 - **Why included:** Newly published primary creator source with an embedded video, explicit FLUX3 attribution, unusually transparent comparison methodology, verified output-resolution differences, and candid quality notes. The creator finds FLUX3 especially strong in composition, materials, lighting, fashion aesthetics, and designed-looking pure-T2V results while also documenting weaker stability, character dynamics, controllability, and image-to-video behavior, making the post useful as both a showcase and a production-oriented failure analysis.
+
+### 177. 2K/4K FLUX.3 Video Upscale integration demo — Higgsfield
+
+- **Creator:** [Higgsfield AI (@higgsfield)](https://x.com/higgsfield)
+- **Published:** 2026-08-27
+- **Original source:** [Higgsfield product changelog](https://www.higgsfield.company/creator-hub/changelog)
+- **Secondary verification source:** [Public creator-profile mirror preserving Higgsfield’s original FLUX.3 post and attached tweet video](https://www.sotwe.com/higgsfield)
+- **Model attribution:** Higgsfield explicitly announces “FLUX.3 Video Upscale is now on Higgsfield”; its first-party changelog names the feature “FLUX 3 Video Upscaler.”
+- **Summary:** Higgsfield’s launch demo presents FLUX.3 Video Upscale as a high-resolution finishing step intended to preserve natural motion and realism while producing 2K or 4K deliverables from an input clip.
+- **Workflow/details:** Open Upscale and upload any video; Higgsfield documents 1080p, 2K, and 4K output. Precise mode raises resolution without adding new detail, while Creative mode adds or reworks detail and accepts an optional detail-guidance prompt. The first-party changelog also states that motion remains smooth and audio stays in sync. The verified sources do not expose the demo clip’s input resolution, exact selected output, prompt, seed, or latency, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact prompt for the attached demonstration video is visible. Creative mode generally supports optional prompt steering, but no clip-specific prompt is published.
+- **Why included:** Fresh first-party platform release with explicit FLUX.3 attribution, a traceable attached-video announcement preserved by a public creator-profile mirror, strong public engagement (about 23K views and 306 likes in the preserved snapshot), and concrete reproducible output targets and mode behavior. It is a practical production-finishing example rather than a vague model mention.
 
 ## How updates work
 
