@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-01 · Entries: 177_
+_Last updated: 2026-09-01 · Entries: 179_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2078,6 +2078,28 @@ _Last updated: 2026-09-01 · Entries: 177_
 - **Workflow/details:** Open Upscale and upload any video; Higgsfield documents 1080p, 2K, and 4K output. Precise mode raises resolution without adding new detail, while Creative mode adds or reworks detail and accepts an optional detail-guidance prompt. The first-party changelog also states that motion remains smooth and audio stays in sync. The verified sources do not expose the demo clip’s input resolution, exact selected output, prompt, seed, or latency, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact prompt for the attached demonstration video is visible. Creative mode generally supports optional prompt steering, but no clip-specific prompt is published.
 - **Why included:** Fresh first-party platform release with explicit FLUX.3 attribution, a traceable attached-video announcement preserved by a public creator-profile mirror, strong public engagement (about 23K views and 306 likes in the preserved snapshot), and concrete reproducible output targets and mode behavior. It is a practical production-finishing example rather than a vague model mention.
+
+### 178. French-pronunciation and natural-performance benchmark across 13 video models — Gilles Guerraz
+
+- **Creator:** [Gilles Guerraz](https://fr.linkedin.com/in/gilles-guerraz-iagenerative)
+- **Published:** 2026-08-26 (based on LinkedIn’s public relative timestamp at verification on 2026-09-01).
+- **Original source:** [Gilles Guerraz’s LinkedIn comparison post with attached video](https://fr.linkedin.com/posts/gilles-guerraz-iagenerative_on-dit-que-le-fran%C3%A7ais-est-une-des-langues-activity-7497903023537438720-IXqo)
+- **Model attribution:** Guerraz explicitly lists **Flux 3.0** among the 13 video models in his own comparison and reports it as one of seven models that successfully deliver the requested French line without the pronunciation problems he heard in weaker outputs.
+- **Summary:** A same-source-image dialogue benchmark asks 13 current video models to make one character speak a single French sentence, then compares both pronunciation accuracy and the acting choices each model invents when no performance direction is supplied.
+- **Workflow/details:** One identical reference image generated with Midjourney 8.2; one English-language prompt; the same requested French sentence for all models. Guerraz evaluates pronunciation separately from acting and notes that many models overplay the delivery when the prompt does not specify performance style. The attached comparison video includes Flux 3.0 alongside MiniMax H3, Veo 3.1, Wan 3.0, Grok Imagine, LTX 2.5 Pro, Pixverse 6, and other current systems. Model-specific resolution, seed, provider settings, and post-processing are not disclosed, so none are inferred.
+- **Prompt provenance:** `verbatim_in_post` — the exact requested spoken line is visibly published: “Bien sûr que je sais parler français ! C'est ma langue natale !” The rest of the English generation prompt is described but not fully exposed in the verified page, so no missing wording is reconstructed.
+- **Why included:** Fresh primary creator source with an attached comparison video, explicit Flux 3.0 attribution, a controlled same-image/same-instruction methodology, and a high-signal native-audio test that separates pronunciation quality from unscripted performance behavior rather than treating lip-sync as a single aggregate score.
+
+### 179. Same-source, same-prompt sprinter acceleration benchmark across 10 video models — Gilles Guerraz
+
+- **Creator:** [Gilles Guerraz](https://fr.linkedin.com/in/gilles-guerraz-iagenerative)
+- **Published:** 2026-08-26 (based on LinkedIn’s public six-day relative timestamp at verification on 2026-09-01).
+- **Original source:** [Gilles Guerraz’s LinkedIn sports-motion comparison with attached video](https://fr.linkedin.com/posts/gilles-guerraz-iagenerative_minimax-h3-et-flux-30-ont-ils-surpass%C3%A9-seedance-activity-7491062141974798336-kqeB)
+- **Model attribution:** Guerraz explicitly includes **Flux 3.0** among the ten named systems in the comparison and presents its output inside the attached benchmark video.
+- **Summary:** A world-class sprinter launches from the blocks in dramatic slow motion before the action abruptly snaps to full real-time speed, creating a difficult benchmark for explosive acceleration, leg drive, body mechanics, temporal speed changes, and physically credible athletic motion.
+- **Workflow/details:** Rigorous creator-stated protocol: the same source image from Reve, the same prompt for every model, three generations per model, and only the best result retained for the comparison. The tested set includes Seedance 2.0 Mini/Fast/standard, Kling 3.0/Turbo, Grok Imagine 1.5, MiniMax H3, Pixverse 6, Flux 3.0, and Happy Horse 1.1. Exact Flux 3.0 provider settings, resolution, seed, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — verified visible excerpt: “A world-class sprinter explodes out of the starting blocks. The action begins in dramatic slow motion, capturing the raw power of his first strides”. The complete prompt remains visible in the original creator post; no wording has been inferred from the footage.
+- **Why included:** Newly published primary creator source with attached video, explicit Flux 3.0 attribution, an exact visible prompt, and unusually disciplined cross-model methodology. Fast sport motion remains a known generative-video stress case, and this test directly probes the hard transition from stylized slow motion into very high-speed running under identical starting conditions.
 
 ## How updates work
 
