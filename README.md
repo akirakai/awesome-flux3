@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-02 · Entries: 180_
+_Last updated: 2026-09-02 · Entries: 181_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -914,7 +914,7 @@ _Last updated: 2026-09-02 · Entries: 180_
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public index did not expose a stable direct status URL.
+- **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
 - **Summary:** A deliberately low-fi phone recording captures a metal band’s encore in a small venue at the moment the chorus peaks and a guitar solo breaks out, testing whether generated performance energy can survive an intentionally amateur recording aesthetic.
@@ -2111,6 +2111,18 @@ _Last updated: 2026-09-02 · Entries: 180_
 - **Workflow/details:** Image-to-video from one reference image; 15-second duration. Hirtz says prompt phrasing and rhythm are the control surface for camera and pacing, and candidly notes that both are still imperfect in places while the motion holds longer than he expected from one still. The source does not disclose resolution, seed, exact reference-image provenance, provider settings, audio parameters, or post-production, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator discusses how the prompt is written and how phrasing/rhythm affect camera and pacing, but the exact prompt text is not visible in the verified source.
 - **Why included:** Newly published primary creator source with explicit `#Flux3` attribution and a concrete one-frame-to-15-second workflow. It is a useful long-horizon I2V benchmark because it focuses on motion persistence from a single still and provides candid creator-side notes about the relationship between text phrasing, pacing, and camera control rather than presenting an unqualified showcase.
+
+### 181. Twenty-second 1990s ape-sitcom story from one compact prompt — Christopher Fryant
+
+- **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
+- **Published:** 2026-09-01 (based on the public creator-profile mirror’s relative 12-hour timestamp at verification on 2026-09-02).
+- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the accessible public index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Public creator-profile mirror preserving Fryant’s original FLUX 3 prompt-share wording, attached-video context, and engagement](https://w.twstalker.com/cfryant)
+- **Model attribution:** Fryant explicitly labels the post “FLUX 3 Prompt share” immediately before the generation prompt.
+- **Summary:** A stereotypical 1990s sitcom replaces its human cast with apes—chimpanzees, gorillas, and orangutans—while moving from a bar to a living room and carrying one story across the full clip.
+- **Workflow/details:** One compact text prompt; 20-second duration; the creator explicitly asks FLUX 3 to maintain narrative continuity from the opening bar scene to the ending living-room scene. No verified resolution, provider, seed, reference media, audio settings, or post-production details are publicly exposed, so none are inferred.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Starts in a bar and ends in a living room. Carry a story throughout, you have 20 seconds.” The full prompt remains visible in the verification source.
+- **Why included:** Fresh original-creator FLUX 3 attribution, an exact reusable prompt, a full-duration narrative constraint, and a strong early public signal (about 4K views in the preserved snapshot). The clip stresses genre fidelity, multi-character/species consistency, location transition, story continuity, and comedic readability from deliberately sparse direction.
 
 ## How updates work
 
