@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-02 · Entries: 181_
+_Last updated: 2026-09-02 · Entries: 182_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2123,6 +2123,17 @@ _Last updated: 2026-09-02 · Entries: 181_
 - **Workflow/details:** One compact text prompt; 20-second duration; the creator explicitly asks FLUX 3 to maintain narrative continuity from the opening bar scene to the ending living-room scene. No verified resolution, provider, seed, reference media, audio settings, or post-production details are publicly exposed, so none are inferred.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Starts in a bar and ends in a living room. Carry a story throughout, you have 20 seconds.” The full prompt remains visible in the verification source.
 - **Why included:** Fresh original-creator FLUX 3 attribution, an exact reusable prompt, a full-duration narrative constraint, and a strong early public signal (about 4K views in the preserved snapshot). The clip stresses genre fidelity, multi-character/species consistency, location transition, story continuity, and comedic readability from deliberately sparse direction.
+
+### 182. SketchUp → Claude → Nano Banana → FLUX 3 start/end-frame ArchViz animation — Jacques Vernet
+
+- **Creator:** [Jacques Vernet](https://fr.linkedin.com/in/jacques-vernet)
+- **Published:** Date not exposed; verified 2026-09-02 (LinkedIn exposes only a relative two-to-three-week timestamp).
+- **Original source:** [Jacques Vernet’s LinkedIn creator post with embedded workflow video and transcript](https://fr.linkedin.com/posts/jacques-vernet_sketchup-archviz-artificialintelligence-activity-7491785025990897664-Ef73)
+- **Model attribution:** Vernet explicitly states that **Flux 3** takes the generated start image and end image to produce a smooth 10-second video animation; the embedded transcript independently repeats that he connects the start/end images to Flux 3 and launches the render.
+- **Summary:** A lightweight SketchUp architectural scene is captured from the viewport, converted into photoreal endpoint renders, then animated into a controlled 10-second architectural shot with FLUX 3 rather than relying on a conventional heavy 3D render-and-animation pass.
+- **Workflow/details:** Node-graph workflow: dynamic camera-facing 2D vegetation in SketchUp → viewport capture → Claude analyzes the view and generates/optimizes the prompt → Nano Banana produces photoreal HD render(s) → start and end images are connected to FLUX 3 → 10-second animation. The public source does not expose the exact FLUX provider, output resolution, seed, audio settings, or post-production, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — Vernet explicitly shows and describes Claude generating/optimizing the prompt from the image plus a text instruction, but the exact prompt text is not visible in the post or transcript.
+- **Why included:** Primary creator source with an embedded workflow video/transcript, explicit Flux 3 attribution, a defined start/end-frame workflow and duration, and an unusually reproducible ArchViz production chain. It demonstrates FLUX 3 as the animation stage inside a practical SketchUp-to-photoreal pipeline while keeping architectural motion anchored to approved endpoint frames.
 
 ## How updates work
 
