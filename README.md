@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-02 · Entries: 182_
+_Last updated: 2026-09-03 · Entries: 183_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2134,6 +2134,17 @@ _Last updated: 2026-09-02 · Entries: 182_
 - **Workflow/details:** Node-graph workflow: dynamic camera-facing 2D vegetation in SketchUp → viewport capture → Claude analyzes the view and generates/optimizes the prompt → Nano Banana produces photoreal HD render(s) → start and end images are connected to FLUX 3 → 10-second animation. The public source does not expose the exact FLUX provider, output resolution, seed, audio settings, or post-production, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — Vernet explicitly shows and describes Claude generating/optimizing the prompt from the image plus a text instruction, but the exact prompt text is not visible in the post or transcript.
 - **Why included:** Primary creator source with an embedded workflow video/transcript, explicit Flux 3 attribution, a defined start/end-frame workflow and duration, and an unusually reproducible ArchViz production chain. It demonstrates FLUX 3 as the animation stage inside a practical SketchUp-to-photoreal pipeline while keeping architectural motion anchored to approved endpoint frames.
+
+### 183. One-image, one-prompt 20-second premium headphones commercial — Alessandro Bagnuoli
+
+- **Creator:** [Alessandro Bagnuoli](https://it.linkedin.com/in/alessandrobagnuoli89)
+- **Published:** Date not exposed; verified 2026-09-03 (LinkedIn’s public creator profile showed the post as 3 days old).
+- **Original source:** [Alessandro Bagnuoli’s LinkedIn creator profile containing the original post](https://it.linkedin.com/in/alessandrobagnuoli89) — the public index exposes the post on-profile but not a stable direct activity permalink.
+- **Model attribution:** Bagnuoli explicitly describes the tutorial as the “full FLUX 3 workflow on Aristotto AI” and tags the post `#FLUX3`.
+- **Summary:** “AURA ONE” is a 20-second premium headphones spot developed from one photorealistic source image, moving through an urban setting, product interaction, and a closing hero shot.
+- **Workflow/details:** One image → one prompt → one output. Bagnuoli explicitly says there are no keyframes and no multiple references, keeping the workflow intentionally simple and repeatable for first-time users. The verified public source does not expose the exact FLUX 3 resolution, seed, provider-side settings, or post-production, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt drives the workflow, but the exact prompt text is not visible in the verified public source and has not been reconstructed.
+- **Why included:** Newly published primary creator evidence with explicit FLUX 3 attribution and a concrete tutorial/video workflow. The example is unusually reusable for commercial production because it demonstrates a complete 20-second product ad from a single still and a single prompt, without keyframes or multiple-reference scaffolding, while still targeting setting continuity, product interaction, and a final hero composition.
 
 ## How updates work
 
