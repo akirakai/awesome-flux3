@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-01 · Entries: 179_
+_Last updated: 2026-09-02 · Entries: 180_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -991,7 +991,7 @@ _Last updated: 2026-09-01 · Entries: 179_
 - **Summary:** A darkly comic action vignette literalizes a heated lawyer argument by escalating the confrontation to rocket launchers.
 - **Workflow/details:** Creator-posted FLUX 3 video built around a concise high-level premise rather than a publicly disclosed shot list. The verified public source does not disclose duration, resolution, input references, seed, native-audio instructions, or post-production.
 - **Prompt provenance:** `not_provided` — the visible caption describes the finished concept but is not explicitly labeled as the generation prompt, so no prompt text is inferred.
-- **Why included:** Traceable original status, explicit creator attribution, thousands of early views, and a distinctive compact concept that stresses multi-character staging, escalation, action timing, and comedic readability without relying on a long visible prompt.
+- **Why included:** Traceable original status, explicit creator attribution, thousands of early views, and a distinctive compact concept that stresses multi-character staging, escalation, action timing, and comedic readability without relying on a long visible prompt for each model.
 
 ### 85. Household spider-removal comedy — Christopher Fryant
 
@@ -2100,6 +2100,17 @@ _Last updated: 2026-09-01 · Entries: 179_
 - **Workflow/details:** Rigorous creator-stated protocol: the same source image from Reve, the same prompt for every model, three generations per model, and only the best result retained for the comparison. The tested set includes Seedance 2.0 Mini/Fast/standard, Kling 3.0/Turbo, Grok Imagine 1.5, MiniMax H3, Pixverse 6, Flux 3.0, and Happy Horse 1.1. Exact Flux 3.0 provider settings, resolution, seed, and post-production are not disclosed.
 - **Prompt provenance:** `verbatim_in_post` — verified visible excerpt: “A world-class sprinter explodes out of the starting blocks. The action begins in dramatic slow motion, capturing the raw power of his first strides”. The complete prompt remains visible in the original creator post; no wording has been inferred from the footage.
 - **Why included:** Newly published primary creator source with attached video, explicit Flux 3.0 attribution, an exact visible prompt, and unusually disciplined cross-model methodology. Fast sport motion remains a known generative-video stress case, and this test directly probes the hard transition from stylized slow motion into very high-speed running under identical starting conditions.
+
+### 180. Fifteen-second single-reference image-to-video motion-control test — Simon Hirtz
+
+- **Creator:** Simon Hirtz
+- **Published:** 2026-08-26
+- **Original source:** [Simon Hirtz’s LinkedIn creator post](https://www.linkedin.com/posts/simon-hirtz-25a011a5_bfl-flux3-i2v-activity-7498315243136307200-c0Od)
+- **Model attribution:** Hirtz explicitly tags the attached 15-second image-to-video result `#Flux3` and `#I2V`.
+- **Summary:** A single still image is expanded into a 15-second image-to-video sequence, with the experiment centered on whether motion can stay coherent over a longer take while camera behavior and pacing are steered through text.
+- **Workflow/details:** Image-to-video from one reference image; 15-second duration. Hirtz says prompt phrasing and rhythm are the control surface for camera and pacing, and candidly notes that both are still imperfect in places while the motion holds longer than he expected from one still. The source does not disclose resolution, seed, exact reference-image provenance, provider settings, audio parameters, or post-production, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator discusses how the prompt is written and how phrasing/rhythm affect camera and pacing, but the exact prompt text is not visible in the verified source.
+- **Why included:** Newly published primary creator source with explicit `#Flux3` attribution and a concrete one-frame-to-15-second workflow. It is a useful long-horizon I2V benchmark because it focuses on motion persistence from a single still and provides candid creator-side notes about the relationship between text phrasing, pacing, and camera control rather than presenting an unqualified showcase.
 
 ## How updates work
 
