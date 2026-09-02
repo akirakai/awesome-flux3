@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-03 · Entries: 183_
+_Last updated: 2026-09-03 · Entries: 184_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2145,6 +2145,17 @@ _Last updated: 2026-09-03 · Entries: 183_
 - **Workflow/details:** One image → one prompt → one output. Bagnuoli explicitly says there are no keyframes and no multiple references, keeping the workflow intentionally simple and repeatable for first-time users. The verified public source does not expose the exact FLUX 3 resolution, seed, provider-side settings, or post-production, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator confirms that one prompt drives the workflow, but the exact prompt text is not visible in the verified public source and has not been reconstructed.
 - **Why included:** Newly published primary creator evidence with explicit FLUX 3 attribution and a concrete tutorial/video workflow. The example is unusually reusable for commercial production because it demonstrates a complete 20-second product ad from a single still and a single prompt, without keyframes or multiple-reference scaffolding, while still targeting setting continuity, product interaction, and a final hero composition.
+
+### 184. Water, smoke, reflections, motion, and skin-detail stress reel — Fuzzbucket AI
+
+- **Creator:** [Fuzzbucket AI](https://www.linkedin.com/company/fuzzbucket)
+- **Published:** 2026-08-31 (based on LinkedIn’s public relative three-day timestamp at verification on 2026-09-03).
+- **Original source:** [Fuzzbucket AI’s first-party LinkedIn company page with the attached FLUX-3 video](https://www.linkedin.com/company/fuzzbucket) — the public index exposes the creator post on-profile but not a stable direct activity permalink.
+- **Model attribution:** Fuzzbucket explicitly says the entire attached video was generated with **FLUX-3 inside Fuzzbucket** and prefixes the post `#FLUX-3`.
+- **Summary:** A first-party platform reel deliberately pushes FLUX-3 through visually difficult material cues—water, smoke, reflections, fast motion, and fine skin detail—rather than using a single safe beauty shot.
+- **Workflow/details:** Generated end-to-end with FLUX-3 inside Fuzzbucket. The creator explicitly identifies water, smoke, reflections, motion, and skin detail as the stress targets. The verified public post does not disclose the exact prompt, clip duration, resolution, seed, reference media, audio settings, or post-production, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source.
+- **Why included:** Fresh first-party creator/platform attribution with an attached video and an unusually broad visual stress target in one reel. It is useful as a quality benchmark because reflective surfaces, volumetric smoke, fluid appearance, human skin, and motion are common temporal failure modes, and the post explicitly says the goal was to push the model rather than show “safe test shots.”
 
 ## How updates work
 
