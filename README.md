@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-03 · Entries: 185_
+_Last updated: 2026-09-03 · Entries: 186_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1033,7 +1033,7 @@ _Last updated: 2026-09-03 · Entries: 185_
 
 - **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
 - **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
-- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the public index did not expose the direct status URL.
+- **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the accessible public index did not expose the direct status URL.
 - **Verification source:** [Secondary mirror preserving a retweet of the original creator post, original wording, attribution, attached-video context, and engagement](https://twstalker.com/cdcwatson)
 - **Model attribution:** Fryant explicitly calls the attached work “Another early access FLUX 3 time travel gopro video” and tags Black Forest Labs.
 - **Summary:** A first-person GoPro-style historical action sequence drops the viewer into a 1920s gangster shootout inside a speakeasy, then carries the confrontation out into the street.
@@ -2168,6 +2168,17 @@ _Last updated: 2026-09-03 · Entries: 185_
 - **Workflow/details:** One continuous 15-second MiniDV-style take with no cinematic music. The prompt time-codes four phases (0–2.5s, 2.5–5s, 5–10.5s, 10.5–15s), specifies mild handheld shake, imperfect optical zoom, slow autofocus, exposure changes, washed colors, interlaced motion and tape compression, natural city/vehicle/creature ambience, English dialogue, and strict continuity for one jeep, reporter, cameraman, passenger group, dinosaur appearance/scale, and camera position inside the vehicle.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “FLUX 3 — 15-second ultra-realistic early-2000s wildlife documentary footage, recorded on a consumer MiniDV camera...” The complete prompt remains visibly preserved in the verification source.
 - **Why included:** Fresh explicit original-creator FLUX 3 attribution, attached-video context, and a fully visible, highly reproducible prompt. The clip is a demanding realism benchmark for creature scale and body weight, gentle human-creature proximity, contact-free interaction, long-take spatial continuity, intentionally imperfect consumer-camera behavior, dialogue, environmental sound, and a coherent release beat without relying on spectacle or rapid cuts.
+
+### 186. Agentic 10-second FLUX 3 portrait-to-premium-ad production chain — Jean-Louis VIRETTI
+
+- **Creator:** Jean-Louis VIRETTI
+- **Published:** 2026-09-03 (based on LinkedIn’s public relative 16-hour timestamp at verification).
+- **Original source:** [Jean-Louis VIRETTI’s LinkedIn creator post with the attached video and workflow breakdown](https://fr.linkedin.com/posts/jean-louis-viretti-112698131_ia-hermesagent-openai-activity-7500919484896079872-Y4MU)
+- **Model attribution:** VIRETTI explicitly says the central cinematic shot was generated with **FLUX 3 via FAL.ai**.
+- **Summary:** A fictional portrait of “Chiara” is animated into a restrained 10-second cinematic loft shot, then used as the centerpiece of a polished 16-second vertical premium-ad capsule with branded opening/closing slides, French narration, original music, and final delivery QA.
+- **Workflow/details:** Start from one 9:16 `gpt-image-2` portrait → generate a 10-second FLUX 3 shot on fal.ai → assemble a 16-second edit with 0–3s opening slide, 3–13s FLUX 3 video, and 13–16s closing slide → add French narration with Gemini Flash TTS Zephyr and an original 120 BPM electro-organic bed → export/QC at 1080×1920, 24 fps, H.264 video and AAC stereo audio. VIRETTI says the complete agentic chain ran through Hermes Agent v0.20.4 in about 55 minutes and that he did not intervene in the process.
+- **Prompt provenance:** `not_provided` — the first-party post does not expose the exact FLUX 3 generation prompt; the separately visible French narration script is not treated as a video-generation prompt.
+- **Why included:** Fresh primary creator source with an attached video, explicit FLUX 3/fal.ai attribution, unusually concrete end-to-end production telemetry, and a reproducible one-portrait-to-finished-ad workflow. The example is useful beyond a demo clip because it documents how a generated shot survives art direction, voice, music, edit timing, delivery codecs, and QA inside an automated production chain.
 
 ## How updates work
 
