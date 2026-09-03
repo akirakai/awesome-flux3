@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-03 · Entries: 186_
+_Last updated: 2026-09-04 · Entries: 187_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -831,7 +831,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 71. One-prompt 20-second self-edited voiceover sequence — VORTEX
 
 - **Creator:** [VORTEX: AI Bros & AI Arena (@VORTEX_Promos)](https://x.com/VORTEX_Promos)
-- **Published:** 2026-08-06 (based on the public verification page’s relative timestamp)
+- **Published:** 2026-08-06
 - **Original source profile:** [VORTEX on X](https://x.com/VORTEX_Promos) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, and engagement](https://twstalker.com/VORTEX_Promos)
 - **Model attribution:** The creator explicitly introduces the attached result with “Flux 3 is pretty good!”
@@ -854,7 +854,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 73. Four-way synchronized aircraft engine-failure return — Future Vibes AI
 
 - **Creator:** [Future Vibes AI (@FutureVibesAi)](https://x.com/FutureVibesAi)
-- **Published:** 2026-08-06 (based on the public verification page’s relative timestamp)
+- **Published:** 2026-08-06
 - **Original source profile:** [Future Vibes AI on X](https://x.com/FutureVibesAi) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, exact prompt, clip context, and engagement](https://mobile.twstalker.com/FutureVibesAi)
 - **Model attribution:** The creator explicitly introduces the clip with “Split Screen clip with Flux 3.”
@@ -866,7 +866,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 74. Four-way synchronized mountain helicopter rescue — Future Vibes AI
 
 - **Creator:** [Future Vibes AI (@FutureVibesAi)](https://x.com/FutureVibesAi)
-- **Published:** 2026-08-05 (based on the public verification page’s relative timestamp)
+- **Published:** 2026-08-05
 - **Original source profile:** [Future Vibes AI on X](https://x.com/FutureVibesAi) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, exact prompt, clip context, and engagement](https://mobile.twstalker.com/FutureVibesAi)
 - **Model attribution:** The creator explicitly introduces the clip with “Split screen clip with Flux 3.”
@@ -878,7 +878,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 75. Four-way synchronized emergency airplane river landing — Umesh
 
 - **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
-- **Published:** 2026-08-04 (based on the public verification page’s relative timestamp)
+- **Published:** 2026-08-04
 - **Original source profile:** [Umesh on X](https://x.com/umesh_ai) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary creator-post mirror preserved through a Future Vibes AI profile retweet, including the original creator wording, prompt opening, attached-video context, and engagement](https://mobile.twstalker.com/FutureVibesAi)
 - **Model attribution:** Umesh explicitly introduces the attached result with “Another 4-way split screen clip with Flux 3!”
@@ -890,7 +890,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 76. Regency-manor astronaut tracking-shot stress test — Ethan Mollick
 
 - **Creator:** [Ethan Mollick (@emollick)](https://x.com/emollick)
-- **Published:** 2026-08-07 (based on the public verification page’s relative timestamp)
+- **Published:** 2026-08-07
 - **Original source profile:** [Ethan Mollick on X](https://x.com/emollick) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, visible full prompt, attached-video context, and engagement](https://mobile.twstalker.com/emollick)
 - **Model attribution:** Mollick explicitly identifies the attached result as produced by Flux 3 and introduces the visible text as the prompt used for it.
@@ -913,7 +913,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 78. Bootleg phone-recorded live-metal encore — fofr
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
-- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-07
 - **Original source profile:** [fofr on X](https://x.com/fofrAI) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary mirror preserving the original creator wording, exact prompt, attached-video context, and engagement](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The original creator explicitly prefixes the attached generation with “Flux 3:”.
@@ -936,7 +936,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 80. Structured kaiju-destruction FLUX 3 vs. Seedance 2.0 benchmark — Jin.B
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
-- **Published:** 2026-08-06 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-06
 - **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, full structured prompt, and engagement](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison runs “Flux 3 vs Seedance 2.0” and describes using closely matched timing/settings for the two outputs.
@@ -948,7 +948,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 81. Blackout-disappearance subway FLUX 3 vs. Seedance 2.0 benchmark — Jin.B
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
-- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-07
 - **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original comparison caption, attached-video context, and FLUX 3 prompt follow-up](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison tests “Flux 3 & Seedance 2.0,” tags `#Flux3` and Black Forest Labs, then publishes a follow-up labeled “[Flux3 prompt].”
@@ -960,7 +960,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 82. Pelican shoegaze band “Pelicans on Bikes” — fofr
 
 - **Creator:** [fofr (@fofrAI)](https://x.com/fofrAI)
-- **Published:** 2026-08-08 (based on the public verification mirrors’ relative timestamps)
+- **Published:** 2026-08-08
 - **Original source profile:** [fofr on X](https://x.com/fofrAI) — the public indexes did not expose the direct status URL.
 - **Verification sources:** [Secondary mirror preserving fofr’s follow-up and its quoted same-creator FLUX 3 parent post](https://twstalker.com/ZachyAshworth); [Black Forest Labs co-founder Robin Rombach’s public profile mirror resharing the follow-up](https://site.twstalker.com/robrombach).
 - **Model attribution:** The follow-up is shown directly beneath and quoting fofr’s immediately preceding same-creator post, which explicitly prefixes the generation series with “Flux 3:”. Robin Rombach then reshared the “Pelicans on Bikes” follow-up and praised its prompting.
@@ -972,7 +972,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 83. 1995 television documentary explaining the internet — Bennett / Generative Media
 
 - **Creator:** [Bennett | Generative Media | AI SEO @ fal (@influencer_seo)](https://x.com/influencer_seo)
-- **Published:** 2026-08-08 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-08
 - **Original source profile:** [Bennett on X](https://x.com/influencer_seo) — the public index did not expose the direct status URL.
 - **Verification source:** [Secondary mirror directly preserving the original creator post, model attribution, prompt, and evaluation](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** The creator explicitly labels the post “Flux 3 Prompt” and evaluates the resulting FLUX 3 generation.
@@ -1222,7 +1222,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 104. Analog-horror Michael Jackson vignette — Kadeka
 
 - **Creator:** [Kadeka (@Berserkr_777)](https://x.com/Berserkr_777)
-- **Published:** 2026-08-12 (based on the public verification mirrors’ relative timestamps)
+- **Published:** 2026-08-12
 - **Original source profile:** [Kadeka on X](https://x.com/Berserkr_777) — the accessible public indexes did not expose a stable direct status URL.
 - **Verification sources:** [Secondary public mirror preserving a retweet of the original Kadeka post, explicit Flux 3 wording, and engagement](https://mobile.twstalker.com/KeyTryer) · [Independent public mirror preserving the same original creator post](https://twstalker.com/ZachyAshworth)
 - **Model attribution:** Kadeka explicitly says, “Analog Horror Michael Jackson videos were not on my Flux 3 bingo card.”
@@ -1246,7 +1246,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 106. Deliberately anti-climactic “goes nowhere” narrative prompt — Christopher Fryant
 
 - **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
-- **Published:** 2026-08-12 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-12
 - **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving Fryant’s original wording, explicit FLUX 3 attribution, public prompt text, attached-video context, and engagement](https://twstalker.com/cfryant)
 - **Model attribution:** Fryant explicitly introduces the attached result with “I love this FLUX 3 prompt!” and tags Black Forest Labs.
@@ -1439,7 +1439,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 123. RIFTFALL retro-FPS cinematic trailer — VORTEX
 
 - **Creator:** [VORTEX: AI Bros & AI Arena (@VORTEX_Promos)](https://x.com/VORTEX_Promos)
-- **Published:** 2026-08-16 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-16
 - **Original source profile:** [VORTEX on X](https://x.com/VORTEX_Promos) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, explicit FLUX 3 attribution, attached-video context, and engagement](https://twstalker.com/VORTEX_Promos)
 - **Model attribution:** The creator explicitly says, “I made this Riftfall trailer with it,” immediately after identifying the model as FLUX 3 Video.
@@ -1451,7 +1451,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 124. Four-minute “WINGED” mythic short film — Tony Simons
 
 - **Creator:** [Tony Simons (@tonysimons_)](https://x.com/tonysimons_)
-- **Published:** 2026-08-18 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-18
 - **Original source profile:** [Tony Simons on X](https://x.com/tonysimons_) — the accessible public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, FLUX 3 attribution, contest context, attached-film post, and engagement](https://w.twstalker.com/tonysimons_)
 - **Model attribution:** Simons explicitly calls WINGED “a mythic short film built end-to-end with @NousResearch Hermes and @bfl_ai FLUX 3” and identifies it as his FLUX 3 Short Film Contest entry.
@@ -1766,7 +1766,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 151. Sunday-morning UGC influencer realism with deliberate DV imperfections — Kaan
 
 - **Creator:** [Kaan (@kaanakz)](https://x.com/kaanakz)
-- **Published:** 2026-08-18 (based on the secondary verification mirror’s relative timestamp at verification).
+- **Published:** 2026-08-18
 - **Original source profile:** [Kaan on X](https://x.com/kaanakz) — the accessible public index did not expose a stable direct status URL for this video.
 - **Verification source:** [Secondary creator-profile mirror preserving Kaan’s original “Made with Flux 3” wording, complete visible prompt, video context, and engagement](https://w.twstalker.com/kaanakz)
 - **Model attribution:** Kaan explicitly introduces the attached result with “Made with Flux 3.”
@@ -1778,7 +1778,7 @@ _Last updated: 2026-09-03 · Entries: 186_
 ### 152. Twenty-second orbital-hotel vacation POV with reflection-to-exposure transition — Jin.B
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
-- **Published:** 2026-08-19 (based on the secondary verification mirror’s relative timestamp at verification).
+- **Published:** 2026-08-19
 - **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the accessible public index did not expose a stable direct status URL for this video.
 - **Verification source:** [Secondary creator-profile mirror preserving Jin.B’s original Flux3 attribution, attached-video context, complete visible prompt, and engagement](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says “Flux3 is amazing at making natural-looking videos,” calls out T2V, labels the following text `[FLUX 3 PROMPT]`, and tags `#flux3`.
@@ -2179,6 +2179,17 @@ _Last updated: 2026-09-03 · Entries: 186_
 - **Workflow/details:** Start from one 9:16 `gpt-image-2` portrait → generate a 10-second FLUX 3 shot on fal.ai → assemble a 16-second edit with 0–3s opening slide, 3–13s FLUX 3 video, and 13–16s closing slide → add French narration with Gemini Flash TTS Zephyr and an original 120 BPM electro-organic bed → export/QC at 1080×1920, 24 fps, H.264 video and AAC stereo audio. VIRETTI says the complete agentic chain ran through Hermes Agent v0.20.4 in about 55 minutes and that he did not intervene in the process.
 - **Prompt provenance:** `not_provided` — the first-party post does not expose the exact FLUX 3 generation prompt; the separately visible French narration script is not treated as a video-generation prompt.
 - **Why included:** Fresh primary creator source with an attached video, explicit FLUX 3/fal.ai attribution, unusually concrete end-to-end production telemetry, and a reproducible one-portrait-to-finished-ad workflow. The example is useful beyond a demo clip because it documents how a generated shot survives art direction, voice, music, edit timing, delivery codecs, and QA inside an automated production chain.
+
+### 187. Six-basic-emotions performance benchmark across eight video models — Tianyu Xu
+
+- **Creator:** [Tianyu Xu](https://www.linkedin.com/in/tianyuxu/)
+- **Published:** 2026-09-03 (based on LinkedIn’s public relative 15-hour timestamp at verification on 2026-09-04).
+- **Original source:** [Tianyu Xu’s LinkedIn six-emotion comparison](https://www.linkedin.com/posts/tianyuxu_the-6-basic-emotions-in-15-seconds-seedance-activity-7500875545929383950-pI3q)
+- **Model attribution:** Xu explicitly lists **FLUX 3** among the eight video models in his own 15-second comparison, alongside Seedance 2.5, Gemini Omni 1.1 Flash, WAN 3, MiniMax H3, Seedance 2.0, Seedance 2.0 Mini, and Kling 3.
+- **Summary:** A 15-second performance benchmark compares current video models across six basic emotions in sequence—surprise, fear, sadness, anger, disgust, and happiness—making expression quality, transition control, and overacting directly comparable.
+- **Workflow/details:** The post fixes the evaluation concept to the same six-emotion sequence and reports Xu’s qualitative observation that all tested models have strengths while some overact; discussion on the original post focuses on subtle versus exaggerated facial performance. Exact prompt wording, source/reference media, provider settings, resolution, seed, audio setup, and any model-specific adaptation are not publicly disclosed, so none are inferred.
+- **Prompt provenance:** `not_provided` — the visible emotion sequence and comparison caption describe the benchmark but are not labeled as the exact generation prompt.
+- **Why included:** Fresh primary creator source with explicit FLUX 3 attribution and a clear 15-second cross-model video-performance target. Six consecutive affect changes are a high-signal facial-animation stress test because the model must preserve one performance while making each emotion readable without collapsing into exaggerated or unstable expression.
 
 ## How updates work
 
