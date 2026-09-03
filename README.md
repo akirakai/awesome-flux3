@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-03 · Entries: 184_
+_Last updated: 2026-09-03 · Entries: 185_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2156,6 +2156,18 @@ _Last updated: 2026-09-03 · Entries: 184_
 - **Workflow/details:** Generated end-to-end with FLUX-3 inside Fuzzbucket. The creator explicitly identifies water, smoke, reflections, motion, and skin detail as the stress targets. The verified public post does not disclose the exact prompt, clip duration, resolution, seed, reference media, audio settings, or post-production, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source.
 - **Why included:** Fresh first-party creator/platform attribution with an attached video and an unusually broad visual stress target in one reel. It is useful as a quality benchmark because reflective surfaces, volumetric smoke, fluid appearance, human skin, and motion are common temporal failure modes, and the post explicitly says the goal was to push the model rather than show “safe test shots.”
+
+### 185. Fifteen-second MiniDV urban-dinosaur documentary long take — DennisVisuals
+
+- **Creator:** [DennisVisuals (@DtheW1995)](https://x.com/DtheW1995)
+- **Published:** 2026-09-01 (based on the secondary verification mirror’s relative two-day timestamp at verification on 2026-09-03).
+- **Original source profile:** [DennisVisuals on X](https://x.com/DtheW1995) — the accessible public index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Public creator-profile mirror preserving DennisVisuals’ original wording, explicit Flux 3 attribution, attached tweet-video marker, and complete visible prompt](https://www.sotwe.com/DtheW1995)
+- **Model attribution:** DennisVisuals explicitly opens the attached-video post “Jurassic City Documentary Style made with Flux 3,” and the prompt itself is labeled `FLUX 3`.
+- **Summary:** A calm, early-2000s wildlife-documentary encounter unfolds from inside an open-top safari jeep on a quiet American city avenue: a realistic dinosaur approaches, stops beside the vehicle, curiously sniffs the reporter and passengers, then departs between parked cars while the handheld cameraman keeps filming.
+- **Workflow/details:** One continuous 15-second MiniDV-style take with no cinematic music. The prompt time-codes four phases (0–2.5s, 2.5–5s, 5–10.5s, 10.5–15s), specifies mild handheld shake, imperfect optical zoom, slow autofocus, exposure changes, washed colors, interlaced motion and tape compression, natural city/vehicle/creature ambience, English dialogue, and strict continuity for one jeep, reporter, cameraman, passenger group, dinosaur appearance/scale, and camera position inside the vehicle.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “FLUX 3 — 15-second ultra-realistic early-2000s wildlife documentary footage, recorded on a consumer MiniDV camera...” The complete prompt remains visibly preserved in the verification source.
+- **Why included:** Fresh explicit original-creator FLUX 3 attribution, attached-video context, and a fully visible, highly reproducible prompt. The clip is a demanding realism benchmark for creature scale and body weight, gentle human-creature proximity, contact-free interaction, long-take spatial continuity, intentionally imperfect consumer-camera behavior, dialogue, environmental sound, and a coherent release beat without relying on spectacle or rapid cuts.
 
 ## How updates work
 
