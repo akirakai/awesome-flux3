@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-04 · Entries: 187_
+_Last updated: 2026-09-06 · Entries: 188_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2190,6 +2190,17 @@ _Last updated: 2026-09-04 · Entries: 187_
 - **Workflow/details:** The post fixes the evaluation concept to the same six-emotion sequence and reports Xu’s qualitative observation that all tested models have strengths while some overact; discussion on the original post focuses on subtle versus exaggerated facial performance. Exact prompt wording, source/reference media, provider settings, resolution, seed, audio setup, and any model-specific adaptation are not publicly disclosed, so none are inferred.
 - **Prompt provenance:** `not_provided` — the visible emotion sequence and comparison caption describe the benchmark but are not labeled as the exact generation prompt.
 - **Why included:** Fresh primary creator source with explicit FLUX 3 attribution and a clear 15-second cross-model video-performance target. Six consecutive affect changes are a high-signal facial-animation stress test because the model must preserve one performance while making each emotion readable without collapsing into exaggerated or unstable expression.
+
+### 188. Five-second adaptive-reuse courtyard camera-motion demo — RunDiffusion
+
+- **Creator:** [Adam Stewart / RunDiffusion](https://learn.rundiffusion.com/flux-3-video-tools/)
+- **Published:** 2026-09-04
+- **Original source:** [Flux 3 Video Tools Are Now Available on RunDiffusion](https://learn.rundiffusion.com/flux-3-video-tools/)
+- **Model attribution:** RunDiffusion explicitly identifies the embedded clip as a **Flux 3 Video** example on its first-party launch page for FLUX 3 video tools.
+- **Summary:** A five-second architectural shot makes a restrained forward dolly through an adaptive-reuse headquarters courtyard while keeping motion limited to environmental details such as landscape and water.
+- **Workflow/details:** First-party RunDiffusion example. The page states that Flux 3 Video can start from a text prompt, a Start Frame, or paired Start/End Frames; Flux 3 Extend Video continues an existing clip; Draft Video and Draft Extend Video provide faster 720p previews; all four tools support 5–20-second clips with optional native audio, while the full tools support 720p or 1080p output. The showcased embedded video is 5 seconds long.
+- **Prompt provenance:** `verbatim_in_post` — “A slow forward dolly through an adaptive-reuse headquarters courtyard, with motion limited to landscape and water.”
+- **Why included:** Fresh first-party source with an embedded FLUX 3 output, exact publication date, visible verbatim prompt, and concrete production controls. The restrained architecture shot is a useful quality test because measured camera motion, water/landscape movement, reflections, and geometry retention must remain coherent without relying on spectacle.
 
 ## How updates work
 
