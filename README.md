@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-06 · Entries: 188_
+_Last updated: 2026-09-06 · Entries: 189_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2201,6 +2201,17 @@ _Last updated: 2026-09-06 · Entries: 188_
 - **Workflow/details:** First-party RunDiffusion example. The page states that Flux 3 Video can start from a text prompt, a Start Frame, or paired Start/End Frames; Flux 3 Extend Video continues an existing clip; Draft Video and Draft Extend Video provide faster 720p previews; all four tools support 5–20-second clips with optional native audio, while the full tools support 720p or 1080p output. The showcased embedded video is 5 seconds long.
 - **Prompt provenance:** `verbatim_in_post` — “A slow forward dolly through an adaptive-reuse headquarters courtyard, with motion limited to landscape and water.”
 - **Why included:** Fresh first-party source with an embedded FLUX 3 output, exact publication date, visible verbatim prompt, and concrete production controls. The restrained architecture shot is a useful quality test because measured camera motion, water/landscape movement, reflections, and geometry retention must remain coherent without relying on spectacle.
+
+### 189. Thirty-four fully directed 20-second films with published prompts and measured structure — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Date not shown; verified 2026-09-06.
+- **Original source:** [Finished films — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/finished-films)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`, and the published take metadata identifies the showcased films as FLUX.3 generations.
+- **Summary:** A first-party stress-test suite presents 34 returned twenty-second films across thrillers/action, drama/romance, animation/puppets, and period/comedy/documentary, testing multi-shot structure, multilingual dialogue and subtitles, single-take choreography, timed music and silence, and broadcast-style editing grammar.
+- **Workflow/details:** Martini attempted 37 fully directed films and received 34 outputs. Every film is 20.04 seconds, 21:9, 1440×608, 24 fps, and rendered in draft mode. Prompts run 1,973–4,151 characters and specify time-coded shot lists, dialogue, lens choices, lighting, sound beds, second-timed music cues, and grade. The report says 27 of 32 multi-shot briefs returned the requested four-shot structure; its single-take `Service` example registers zero cuts and 480/480 unique frames. Martini says the published takes are straight out of the model, with nothing cut, graded, or retouched.
+- **Prompt provenance:** `verbatim_in_post` — all showcased prompts are printed in full. Verified excerpt from `Rain Line`: “A 20-second hand-drawn 2D anime sequence, fully directed. Dialogue in Japanese with English subtitles.”
+- **Why included:** An unusually rigorous first-party source combines many attached FLUX.3 outputs with exact prompts, verified dimensions/frame rate, timed shot and audio direction, measured structural outcomes, and explicit no-post-processing provenance, making it highly reproducible and useful for judging narrative control rather than only surface aesthetics.
 
 ## How updates work
 
