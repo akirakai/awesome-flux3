@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-06 · Entries: 189_
+_Last updated: 2026-09-08 · Entries: 190_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2212,6 +2212,18 @@ _Last updated: 2026-09-06 · Entries: 189_
 - **Workflow/details:** Martini attempted 37 fully directed films and received 34 outputs. Every film is 20.04 seconds, 21:9, 1440×608, 24 fps, and rendered in draft mode. Prompts run 1,973–4,151 characters and specify time-coded shot lists, dialogue, lens choices, lighting, sound beds, second-timed music cues, and grade. The report says 27 of 32 multi-shot briefs returned the requested four-shot structure; its single-take `Service` example registers zero cuts and 480/480 unique frames. Martini says the published takes are straight out of the model, with nothing cut, graded, or retouched.
 - **Prompt provenance:** `verbatim_in_post` — all showcased prompts are printed in full. Verified excerpt from `Rain Line`: “A 20-second hand-drawn 2D anime sequence, fully directed. Dialogue in Japanese with English subtitles.”
 - **Why included:** An unusually rigorous first-party source combines many attached FLUX.3 outputs with exact prompts, verified dimensions/frame rate, timed shot and audio direction, measured structural outcomes, and explicit no-post-processing provenance, making it highly reproducible and useful for judging narrative control rather than only surface aesthetics.
+
+### 190. Twenty-second no-cut wolf chase with FPV, barrel roll, transformation, and native audio — Yuval Avidani
+
+- **Creator:** [Yuval Avidani (@yuvalav)](https://x.com/yuvalav)
+- **Published:** Date not exposed; verified 2026-09-08 (the public creator-profile mirror shows the post as three days old).
+- **Original source profile:** [Yuval Avidani on X](https://x.com/yuvalav) — the accessible public index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Public creator-profile mirror preserving Yuval’s original wording, full prompt, explicit Flux 3 Video attribution, and video-post context](https://www.instalker.org/yuvalav)
+- **Model attribution:** Yuval explicitly labels the post “Claude Fable 5.1 + Flux 3 Video” and tags Black Forest Labs `@bfl_ai`.
+- **Summary:** A grey wolf sprints through an ice valley under a giant golden moon, transitions into a low FPV chase through an ice tunnel and moonlit pine forest, passes through a 90-degree barrel-roll slow-motion snow helix, whips up a cliff into the clouds, then transforms into molten gold on the rim of the moon as a shockwave writes “YUV AI” across the sky.
+- **Workflow/details:** One 20-second, time-coded prompt explicitly asks for one continuous shot with no cuts and continuously forward momentum. Camera language changes from a static frontal approach to a low FPV chase, tunnel passage, 90-degree barrel roll, cliff whip, cloud-top run, and moon reveal. The creator presents the setup as “Claude Fable 5.1 + Flux 3 Video”; the public post does not further separate their roles, so no additional agentic workflow is inferred. The prompt also specifies an audio arc—accelerating paws and wind, silence during the tunnel blink, bass drop, heartbeat during the roll and hold, rising howl, choir swell, one massive final hit, then silence. “8k” appears only inside the prompt as a requested quality term and is not treated as verified output resolution.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Opener, one continuous shot, the camera never cuts, momentum always forward, no speech, RED camera, anamorphic lens, rich natural color. a grey wolf with pale amber eyes and thick winter fur.” The complete 0–20 second prompt, including the audio plan and final “YUV AI” typography cue, remains visible in the secondary verification source.
+- **Why included:** Fresh explicit original-creator Flux 3 Video attribution, an attached-video creator post preserved by a public mirror, and a fully visible highly reproducible time-coded prompt. The sequence is an unusually demanding long-horizon benchmark for fast animal motion, continuous camera choreography, speed ramps, tunnel/cloud transformations, environmental continuity, synchronized native audio, and legible end-card typography without a cut.
 
 ## How updates work
 
