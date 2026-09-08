@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-08 · Entries: 190_
+_Last updated: 2026-09-09 · Entries: 191_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2224,6 +2224,18 @@ _Last updated: 2026-09-08 · Entries: 190_
 - **Workflow/details:** One 20-second, time-coded prompt explicitly asks for one continuous shot with no cuts and continuously forward momentum. Camera language changes from a static frontal approach to a low FPV chase, tunnel passage, 90-degree barrel roll, cliff whip, cloud-top run, and moon reveal. The creator presents the setup as “Claude Fable 5.1 + Flux 3 Video”; the public post does not further separate their roles, so no additional agentic workflow is inferred. The prompt also specifies an audio arc—accelerating paws and wind, silence during the tunnel blink, bass drop, heartbeat during the roll and hold, rising howl, choir swell, one massive final hit, then silence. “8k” appears only inside the prompt as a requested quality term and is not treated as verified output resolution.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Opener, one continuous shot, the camera never cuts, momentum always forward, no speech, RED camera, anamorphic lens, rich natural color. a grey wolf with pale amber eyes and thick winter fur.” The complete 0–20 second prompt, including the audio plan and final “YUV AI” typography cue, remains visible in the secondary verification source.
 - **Why included:** Fresh explicit original-creator Flux 3 Video attribution, an attached-video creator post preserved by a public mirror, and a fully visible highly reproducible time-coded prompt. The sequence is an unusually demanding long-horizon benchmark for fast animal motion, continuous camera choreography, speed ramps, tunnel/cloud transformations, environmental continuity, synchronized native audio, and legible end-card typography without a cut.
+
+### 191. Fifteen-second pterosaur attack on an expedition plane in one found-footage take — DennisVisuals
+
+- **Creator:** [DennisVisuals (@DtheW1995)](https://x.com/DtheW1995)
+- **Published:** 2026-09-05
+- **Original post:** [View on X](https://x.com/DtheW1995/status/2096144016089780321)
+- **Secondary verification source:** [Public creator-post mirror preserving the original post, full prompt, attached-video context, and same-thread Flux 3 attribution](https://jilbab.twstalker.com/DtheW1995/status/2096144016089780321)
+- **Model attribution:** DennisVisuals follows the exact video/prompt post in the same creator thread with “Made with Flux 3.”
+- **Summary:** A handheld passenger camera inside a low-flying twin-engine expedition aircraft over a misty tropical jungle records multiple pterosaurs attacking the plane: one slams the wing, another grabs the wing strut, the largest repeatedly strikes and finally breaks a side window, and the damaged aircraft drops toward the treetops before an abrupt cut.
+- **Workflow/details:** One continuous 15-second found-footage take from inside the aircraft, with no external camera angles. The prompt is time-coded into five action beats (0–2s, 2–5s, 5–8s, 8–11s, 11–15s) and explicitly coordinates turbulence-driven handheld shake, propeller wash, aircraft banking, cabin inertia, progressive window cracking and breakage, wind-driven papers/clothing, warning alarms, pilot dialogue, engine/wind/metal-impact audio, and negative constraints against smooth stabilization, teleportation, impossible camera movement, duplicated creatures, excessive gore, and cartoon/cheap-CGI appearance. Resolution, seed, reference media, provider, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Ultra-realistic 15-second found-footage sequence filmed from inside a small, low-flying twin-engine expedition aircraft above a misty tropical jungle.” The complete five-beat prompt remains visible in the secondary verification source.
+- **Why included:** Fresh explicit original-creator Flux 3 attribution, attached-video verification, and a fully visible highly reproducible prompt. The sequence is a difficult single-take benchmark for fast creature motion, aircraft aerodynamics, camera/body inertia, progressive physical damage, cabin-object causality, native sound, and viewpoint continuity under violent motion.
 
 ## How updates work
 
