@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-09 · Entries: 191_
+_Last updated: 2026-09-09 · Entries: 192_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2236,6 +2236,18 @@ _Last updated: 2026-09-09 · Entries: 191_
 - **Workflow/details:** One continuous 15-second found-footage take from inside the aircraft, with no external camera angles. The prompt is time-coded into five action beats (0–2s, 2–5s, 5–8s, 8–11s, 11–15s) and explicitly coordinates turbulence-driven handheld shake, propeller wash, aircraft banking, cabin inertia, progressive window cracking and breakage, wind-driven papers/clothing, warning alarms, pilot dialogue, engine/wind/metal-impact audio, and negative constraints against smooth stabilization, teleportation, impossible camera movement, duplicated creatures, excessive gore, and cartoon/cheap-CGI appearance. Resolution, seed, reference media, provider, and post-production are not disclosed.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “Ultra-realistic 15-second found-footage sequence filmed from inside a small, low-flying twin-engine expedition aircraft above a misty tropical jungle.” The complete five-beat prompt remains visible in the secondary verification source.
 - **Why included:** Fresh explicit original-creator Flux 3 attribution, attached-video verification, and a fully visible highly reproducible prompt. The sequence is a difficult single-take benchmark for fast creature motion, aircraft aerodynamics, camera/body inertia, progressive physical damage, cabin-object causality, native sound, and viewpoint continuity under violent motion.
+
+### 192. Viral frog-woman smartphone-realism test with unusually candid micro-expressions — Bennett Waisbren
+
+- **Creator:** [Bennett Waisbren (@BennettWaisbren)](https://x.com/BennettWaisbren)
+- **Published:** 2026-09-08.
+- **Original source:** [Bennett Waisbren’s X creator post](https://x.com/BennettWaisbren/status/2097448865150775623)
+- **First-party workflow verification:** [Bennett Waisbren’s Patreon post](https://www.patreon.com/BennettWaisbren/posts/658-637-views-in-168984946)
+- **Model attribution:** Waisbren says in the original X post that **Flux 3** “came out ahead” for this piece, and in his first-party breakdown says he tested the concept in Seedance before trying **Flux 3** and selecting the Flux render.
+- **Summary:** A creepy human-animal “frog woman” hybrid is staged as an impossible creature found beside a pond, picked up, and casually filmed on an old phone. Waisbren chose the Flux 3 take because tiny facial expressions, twitches, and attitude changes made the performance feel observed rather than rigidly directed.
+- **Workflow/details:** The creator first tested the idea in Seedance, which he describes as the more reliable tool in his current workflow, then tried Flux 3 and selected a Flux result for its candid smartphone realism and micro-expression behavior. His public first-party excerpt reports 658,637 combined Instagram/Facebook views in five hours and 57 minutes. The exact image-generation stages, Flux 3 prompt, settings, and final selection details are present only in the locked portion of the Patreon post and are therefore deliberately excluded.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator states that the complete Flux 3 prompt and settings are in the locked portion of his first-party Patreon post. Because those details are paywalled, they are not copied, reconstructed, or inferred here.
+- **Why included:** A fresh primary-source Flux 3 example with a public video post plus a traceable first-party explanation of why the render won a real creator-side A/B test. It targets a difficult realism regime—an uncanny human-animal subject, subtle facial micro-performance, casual handheld-phone plausibility, and found-footage immediacy—and pairs that qualitative evidence with an unusually strong early audience signal.
 
 ## How updates work
 
