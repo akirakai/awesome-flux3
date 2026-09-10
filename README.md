@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-10 · Entries: 194_
+_Last updated: 2026-09-10 · Entries: 195_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -937,7 +937,7 @@ _Last updated: 2026-09-10 · Entries: 194_
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
 - **Published:** 2026-08-06
-- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, full structured prompt, and engagement](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison runs “Flux 3 vs Seedance 2.0” and describes using closely matched timing/settings for the two outputs.
 - **Summary:** A photorealistic stormy-coastal kaiju sequence pits a skyscraper-scale deep-sea octopus against a city, with the creature crushing buses and streetlights, pulling down a glass tower, sprinting through intersections, vaulting a full block, and charging through waterfront cranes.
@@ -2270,6 +2270,18 @@ _Last updated: 2026-09-10 · Entries: 194_
 - **Workflow/details:** One prompt is reused word-for-word across all six families; each video model runs at its lowest offered resolution and maximum duration. For FLUX 3 Video, NoMa reports 720p for 20 seconds. The common brief tests a hand sweep, step-forward and head turn, a slow dolly-in, sequin/tulle motion, stable mirror reflection and background lettering, exactly one microphone, plus room-tone/heel ambience.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “She sweeps her open raised hand across her body, lowers it, steps forward once and turns her head to the lens…” The full 466-character prompt remains visible in the creator’s first comment.
 - **Why included:** Newly published primary-source comparison with attached media, explicit FLUX 3 attribution, exact per-model settings, and a controlled identical-prompt methodology. It is especially useful because it documents both a concrete FLUX 3 strength—texture/text stability—and a concrete failure mode—camera and subject-motion compliance—under matched inputs.
+
+### 195. Twenty-second FPV Arabian-horse shamshir chase with continuous camera choreography — Mohammed Magdy Alzahran
+
+- **Creator:** Mohammed Magdy Alzahran (@Malzahran2)
+- **Published:** Date not exposed; verified 2026-09-10 (LinkedIn’s public index showed a relative one-week timestamp).
+- **Original source:** [Mohammed Magdy Alzahran’s LinkedIn creator post](https://www.linkedin.com/posts/malzahran_flux3-activity-7496603243737759744-hne2)
+- **Secondary verification source:** [Flux3 public prompt gallery preserving the creator attribution and prompt](https://flux3.co.kr/en/video-prompts)
+- **Model attribution:** Alzahran explicitly tags the attached generation `#Flux3` and writes `#Flux3 on Runway` in the original creator post.
+- **Summary:** A 20-second desert action sequence runs beside a galloping Arabian horse at hyperspeed FPV pace, transitions into a slow orbit as the rider draws a curved shamshir mid-stride, then mixes hoof-level tracking, sand plumes, whip-pans, Dutch angles, hard sun flare, and aggressive focal shifts without abandoning the continuous-action premise.
+- **Workflow/details:** The visible brief specifies a 20-second continuous sequence, FPV parallel tracking, a transition into slow orbital camera movement, extreme low-angle hoof-impact coverage, slow-motion sand physics, handheld whip-pans during the sword raise, Dutch angles on the horse turn, harsh midday anamorphic flare, an amber-dune/deep-teal-shadow grade, high contrast, and focal shifts between mane and horizon. The creator identifies Runway as the generation surface. Resolution, seed, reference media, audio settings, and post-production are not publicly disclosed, so none are inferred.
+- **Prompt provenance:** `verbatim_in_post` — verified visible excerpt: “20-second continuous sequence. Hyperspeed FPV parallels a galloping Arabian horse transitioning into a slow orbital…” The complete prompt remains publicly visible in the original creator post; no wording has been reconstructed from the video.
+- **Why included:** Fresh primary creator source with explicit FLUX 3 attribution, an attached generation, a directly visible reusable prompt, and unusually dense camera choreography. Sustaining horse-and-rider anatomy, blade handling, hoof impacts, sand physics, speed changes, orbiting camera geometry, and focal transitions in one 20-second action passage makes it a strong motion-and-continuity benchmark.
 
 ## How updates work
 
