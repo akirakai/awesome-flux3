@@ -937,7 +937,7 @@ _Last updated: 2026-09-10 · Entries: 195_
 
 - **Creator:** [Jin.B (@opener_ai)](https://x.com/opener_ai)
 - **Published:** 2026-08-06
-- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable status URL.
+- **Original source profile:** [Jin.B on X](https://x.com/opener_ai) — the public index did not expose a stable direct status URL.
 - **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, full structured prompt, and engagement](https://mobile.twstalker.com/opener_ai)
 - **Model attribution:** Jin.B explicitly says the attached comparison runs “Flux 3 vs Seedance 2.0” and describes using closely matched timing/settings for the two outputs.
 - **Summary:** A photorealistic stormy-coastal kaiju sequence pits a skyscraper-scale deep-sea octopus against a city, with the creature crushing buses and streetlights, pulling down a glass tower, sprinting through intersections, vaulting a full block, and charging through waterfront cranes.
