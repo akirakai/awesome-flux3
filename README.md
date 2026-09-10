@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-10 · Entries: 193_
+_Last updated: 2026-09-10 · Entries: 194_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2259,6 +2259,17 @@ _Last updated: 2026-09-10 · Entries: 193_
 - **Workflow/details:** Same fictional product, same reference image, same assignment. Narh tracks prompt accuracy, visual quality, product consistency, motion, human intervention, and credit cost. She says the experiment ran inside OpenArt, HeyGen was used in the production workflow, and additional AI-assisted editing was incorporated into the finished piece. The full linked video documents the actual generations, scores, credit costs, and the point where adding a human lifestyle sequence changes the model ranking. No model-specific seed, resolution, settings, or exact per-model generation parameters are publicly visible in the verified LinkedIn post, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says the models received the same creative assignment and reference setup, but the exact shared prompt wording is not visible in the verified public LinkedIn source and has not been reconstructed.
 - **Why included:** Fresh primary creator source linking the full video, explicit Flux 3 attribution, controlled same-input methodology, actual model generations, and production-relevant evaluation dimensions including consistency, motion, human intervention, and credit cost. The human-sequence rank flip is especially useful because it shows model choice can depend on shot type rather than supporting a generic “best model” claim.
+
+### 194. Same-prompt six-model TV-studio motion benchmark — NoMa Studio AI
+
+- **Creator:** [NoMa Studio AI](https://es.linkedin.com/posts/nomastudioai_ia-aivideo-seedance-activity-7502833669741654016-oU4D)
+- **Published:** Date not exposed; verified 2026-09-10 (LinkedIn’s public index shows a relative one-day timestamp).
+- **Original source:** [NoMa Studio AI’s LinkedIn creator post with the attached six-model comparison](https://es.linkedin.com/posts/nomastudioai_ia-aivideo-seedance-activity-7502833669741654016-oU4D)
+- **Model attribution:** NoMa explicitly pairs `FLUX` with `FLUX 3 Video` in the six-model benchmark and publishes FLUX-specific settings and results.
+- **Summary:** Six image/video model families receive the same TV-studio motion brief. FLUX 3 preserves texture and illuminated typography especially well but returns an almost static shot rather than the requested dolly/subject movement, making this a controlled failure-analysis benchmark rather than a cherry-picked showcase.
+- **Workflow/details:** One prompt is reused word-for-word across all six families; each video model runs at its lowest offered resolution and maximum duration. For FLUX 3 Video, NoMa reports 720p for 20 seconds. The common brief tests a hand sweep, step-forward and head turn, a slow dolly-in, sequin/tulle motion, stable mirror reflection and background lettering, exactly one microphone, plus room-tone/heel ambience.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “She sweeps her open raised hand across her body, lowers it, steps forward once and turns her head to the lens…” The full 466-character prompt remains visible in the creator’s first comment.
+- **Why included:** Newly published primary-source comparison with attached media, explicit FLUX 3 attribution, exact per-model settings, and a controlled identical-prompt methodology. It is especially useful because it documents both a concrete FLUX 3 strength—texture/text stability—and a concrete failure mode—camera and subject-motion compliance—under matched inputs.
 
 ## How updates work
 
