@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-09 · Entries: 192_
+_Last updated: 2026-09-10 · Entries: 193_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2248,6 +2248,17 @@ _Last updated: 2026-09-09 · Entries: 192_
 - **Workflow/details:** The creator first tested the idea in Seedance, which he describes as the more reliable tool in his current workflow, then tried Flux 3 and selected a Flux result for its candid smartphone realism and micro-expression behavior. His public first-party excerpt reports 658,637 combined Instagram/Facebook views in five hours and 57 minutes. The exact image-generation stages, Flux 3 prompt, settings, and final selection details are present only in the locked portion of the Patreon post and are therefore deliberately excluded.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator states that the complete Flux 3 prompt and settings are in the locked portion of his first-party Patreon post. Because those details are paywalled, they are not copied, reconstructed, or inferred here.
 - **Why included:** A fresh primary-source Flux 3 example with a public video post plus a traceable first-party explanation of why the render won a real creator-side A/B test. It targets a difficult realism regime—an uncanny human-animal subject, subtle facial micro-performance, casual handheld-phone plausibility, and found-footage immediacy—and pairs that qualitative evidence with an unusually strong early audience signal.
+
+### 193. Four-model same-reference product benchmark with human-lifestyle rank flip — Lisa Anugwom Narh
+
+- **Creator:** [Lisa Anugwom Narh, MSML](https://www.linkedin.com/in/lisanarh)
+- **Published:** 2026-09-08 (based on LinkedIn’s public relative two-day timestamp at verification).
+- **Original source:** [Lisa Anugwom Narh’s LinkedIn creator post linking the full comparison video](https://www.linkedin.com/posts/lisanarh_i-tested-4-ai-video-models-the-winner-changed-activity-7500712963683561472-jdh8)
+- **Model attribution:** Narh explicitly lists **Flux 3** as one of the four tested video models, alongside Seedance 2.5, Grok Imagine 1.5, and Wan 2.7, in the original creator post for the linked video.
+- **Summary:** A controlled fictional-product comparison holds the reference image and assignment constant across four current video models, then adds a human lifestyle sequence and observes that the ranking changes, making the FLUX 3 output part of a production-oriented benchmark rather than an isolated showcase.
+- **Workflow/details:** Same fictional product, same reference image, same assignment. Narh tracks prompt accuracy, visual quality, product consistency, motion, human intervention, and credit cost. She says the experiment ran inside OpenArt, HeyGen was used in the production workflow, and additional AI-assisted editing was incorporated into the finished piece. The full linked video documents the actual generations, scores, credit costs, and the point where adding a human lifestyle sequence changes the model ranking. No model-specific seed, resolution, settings, or exact per-model generation parameters are publicly visible in the verified LinkedIn post, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says the models received the same creative assignment and reference setup, but the exact shared prompt wording is not visible in the verified public LinkedIn source and has not been reconstructed.
+- **Why included:** Fresh primary creator source linking the full video, explicit Flux 3 attribution, controlled same-input methodology, actual model generations, and production-relevant evaluation dimensions including consistency, motion, human intervention, and credit cost. The human-sequence rank flip is especially useful because it shows model choice can depend on shot type rather than supporting a generic “best model” claim.
 
 ## How updates work
 
