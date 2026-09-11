@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-11 · Entries: 197_
+_Last updated: 2026-09-11 · Entries: 198_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2307,6 +2307,18 @@ _Last updated: 2026-09-11 · Entries: 197_
 - **Workflow/details:** Prompt-based video-to-video editing through `/v1/flux-tools/video-edit-v1`. The first-party page documents MP4 inputs up to 15 seconds / 50 MiB, 1–4096-character prompts, output at the source clip’s length and aspect ratio, 24 fps, and up to 720p. Source audio is preserved unless the prompt changes it; dialogue can be rewritten or translated with synchronized lips. BFL reports roughly 50 seconds for a 10-second edit and pricing of $0.03 per output second. The same tool supports localized object/character edits, background replacement, in-scene text changes, colors/materials/effects, restyling, event changes, and stacked or sequential edits.
 - **Prompt provenance:** `verbatim_in_post` — “Replace the mackerel with lobsters.” Additional short edit prompts are also visibly published in the first-party showcase.
 - **Why included:** Newly published first-party BFL source with explicit FLUX 3 attribution, embedded source/edited video comparisons, exact prompt-to-output examples, and unusually concrete API constraints, latency, and price. It is a high-signal temporal-consistency benchmark because the edit must change only the requested object, text, dialogue, setting, or event while preserving the surrounding motion, framing, timing, and untouched scene content.
+
+### 198. Fifteen-second same-prompt four-model T2V benchmark at 1080p — MayorkingAI
+
+- **Creator:** [MayorkingAI (@MayorKingAI)](https://x.com/MayorKingAI)
+- **Published:** 2026-09-10
+- **Original post:** [View on X](https://x.com/MayorKingAI/status/2097733280540115187)
+- **Secondary verification source:** [Public creator-profile mirror preserving the original post and follow-up](https://w.twstalker.com/MayorKingAI)
+- **Model attribution:** MayorkingAI explicitly lists **Flux 3 1080p** as one of the four generated video outputs in the original comparison post.
+- **Summary:** A controlled text-to-video benchmark runs one shared prompt through Seedance 2.5, MiniMax H3, Flux 3, and Wan 3.0 Prime, producing 15-second clips for side-by-side evaluation.
+- **Workflow/details:** Text-to-video; same prompt across all four models; 15-second outputs; Seedance 2.5 at 1080p, MiniMax H3 at 2K, Flux 3 at 1080p, and Wan 3.0 Prime at 1080p; all generated in Magnific. In a public follow-up, the creator says he prefers Flux 3. No model-specific seed, aspect ratio, audio settings, or post-processing are disclosed, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says all four generations use the same prompt, but the prompt text is not visible in the verified public source and has not been reconstructed.
+- **Why included:** Fresh primary creator source with an attached four-model comparison, explicit Flux 3 attribution, a controlled same-prompt and same-duration methodology, verified output resolutions, and a creator-side quality preference for Flux 3. It is useful as a practical cross-model benchmark rather than a standalone cherry-picked showcase.
 
 ## How updates work
 
