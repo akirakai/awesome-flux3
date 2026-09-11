@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-10 · Entries: 195_
+_Last updated: 2026-09-11 · Entries: 196_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2282,6 +2282,19 @@ _Last updated: 2026-09-10 · Entries: 195_
 - **Workflow/details:** The visible brief specifies a 20-second continuous sequence, FPV parallel tracking, a transition into slow orbital camera movement, extreme low-angle hoof-impact coverage, slow-motion sand physics, handheld whip-pans during the sword raise, Dutch angles on the horse turn, harsh midday anamorphic flare, an amber-dune/deep-teal-shadow grade, high contrast, and focal shifts between mane and horizon. The creator identifies Runway as the generation surface. Resolution, seed, reference media, audio settings, and post-production are not publicly disclosed, so none are inferred.
 - **Prompt provenance:** `verbatim_in_post` — verified visible excerpt: “20-second continuous sequence. Hyperspeed FPV parallels a galloping Arabian horse transitioning into a slow orbital…” The complete prompt remains publicly visible in the original creator post; no wording has been reconstructed from the video.
 - **Why included:** Fresh primary creator source with explicit FLUX 3 attribution, an attached generation, a directly visible reusable prompt, and unusually dense camera choreography. Sustaining horse-and-rider anatomy, blade handling, hoof impacts, sand physics, speed changes, orbiting camera geometry, and focal transitions in one 20-second action passage makes it a strong motion-and-continuity benchmark.
+
+### 196. Twenty-second reactive 3D decision-tree cube world in one continuous orbit — Umesh
+
+- **Creator:** [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+- **Published:** 2026-09-11
+- **Original post:** [View on X](https://x.com/umesh_ai/status/2097920399078264833)
+- **Prompt source:** [Creator’s prompt reply on X](https://x.com/umesh_ai/status/2097920401867489707)
+- **Secondary verification source:** [Public creator-profile mirror preserving the original wording and full prompt thread](https://site.twstalker.com/umesh_ai)
+- **Model attribution:** Umesh explicitly writes “Generated using Flux 3 on Runway” and labels the workflow `Prompt (I2V)`.
+- **Summary:** A man traverses a minimalist sage-green void of floating ivory cubes; every footstep causally spawns new cube pathways along distinct three-dimensional axes until the frame becomes an expanding architectural decision tree.
+- **Workflow/details:** Image-to-video on Runway. The prompt time-codes a full 20-second sequence (0–4s, 4–9s, 9–15s, 15–20s), requires one continuous shot with no cuts, and directs a slow orbit with subtle elevation changes. Visual controls include a muted sage-green/ivory palette, soft volumetric light, long shadows, film grain, realistic movement, smooth cube animation, a 35mm lens, and an Escher-inspired spatial illusion. Resolution, seed, audio settings, and post-production are not disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “A lone man moves through a minimalist sage-green void populated by soft-edged ivory cubes. Every cube he steps on generates a new set of cube pathways that extend into completely different directions in three-dimensional space.” The complete time-coded prompt remains visible in the creator’s prompt reply and public verification mirror.
+- **Why included:** Fresh primary-source FLUX 3 attribution plus a directly visible reusable prompt. Requiring every footstep to trigger new geometry on a different 3D axis while a continuously orbiting/elevating camera preserves human motion, object permanence, depth, and causality makes this a strong long-horizon spatial-control benchmark.
 
 ## How updates work
 
