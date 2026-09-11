@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-11 · Entries: 196_
+_Last updated: 2026-09-11 · Entries: 197_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2295,6 +2295,18 @@ _Last updated: 2026-09-11 · Entries: 196_
 - **Workflow/details:** Image-to-video on Runway. The prompt time-codes a full 20-second sequence (0–4s, 4–9s, 9–15s, 15–20s), requires one continuous shot with no cuts, and directs a slow orbit with subtle elevation changes. Visual controls include a muted sage-green/ivory palette, soft volumetric light, long shadows, film grain, realistic movement, smooth cube animation, a 35mm lens, and an Escher-inspired spatial illusion. Resolution, seed, audio settings, and post-production are not disclosed.
 - **Prompt provenance:** `verbatim_in_post` — “A lone man moves through a minimalist sage-green void populated by soft-edged ivory cubes. Every cube he steps on generates a new set of cube pathways that extend into completely different directions in three-dimensional space.” The complete time-coded prompt remains visible in the creator’s prompt reply and public verification mirror.
 - **Why included:** Fresh primary-source FLUX 3 attribution plus a directly visible reusable prompt. Requiring every footstep to trigger new geometry on a different 3D axis while a continuously orbiting/elevating camera preserves human motion, object permanence, depth, and causality makes this a strong long-horizon spatial-control benchmark.
+
+### 197. Official FLUX 3 prompt-based video-edit showcase with surgical object, text, dialogue, and event changes — Black Forest Labs
+
+- **Creator:** [Black Forest Labs (@bfl_ai)](https://x.com/bfl_ai)
+- **Published:** 2026-09-11
+- **Original source:** [FLUX Video Edit first-party showcase](https://bfl.ai/video-edit)
+- **Official announcement:** [Black Forest Labs on LinkedIn](https://ir.linkedin.com/company/bflai) — the public company page preserves the fresh launch update, though the index does not expose a stable direct activity permalink.
+- **Model attribution:** Black Forest Labs’ official announcement explicitly says “FLUX 3 Video now has fast, precise editing.” The linked first-party product page documents FLUX Video Edit as a separate editing tool built on the same FLUX model family.
+- **Summary:** BFL’s interactive before/after showcase edits one source video through targeted instructions: replacing fish with lobsters, changing an apron color, adding a seagull, rewriting crate text, adding snow, removing a bucket, replacing a character or setting, restyling the footage, changing or translating dialogue with lip-sync, and altering the action while leaving unmentioned shot details intact.
+- **Workflow/details:** Prompt-based video-to-video editing through `/v1/flux-tools/video-edit-v1`. The first-party page documents MP4 inputs up to 15 seconds / 50 MiB, 1–4096-character prompts, output at the source clip’s length and aspect ratio, 24 fps, and up to 720p. Source audio is preserved unless the prompt changes it; dialogue can be rewritten or translated with synchronized lips. BFL reports roughly 50 seconds for a 10-second edit and pricing of $0.03 per output second. The same tool supports localized object/character edits, background replacement, in-scene text changes, colors/materials/effects, restyling, event changes, and stacked or sequential edits.
+- **Prompt provenance:** `verbatim_in_post` — “Replace the mackerel with lobsters.” Additional short edit prompts are also visibly published in the first-party showcase.
+- **Why included:** Newly published first-party BFL source with explicit FLUX 3 attribution, embedded source/edited video comparisons, exact prompt-to-output examples, and unusually concrete API constraints, latency, and price. It is a high-signal temporal-consistency benchmark because the edit must change only the requested object, text, dialogue, setting, or event while preserving the surrounding motion, framing, timing, and untouched scene content.
 
 ## How updates work
 
