@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-11 · Entries: 198_
+_Last updated: 2026-09-11 · Entries: 199_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2319,6 +2319,18 @@ _Last updated: 2026-09-11 · Entries: 198_
 - **Workflow/details:** Text-to-video; same prompt across all four models; 15-second outputs; Seedance 2.5 at 1080p, MiniMax H3 at 2K, Flux 3 at 1080p, and Wan 3.0 Prime at 1080p; all generated in Magnific. In a public follow-up, the creator says he prefers Flux 3. No model-specific seed, aspect ratio, audio settings, or post-processing are disclosed, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says all four generations use the same prompt, but the prompt text is not visible in the verified public source and has not been reconstructed.
 - **Why included:** Fresh primary creator source with an attached four-model comparison, explicit Flux 3 attribution, a controlled same-prompt and same-duration methodology, verified output resolutions, and a creator-side quality preference for Flux 3. It is useful as a practical cross-model benchmark rather than a standalone cherry-picked showcase.
+
+### 199. First-party FLUX 3 Video Edit integration with exact prompt and output — fal
+
+- **Creator:** [fal (@fal)](https://x.com/fal)
+- **Published:** 2026-09-11
+- **Original post:** [View on X](https://x.com/fal/status/2098086929875026391)
+- **First-party model example:** [fal FLUX 3 Edit Video endpoint](https://fal.ai/models/blackforestlabs/flux-3/edit-video)
+- **Model attribution:** fal explicitly announces “FLUX 3 Video Edit is now live on fal”; its first-party endpoint identifies `blackforestlabs/flux-3/edit-video` as Black Forest Labs’ FLUX.3 video model.
+- **Summary:** fal’s launch demo presents one-prompt video editing for character swaps, background rebuilds, restyling, dialogue rewrites/translations with matching lip-sync, color/material/effect changes, and event changes. The linked model page also publishes a separate prompt-to-output edit example.
+- **Workflow/details:** Video-to-video on fal using a natural-language prompt plus a source video. The public endpoint accepts MP4, MOV, WebM, M4V, and GIF inputs or a video URL. The displayed first-party example returns seed `3972454174` and a directly downloadable MP4; fal lists pricing at $0.03 per generated second for 720p output.
+- **Prompt provenance:** `verbatim_in_post` — “Replace sushi with a meat” appears exactly as written on fal’s first-party model page.
+- **Why included:** Fresh first-party platform launch with an attached announcement video, explicit FLUX 3 attribution, an exact prompt, an actual output file, and reproducible endpoint/input/pricing details. It is distinct from the BFL #197 showcase because fal publishes a different prompt/output pair for its own newly launched integration rather than reusing the mackerel-to-lobsters example.
 
 ## How updates work
 
