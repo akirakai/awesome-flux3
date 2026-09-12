@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-11 · Entries: 199_
+_Last updated: 2026-09-12 · Entries: 200_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1813,7 +1813,7 @@ _Last updated: 2026-09-11 · Entries: 199_
 
 ### 155. Meerkat-detail 4K upscaler benchmark vs. Topaz and Flash VSR — Dennis Schöneberg
 
-- **Creator:** [Dennis Schöneberg](https://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/)
+- **Creator:** [Dennis Schöneberg](https://www.linkedin.com/in/dennis-schoeneberg)
 - **Published:** 2026-08-21 (based on the secondary verification page’s relative “1 day ago” timestamp at verification).
 - **Original source:** Dennis Schöneberg’s LinkedIn creator post; the direct activity URL is not exposed by the accessible public index.
 - **Verification source:** [Secondary LinkedIn profile page directly embedding and quoting Schöneberg’s original creator post](https://nz.linkedin.com/in/zhenjie-zhao-b27907275/zh-cn)
@@ -2331,6 +2331,18 @@ _Last updated: 2026-09-11 · Entries: 199_
 - **Workflow/details:** Video-to-video on fal using a natural-language prompt plus a source video. The public endpoint accepts MP4, MOV, WebM, M4V, and GIF inputs or a video URL. The displayed first-party example returns seed `3972454174` and a directly downloadable MP4; fal lists pricing at $0.03 per generated second for 720p output.
 - **Prompt provenance:** `verbatim_in_post` — “Replace sushi with a meat” appears exactly as written on fal’s first-party model page.
 - **Why included:** Fresh first-party platform launch with an attached announcement video, explicit FLUX 3 attribution, an exact prompt, an actual output file, and reproducible endpoint/input/pricing details. It is distinct from the BFL #197 showcase because fal publishes a different prompt/output pair for its own newly launched integration rather than reusing the mackerel-to-lobsters example.
+
+### 200. Ten-second two-stage dragon-and-background FLUX 3 Video Edit — DΞV
+
+- **Creator:** [DΞV (@junwatu)](https://x.com/junwatu)
+- **Published:** 2026-09-11
+- **Original post:** [View on X](https://x.com/junwatu/status/2098201196087685377)
+- **Secondary verification source:** [Public creator-profile mirror preserving the original wording, attached tweet video, exact prompt, cost, and quoted BFL launch context](https://www.sotwe.com/junwatu?lang=en)
+- **Model attribution:** DΞV calls the test “Flux Video Edit” while directly quoting Black Forest Labs’ launch post that explicitly identifies the tool as **FLUX 3 Video**; the creator test is therefore traceably tied to FLUX 3 Video Edit without inferring model attribution from the footage itself.
+- **Summary:** One existing dragon clip is edited in two temporally distinct stages: the dragon becomes bright blue for the first five seconds, then the background changes to a city scene for the last five seconds.
+- **Workflow/details:** Prompt-guided video-to-video edit; 10-second source/output; one natural-language instruction drives two time-scoped changes. DΞV reports the run cost **$0.33**. No verified resolution, seed, source-generation details, provider endpoint, or post-production are publicly disclosed, so none are inferred.
+- **Prompt provenance:** `verbatim_in_post` — “Change the dragon into a bright blue dragon for the first 5 seconds, then change the background to a city scene for the last 5 seconds.”
+- **Why included:** Fresh original-creator post with an attached video, traceable FLUX 3 attribution through the quoted Black Forest Labs first-party launch, an exact reproducible prompt, and concrete duration/cost telemetry. It is a high-signal temporal-editing test because one prompt asks the model to apply two different edits to separate halves of the same clip while preserving the underlying motion over time.
 
 ## How updates work
 
