@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-12 · Entries: 200_
+_Last updated: 2026-09-12 · Entries: 201_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2343,6 +2343,18 @@ _Last updated: 2026-09-12 · Entries: 200_
 - **Workflow/details:** Prompt-guided video-to-video edit; 10-second source/output; one natural-language instruction drives two time-scoped changes. DΞV reports the run cost **$0.33**. No verified resolution, seed, source-generation details, provider endpoint, or post-production are publicly disclosed, so none are inferred.
 - **Prompt provenance:** `verbatim_in_post` — “Change the dragon into a bright blue dragon for the first 5 seconds, then change the background to a city scene for the last 5 seconds.”
 - **Why included:** Fresh original-creator post with an attached video, traceable FLUX 3 attribution through the quoted Black Forest Labs first-party launch, an exact reproducible prompt, and concrete duration/cost telemetry. It is a high-signal temporal-editing test because one prompt asks the model to apply two different edits to separate halves of the same clip while preserving the underlying motion over time.
+
+### 201. Surgical denim-jacket recolor with motion-preserving source/output pair — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] editing guide with paired source/edited video and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/editing-video)
+- **Supporting first-party model source:** [Runware FLUX Video Edit [fast] model page](https://runware.ai/docs/models/bfl-flux-video-edit-fast)
+- **Model attribution:** Runware identifies the tool as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A studio fashion clip is edited with one five-word instruction that changes a denim jacket to deep burgundy while preserving the woman’s hair, white top, gray backdrop, floor shadow, turn speed, and the exact moment she settles.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask, keyframe, or extra reference required. The source supplies duration, aspect ratio, and audio; output is normalized to 24 fps and capped at 720p, with clips up to 15 seconds. Runware lists $0.03 per output second and about 51 seconds per request, and exposes the returned output-video URL in the example response.
+- **Prompt provenance:** `verbatim_in_post` — “Make the denim jacket deep burgundy.”
+- **Why included:** Newly published first-party Runware integration with an actual source/edited pair, exact prompt, model ID, request/response code, price, and output constraints. It is a clean temporal-consistency test because the model must make one local color edit while leaving motion, timing, framing, lighting, subject details, and untouched scene content intact; it is distinct from the existing BFL, fal, and DΞV edit entries because Runware publishes its own separate prompt/output pair and API example.
 
 ## How updates work
 
