@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-13 · Entries: 205_
+_Last updated: 2026-09-14 · Entries: 206_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1032,7 +1032,7 @@ _Last updated: 2026-09-13 · Entries: 205_
 ### 88. 1920s speakeasy-to-street gangster shootout — Christopher Fryant
 
 - **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
-- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp)
+- **Published:** 2026-08-07 (based on the public verification mirror’s relative timestamp at verification).
 - **Original source profile:** [Christopher Fryant on X](https://x.com/cfryant) — the accessible public index did not expose the direct status URL.
 - **Verification source:** [Secondary mirror preserving a retweet of the original creator post, original wording, attribution, attached-video context, and engagement](https://twstalker.com/cdcwatson)
 - **Model attribution:** Fryant explicitly calls the attached work “Another early access FLUX 3 time travel gopro video” and tags Black Forest Labs.
@@ -2399,6 +2399,17 @@ _Last updated: 2026-09-13 · Entries: 205_
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask. The guide publishes a direct source-to-cleared pair and explains that removal prompts should name both the target and the surface that continues behind it so the fill remains stable across frames. It also demonstrates static-object and moving-person removals, explicit whole-clip temporal scope, and working request code with a returned edited-video URL. Runware documents source clips up to 15 seconds, output normalized to 24 fps and capped at 720p while retaining source duration and aspect ratio.
 - **Prompt provenance:** `verbatim_in_post` — “Remove three things from the counter: the stainless dish rack holding plates, the yellow plastic spray bottle, and the open cardboard cereal box.” The complete prompt remains visible in the first-party source.
 - **Why included:** Newly published first-party source with an actual before/after video pair, exact prompt excerpt, model ID, working request/response example, and explicit background-reconstruction guidance. It is a strong temporal-consistency benchmark because three foreground objects must disappear while a moving shot preserves camera motion, daylight, surrounding props, surface geometry, and stable fill across every frame; it adds a removal/reconstruction use case distinct from the recolor, dialogue, material-swap, and relighting edits already catalogued.
+
+### 206. Whole-frame style transfer with preserved performance and camera motion — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] restyling guide with source/output videos and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/restyling)
+- **Model attribution:** Runware identifies the endpoint as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** One filmed performance is re-rendered into multiple visual media—flat-vector animation, cel-shaded anime, watercolor, film-stock looks, technical line drawing, and blockout-to-photoreal treatments—while preserving the source shot’s performance timing and camera move.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`. Runware publishes source/output URLs and working request code for a cel-shaded anime restyle, explains that camera path, framing, timing, blocking, gestures, duration, and audio survive the restyle, and recommends naming the medium, its marks, and its palette; flatter hard-edged styles generally remain more stable across frames. The model page documents source clips up to 15 seconds, 24 fps output, and up to 720p while retaining source duration and aspect ratio.
+- **Prompt provenance:** `verbatim_in_post` — “Restyle the whole shot as cel-shaded anime, with hard-edged shadow blocks, clean ink linework and desaturated flat backgrounds.” Additional exact vector, watercolor, 16mm, background-replacement, line-drawing, and blockout-to-photoreal prompts are visible in the same first-party guide.
+- **Why included:** Newly surfaced first-party source with an actual source/output pair, exact prompt, model ID, working request/response code, multiple controlled style variants, and candid temporal-stability guidance. It adds a whole-frame style-persistence benchmark distinct from the local recolor, dialogue, material-swap, relighting, and object-removal edits already catalogued.
 
 ## How updates work
 
