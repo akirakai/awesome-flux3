@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-13 · Entries: 203_
+_Last updated: 2026-09-13 · Entries: 204_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2377,6 +2377,17 @@ _Last updated: 2026-09-13 · Entries: 203_
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask or image/style reference. Runware recommends naming material rather than color alone and explicitly preserving parts inside the replaced object; the same guide publishes tan-suede, navy-canvas, and olive-nubuck variants. Source clips can be up to 15 seconds, with output at 24 fps and up to 720p while retaining source duration and aspect ratio. The code example exposes both a source MP4 and returned edited MP4.
 - **Prompt provenance:** `verbatim_in_post` — “Change the white leather upper to tan suede, and keep the gum rubber sole.”
 - **Why included:** Newly published first-party source with an actual source/output pair, exact prompt, model ID, and working request example. It is a clean temporal/material-consistency benchmark because the model must change surface reflectance and texture while preserving the rotation, lighting direction, contact shadow, sole geometry, framing, and timing; it is materially distinct from the existing Runware jacket-recolor and dialogue-edit entries.
+
+### 204. Midday-to-golden-hour relighting with preserved camera and scene geometry — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] changing-the-setting guide with paired source/edited video and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/changing-the-setting)
+- **Model attribution:** Runware identifies the endpoint as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** An interior shot is relit from midday to golden hour: low warm sunlight rakes through the window and long soft shadows appear across the floor while the sofa and camera geometry remain unchanged.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`. The guide shows a direct “Midday” → “Golden hour” source/output pair and explains that setting edits can relight a clip, change season, or swap the background while preserving unmentioned subject motion, camera work, timing, framing, and audio. Runware documents source clips up to 15 seconds and output at 24 fps and up to 720p while retaining source duration and aspect ratio.
+- **Prompt provenance:** `verbatim_in_post` — “Make it golden hour, with low warm sunlight raking through the window and long soft shadows across the floor.”
+- **Why included:** Newly published first-party source with a paired before/after result, exact prompt, model ID, and working request/response code. It is a clean temporal-consistency benchmark for changing global illumination and environmental state without disturbing the sofa/camera geometry, motion, framing, or timing, and is materially distinct from the jacket-recolor, dialogue-rewrite, and sneaker-material edits already catalogued.
 
 ## How updates work
 
