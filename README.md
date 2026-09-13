@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-14 · Entries: 206_
+_Last updated: 2026-09-14 · Entries: 210_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2410,6 +2410,50 @@ _Last updated: 2026-09-14 · Entries: 206_
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`. Runware publishes source/output URLs and working request code for a cel-shaded anime restyle, explains that camera path, framing, timing, blocking, gestures, duration, and audio survive the restyle, and recommends naming the medium, its marks, and its palette; flatter hard-edged styles generally remain more stable across frames. The model page documents source clips up to 15 seconds, 24 fps output, and up to 720p while retaining source duration and aspect ratio.
 - **Prompt provenance:** `verbatim_in_post` — “Restyle the whole shot as cel-shaded anime, with hard-edged shadow blocks, clean ink linework and desaturated flat backgrounds.” Additional exact vector, watercolor, 16mm, background-replacement, line-drawing, and blockout-to-photoreal prompts are visible in the same first-party guide.
 - **Why included:** Newly surfaced first-party source with an actual source/output pair, exact prompt, model ID, working request/response code, multiple controlled style variants, and candid temporal-stability guidance. It adds a whole-frame style-persistence benchmark distinct from the local recolor, dialogue, material-swap, relighting, and object-removal edits already catalogued.
+
+### 207. Subterranean water-infrastructure documentary title sequence with anchored graphics and typography — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] API examples — Municipal Water Documentary Title Sequence](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
+- **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A daylight treatment-plant walking shot is transformed into a night-time subterranean brutalist reservoir while preserving the engineer, walking pace, machinery, continuous camera move, timing, and natural audio; cyanotype-style infrastructure diagrams are surface-anchored to the concrete and a mineral-deposit title resolves on the far wall.
+- **Workflow/details:** Video-to-video from one source MP4 plus `positivePrompt`. The first-party example exposes the exact source file, exact edited MP4, API request, task UUID, and a reported cost of `$0.1813`. The prompt explicitly stages a nearly black opening, passing maintenance lights, progressively stronger cyan reflections, temporally consistent mist/ripples/reflections, surface-bound engineering projections, and a final correctly spelled `BENEATH THE CITY` / `A DOCUMENTARY SERIES` environmental title while retaining source motion and audio.
+- **Prompt provenance:** `verbatim_in_post` — “Transform this source clip into a tense prestige-documentary title sequence about the vast water infrastructure hidden beneath a city. Preserve the original continuous camera move, the engineer's identity, walking pace, body motion, rotating machinery, framing, timing and natural audio.” The complete prompt remains visible in the first-party API example.
+- **Why included:** Newly surfaced first-party source/output pair with an exact prompt, model ID, cost, direct files, and working API request. It is a demanding combined benchmark for large-scale environment replacement, subject/action preservation, temporally stable atmosphere/reflections, surface-anchored motion graphics, and legible in-world typography within one continuous shot.
+
+### 208. Temporal widescreen outpainting of a working ceramics studio — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] API examples — Widescreen Ceramic Workshop Outpaint](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
+- **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A centered portrait clip with dark side mattes is expanded into a full widescreen ceramics workshop while the artisan, cobalt vessel, kiln, smoke, flickering light, camera position, timing, and audio remain untouched in the original center region.
+- **Workflow/details:** Video-to-video outpainting from one source MP4 with no separate mask shown in the published request. The first-party example exposes the source and returned MP4, task UUID, code, and `$0.1813` cost. New left/right areas extend the kiln and soot-darkened wall, shelves, pottery, tools, timber bench, and firebricks while the prompt requires smoke, shadows, firelight, reflections, perspective, lens softness, exposure, grain, and palette to continue coherently throughout the moving shot without seams or added camera motion.
+- **Prompt provenance:** `verbatim_in_post` — “Outpaint the centered portrait footage across the full widescreen frame, completely replacing both dark side mattes with a natural continuation of the same working ceramics studio.” The complete prompt remains visible in the first-party API example.
+- **Why included:** A distinct first-party source/output example that tests genuine temporal outpainting rather than a local replacement: newly synthesized side regions must stay geometrically, optically, and photometrically coherent with the moving central footage while smoke, reflections, and flickering light propagate seamlessly over time.
+
+### 209. Archival lighthouse restoration and historically restrained colorization — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] API examples — Lighthouse Archive Film Restoration](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
+- **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** Damaged archival lighthouse footage is cleaned of dust, hairs, scratches, chemical blotches, torn-edge artifacts, jitter, gate weave, and exposure flicker, then given restrained period-plausible color while preserving the keeper’s hand-cranking action, rotating Fresnel lens, ocean motion, framing, timing, and audio.
+- **Workflow/details:** Video-to-video restoration from a published source MP4. The API example provides request code, the returned MP4, task UUID, and `$0.1813` cost. The prompt asks emulsion-damaged regions to be rebuilt with temporally stable detail, recovers contrast without a digitally sharpened look, applies specific brass/glass/iron/uniform/leather/sea colors, retains authentic fine 16mm grain, and forbids modern objects, invented text, and color pulsing.
+- **Prompt provenance:** `verbatim_in_post` — “Restore this damaged archival lighthouse footage for a maritime museum exhibition. Remove dust, hairs, vertical scratches, chemical blotches, torn-edge artifacts, frame jitter, gate weave, and harsh exposure flicker.” The complete restoration/colorization prompt remains visible in the first-party API example.
+- **Why included:** Newly surfaced first-party before/after workflow with exact source/output files and a fully public prompt. It is a technically different stress test from object/style edits because defect repair and colorization must remain temporally stable while preserving fine mechanical motion, ocean motion, historical texture, camera geometry, and source audio.
+
+### 210. Persian illuminated-manuscript falconry restyle with preserved flight anatomy — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] API examples — Falconry Exhibition Miniature Reel](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
+- **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** Live-action falconry footage is transformed into an animated Persian illuminated-manuscript miniature while the falconer’s identity/body motion and the hawk’s launch path, wingbeats, anatomy, flight speed, camera movement, framing, timing, and source audio remain fixed.
+- **Workflow/details:** Video-to-video restyle from a direct source MP4. The published example exposes the returned MP4, model ID, task UUID, code, and `$0.1813` cost. The prompt specifies opaque mineral pigments and gold leaf on warm ivory paper; lapis, vermilion, turquoise, saffron, decorative gold grasses and cobalt hills; crisp feather silhouettes; subtle paper grain, brush variation, and restrained gold shimmer; and strict temporal constraints against flicker, morphing, duplicated limbs, extra birds, or lettering.
+- **Prompt provenance:** `verbatim_in_post` — “Restyle the entire live-action clip as a richly animated Persian illuminated manuscript miniature created with opaque mineral pigments and gold leaf on warm ivory paper.” The complete prompt remains visible in the first-party API example.
+- **Why included:** Although it shares the broad restyling category with #206, this is a separate first-party source/output pair with a substantially harder motion target: rapid bird flight and readable wing anatomy must survive a flat historical-painting transformation while subject identity, camera motion, timing, and audio remain unchanged.
 
 ## How updates work
 
