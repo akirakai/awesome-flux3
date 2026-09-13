@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-12 · Entries: 201_
+_Last updated: 2026-09-13 · Entries: 202_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2355,6 +2355,17 @@ _Last updated: 2026-09-12 · Entries: 201_
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask, keyframe, or extra reference required. The source supplies duration, aspect ratio, and audio; output is normalized to 24 fps and capped at 720p, with clips up to 15 seconds. Runware lists $0.03 per output second and about 51 seconds per request, and exposes the returned output-video URL in the example response.
 - **Prompt provenance:** `verbatim_in_post` — “Make the denim jacket deep burgundy.”
 - **Why included:** Newly published first-party Runware integration with an actual source/edited pair, exact prompt, model ID, request/response code, price, and output constraints. It is a clean temporal-consistency test because the model must make one local color edit while leaving motion, timing, framing, lighting, subject details, and untouched scene content intact; it is distinct from the existing BFL, fal, and DΞV edit entries because Runware publishes its own separate prompt/output pair and API example.
+
+### 202. Dialogue rewrite and lip-synced returns-policy edit — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] dialogue, on-screen text and localization guide with paired source/edited videos and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/dialogue-and-localization)
+- **Model attribution:** Runware identifies the model as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A presenter’s existing sixty-day returns-policy take is rewritten to ninety days with free postage. The spoken sentence and mouth motion change while the same gesture, framing, room, voice, pauses, and settle timing are retained; the same first-party guide also demonstrates dialogue translation and in-scene text localization.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`; the documented request exposes the source MP4 and returned edited MP4. The replacement line must fit the original speech timing because the model does not extend the clip. Runware documents source clips up to 15 seconds, output at 24 fps and up to 720p while retaining source duration and aspect ratio, with unmentioned motion, camera work, timing, framing, and audio preserved.
+- **Prompt provenance:** `verbatim_in_post` — `Make her say "Our returns window is now ninety days, and postage is free."`
+- **Why included:** Newly published first-party source with paired before/after videos, an exact prompt, model ID, request/response code, and directly linked source/output files. It is a demanding temporal-editing benchmark because speech and lip-sync must change while body timing and shot continuity remain fixed, and it adds a localization/dialogue-editing use case materially distinct from the jacket-recolor example already catalogued.
 
 ## How updates work
 
