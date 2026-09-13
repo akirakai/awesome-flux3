@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-13 · Entries: 204_
+_Last updated: 2026-09-13 · Entries: 205_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2388,6 +2388,17 @@ _Last updated: 2026-09-13 · Entries: 204_
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`. The guide shows a direct “Midday” → “Golden hour” source/output pair and explains that setting edits can relight a clip, change season, or swap the background while preserving unmentioned subject motion, camera work, timing, framing, and audio. Runware documents source clips up to 15 seconds and output at 24 fps and up to 720p while retaining source duration and aspect ratio.
 - **Prompt provenance:** `verbatim_in_post` — “Make it golden hour, with low warm sunlight raking through the window and long soft shadows across the floor.”
 - **Why included:** Newly published first-party source with a paired before/after result, exact prompt, model ID, and working request/response code. It is a clean temporal-consistency benchmark for changing global illumination and environmental state without disturbing the sofa/camera geometry, motion, framing, or timing, and is materially distinct from the jacket-recolor, dialogue-rewrite, and sneaker-material edits already catalogued.
+
+### 205. Multi-object kitchen-counter removal with background reconstruction — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] removing-objects guide with paired source/edited videos and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/removing-objects)
+- **Model attribution:** Runware identifies the endpoint as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A moving kitchen shot removes a stainless dish rack, yellow spray bottle, and open cereal box from the counter while reconstructing the pale quartz surface and marble backsplash and leaving the chrome faucet, sink, lemons, eucalyptus, cookbooks, and small jar untouched.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask. The guide publishes a direct source-to-cleared pair and explains that removal prompts should name both the target and the surface that continues behind it so the fill remains stable across frames. It also demonstrates static-object and moving-person removals, explicit whole-clip temporal scope, and working request code with a returned edited-video URL. Runware documents source clips up to 15 seconds, output normalized to 24 fps and capped at 720p while retaining source duration and aspect ratio.
+- **Prompt provenance:** `verbatim_in_post` — “Remove three things from the counter: the stainless dish rack holding plates, the yellow plastic spray bottle, and the open cardboard cereal box.” The complete prompt remains visible in the first-party source.
+- **Why included:** Newly published first-party source with an actual before/after video pair, exact prompt excerpt, model ID, working request/response example, and explicit background-reconstruction guidance. It is a strong temporal-consistency benchmark because three foreground objects must disappear while a moving shot preserves camera motion, daylight, surrounding props, surface geometry, and stable fill across every frame; it adds a removal/reconstruction use case distinct from the recolor, dialogue, material-swap, and relighting edits already catalogued.
 
 ## How updates work
 
