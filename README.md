@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-13 · Entries: 202_
+_Last updated: 2026-09-13 · Entries: 203_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2364,8 +2364,19 @@ _Last updated: 2026-09-13 · Entries: 202_
 - **Model attribution:** Runware identifies the model as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
 - **Summary:** A presenter’s existing sixty-day returns-policy take is rewritten to ninety days with free postage. The spoken sentence and mouth motion change while the same gesture, framing, room, voice, pauses, and settle timing are retained; the same first-party guide also demonstrates dialogue translation and in-scene text localization.
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`; the documented request exposes the source MP4 and returned edited MP4. The replacement line must fit the original speech timing because the model does not extend the clip. Runware documents source clips up to 15 seconds, output at 24 fps and up to 720p while retaining source duration and aspect ratio, with unmentioned motion, camera work, timing, framing, and audio preserved.
-- **Prompt provenance:** `verbatim_in_post` — `Make her say "Our returns window is now ninety days, and postage is free."`
+- **Prompt provenance:** `verbatim_in_post` — `Make her say \"Our returns window is now ninety days, and postage is free.\"`
 - **Why included:** Newly published first-party source with paired before/after videos, an exact prompt, model ID, request/response code, and directly linked source/output files. It is a demanding temporal-editing benchmark because speech and lip-sync must change while body timing and shot continuity remain fixed, and it adds a localization/dialogue-editing use case materially distinct from the jacket-recolor example already catalogued.
+
+### 203. Rotating sneaker material swap with preserved lighting and contact shadow — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] replacement/addition guide with source/output videos and request code](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/replacing-and-adding)
+- **Model attribution:** Runware identifies the endpoint as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
+- **Summary:** A rotating white-leather sneaker is changed to tan suede while the gum-rubber sole, turntable motion, key light, and contact shadow stay fixed, turning one packshot into a materially different colorway without reshooting it.
+- **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`, with no mask or image/style reference. Runware recommends naming material rather than color alone and explicitly preserving parts inside the replaced object; the same guide publishes tan-suede, navy-canvas, and olive-nubuck variants. Source clips can be up to 15 seconds, with output at 24 fps and up to 720p while retaining source duration and aspect ratio. The code example exposes both a source MP4 and returned edited MP4.
+- **Prompt provenance:** `verbatim_in_post` — “Change the white leather upper to tan suede, and keep the gum rubber sole.”
+- **Why included:** Newly published first-party source with an actual source/output pair, exact prompt, model ID, and working request example. It is a clean temporal/material-consistency benchmark because the model must change surface reflectance and texture while preserving the rotation, lighting direction, contact shadow, sole geometry, framing, and timing; it is materially distinct from the existing Runware jacket-recolor and dialogue-edit entries.
 
 ## How updates work
 
