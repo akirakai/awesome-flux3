@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 214_
+_Last updated: 2026-09-15 · Entries: 215_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -998,7 +998,7 @@ _Last updated: 2026-09-15 · Entries: 214_
 - **Creator:** [Christopher Fryant (@cfryant)](https://x.com/cfryant)
 - **Published:** 2026-08-06
 - **Original post:** [View on X](https://x.com/cfryant/status/2085492904286396422)
-- **Verification source:** [Secondary creator-profile mirror preserving the original creator wording, post identity, attached-media context, and engagement](https://twstalker.com/cfryant)
+- **Verification source:** [Secondary creator-profile mirror preserving the original wording, attached-video context, and engagement](https://twstalker.com/cfryant/status/2085492904286396422)
 - **Model attribution:** Fryant explicitly captions the clip “When your girlfriend tells you to take care of a spider. FLUX 3”.
 - **Summary:** A familiar household request to deal with a spider is turned into an exaggerated visual-comedy scenario, using an immediately legible everyday setup as the joke’s anchor.
 - **Workflow/details:** Creator-posted FLUX 3 video from an experienced AI filmmaker. The public verification source preserves the concept and strong early engagement but does not disclose duration, exact generation prompt, input references, seed, resolution, audio instructions, or post-production.
@@ -2364,7 +2364,7 @@ _Last updated: 2026-09-15 · Entries: 214_
 - **Model attribution:** Runware identifies the model as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
 - **Summary:** A presenter’s existing sixty-day returns-policy take is rewritten to ninety days with free postage. The spoken sentence and mouth motion change while the same gesture, framing, room, voice, pauses, and settle timing are retained; the same first-party guide also demonstrates dialogue translation and in-scene text localization.
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`; the documented request exposes the source MP4 and returned edited MP4. The replacement line must fit the original speech timing because the model does not extend the clip. Runware documents source clips up to 15 seconds, output at 24 fps and up to 720p while retaining source duration and aspect ratio, with unmentioned motion, camera work, timing, framing, and audio preserved.
-- **Prompt provenance:** `verbatim_in_post` — `Make her say "Our returns window is now ninety days, and postage is free."`
+- **Prompt provenance:** `verbatim_in_post` — `Make her say \"Our returns window is now ninety days, and postage is free.\"`
 - **Why included:** Newly published first-party source with paired before/after videos, an exact prompt, model ID, request/response code, and directly linked source/output files. It is a demanding temporal-editing benchmark because speech and lip-sync must change while body timing and shot continuity remain fixed, and it adds a localization/dialogue-editing use case materially distinct from the jacket-recolor example already catalogued.
 
 ### 203. Rotating sneaker material swap with preserved lighting and contact shadow — Runware
@@ -2500,6 +2500,17 @@ _Last updated: 2026-09-15 · Entries: 214_
 - **Workflow/details:** Text-to-video on Pixazo API; both accepted showcase clips are labeled FHD and 24 fps with 10-second timecodes and native generated audio. Pixazo documents FLUX 3 text-to-video, keyframes-to-video, and video-to-video modes, with HD/FHD output and up to 20-second clips. The page’s separate Clip 01 ramen-shop example was not added because that exact prompt/example is already represented in #146.
 - **Prompt provenance:** `mentioned_not_in_post` — Pixazo states the fox clip is a one-prompt generation and that every showcased clip comes from text-only prompting, but it does not expose the exact API prompt text for the fox or street-musician renders; their visible descriptions are therefore not presented as verbatim prompts.
 - **Why included:** First-party embedded FLUX 3 outputs with explicit attribution, concrete FHD/24 fps/native-audio details, and two materially different quality tests: controlled wildlife/camera motion in snow and coherent night music/rain/reflection ambience. The exact source URL and content are not already present in the README.
+
+### 215. 1920×1088 ceramic-dripper recolor with automatic 720p source normalization — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Published:** 2026-09-09
+- **Original source:** [Runware FLUX Video Edit [fast] source-video preparation guide with source/output video](https://runware.ai/docs/models/bfl-flux-video-edit-fast/guides/source-video)
+- **Model attribution:** Runware identifies the tool as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise video-editing capability as **FLUX 3 Video**.
+- **Summary:** A 1920×1088 source clip of a ceramic dripper is edited to a deep matte forest green, while the returned edited video demonstrates the model’s production-resolution behavior by automatically normalizing the high-resolution input to a 720p output envelope.
+- **Workflow/details:** Video-to-video from `inputs.video` plus `positivePrompt`; no separate width, height, duration, or resolution control is exposed for this endpoint. Runware documents a hard 0.7–15-second input window, 50 MiB limit, minimum 160×160 input, rejection rather than trimming for clips over 15 seconds, 24 fps output, and automatic downscaling for source footage above 720p while otherwise inheriting source duration/aspect ratio and preserving unmentioned timing/framing/motion/audio.
+- **Prompt provenance:** `verbatim_in_post` — “Change the ceramic dripper to a deep matte forest green.”
+- **Why included:** Newly published first-party source/output example with an exact visible prompt and unusually useful source-preparation telemetry. It is a practical temporal-editing benchmark because a local color/finish change must remain stable while the pipeline also handles a 1920×1088 source at the documented 720p output boundary; this resolution-normalization behavior is not covered by the existing Runware edit examples.
 
 ## How updates work
 
