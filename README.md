@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-14 · Entries: 213_
+_Last updated: 2026-09-15 · Entries: 214_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2364,7 +2364,7 @@ _Last updated: 2026-09-14 · Entries: 213_
 - **Model attribution:** Runware identifies the model as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
 - **Summary:** A presenter’s existing sixty-day returns-policy take is rewritten to ninety days with free postage. The spoken sentence and mouth motion change while the same gesture, framing, room, voice, pauses, and settle timing are retained; the same first-party guide also demonstrates dialogue translation and in-scene text localization.
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`; the documented request exposes the source MP4 and returned edited MP4. The replacement line must fit the original speech timing because the model does not extend the clip. Runware documents source clips up to 15 seconds, output at 24 fps and up to 720p while retaining source duration and aspect ratio, with unmentioned motion, camera work, timing, framing, and audio preserved.
-- **Prompt provenance:** `verbatim_in_post` — `Make her say \"Our returns window is now ninety days, and postage is free.\"`
+- **Prompt provenance:** `verbatim_in_post` — `Make her say "Our returns window is now ninety days, and postage is free."`
 - **Why included:** Newly published first-party source with paired before/after videos, an exact prompt, model ID, request/response code, and directly linked source/output files. It is a demanding temporal-editing benchmark because speech and lip-sync must change while body timing and shot continuity remain fixed, and it adds a localization/dialogue-editing use case materially distinct from the jacket-recolor example already catalogued.
 
 ### 203. Rotating sneaker material swap with preserved lighting and contact shadow — Runware
@@ -2489,6 +2489,17 @@ _Last updated: 2026-09-14 · Entries: 213_
 - **Workflow/details:** Video-to-video edit: use the original human animation as the motion/reference clip and instruct FLUX 3 Edit to turn it into anime. Moore specifically frames facial detail and motion retention as the failure mode she has seen in other models; no duration, resolution, seed, provider, or further edit settings are publicly verified in the preserved source.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator says she asked the model to turn the reference into anime, but the verified source does not present an exact prompt block or quote, so no verbatim prompt has been reconstructed.
 - **Why included:** Newly published original-creator test with explicit FLUX 3 attribution and an attached video, preserved by a credible secondary source that directly quotes the post. It is a focused animation-pipeline benchmark for retaining facial performance and body motion through a strong style transformation, materially distinct from the local object/color/relighting edits already catalogued.
+
+### 214. FHD snowy-forest fox and rain-soaked street-musician native-audio demos — Pixazo API
+
+- **Creator:** [Deepak Joshi / Pixazo API](https://www.pixazo.ai/)
+- **Published:** Publication date not shown; first-party page last updated 2026-09-08.
+- **Original source:** [Pixazo API FLUX 3 launch guide with embedded generated clips](https://www.pixazo.ai/blog/introducing-flux-3-api-on-pixazo-api)
+- **Model attribution:** Pixazo explicitly identifies the page and every embedded showcase clip as generated with the Black Forest Labs Flux 3 API from a text prompt alone, with sound generated together with the video.
+- **Summary:** Two distinct embedded FHD examples show a lone fox moving through a snowy forest at golden hour under a slow tracking camera, and a street musician performing beneath a rain-soaked streetlight while music, rain, and reflections stay part of the same generated moment.
+- **Workflow/details:** Text-to-video on Pixazo API; both accepted showcase clips are labeled FHD and 24 fps with 10-second timecodes and native generated audio. Pixazo documents FLUX 3 text-to-video, keyframes-to-video, and video-to-video modes, with HD/FHD output and up to 20-second clips. The page’s separate Clip 01 ramen-shop example was not added because that exact prompt/example is already represented in #146.
+- **Prompt provenance:** `mentioned_not_in_post` — Pixazo states the fox clip is a one-prompt generation and that every showcased clip comes from text-only prompting, but it does not expose the exact API prompt text for the fox or street-musician renders; their visible descriptions are therefore not presented as verbatim prompts.
+- **Why included:** First-party embedded FLUX 3 outputs with explicit attribution, concrete FHD/24 fps/native-audio details, and two materially different quality tests: controlled wildlife/camera motion in snow and coherent night music/rain/reflection ambience. The exact source URL and content are not already present in the README.
 
 ## How updates work
 
