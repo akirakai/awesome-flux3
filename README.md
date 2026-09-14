@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-14 · Entries: 212_
+_Last updated: 2026-09-14 · Entries: 213_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2477,6 +2477,18 @@ _Last updated: 2026-09-14 · Entries: 212_
 - **Workflow/details:** Video-to-video FLUX Video Edit from one source clip plus one natural-language instruction. BFL says to send the source clip as `video` and the instruction as `prompt`; its first-party tool documentation says everything the prompt does not mention stays as shot, including length, framing, camera, timing, and audio. The endpoint supports MP4 inputs up to 15 seconds / 50 MiB and returns 24 fps output up to 720p.
 - **Prompt provenance:** `verbatim_in_post` — “Remove all the pedestrians and add a flock of pigeons around the fountain.”
 - **Why included:** Fresh first-party BFL documentation with an explicit edited clip and an exact reproducible prompt. It combines removal of multiple moving people, temporal background reconstruction, and localized insertion of a new flock in one instruction while preserving the rest of the shot; the exact source URL and prompt were not already present in the README.
+
+### 213. Human-animation reference to anime restyle with facial-motion preservation — Justine Moore
+
+- **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
+- **Published:** 2026-09-11
+- **Original source profile:** [Justine Moore on X](https://x.com/venturetwins) — the accessible public search index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Communeify AI Daily, directly quoting the original creator post and preserving the attached-video marker](https://www.communeify.com/ja/blog/ai-daily-2026-09-12/)
+- **Model attribution:** Moore explicitly says **“FLUX 3 Edit”** and states that the attached result was produced from a human animation reference.
+- **Summary:** A human-animation reference from *KPop Demon Hunters* is restyled into anime while preserving the source performance’s facial detail and motion, turning the clip into a direct test of motion-conditioned stylization rather than unconstrained generation.
+- **Workflow/details:** Video-to-video edit: use the original human animation as the motion/reference clip and instruct FLUX 3 Edit to turn it into anime. Moore specifically frames facial detail and motion retention as the failure mode she has seen in other models; no duration, resolution, seed, provider, or further edit settings are publicly verified in the preserved source.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator says she asked the model to turn the reference into anime, but the verified source does not present an exact prompt block or quote, so no verbatim prompt has been reconstructed.
+- **Why included:** Newly published original-creator test with explicit FLUX 3 attribution and an attached video, preserved by a credible secondary source that directly quotes the post. It is a focused animation-pipeline benchmark for retaining facial performance and body motion through a strong style transformation, materially distinct from the local object/color/relighting edits already catalogued.
 
 ## How updates work
 
