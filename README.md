@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-14 · Entries: 210_
+_Last updated: 2026-09-14 · Entries: 211_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2454,6 +2454,18 @@ _Last updated: 2026-09-14 · Entries: 210_
 - **Workflow/details:** Video-to-video restyle from a direct source MP4. The published example exposes the returned MP4, model ID, task UUID, code, and `$0.1813` cost. The prompt specifies opaque mineral pigments and gold leaf on warm ivory paper; lapis, vermilion, turquoise, saffron, decorative gold grasses and cobalt hills; crisp feather silhouettes; subtle paper grain, brush variation, and restrained gold shimmer; and strict temporal constraints against flicker, morphing, duplicated limbs, extra birds, or lettering.
 - **Prompt provenance:** `verbatim_in_post` — “Restyle the entire live-action clip as a richly animated Persian illuminated manuscript miniature created with opaque mineral pigments and gold leaf on warm ivory paper.” The complete prompt remains visible in the first-party API example.
 - **Why included:** Although it shares the broad restyling category with #206, this is a separate first-party source/output pair with a substantially harder motion target: rapid bird flight and readable wing anatomy must survive a flat historical-painting transformation while subject identity, camera motion, timing, and audio remain unchanged.
+
+### 211. Fifteen-second MiniDV alien-coupon interview with native dialogue — DennisVisuals
+
+- **Creator:** [DennisVisuals (@DtheW1995)](https://x.com/DtheW1995)
+- **Published:** 2026-09-12 (based on the public creator-profile mirror’s relative two-day timestamp at verification on 2026-09-14).
+- **Original source profile:** [DennisVisuals on X](https://x.com/DtheW1995) — the accessible public index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Public creator-profile mirror preserving DennisVisuals’ original wording, explicit FLUX 3 prompt label, attached tweet-video marker, and complete visible prompt](https://www.sotwe.com/DtheW1995)
+- **Model attribution:** DennisVisuals’ post presents the attached video with a generation prompt explicitly beginning `FLUX 3`, while the same public creator feed also preserves the adjacent creator attribution “Made with Flux 3.”
+- **Summary:** A nervous early-2000s TV reporter interviews a biologically believable alien beside its landed spacecraft; after a serious question about why it came to Earth, the alien deadpans that it only wants to redeem a McDonald’s Chicken McNuggets coupon, turning documentary realism into a precisely timed absurdist reveal.
+- **Workflow/details:** One continuous 15-second consumer-MiniDV-style take with no cinematic polish. The prompt time-codes four beats, keeps one reporter, one alien, one cameraman, and one spacecraft, and deliberately asks for shoulder-held shake, imperfect zoom, slow autofocus, exposure pumping, washed color, interlaced DV motion, tape noise, wet-field ambience, spacecraft hum, English dialogue, alien-only lip-sync, an awkward coupon close-up, and an authentic tape-style ending. Negative constraints prohibit impossible camera angles, duplicates, morphing, teleportation, cartoon CGI, extra crowds, subtitles, changing props, and other continuity breaks.
+- **Prompt provenance:** `verbatim_in_post` — “FLUX 3 — 15-second ultra-realistic early-2000s television documentary footage, filmed on a consumer MiniDV camera by one physically present cameraman.” The complete prompt is publicly visible in the secondary verification source; no wording has been reconstructed from the video.
+- **Why included:** Fresh creator-side FLUX 3 attribution, an attached video, and a fully visible highly reproducible prompt. The clip is a strong long-take realism benchmark for reporter/alien/spacecraft identity, prop continuity, dry comic timing, consumer-camera imperfections, English speech and lip-sync, subtle creature breathing/blinking, environmental audio, and a single reachable handheld viewpoint.
 
 ## How updates work
 
