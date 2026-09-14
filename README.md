@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-14 · Entries: 211_
+_Last updated: 2026-09-14 · Entries: 212_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2161,7 +2161,7 @@ _Last updated: 2026-09-14 · Entries: 211_
 
 - **Creator:** [DennisVisuals (@DtheW1995)](https://x.com/DtheW1995)
 - **Published:** 2026-09-01 (based on the secondary verification mirror’s relative two-day timestamp at verification on 2026-09-03).
-- **Original source profile:** [DennisVisuals on X](https://x.com/DtheW1995) — the accessible public index did not expose a stable direct status URL for this post.
+- **Original source profile:** [DennisVisuals on X](https://x.com/DtheW1995) — the accessible public index did not expose a stable direct status URL for the video/prompt thread.
 - **Secondary verification source:** [Public creator-profile mirror preserving DennisVisuals’ original wording, explicit Flux 3 attribution, attached tweet-video marker, and complete visible prompt](https://www.sotwe.com/DtheW1995)
 - **Model attribution:** DennisVisuals explicitly opens the attached-video post “Jurassic City Documentary Style made with Flux 3,” and the prompt itself is labeled `FLUX 3`.
 - **Summary:** A calm, early-2000s wildlife-documentary encounter unfolds from inside an open-top safari jeep on a quiet American city avenue: a realistic dinosaur approaches, stops beside the vehicle, curiously sniffs the reporter and passengers, then departs between parked cars while the handheld cameraman keeps filming.
@@ -2466,6 +2466,17 @@ _Last updated: 2026-09-14 · Entries: 211_
 - **Workflow/details:** One continuous 15-second consumer-MiniDV-style take with no cinematic polish. The prompt time-codes four beats, keeps one reporter, one alien, one cameraman, and one spacecraft, and deliberately asks for shoulder-held shake, imperfect zoom, slow autofocus, exposure pumping, washed color, interlaced DV motion, tape noise, wet-field ambience, spacecraft hum, English dialogue, alien-only lip-sync, an awkward coupon close-up, and an authentic tape-style ending. Negative constraints prohibit impossible camera angles, duplicates, morphing, teleportation, cartoon CGI, extra crowds, subtitles, changing props, and other continuity breaks.
 - **Prompt provenance:** `verbatim_in_post` — “FLUX 3 — 15-second ultra-realistic early-2000s television documentary footage, filmed on a consumer MiniDV camera by one physically present cameraman.” The complete prompt is publicly visible in the secondary verification source; no wording has been reconstructed from the video.
 - **Why included:** Fresh creator-side FLUX 3 attribution, an attached video, and a fully visible highly reproducible prompt. The clip is a strong long-take realism benchmark for reporter/alien/spacecraft identity, prop continuity, dry comic timing, consumer-camera imperfections, English speech and lip-sync, subtle creature breathing/blinking, environmental audio, and a single reachable handheld viewpoint.
+
+### 212. Multi-pedestrian removal plus localized pigeon insertion around a fountain — Black Forest Labs
+
+- **Creator:** [Black Forest Labs](https://bfl.ai/)
+- **Published:** Date not shown; verified 2026-09-14.
+- **Original source:** [Black Forest Labs FLUX 3 video prompting overview](https://docs.bfl.ai/guides/prompting_video_overview)
+- **Model attribution:** Black Forest Labs’ first-party FLUX 3 video prompting guide presents the clip as a FLUX Video Edit example; BFL’s official launch announcement explicitly states that **FLUX 3 Video** now has fast, precise editing.
+- **Summary:** An existing fountain shot is edited so all pedestrians disappear and a flock of pigeons appears around the fountain, while unmentioned source details are intended to remain as filmed.
+- **Workflow/details:** Video-to-video FLUX Video Edit from one source clip plus one natural-language instruction. BFL says to send the source clip as `video` and the instruction as `prompt`; its first-party tool documentation says everything the prompt does not mention stays as shot, including length, framing, camera, timing, and audio. The endpoint supports MP4 inputs up to 15 seconds / 50 MiB and returns 24 fps output up to 720p.
+- **Prompt provenance:** `verbatim_in_post` — “Remove all the pedestrians and add a flock of pigeons around the fountain.”
+- **Why included:** Fresh first-party BFL documentation with an explicit edited clip and an exact reproducible prompt. It combines removal of multiple moving people, temporal background reconstruction, and localized insertion of a new flock in one instruction while preserving the rest of the shot; the exact source URL and prompt were not already present in the README.
 
 ## How updates work
 
