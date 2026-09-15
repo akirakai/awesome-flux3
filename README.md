@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 222_
+_Last updated: 2026-09-15 · Entries: 223_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2589,6 +2589,17 @@ _Last updated: 2026-09-15 · Entries: 222_
 - **Workflow/details:** The visible prompt uses three supplied visual anchors and time-codes the progression at 0–5s, 5–10s, and 10–12s: slow dolly toward the singer, transition to a medium close-up while tracking backward, then a rapid rise to an overhead view. It asks for accurate lip-sync plus synchronized audio combining an intimate female lead vocal, a restrained 96 BPM electronic-folk arrangement, and wind, water, coat movement, and footsteps. Runware reports a cost of `$3.4921` for this example.
 - **Prompt provenance:** `verbatim_in_post` — “Create a polished 12-second music-video segment for an original electronic-folk single set on a working seaweed farm at blue hour.” The complete prompt remains visible in the first-party source.
 - **Why included:** First-party prompt/output evidence with explicit FLUX 3 attribution, a visible reproducible prompt, multi-anchor temporal control, native sung vocal plus music and ambience, precise camera choreography, and cost telemetry in one production-style example.
+
+### 223. 129-take additive prompt-length ladder with measurable quality plateau — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Prompt length — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/prompt-length)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes 129 direct FLUX.3 takes with their prompts and states that every take is straight out of the model with nothing cut, graded, or retouched.
+- **Summary:** A controlled 129-take study grows the same scene briefs from roughly 500 to 4,700 characters in ten additive rungs to measure how long FLUX.3 keeps following new instructions and when additional prompt detail stops materially improving the film.
+- **Workflow/details:** Martini expands each prompt rung by rung so prior sentences remain verbatim while new detail is added. A major cohort uses seven fixed headings—ACTION, SETTING, SUBJECT, DIALOGUE, CAMERA & LIGHT, SOUND & MUSIC, and GRADE—while companion ladders compare animation beat lists, screenplay format, timecode blocks, shot lists, prose, vertical phone footage, and tag-style prompts. The report finds that FLUX.3 still obeys instructions buried beyond 3,600 characters and reads to roughly 4,700, but the biggest visible gain arrives by about 1,400 characters; after roughly 2,400, added detail is usually texture rather than a better film. Prompt structure matters more than sheer length for edit grammar: timecode blocks produced one continuous take at every tested length, shot lists stayed around 3–5 shots, and prose accumulated more cuts as prompts grew.
+- **Prompt provenance:** `verbatim_in_post` — “ACTION — A short-order cook makes one last meal on the diner's final night.” The source prints every complete prompt in full.
+- **Why included:** Newly surfaced first-party FLUX.3 report with 129 direct videos, exact additive prompt ladders, published prompts, and explicit no-post-processing provenance. It replaces prompt-length folklore with a reproducible controlled benchmark and gives practical thresholds for descriptive density, runtime pressure, and prompt structure before longer writing stops paying off.
 
 ## How updates work
 
