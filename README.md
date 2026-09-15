@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 221_
+_Last updated: 2026-09-15 · Entries: 222_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -117,7 +117,7 @@ _Last updated: 2026-09-15 · Entries: 221_
 
 - **Creator:** [Jerrod Lew (@jerrod_lew)](https://x.com/jerrod_lew)
 - **Published:** 2026-07-24
-- **Verification source:** [Secondary mirror preserving the creator post and video](https://www.sotwe.com/Ridho_Mrr)
+- **Verification source:** [Secondary creator-profile mirror preserving the creator post and video](https://www.sotwe.com/Ridho_Mrr)
 - **Model attribution:** The mirrored creator post explicitly says he was testing FLUX 3.
 - **Summary:** Multiple 20-second generations focused on detailed scene direction and cinematic shot construction.
 - **Workflow/details:** Lew reports strong response to detailed prompts and strong cinematography.
@@ -2578,6 +2578,17 @@ _Last updated: 2026-09-15 · Entries: 221_
 - **Workflow/details:** Aspect ratio and duration were left on AUTO so the model’s own format choices were measurable. Martini analyzed 78 returned takes with contact sheets and A/B frame strips, plus container resolution/duration, ffmpeg scene-cut counts, volume/silence measurements, and motion-energy. Twenty clips auto-selected 1088×800 around capture formats such as CCTV, VHS, newsreel, and noir while most other clips stayed 1280×704; explicit frame instructions could override this, including 1440×608 anamorphic and 704×1280 vertical outputs. Of 39 contradictions, 28 landed clearly, while edit pacing was notably stubborn: a request for a hard cut every second produced zero detected cuts. Silence requests were measurable wins, while more semantic audio contradictions were less reliably verifiable.
 - **Prompt provenance:** `verbatim_in_post` — “A submarine documentary: tension in the sonar room — but staged as a sunlit pastoral picnic.” The report prints every full prompt.
 - **Why included:** Newly surfaced first-party FLUX.3 source with embedded direct outputs, full prompts, explicit no-post-processing provenance, and unusually reproducible measurements. It isolates a production-critical behavior: format tokens can silently control aspect ratio, runtime, camera grammar, and edit cadence more strongly than later contradictory instructions; the exact source URL was not already represented in the README.
+
+### 222. Three-anchor seaweed-farm music video with native vocal, music, and ambience — Runware
+
+- **Creator:** [Runware](https://runware.ai/) — first-party FLUX 3 model-gallery example.
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Runware FLUX 3 Video model page with the “Use example” gallery](https://runware.ai/models/bfl-flux-3-video)
+- **Model attribution:** Runware explicitly identifies the page as FLUX 3 Video and the model as `bfl:flux@3-video`; the seaweed-farm clip appears as one of the page’s prompt-to-output examples.
+- **Summary:** A 12-second blue-hour music-video segment on a working seaweed farm keeps the same singer, orange oilskin coat, coastal location, cyan-and-amber grade, and tactile 16mm texture across a wide tidal-flat view, a lip-synced medium close-up, and a final overhead composition.
+- **Workflow/details:** The visible prompt uses three supplied visual anchors and time-codes the progression at 0–5s, 5–10s, and 10–12s: slow dolly toward the singer, transition to a medium close-up while tracking backward, then a rapid rise to an overhead view. It asks for accurate lip-sync plus synchronized audio combining an intimate female lead vocal, a restrained 96 BPM electronic-folk arrangement, and wind, water, coat movement, and footsteps. Runware reports a cost of `$3.4921` for this example.
+- **Prompt provenance:** `verbatim_in_post` — “Create a polished 12-second music-video segment for an original electronic-folk single set on a working seaweed farm at blue hour.” The complete prompt remains visible in the first-party source.
+- **Why included:** First-party prompt/output evidence with explicit FLUX 3 attribution, a visible reproducible prompt, multi-anchor temporal control, native sung vocal plus music and ambience, precise camera choreography, and cost telemetry in one production-style example.
 
 ## How updates work
 
