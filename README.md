@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 219_
+_Last updated: 2026-09-15 · Entries: 220_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2556,6 +2556,17 @@ _Last updated: 2026-09-15 · Entries: 219_
 - **Workflow/details:** One strict unbroken 30-second take filmed conceptually from the sand through a long telephoto lens, with deliberate zoom hunting, focus slips, phone/telephoto compression, wind on the microphone, and no polished camera language. The prompt is fully time-coded from 0–30 seconds and specifies the shark’s approach, RHIB entry and blocking maneuver, two-person extraction, hydrobike interaction, retreat to shore, crowd reaction, native ambience/dialogue, and strong physical/continuity negatives. No verified seed, resolution, provider, reference media, or post-production settings are publicly disclosed.
 - **Prompt provenance:** `verbatim_in_post` — “Raw amateur/paparazzi beach footage, harsh midday sun, hot haze, blown highlights, crushed shadows, dirty sensor, rolling shutter, imperfect autofocus.” The complete 0–30 second prompt remains visible in the secondary verification source; no wording has been reconstructed.
 - **Why included:** Same-day original-creator FLUX 3 attribution preserved by a public mirror, attached-video verification, and a complete highly structured prompt. It is a difficult long-take benchmark for distance-to-subject continuity, telephoto camera recovery, shark/RHIB/couple spatial geometry, rescue causality, physically plausible boat interaction, two-person extraction, crowd reaction, and native audio without cuts or hidden transitions.
+
+### 220. Thirty-nine-take on-screen typography, subtitles, and dynamic-state stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [On-screen text — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/on-screen-text)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes direct FLUX.3 takes with full prompts and states that every take is straight out of the model with nothing cut, graded, or retouched.
+- **Summary:** A controlled 39-take evaluation tests title cards, dated archival graphics, scorebugs, lower thirds, departure boards, end credits, subtitles, and other on-screen typography, measuring exact character fidelity, temporal stability, historical-date accuracy, and whether changing numeric state remains correct over time.
+- **Workflow/details:** Martini planned 40 takes and analyzed 39, split between 20 archival mini-documentaries and 20 broadcast-graphics packages, reviewing the clips frame by frame. At 21:9 and 1440×608 draft resolution, even 4%-frame-height subtitles remained readable. Across the graphics set, 132 of 145 requested strings rendered exactly; 69 of 74 dated title cards matched the historical record. A six-row airport departure board held all 35 requested fields exactly and changed only the two instructed Oslo fields, while dynamic arithmetic/state remained a clear failure mode: clocks, score totals, countdowns, and seat counts could update incorrectly even when surrounding labels stayed perfect. Requested overlay text was much more reliable than incidental signage inside the scene.
+- **Prompt provenance:** `verbatim_in_post` — “An airport departure board, 12 seconds, with exactly specified typography.” The complete departure-board, end-credit, subtitle, boxing-graphic, archival-title, and other prompts are printed in full on the first-party report.
+- **Why included:** Newly surfaced first-party FLUX.3 report with embedded video takes, exact prompts, frame-by-frame measurements, explicit no-post-processing provenance, and unusually actionable production guidance. It provides high-signal evidence for spelling, tables/lists, subtitles, temporal text stability, and the specific boundary between static text fidelity and dynamic numeric-state failure; the exact source URL was not already represented in the README.
 
 ## How updates work
 
