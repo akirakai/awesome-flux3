@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 223_
+_Last updated: 2026-09-16 · Entries: 224_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2600,6 +2600,17 @@ _Last updated: 2026-09-15 · Entries: 223_
 - **Workflow/details:** Martini expands each prompt rung by rung so prior sentences remain verbatim while new detail is added. A major cohort uses seven fixed headings—ACTION, SETTING, SUBJECT, DIALOGUE, CAMERA & LIGHT, SOUND & MUSIC, and GRADE—while companion ladders compare animation beat lists, screenplay format, timecode blocks, shot lists, prose, vertical phone footage, and tag-style prompts. The report finds that FLUX.3 still obeys instructions buried beyond 3,600 characters and reads to roughly 4,700, but the biggest visible gain arrives by about 1,400 characters; after roughly 2,400, added detail is usually texture rather than a better film. Prompt structure matters more than sheer length for edit grammar: timecode blocks produced one continuous take at every tested length, shot lists stayed around 3–5 shots, and prose accumulated more cuts as prompts grew.
 - **Prompt provenance:** `verbatim_in_post` — “ACTION — A short-order cook makes one last meal on the diner's final night.” The source prints every complete prompt in full.
 - **Why included:** Newly surfaced first-party FLUX.3 report with 129 direct videos, exact additive prompt ladders, published prompts, and explicit no-post-processing provenance. It replaces prompt-length folklore with a reproducible controlled benchmark and gives practical thresholds for descriptive density, runtime pressure, and prompt structure before longer writing stops paying off.
+
+### 224. Sixty-take sound-event, beat-sync, and dialogue-only audiovisual stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Sound and dialogue — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/sound-and-dialogue)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes 60 direct FLUX.3 takes with full prompts and states that every take is straight out of the model with nothing cut, graded, or retouched.
+- **Summary:** A controlled 60-take evaluation tests whether native sound can causally drive visible action, whether cuts and movement can follow musical beats, and how much scene construction FLUX.3 invents when given dialogue lines without any setting, camera, or lighting instructions.
+- **Workflow/details:** Three bins of 20 takes, all 21:9 and 5–10 seconds, with audio generated in the same pass as the picture. Martini measures RMS audio envelopes at 100 Hz, per-frame picture motion and brightness, and ffmpeg scene cuts, then compares the signals against within-clip null baselines. In the off-screen-sound bin, audio rises a median +4.13 dB in the half-second before the strongest picture motion, positive in 16 of 19 measurable takes versus +0.11 dB at random times. Beat-synced cutting does not hold: 12 of 20 music-bin takes remain single-shot, and existing cuts land no closer to audio onsets than chance. Dialogue-only prompts still invent locations, props, coverage, and often cuts near line boundaries; lighting/color changes can align tightly to musical events, while requested silence is unreliable.
+- **Prompt provenance:** `verbatim_in_post` — “A woman reads at a kitchen table. Off-screen, a door slams hard. She flinches and looks up toward the sound.” Every complete prompt in the report is printed in full.
+- **Why included:** Newly surfaced first-party FLUX.3 report with direct video takes, exact prompts, explicit no-post-processing provenance, quantitative audio/video timing analysis, and candid failure modes. It gives unusually actionable guidance for sound-as-cause prompting, reaction timing, dialogue-driven coverage, beat-sync limits, silence failures, and in-model audiovisual planning; the exact source URL was not already represented in the README.
 
 ## How updates work
 
