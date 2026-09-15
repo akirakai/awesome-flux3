@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 216_
+_Last updated: 2026-09-15 · Entries: 218_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2522,6 +2522,28 @@ _Last updated: 2026-09-15 · Entries: 216_
 - **Workflow/details:** All 32 takes delivered at 21:9, 1440×608. The eight one-person code-switch tests run 10–15 seconds from short 131–232-character prompts; the twenty-four room scenes all run 15 seconds from 680–1,003-character script-style prompts, with six tests each at two, three, four, and five languages. Martini reports that five-language scenes remain viable, that four to six dialogue lines per 15-second room leave enough space for acting, that speaker-label script formatting stages reliably, and that requested subtitles are substantially more reliable than signs, notebooks, or whiteboards.
 - **Prompt provenance:** `verbatim_in_post` — visible script/dialogue excerpt: “呢個 take 好啲，but I need more rain, 再嚟一次，action!” The source states that every complete prompt is printed in full.
 - **Why included:** Newly surfaced first-party primary-source report with embedded FLUX.3 outputs, exact output dimensions/durations, published prompts, explicit no-post-processing provenance, and a controlled language-count sweep. It is a high-signal native-dialogue benchmark for code-switching, speaker assignment, multilingual turn-taking, subtitle generation, scene staging, and timing rather than a single cherry-picked clip, and its source URL was not already present in the README.
+
+### 217. Quantified multi-keyframe timing and interpolation stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Keyframes — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/keyframes)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; the report publishes direct FLUX.3 takes, exact pinned-frame schedules, and full prompts, and states that every take is straight out of the model with nothing cut, graded, or retouched.
+- **Summary:** A controlled keyframe benchmark tests whether FLUX.3 can hit two, three, four, five, or ten pinned images at exact timecodes across 5-, 10-, 15-, and 20-second clips, including loops, hard-cut requests, uneven timing, and metamorphosis.
+- **Workflow/details:** Martini analyzes 53 takes and measures 49 of them against exact pin-time frames at 24 fps using normalized grayscale correlation. First and last pins score median 0.96/0.97, while interior pins score 0.61; 44% of interior pins land on the pinned image at the pinned second, 23% are near, and 33% miss. Four pins land 70% of interior targets versus 39% for ten pins. Dense mid/late pin clusters tend to rush the story early, spacing below roughly one second causes cuts rather than interpolation, and the source recommends four or five pins while treating first/last anchors as the most reliable targets.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt from `The Vessel`: “One object lives and dies on a potter's wheel in a single meditative shot.” The complete prompt and ten exact pin times remain visible in the source.
+- **Why included:** Newly surfaced first-party FLUX.3 report with embedded outputs, exact timecoded keyframes, visible prompts, reproducible dimensions/durations, quantitative frame-level scoring, and explicit no-post-processing provenance. It is unusually useful for keyframe scheduling and interpolation strategy rather than only visual-quality judging.
+
+### 218. Seventy-take causality, reflection, and counting stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Physics and logic — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/physics-and-logic)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes 70 direct FLUX.3 takes with prompts and says the takes are straight out of the model with no cutting, grading, or retouching.
+- **Summary:** A systematic benchmark tests FLUX.3 on causal chains, mirrors/reflections, and numerical bookkeeping, covering 30 chain-reaction clips, 20 reflection clips, and 20 quantity/count clips.
+- **Workflow/details:** Martini inspects every take frame by frame, using contact strips plus targeted full-resolution checks. Fourteen of 30 chain-reaction takes complete every requested beat, with seven-step chains sometimes outperforming shorter ones; a recurring failure is a small object that must arrive at a precise target near the payoff. The report finds 12 of 20 mirror tests hold correctly, while failures often treat the reflection as scenery rather than recomputing the subject. Counting is weaker at larger quantities: examples include ten named coins becoming thirteen and twelve balloons becoming fifteen, and Martini recommends keeping count targets at eight or below and arranging them in visually constrained layouts.
+- **Prompt provenance:** `verbatim_in_post` — verified excerpt: “A ball topples dominoes that trip a lever that drops a marble into a teacup.” The report also publishes the complete seven-step breakfast-machine prompt whose full causal sequence lands.
+- **Why included:** Newly surfaced first-party FLUX.3 benchmark with direct videos, exact prompts, frame-by-frame analysis, quantitative/categorical outcomes, and candid failure modes. It provides reproducible evidence about physical causality, optical reflection, and object-count consistency rather than a cherry-picked aesthetic demo.
 
 ## How updates work
 
