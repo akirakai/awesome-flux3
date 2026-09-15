@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 218_
+_Last updated: 2026-09-15 · Entries: 219_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2544,6 +2544,18 @@ _Last updated: 2026-09-15 · Entries: 218_
 - **Workflow/details:** Martini inspects every take frame by frame, using contact strips plus targeted full-resolution checks. Fourteen of 30 chain-reaction takes complete every requested beat, with seven-step chains sometimes outperforming shorter ones; a recurring failure is a small object that must arrive at a precise target near the payoff. The report finds 12 of 20 mirror tests hold correctly, while failures often treat the reflection as scenery rather than recomputing the subject. Counting is weaker at larger quantities: examples include ten named coins becoming thirteen and twelve balloons becoming fifteen, and Martini recommends keeping count targets at eight or below and arranging them in visually constrained layouts.
 - **Prompt provenance:** `verbatim_in_post` — verified excerpt: “A ball topples dominoes that trip a lever that drops a marble into a teacup.” The report also publishes the complete seven-step breakfast-machine prompt whose full causal sequence lands.
 - **Why included:** Newly surfaced first-party FLUX.3 benchmark with direct videos, exact prompts, frame-by-frame analysis, quantitative/categorical outcomes, and candid failure modes. It provides reproducible evidence about physical causality, optical reflection, and object-count consistency rather than a cherry-picked aesthetic demo.
+
+### 219. Thirty-second beach shark-rescue long take with telephoto continuity — DennisVisuals
+
+- **Creator:** [DennisVisuals (@DtheW1995)](https://x.com/DtheW1995)
+- **Published:** 2026-09-15 (same-day relative timestamp on the public creator-profile mirror at verification; exact X timestamp not exposed).
+- **Original source profile:** [DennisVisuals on X](https://x.com/DtheW1995) — the accessible public index did not expose a stable direct status URL for this post.
+- **Secondary verification source:** [Public creator-profile mirror preserving the original creator wording, explicit Flux 3 attribution, attached tweet-video marker, and complete visible prompt](https://www.sotwe.com/dthew1995)
+- **Model attribution:** DennisVisuals explicitly ends the post with “Made with Flux 3.”
+- **Summary:** A 30-second raw beach-telephoto rescue scene follows an elderly couple stranded offshore on a Techhalla hydrobike as an approaching shark closes in; a military RHIB races over, physically positions itself between shark and hydrobike, rescues both elders, and returns them to shallow water while the beach crowd reacts.
+- **Workflow/details:** One strict unbroken 30-second take filmed conceptually from the sand through a long telephoto lens, with deliberate zoom hunting, focus slips, phone/telephoto compression, wind on the microphone, and no polished camera language. The prompt is fully time-coded from 0–30 seconds and specifies the shark’s approach, RHIB entry and blocking maneuver, two-person extraction, hydrobike interaction, retreat to shore, crowd reaction, native ambience/dialogue, and strong physical/continuity negatives. No verified seed, resolution, provider, reference media, or post-production settings are publicly disclosed.
+- **Prompt provenance:** `verbatim_in_post` — “Raw amateur/paparazzi beach footage, harsh midday sun, hot haze, blown highlights, crushed shadows, dirty sensor, rolling shutter, imperfect autofocus.” The complete 0–30 second prompt remains visible in the secondary verification source; no wording has been reconstructed.
+- **Why included:** Same-day original-creator FLUX 3 attribution preserved by a public mirror, attached-video verification, and a complete highly structured prompt. It is a difficult long-take benchmark for distance-to-subject continuity, telephoto camera recovery, shark/RHIB/couple spatial geometry, rescue causality, physically plausible boat interaction, two-person extraction, crowd reaction, and native audio without cuts or hidden transitions.
 
 ## How updates work
 
