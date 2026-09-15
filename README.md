@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 220_
+_Last updated: 2026-09-15 · Entries: 221_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2567,6 +2567,17 @@ _Last updated: 2026-09-15 · Entries: 220_
 - **Workflow/details:** Martini planned 40 takes and analyzed 39, split between 20 archival mini-documentaries and 20 broadcast-graphics packages, reviewing the clips frame by frame. At 21:9 and 1440×608 draft resolution, even 4%-frame-height subtitles remained readable. Across the graphics set, 132 of 145 requested strings rendered exactly; 69 of 74 dated title cards matched the historical record. A six-row airport departure board held all 35 requested fields exactly and changed only the two instructed Oslo fields, while dynamic arithmetic/state remained a clear failure mode: clocks, score totals, countdowns, and seat counts could update incorrectly even when surrounding labels stayed perfect. Requested overlay text was much more reliable than incidental signage inside the scene.
 - **Prompt provenance:** `verbatim_in_post` — “An airport departure board, 12 seconds, with exactly specified typography.” The complete departure-board, end-credit, subtitle, boxing-graphic, archival-title, and other prompts are printed in full on the first-party report.
 - **Why included:** Newly surfaced first-party FLUX.3 report with embedded video takes, exact prompts, frame-by-frame measurements, explicit no-post-processing provenance, and unusually actionable production guidance. It provides high-signal evidence for spelling, tables/lists, subtitles, temporal text stability, and the specific boundary between static text fidelity and dynamic numeric-state failure; the exact source URL was not already represented in the README.
+
+### 221. Seventy-eight-take capture-format and contradiction stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Formats — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/formats)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; all 78 returned takes are direct FLUX.3 generations, and the source states that every take is straight out of the model with nothing cut, graded, or retouched.
+- **Summary:** A controlled 39-pair A/B benchmark tests whether capture and genre-format cues such as CCTV, bodycam, silent film, VHS, noir, IMAX, newsreel, slow cinema, broadcast, and instructional footage keep their visual grammar when the second prompt deliberately contradicts location, framing, behavior, sound, or edit rhythm.
+- **Workflow/details:** Aspect ratio and duration were left on AUTO so the model’s own format choices were measurable. Martini analyzed 78 returned takes with contact sheets and A/B frame strips, plus container resolution/duration, ffmpeg scene-cut counts, volume/silence measurements, and motion-energy. Twenty clips auto-selected 1088×800 around capture formats such as CCTV, VHS, newsreel, and noir while most other clips stayed 1280×704; explicit frame instructions could override this, including 1440×608 anamorphic and 704×1280 vertical outputs. Of 39 contradictions, 28 landed clearly, while edit pacing was notably stubborn: a request for a hard cut every second produced zero detected cuts. Silence requests were measurable wins, while more semantic audio contradictions were less reliably verifiable.
+- **Prompt provenance:** `verbatim_in_post` — “A submarine documentary: tension in the sonar room — but staged as a sunlit pastoral picnic.” The report prints every full prompt.
+- **Why included:** Newly surfaced first-party FLUX.3 source with embedded direct outputs, full prompts, explicit no-post-processing provenance, and unusually reproducible measurements. It isolates a production-critical behavior: format tokens can silently control aspect ratio, runtime, camera grammar, and edit cadence more strongly than later contradictory instructions; the exact source URL was not already represented in the README.
 
 ## How updates work
 
