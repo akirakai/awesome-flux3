@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-16 · Entries: 224_
+_Last updated: 2026-09-16 · Entries: 225_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2611,6 +2611,17 @@ _Last updated: 2026-09-16 · Entries: 224_
 - **Workflow/details:** Three bins of 20 takes, all 21:9 and 5–10 seconds, with audio generated in the same pass as the picture. Martini measures RMS audio envelopes at 100 Hz, per-frame picture motion and brightness, and ffmpeg scene cuts, then compares the signals against within-clip null baselines. In the off-screen-sound bin, audio rises a median +4.13 dB in the half-second before the strongest picture motion, positive in 16 of 19 measurable takes versus +0.11 dB at random times. Beat-synced cutting does not hold: 12 of 20 music-bin takes remain single-shot, and existing cuts land no closer to audio onsets than chance. Dialogue-only prompts still invent locations, props, coverage, and often cuts near line boundaries; lighting/color changes can align tightly to musical events, while requested silence is unreliable.
 - **Prompt provenance:** `verbatim_in_post` — “A woman reads at a kitchen table. Off-screen, a door slams hard. She flinches and looks up toward the sound.” Every complete prompt in the report is printed in full.
 - **Why included:** Newly surfaced first-party FLUX.3 report with direct video takes, exact prompts, explicit no-post-processing provenance, quantitative audio/video timing analysis, and candid failure modes. It gives unusually actionable guidance for sound-as-cause prompting, reaction timing, dialogue-driven coverage, beat-sync limits, silence failures, and in-model audiovisual planning; the exact source URL was not already represented in the README.
+
+### 225. 120-take 5/10/15/20-second duration ladder with narrative scaling — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Duration — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/duration)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes 120 direct FLUX.3 takes with their prompts and states that every take in the stress-test run is a single model generation with nothing cut, graded, or retouched.
+- **Summary:** Thirty scene briefs are each rendered at 5, 10, 15, and 20 seconds to test whether longer FLUX.3 generations merely stretch the same idea or actually develop more story; the result is a controlled duration ladder rather than a set of unrelated showcase clips.
+- **Workflow/details:** 120 takes at 21:9, 1440×608, 24 fps, all with audio. Twenty-eight of thirty scenes form clean four-rung ladders; where the model obeys the requested duration, outputs land at 121, 241, 361, and 481 frames. Spoken content scales from 16.4 words at 5s to 54.2 at 20s while speech rate stays broadly flat, and distinct dialogue beats grow from 2.5 to 7.0. Twenty-two of twenty-six analyzable 20s takes introduce at least one new dialogue line after the 15-second mark, while 26 of 29 twenty-second takes preserve a no-cut instruction. Martini’s core finding is that longer takes usually add new beats and late payoffs instead of simply slowing down a five-second idea.
+- **Prompt provenance:** `verbatim_in_post` — “A white gallery. A critic in an expensive coat stands before a completely blank canvas.” The complete prompt and every other prompt in the report remain printed in full on the first-party source.
+- **Why included:** Newly surfaced first-party FLUX.3 report with 120 directly inspectable videos, exact prompts, fixed resolution/frame rate, synchronized audio, and controlled duration as the only intended variable. It gives unusually actionable evidence for choosing 5/10/15/20-second runtimes, planning late narrative turns, and understanding when continuous-shot instructions survive the full 20-second window; the exact source URL was not already present in the README.
 
 ## How updates work
 
