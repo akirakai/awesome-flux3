@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-16 · Entries: 225_
+_Last updated: 2026-09-16 · Entries: 229_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2622,6 +2622,50 @@ _Last updated: 2026-09-16 · Entries: 225_
 - **Workflow/details:** 120 takes at 21:9, 1440×608, 24 fps, all with audio. Twenty-eight of thirty scenes form clean four-rung ladders; where the model obeys the requested duration, outputs land at 121, 241, 361, and 481 frames. Spoken content scales from 16.4 words at 5s to 54.2 at 20s while speech rate stays broadly flat, and distinct dialogue beats grow from 2.5 to 7.0. Twenty-two of twenty-six analyzable 20s takes introduce at least one new dialogue line after the 15-second mark, while 26 of 29 twenty-second takes preserve a no-cut instruction. Martini’s core finding is that longer takes usually add new beats and late payoffs instead of simply slowing down a five-second idea.
 - **Prompt provenance:** `verbatim_in_post` — “A white gallery. A critic in an expensive coat stands before a completely blank canvas.” The complete prompt and every other prompt in the report remain printed in full on the first-party source.
 - **Why included:** Newly surfaced first-party FLUX.3 report with 120 directly inspectable videos, exact prompts, fixed resolution/frame rate, synchronized audio, and controlled duration as the only intended variable. It gives unusually actionable evidence for choosing 5/10/15/20-second runtimes, planning late narrative turns, and understanding when continuous-shot instructions survive the full 20-second window; the exact source URL was not already present in the README.
+
+### 226. Fifty-take prompt-format equivalence and noun-retention stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Prompt style — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/prompt-style)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; all 50 takes are direct FLUX.3 outputs, with every prompt published in full and no cutting, grading, or retouching.
+- **Summary:** Five identical scene concepts are each rewritten in ten prompt dialects—plain prose, timestamps, shot list, screenplay, cinematography spec, keywords, no-camera prose, technique-only wording, SFX/dialogue markup, and labelled fields—to isolate whether format itself materially changes the generated film.
+- **Workflow/details:** Fifty takes, with prompts only 139–313 characters long. Martini finds eight of ten prompt styles broadly interchangeable as long as the prompt keeps the concrete nouns for who, where, and what happens. Technique-only prompts fail hardest when story nouns disappear. Numbered shot lists and labelled fields land all five intended payoffs, but cuts are driven more by scene content than by formatting; timestamps are the one dialect that reliably pins duration.
+- **Prompt provenance:** `verbatim_in_post` — “A woman sprints down the pier steps toward the last ferry as it pulls away. The gap of black water widens. She throws her bag, leaps, and the deckhand catches her arm as the horn sounds.”
+- **Why included:** First-party direct videos, full prompts, controlled single-variable design, and explicit no-post-processing provenance make this unusually reusable evidence that concrete scene nouns matter more than fashionable prompt syntax.
+
+### 227. Eighty-three-take century-spanning era and anachronism stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Eras — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/eras)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; all 83 reported takes are direct FLUX.3 outputs with full published prompts and no cutting, grading, or retouching.
+- **Summary:** Four everyday scenes are swept through film eras from 1901 to 2020, then extended into future dates, retro-future depictions, and mixed-era collisions to measure how period words alter not just grade but frame shape, editing grammar, production design, and camera language.
+- **Workflow/details:** Aspect ratio was left on AUTO; 77 takes were inspected frame by frame with ffmpeg and all 83 were reviewed on the sheet. FLUX.3 usually chose 1088×800 from 1901–2004, 1280×704 for 2013, and 704×1280 for 2020; a 2004 flip-phone football clip independently went vertical because the phone was held upright. 1929 newsreel prompts generated period title cards and internal cuts. Recent-era distinction weakens after roughly 1996; future years alone contribute little, while named future objects/mechanisms work far better. Anachronistic collisions succeeded in 17 of 19 returned tests.
+- **Prompt provenance:** `verbatim_in_post` — “A 1929 newsreel with title cards of a football match.”
+- **Why included:** The first-party benchmark exposes structural era knowledge—container, edit rhythm, set dressing, and capture medium—with measurable failures and practical prompting guidance, rather than merely showing a period-color grade.
+
+### 228. Forty-five-take reroll variance and prompt-detail consistency stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Variance — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/variance)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; it publishes the direct FLUX.3 takes with their prompts as part of the same unedited stress-test suite.
+- **Summary:** Four concepts—a bartender, sprinkler, newsroom, and octopus—are each rendered repeatedly from one-line, paragraph, and full-brief prompt versions to measure what remains stable across rerolls and what still changes even as direction becomes more detailed.
+- **Workflow/details:** FLUX.3 draft, 21:9, sound on; four rerolls were planned for each prompt level, with 45 delivered files. Longer prompts strongly stabilize location, light, look, and props, but do not lock casting, lens choice, runtime, or narrative ending. In the octopus example, the long brief produces closer visual matches yet fewer clean escapes than the shorter paragraph because the extra action list consumes the available clip time.
+- **Prompt provenance:** `verbatim_in_post` — “A 1987 local news report about a runaway parade balloon.”
+- **Why included:** A reproducible reroll methodology turns subjective “seed variance” into production guidance: added detail buys visual consistency, but not necessarily story completion, making the report highly useful for selection and reroll strategy.
+
+### 229. Ninety-nine-take seven-language casting, location, and signage stress test — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-16.
+- **Original source:** [Languages — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/languages)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; the report publishes 99 direct FLUX.3 takes and their prompts as part of the same unedited stress-test suite.
+- **Summary:** Fifteen scene concepts are translated across English, Cantonese, Spanish, Japanese, Korean, Arabic, and French while keeping the underlying scenario fixed, measuring how prompt language changes casting, location, set dressing, signage, and visual assumptions even when the requested action is the same.
+- **Workflow/details:** 105 takes were planned and 99 delivered, with fourteen complete seven-language comparison sets. Every clip is 10 seconds and 21:9 except one 15-second output. Casting tracks prompt language in 12 of 14 comparable scenes; streets and homes often shift culturally, while institutional interiors change much less. English is not neutral—it invokes its own visual priors. Fully directed 676–862-character prompts narrow language-driven differences, and supplied Arabic or Chinese sign copy can render cleanly in the demonstrated examples.
+- **Prompt provenance:** `verbatim_in_post` — “A street food stall at evening rush hour: steam, shouted orders, and regulars who don't need to say what they want.”
+- **Why included:** Direct first-party videos, complete prompt translations, and a controlled language-only sweep make this a rare reproducible benchmark for multilingual visual priors, casting, location steering, and signage rather than just speech generation.
 
 ## How updates work
 
