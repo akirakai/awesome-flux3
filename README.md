@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-15 · Entries: 215_
+_Last updated: 2026-09-15 · Entries: 216_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -64,7 +64,7 @@ _Last updated: 2026-09-15 · Entries: 215_
 - **Published:** 2026-07-23
 - **Original post:** [View on X](https://x.com/cfryant/status/2080379186783379947)
 - **Model attribution:** Explicitly labeled by the creator as a FLUX 3 early-access test.
-- **Summary:** GoPro-style POV footage from inside a giant mech fighting a kaiju in Seattle, ending with the Space Needle used as a weapon.
+- **Summary:** A GoPro-style first-person sequence places the viewer inside a giant mech fighting a kaiju in Seattle, ending with the Space Needle used as a weapon.
 - **Workflow/details:** Text-to-video test of POV coherence, scale, action staging, and landmark handling.
 - **Prompt provenance:** `not_provided` — scene wording was not labeled as the exact prompt.
 - **Why included:** Ambitious first-person choreography and large-scale physical interaction.
@@ -2511,6 +2511,17 @@ _Last updated: 2026-09-15 · Entries: 215_
 - **Workflow/details:** Video-to-video from `inputs.video` plus `positivePrompt`; no separate width, height, duration, or resolution control is exposed for this endpoint. Runware documents a hard 0.7–15-second input window, 50 MiB limit, minimum 160×160 input, rejection rather than trimming for clips over 15 seconds, 24 fps output, and automatic downscaling for source footage above 720p while otherwise inheriting source duration/aspect ratio and preserving unmentioned timing/framing/motion/audio.
 - **Prompt provenance:** `verbatim_in_post` — “Change the ceramic dripper to a deep matte forest green.”
 - **Why included:** Newly published first-party source/output example with an exact visible prompt and unusually useful source-preparation telemetry. It is a practical temporal-editing benchmark because a local color/finish change must remain stable while the pipeline also handles a 1920×1088 source at the documented 720p output boundary; this resolution-normalization behavior is not covered by the existing Runware edit examples.
+
+### 216. Five-language 15-second room scenes with script-format prompting — Martini
+
+- **Creator:** [Martini](https://www.martini.film/)
+- **Published:** Publication date not shown; verified 2026-09-15.
+- **Original source:** [Multilingual scenes — FLUX.3 stress test](https://www.martini.film/models/flux-3/reports/multilingual)
+- **Model attribution:** Martini explicitly labels the report `model FLUX.3`; all 32 showcased takes are FLUX.3 generations, and the source states that every take is straight out of the model with no cutting, grading, or retouching.
+- **Summary:** A systematic multilingual stress test runs eight one-person code-switch clips and twenty-four multi-speaker room scenes, scaling from two through five spoken languages in one generated scene while keeping the videos directly inspectable with their prompts.
+- **Workflow/details:** All 32 takes delivered at 21:9, 1440×608. The eight one-person code-switch tests run 10–15 seconds from short 131–232-character prompts; the twenty-four room scenes all run 15 seconds from 680–1,003-character script-style prompts, with six tests each at two, three, four, and five languages. Martini reports that five-language scenes remain viable, that four to six dialogue lines per 15-second room leave enough space for acting, that speaker-label script formatting stages reliably, and that requested subtitles are substantially more reliable than signs, notebooks, or whiteboards.
+- **Prompt provenance:** `verbatim_in_post` — visible script/dialogue excerpt: “呢個 take 好啲，but I need more rain, 再嚟一次，action!” The source states that every complete prompt is printed in full.
+- **Why included:** Newly surfaced first-party primary-source report with embedded FLUX.3 outputs, exact output dimensions/durations, published prompts, explicit no-post-processing provenance, and a controlled language-count sweep. It is a high-signal native-dialogue benchmark for code-switching, speaker assignment, multilingual turn-taking, subtitle generation, scene staging, and timing rather than a single cherry-picked clip, and its source URL was not already present in the README.
 
 ## How updates work
 
