@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-16 · Entries: 231_
+_Last updated: 2026-09-17 · Entries: 232_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1318,7 +1318,7 @@ _Last updated: 2026-09-16 · Entries: 231_
 - **Original source:** [Runware FLUX 3 keyframes guide with source image, generated video, and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/keyframes)
 - **Model attribution:** Runware identifies the guide as Black Forest Labs’ FLUX 3 Video; the exact request uses model ID `bfl:flux@3-video`.
 - **Summary:** A product-packshot image of a walnut-handled Damascus chef’s knife becomes an 8-second video in which a hand picks up the knife and slices a lime while preserving the source composition and warm product lighting.
-- **Workflow/details:** One image reference pinned to `frameImages[0].frame = \"first\"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
+- **Workflow/details:** One image reference pinned to `frameImages[0].frame = "first"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
 - **Prompt provenance:** `verbatim_in_post` — “Use this image as the first frame. An 8-second clip: the camera holds locked on the knife for a beat…” The complete prompt remains visible in the source.
 - **Why included:** First-party embedded source/output pairing with exact reference placement, model ID, duration, resolution, and prompt; it cleanly tests first-frame fidelity, hand-object interaction, product-material continuity, motion onset, and synchronized foley.
 
@@ -1715,7 +1715,7 @@ _Last updated: 2026-09-16 · Entries: 231_
 - **Original source:** [Cloudflare’s first-party FLUX 3 Video model documentation and runnable example](https://developers.cloudflare.com/ai/models/black-forest-labs/flux-3-video/)
 - **Model attribution:** Cloudflare explicitly identifies the model as “FLUX 3 Video” with model ID `black-forest-labs/flux-3-video`, and the documented response directly links to the generated MP4.
 - **Summary:** A cozy ramen shop on a rainy Tokyo night is rendered with visible broth steam while rain patter and quiet kitchen sounds are generated alongside the picture.
-- **Workflow/details:** Text-to-video via Workers AI with `mode: \"t2v\"`, `resolution: \"hd\"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
+- **Workflow/details:** Text-to-video via Workers AI with `mode: "t2v"`, `resolution: "hd"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
 - **Prompt provenance:** `verbatim_in_post` — “A cozy ramen shop on a rainy Tokyo night, steam rising from the broth. Rain patter and quiet kitchen sounds.”
 - **Why included:** A first-party platform example with an actual linked FLUX 3 video, exact model identifier, complete visible prompt, and reproducible generation parameters. It is a compact native-audio benchmark tying a visually simple atmospheric scene to synchronized environmental sound without relying on inferred settings.
 
@@ -2364,7 +2364,7 @@ _Last updated: 2026-09-16 · Entries: 231_
 - **Model attribution:** Runware identifies the model as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly identifies this fast, precise editing capability as **FLUX 3 Video**.
 - **Summary:** A presenter’s existing sixty-day returns-policy take is rewritten to ninety days with free postage. The spoken sentence and mouth motion change while the same gesture, framing, room, voice, pauses, and settle timing are retained; the same first-party guide also demonstrates dialogue translation and in-scene text localization.
 - **Workflow/details:** Video-to-video from one source clip plus `positivePrompt`; the documented request exposes the source MP4 and returned edited MP4. The replacement line must fit the original speech timing because the model does not extend the clip. Runware documents source clips up to 15 seconds, output at 24 fps and up to 720p while retaining source duration and aspect ratio, with unmentioned motion, camera work, timing, framing, and audio preserved.
-- **Prompt provenance:** `verbatim_in_post` — `Make her say \"Our returns window is now ninety days, and postage is free.\"`
+- **Prompt provenance:** `verbatim_in_post` — `Make her say "Our returns window is now ninety days, and postage is free."`
 - **Why included:** Newly published first-party source with paired before/after videos, an exact prompt, model ID, request/response code, and directly linked source/output files. It is a demanding temporal-editing benchmark because speech and lip-sync must change while body timing and shot continuity remain fixed, and it adds a localization/dialogue-editing use case materially distinct from the jacket-recolor example already catalogued.
 
 ### 203. Rotating sneaker material swap with preserved lighting and contact shadow — Runware
@@ -2689,6 +2689,17 @@ _Last updated: 2026-09-16 · Entries: 231_
 - **Workflow/details:** OpenArt says it procures creation-use-case prompts, runs every model on the same brief, and admits one output per model by a fixed rule rather than hand-picking. The published FLUX 3 examples are 10s, 5s, 6s, 10s, and 9s respectively. The overall board lists FLUX 3 Video at 720p/1080p with up to 20-second output. Seed values, the actual reference-image assets for the reference-guided examples, and any post-processing are not disclosed on the public page, so none are inferred.
 - **Prompt provenance:** `verbatim_in_post` — “Three girls tip their hats to the camera and then start doing a cowboy rodeo dance. No talking.” Four additional complete prompts are visibly published next to their model-by-model generations.
 - **Why included:** A newly published primary-source benchmark page with multiple embedded, explicitly model-labeled FLUX 3 videos, full visible prompts, controlled same-brief comparisons, and blind professional judging. It is unusually useful because the same source exposes qualitative outputs and a reproducible evaluation protocol across five distinct failure modes rather than presenting only a curated showreel.
+
+### 232. Twenty-second skincare UGC with expressive dialogue and facial performance — Sher Hassan
+
+- **Creator:** [Sher Hassan](https://pk.linkedin.com/in/thesherhassan)
+- **Published:** Exact timestamp not exposed; verified 2026-09-17 (LinkedIn showed the post as approximately 5 hours old).
+- **Original source:** [Sher Hassan’s public LinkedIn profile with the original creator post](https://pk.linkedin.com/in/thesherhassan) — the public index exposes the creator post on-profile but not a stable direct activity permalink.
+- **Model attribution:** Hassan explicitly says “Flux 3 might be my favourite model for AI UGC right now” and states that he made the skincare clip inside Higgsfield AI.
+- **Summary:** A casual talking-to-camera skincare UGC clip focuses on believable presenter delivery rather than cinematic spectacle; Hassan calls out expressive voice performance, comfortable dialogue flow, and facial reactions that stay natural while the subject speaks.
+- **Workflow/details:** Flux 3 generated inside Higgsfield AI; 20-second output. Hassan compares the result favorably with Seedance 2.5 for this UGC use case and says the current limitation is room to extend: he would like a 30-second mode plus reference-asset controls that keep the character, product, and setting consistent across a longer scene. No verified resolution, seed, reference assets, or post-production settings are publicly exposed.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source, and nothing has been reconstructed or inferred.
+- **Why included:** Fresh first-party creator attribution, explicit Flux 3 labeling, a concrete Higgsfield workflow and verified 20-second duration, plus a strong creator-side quality signal centered on voice expression, conversational timing, and facial performance — exactly the subtle behaviors that often make or break AI UGC realism.
 
 ## How updates work
 
