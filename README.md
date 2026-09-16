@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-16 · Entries: 229_
+_Last updated: 2026-09-16 · Entries: 230_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -1318,7 +1318,7 @@ _Last updated: 2026-09-16 · Entries: 229_
 - **Original source:** [Runware FLUX 3 keyframes guide with source image, generated video, and request code](https://runware.ai/docs/models/bfl-flux-3-video/guides/keyframes)
 - **Model attribution:** Runware identifies the guide as Black Forest Labs’ FLUX 3 Video; the exact request uses model ID `bfl:flux@3-video`.
 - **Summary:** A product-packshot image of a walnut-handled Damascus chef’s knife becomes an 8-second video in which a hand picks up the knife and slices a lime while preserving the source composition and warm product lighting.
-- **Workflow/details:** One image reference pinned to `frameImages[0].frame = "first"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
+- **Workflow/details:** One image reference pinned to `frameImages[0].frame = \"first\"`; 8 seconds; 720p; native audio with knife, board, and kitchen ambience. Runware notes that the opening source is a strong visual anchor rather than a pixel-identical lock.
 - **Prompt provenance:** `verbatim_in_post` — “Use this image as the first frame. An 8-second clip: the camera holds locked on the knife for a beat…” The complete prompt remains visible in the source.
 - **Why included:** First-party embedded source/output pairing with exact reference placement, model ID, duration, resolution, and prompt; it cleanly tests first-frame fidelity, hand-object interaction, product-material continuity, motion onset, and synchronized foley.
 
@@ -1715,7 +1715,7 @@ _Last updated: 2026-09-16 · Entries: 229_
 - **Original source:** [Cloudflare’s first-party FLUX 3 Video model documentation and runnable example](https://developers.cloudflare.com/ai/models/black-forest-labs/flux-3-video/)
 - **Model attribution:** Cloudflare explicitly identifies the model as “FLUX 3 Video” with model ID `black-forest-labs/flux-3-video`, and the documented response directly links to the generated MP4.
 - **Summary:** A cozy ramen shop on a rainy Tokyo night is rendered with visible broth steam while rain patter and quiet kitchen sounds are generated alongside the picture.
-- **Workflow/details:** Text-to-video via Workers AI with `mode: "t2v"`, `resolution: "hd"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
+- **Workflow/details:** Text-to-video via Workers AI with `mode: \"t2v\"`, `resolution: \"hd\"`, `duration: 5`, and `generate_audio: true`. The documented response links directly to `https://examples.aig.cloudflare.com/black-forest-labs/flux-3-video/text-to-video.mp4`; Cloudflare documents generated MP4 output at 24 fps with audio by default. No seed, explicit aspect ratio, or post-production is stated for this example, so none is inferred.
 - **Prompt provenance:** `verbatim_in_post` — “A cozy ramen shop on a rainy Tokyo night, steam rising from the broth. Rain patter and quiet kitchen sounds.”
 - **Why included:** A first-party platform example with an actual linked FLUX 3 video, exact model identifier, complete visible prompt, and reproducible generation parameters. It is a compact native-audio benchmark tying a visually simple atmospheric scene to synchronized environmental sound without relying on inferred settings.
 
@@ -2666,6 +2666,17 @@ _Last updated: 2026-09-16 · Entries: 229_
 - **Workflow/details:** 105 takes were planned and 99 delivered, with fourteen complete seven-language comparison sets. Every clip is 10 seconds and 21:9 except one 15-second output. Casting tracks prompt language in 12 of 14 comparable scenes; streets and homes often shift culturally, while institutional interiors change much less. English is not neutral—it invokes its own visual priors. Fully directed 676–862-character prompts narrow language-driven differences, and supplied Arabic or Chinese sign copy can render cleanly in the demonstrated examples.
 - **Prompt provenance:** `verbatim_in_post` — “A street food stall at evening rush hour: steam, shouted orders, and regulars who don't need to say what they want.”
 - **Why included:** Direct first-party videos, complete prompt translations, and a controlled language-only sweep make this a rare reproducible benchmark for multilingual visual priors, casting, location steering, and signage rather than just speech generation.
+
+### 230. Five-mode FLUX.3 workflow suite with full prompts and embedded outputs — Scenario
+
+- **Creator:** [Scenario](https://www.scenario.com/) — first-party FLUX.3 integration documentation.
+- **Published:** Publication date not shown; verified 2026-09-16 (the first-party page showed “Last updated 2 days ago”).
+- **Original source:** [FLUX.3 Video: The Essentials](https://help.scenario.com/articles/2415759054-flux-3-video-the-essentials)
+- **Model attribution:** Scenario explicitly identifies the family as Black Forest Labs’ `FLUX.3 Video` and publishes named model IDs for Text to Video, Image to Video, First and Last Frame, Keyframes, and Extend, with embedded outputs for each workflow.
+- **Summary:** Scenario’s first-party guide pairs exact prompts with direct FLUX.3 outputs across a 1080p sci-fi text-to-video shot and lower-resolution Draft comparison, a dragon image-to-video animation, a 20-second 21:9 chariot first/last-frame transition, a 15-second 2:1 four-keyframe samurai kata, and a dragon continuation shot.
+- **Workflow/details:** Full models expose 720p/1080p, clips run 5–20 seconds, audio is generated by default, and supported aspect ratios range from 21:9 to 9:16. Keyframes are pinned by frame index at 24 fps; Scenario recommends Draft for iteration and full models for finals, timed action beats, explicit audio, compositionally consistent supplied frames, and continuity language in first/last-frame and keyframe prompts. The page notes no fixed seed control and recommends source clips under roughly 15 seconds for Extend.
+- **Prompt provenance:** `verbatim_in_post` — “A samurai sword kata following the four keyframes, with a slow arcing camera.” The complete 15-second four-beat samurai prompt, plus complete prompts for the other embedded examples, is visibly published in the first-party source.
+- **Why included:** Newly updated first-party platform documentation with direct embedded FLUX.3 outputs, exact model IDs, concrete resolution/duration/aspect-ratio controls, full reproducible prompts, and multiple distinct input modes. It is unusually useful as a practical workflow reference because it shows prompt-to-output evidence for draft/final iteration, single-image animation, exact endpoint framing, timed multi-keyframe choreography, and seamless continuation on one verified page.
 
 ## How updates work
 
