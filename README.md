@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-17 · Entries: 232_
+_Last updated: 2026-09-17 · Entries: 233_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2700,6 +2700,17 @@ _Last updated: 2026-09-17 · Entries: 232_
 - **Workflow/details:** Flux 3 generated inside Higgsfield AI; 20-second output. Hassan compares the result favorably with Seedance 2.5 for this UGC use case and says the current limitation is room to extend: he would like a 30-second mode plus reference-asset controls that keep the character, product, and setting consistent across a longer scene. No verified resolution, seed, reference assets, or post-production settings are publicly exposed.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified first-party source, and nothing has been reconstructed or inferred.
 - **Why included:** Fresh first-party creator attribution, explicit Flux 3 labeling, a concrete Higgsfield workflow and verified 20-second duration, plus a strong creator-side quality signal centered on voice expression, conversational timing, and facial performance — exactly the subtle behaviors that often make or break AI UGC realism.
+
+### 233. Single-take violin subject/environment-lock prompting workflow — Higgsfield
+
+- **Creator:** [Higgsfield](https://higgsfield.ai/) — first-party FLUX 3 integration guide.
+- **Published:** 2026-08-16; the page was subsequently updated and was re-verified 2026-09-17.
+- **Original source:** [Meet Flux 3 on Higgsfield: How It Works and What You Get](https://higgsfield.ai/blog/flux-3-higgsfield)
+- **Model attribution:** Higgsfield explicitly identifies the generation model as **FLUX.3 Video** from Black Forest Labs and presents the embedded result inside its step-by-step FLUX 3 workflow.
+- **Summary:** A violinist performs inside a white circular rotunda above a ring of deep-blue water while one restrained camera move slowly dollies backward; the prompt deliberately locks the performer’s orientation, the architecture, water geometry, palette, and camera behavior to reduce drift during the take.
+- **Workflow/details:** Text-to-video prompt inside Higgsfield’s FLUX 3 workflow. The published brief requests one continuous 16:9 shot and ends with `Total: 7s / 1 shot / 16:9`, while a preceding beat label says `Single continuous shot 5s`; the camera instruction is one straight ground-level dolly back with no pan, orbit, or crane. The guide says creative camera/lighting direction should be written into the prompt, optional synchronized audio is generated in the same pass, and FLUX 3 on Higgsfield also supports image-to-video, continuation, Start/End Frame control, and up to 10 reference frames when those modes are used. The page publishes 720p/1080p pricing for 5- and 20-second generations.
+- **Prompt provenance:** `verbatim_in_post` — “single continuous shot, one take no cuts, cinematic oner, cinematic lighting, photorealistic, 35mm film quality”. The complete subject-lock, environment-lock, color-lock, and camera prompt remains visibly published beside the embedded video.
+- **Why included:** First-party prompt-to-video evidence with an embedded FLUX 3 result, full visible prompt, explicit model attribution, and unusually reusable anti-drift direction. The clip tests subtle hand/instrument motion, centered human performance, stable architectural geometry, water continuity, color consistency, and a single controlled camera move without relying on rapid cuts or spectacle.
 
 ## How updates work
 
