@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-17 · Entries: 233_
+_Last updated: 2026-09-17 · Entries: 234_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2711,6 +2711,18 @@ _Last updated: 2026-09-17 · Entries: 233_
 - **Workflow/details:** Text-to-video prompt inside Higgsfield’s FLUX 3 workflow. The published brief requests one continuous 16:9 shot and ends with `Total: 7s / 1 shot / 16:9`, while a preceding beat label says `Single continuous shot 5s`; the camera instruction is one straight ground-level dolly back with no pan, orbit, or crane. The guide says creative camera/lighting direction should be written into the prompt, optional synchronized audio is generated in the same pass, and FLUX 3 on Higgsfield also supports image-to-video, continuation, Start/End Frame control, and up to 10 reference frames when those modes are used. The page publishes 720p/1080p pricing for 5- and 20-second generations.
 - **Prompt provenance:** `verbatim_in_post` — “single continuous shot, one take no cuts, cinematic oner, cinematic lighting, photorealistic, 35mm film quality”. The complete subject-lock, environment-lock, color-lock, and camera prompt remains visibly published beside the embedded video.
 - **Why included:** First-party prompt-to-video evidence with an embedded FLUX 3 result, full visible prompt, explicit model attribution, and unusually reusable anti-drift direction. The clip tests subtle hand/instrument motion, centered human performance, stable architectural geometry, water continuity, color consistency, and a single controlled camera move without relying on rapid cuts or spectacle.
+
+### 234. Storyboard-grid-to-FLUX3 1978 Americana filmmaking workflow — seeksteve
+
+- **Creator:** [seeksteve (@seeksteve)](https://x.com/seeksteve)
+- **Published:** 2026-09-14
+- **Original post:** [View on X](https://x.com/seeksteve/status/2099333648059367607)
+- **Secondary verification source:** [Wikiprompt mirror preserving the creator attribution, source URL, workflow text, FLUX3 model label, and related-video context](https://www.wikiprompt.org/ai-vibe-filmmaking-workflow-with-storyboard-grids)
+- **Model attribution:** The preserved creator workflow explicitly states `ai video: FLUX3 at 720p`; the verification page also labels the media `Model FLUX3` and credits seeksteve with the original X source.
+- **Summary:** A complete AI-filmmaking pipeline uses five dense 5×5 Midjourney storyboard grids to seed a nostalgic 1978 “great American summer” visual language, then turns storyboard cells into rapid FLUX3 video shots before assembling the footage around an original Suno v6 soundtrack in DaVinci Resolve.
+- **Workflow/details:** Creative direction by the creator; five 20–25-shot Midjourney grids spanning nostalgia, contamination of everyday life, fear/grief, and nightmare; FLUX3 at 720p; the prompt asks the model to show a grid for 0.5 seconds and then treat individual cells as separate 0.5–1.2-second shots with randomized durations. Visual language includes “photochemical 35mm handheld footage” and “vintage Cooke Speed Panchro spherical primes.” Music is iterated in Suno v6; DaVinci Resolve 21.1 plus GPT-6 Astra-light handles shot detection, beat matching, and editing, with Python + SciPy used for beat/transition detection, conversion to 24 fps Resolve timeline markers, and FFmpeg verification. In the preserved creator workflow, the storyboard grids are used as visual guidance/aesthetic seeding rather than model-side reference inputs.
+- **Prompt provenance:** `verbatim_in_post` — visible workflow excerpt: “idea/creative direction: me, a human … 5×5 storyboard grids: Midjourney … ai video: FLUX3 at 720p … original soundtrack: Suno v6”. The secondary verification source preserves the full workflow text and links the original X post; no prompt wording has been inferred from the video.
+- **Why included:** Fresh creator-attributed FLUX3 video workflow with a traceable original X URL, deeply reproducible production details, explicit 720p model usage, shot-duration instructions, soundtrack/editor pipeline, and a distinctive method for converting storyboard grids into fast multi-shot footage. The best currently accessible evidence is a credible secondary page that directly preserves the original creator attribution and workflow, so it is explicitly labeled as secondary verification.
 
 ## How updates work
 
