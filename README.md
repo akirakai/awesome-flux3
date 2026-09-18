@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-17 · Entries: 234_
+_Last updated: 2026-09-18 · Entries: 235_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2723,6 +2723,17 @@ _Last updated: 2026-09-17 · Entries: 234_
 - **Workflow/details:** Creative direction by the creator; five 20–25-shot Midjourney grids spanning nostalgia, contamination of everyday life, fear/grief, and nightmare; FLUX3 at 720p; the prompt asks the model to show a grid for 0.5 seconds and then treat individual cells as separate 0.5–1.2-second shots with randomized durations. Visual language includes “photochemical 35mm handheld footage” and “vintage Cooke Speed Panchro spherical primes.” Music is iterated in Suno v6; DaVinci Resolve 21.1 plus GPT-6 Astra-light handles shot detection, beat matching, and editing, with Python + SciPy used for beat/transition detection, conversion to 24 fps Resolve timeline markers, and FFmpeg verification. In the preserved creator workflow, the storyboard grids are used as visual guidance/aesthetic seeding rather than model-side reference inputs.
 - **Prompt provenance:** `verbatim_in_post` — visible workflow excerpt: “idea/creative direction: me, a human … 5×5 storyboard grids: Midjourney … ai video: FLUX3 at 720p … original soundtrack: Suno v6”. The secondary verification source preserves the full workflow text and links the original X post; no prompt wording has been inferred from the video.
 - **Why included:** Fresh creator-attributed FLUX3 video workflow with a traceable original X URL, deeply reproducible production details, explicit 720p model usage, shot-duration instructions, soundtrack/editor pipeline, and a distinctive method for converting storyboard grids into fast multi-shot footage. The best currently accessible evidence is a credible secondary page that directly preserves the original creator attribution and workflow, so it is explicitly labeled as secondary verification.
+
+### 235. Same-start-frame four-model comparison with realistic FLUX 3 sound — David Barona
+
+- **Creator:** [David Barona](https://www.linkedin.com/in/davichobarona)
+- **Published:** 2026-09-11
+- **Original source:** [David Barona’s LinkedIn comparison post](https://www.linkedin.com/posts/davichobarona_video-model-comparison-with-luma-the-prompt-activity-7504215556389273600-xKz2)
+- **Model attribution:** Barona explicitly includes **FLUX 3** in the attached Luma video-model comparison and describes its result as having “the most realistic sound levels” plus unexpected effects.
+- **Summary:** One supplied start image anchors a creator-run comparison spanning Seedance 2.0, FLUX 3, MiniMax H3, and Seedance 2.5, making the FLUX 3 result directly inspectable against three current peers in the same attached video.
+- **Workflow/details:** Generated through Luma; the creator says he used the shown image as the start frame and that the generation prompt appears at the end of the comparison video. The public page body does not expose the prompt text or model-specific resolution, duration, seed, or post-processing, so those details are not inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says “The prompt is at the end of the video,” but the exact prompt text is not exposed in the verified public page body, so no wording is copied or reconstructed.
+- **Why included:** Fresh primary creator source with an attached comparison video, explicit FLUX 3 attribution, a traceable start-frame workflow, and a useful creator-side quality observation focused on realistic sound rather than generic aesthetics.
 
 ## How updates work
 
