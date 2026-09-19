@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-19 · Entries: 236_
+_Last updated: 2026-09-19 · Entries: 237_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2745,6 +2745,17 @@ _Last updated: 2026-09-19 · Entries: 236_
 - **Workflow/details:** Prompt-guided video-to-video from one source clip. Segmind documents inputs up to 15 seconds / 50 MB / 720p, output at 24 fps with source duration, aspect ratio, motion, framing, timing, and audio carried through unless the prompt changes them. Its guidance recommends one clear edit and naming what must remain fixed.
 - **Prompt provenance:** `verbatim_in_post` — “Replace the boxer with a polished chrome humanoid robot, keeping the same punches, footwork, bag swing, camera and timing.”
 - **Why included:** Fresh first-party integration page with an actual example video and exact prompt, providing a clean temporal-consistency test: the subject is radically replaced while fast contact motion, footwork, prop dynamics, framing, and timing must remain stable.
+
+### 237. Terracotta wall-finish edit with camera/geometry lock — RunDiffusion
+
+- **Creator:** [Adam Stewart / RunDiffusion](https://learn.rundiffusion.com/flux-3-edit-video/)
+- **Published:** 2026-09-17
+- **Original source:** [Flux 3 Edit Video](https://learn.rundiffusion.com/flux-3-edit-video/)
+- **Model attribution:** RunDiffusion explicitly identifies the tool and embedded before/after example as **Flux 3 Edit Video**.
+- **Summary:** A five-second reception-lounge clip changes only the cream plaster rear wall to warm muted terracotta while preserving the furniture, room geometry, daylight, and the original camera move.
+- **Workflow/details:** Prompt-guided video-to-video on RunDiffusion. Source must be MP4, under 50 MB and under 15 seconds; output is 720p. The published before/after example is 5 seconds. RunDiffusion instructs users to set the length slider to the source duration for price calculation; it does not trim or extend the clip, while source movement, timing, and framing guide the edit.
+- **Prompt provenance:** `verbatim_in_post` — “Change the cream plaster rear wall to warm muted terracotta plaster. Preserve the furniture, room geometry, original camera motion and daylight. Keep the rest of the video unchanged.”
+- **Why included:** Newly published first-party provider page with embedded source/result videos, explicit Flux 3 attribution, an exact reproducible prompt, and concrete input/output constraints. It is a clean localized-material temporal-consistency test because global color/material appearance changes on one surface while furniture, geometry, lighting, timing, framing, and camera motion are explicitly held fixed.
 
 ## How updates work
 
