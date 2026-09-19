@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-19 · Entries: 237_
+_Last updated: 2026-09-19 · Entries: 238_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2756,6 +2756,17 @@ _Last updated: 2026-09-19 · Entries: 237_
 - **Workflow/details:** Prompt-guided video-to-video on RunDiffusion. Source must be MP4, under 50 MB and under 15 seconds; output is 720p. The published before/after example is 5 seconds. RunDiffusion instructs users to set the length slider to the source duration for price calculation; it does not trim or extend the clip, while source movement, timing, and framing guide the edit.
 - **Prompt provenance:** `verbatim_in_post` — “Change the cream plaster rear wall to warm muted terracotta plaster. Preserve the furniture, room geometry, original camera motion and daylight. Keep the rest of the video unchanged.”
 - **Why included:** Newly published first-party provider page with embedded source/result videos, explicit Flux 3 attribution, an exact reproducible prompt, and concrete input/output constraints. It is a clean localized-material temporal-consistency test because global color/material appearance changes on one surface while furniture, geometry, lighting, timing, framing, and camera motion are explicitly held fixed.
+
+### 238. “Histeria Colectiva” dystopian video art — ISKARIOTO Dystopian AI Films
+
+- **Creator:** [ISKARIOTO Dystopian AI Films / Tadeo111](https://www.reddit.com/user/Tadeo111/)
+- **Published:** 2026-09-17
+- **Original source:** [“Histeria Colectiva” (Flux 3) creator post](https://www.reddit.com/r/generativeAI/comments/1witgty/histeria_colectiva_flux_3/)
+- **Model attribution:** The creator’s primary Reddit video post is explicitly titled **“Histeria Colectiva” (Flux 3)**; the same creator profile repeats the FLUX 3 title across multiple subreddit posts and directly links the ISKARIOTO Dystopian YouTube channel.
+- **Summary:** A finished dystopian video-art piece centered on collective hysteria, published as part of ISKARIOTO’s experimental AI-filmmaking work rather than as a generic model demo.
+- **Workflow/details:** The verified public creator sources establish FLUX 3 attribution and a traceable filmmaker identity. No verified native generation resolution, seed, provider, keyframes/reference assets, clip-by-clip settings, audio workflow, or post-production pipeline are publicly exposed, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public creator sources.
+- **Why included:** Newly published original-creator work with explicit FLUX 3 attribution, an attached video, and traceable creator identity: the Reddit posting account identifies itself as an AI artist/filmmaker and directly links the ISKARIOTO Dystopian YouTube channel. It adds a distinctive finished-art example without relying on reposts, inferred prompt text, or ambiguous model attribution.
 
 ## How updates work
 
