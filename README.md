@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-18 · Entries: 235_
+_Last updated: 2026-09-19 · Entries: 236_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2413,7 +2413,7 @@ _Last updated: 2026-09-18 · Entries: 235_
 
 ### 207. Subterranean water-infrastructure documentary title sequence with anchored graphics and typography — Runware
 
-- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Creator:** [Runware](https://runware.ai/) — first-party FLUX 3 model-gallery example.
 - **Published:** 2026-09-09
 - **Original source:** [Runware FLUX Video Edit [fast] API examples — Municipal Water Documentary Title Sequence](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
 - **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
@@ -2424,7 +2424,7 @@ _Last updated: 2026-09-18 · Entries: 235_
 
 ### 208. Temporal widescreen outpainting of a working ceramics studio — Runware
 
-- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Creator:** [Runware](https://runware.ai/) — first-party FLUX 3 model-gallery example.
 - **Published:** 2026-09-09
 - **Original source:** [Runware FLUX Video Edit [fast] API examples — Widescreen Ceramic Workshop Outpaint](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
 - **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
@@ -2435,7 +2435,7 @@ _Last updated: 2026-09-18 · Entries: 235_
 
 ### 209. Archival lighthouse restoration and historically restrained colorization — Runware
 
-- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Creator:** [Runware](https://runware.ai/) — first-party FLUX 3 model-gallery example.
 - **Published:** 2026-09-09
 - **Original source:** [Runware FLUX Video Edit [fast] API examples — Lighthouse Archive Film Restoration](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
 - **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
@@ -2446,7 +2446,7 @@ _Last updated: 2026-09-18 · Entries: 235_
 
 ### 210. Persian illuminated-manuscript falconry restyle with preserved flight anatomy — Runware
 
-- **Creator:** [Runware](https://runware.ai/) — first-party platform documentation example.
+- **Creator:** [Runware](https://runware.ai/) — first-party FLUX 3 model-gallery example.
 - **Published:** 2026-09-09
 - **Original source:** [Runware FLUX Video Edit [fast] API examples — Falconry Exhibition Miniature Reel](https://runware.ai/docs/models/bfl-flux-video-edit-fast/examples)
 - **Model attribution:** Runware identifies the request as Black Forest Labs’ `bfl:flux@video-edit-fast`; Black Forest Labs’ official launch announcement explicitly branded this fast, precise editing capability as **FLUX 3 Video**.
@@ -2734,6 +2734,17 @@ _Last updated: 2026-09-18 · Entries: 235_
 - **Workflow/details:** Generated through Luma; the creator says he used the shown image as the start frame and that the generation prompt appears at the end of the comparison video. The public page body does not expose the prompt text or model-specific resolution, duration, seed, or post-processing, so those details are not inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly says “The prompt is at the end of the video,” but the exact prompt text is not exposed in the verified public page body, so no wording is copied or reconstructed.
 - **Why included:** Fresh primary creator source with an attached comparison video, explicit FLUX 3 attribution, a traceable start-frame workflow, and a useful creator-side quality observation focused on realistic sound rather than generic aesthetics.
+
+### 236. Boxer-to-chrome humanoid motion-preserving Video Edit — Segmind
+
+- **Creator:** [Segmind](https://www.segmind.com/) — first-party FLUX 3 integration example.
+- **Published:** Date not shown; verified 2026-09-19.
+- **Original source:** [Segmind FLUX 3 Video Edit model page with example output](https://www.segmind.com/models/flux-3-video-edit)
+- **Model attribution:** Segmind explicitly identifies the tool as **FLUX 3 Video Edit** from Black Forest Labs and presents the embedded example as its output.
+- **Summary:** An existing boxing clip replaces the human fighter with a polished chrome humanoid while preserving the original punches, footwork, heavy-bag swing, camera movement, and timing.
+- **Workflow/details:** Prompt-guided video-to-video from one source clip. Segmind documents inputs up to 15 seconds / 50 MB / 720p, output at 24 fps with source duration, aspect ratio, motion, framing, timing, and audio carried through unless the prompt changes them. Its guidance recommends one clear edit and naming what must remain fixed.
+- **Prompt provenance:** `verbatim_in_post` — “Replace the boxer with a polished chrome humanoid robot, keeping the same punches, footwork, bag swing, camera and timing.”
+- **Why included:** Fresh first-party integration page with an actual example video and exact prompt, providing a clean temporal-consistency test: the subject is radically replaced while fast contact motion, footwork, prop dynamics, framing, and timing must remain stable.
 
 ## How updates work
 
