@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-19 · Entries: 238_
+_Last updated: 2026-09-20 · Entries: 239_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2767,6 +2767,17 @@ _Last updated: 2026-09-19 · Entries: 238_
 - **Workflow/details:** The verified public creator sources establish FLUX 3 attribution and a traceable filmmaker identity. No verified native generation resolution, seed, provider, keyframes/reference assets, clip-by-clip settings, audio workflow, or post-production pipeline are publicly exposed, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified public creator sources.
 - **Why included:** Newly published original-creator work with explicit FLUX 3 attribution, an attached video, and traceable creator identity: the Reddit posting account identifies itself as an AI artist/filmmaker and directly links the ISKARIOTO Dystopian YouTube channel. It adds a distinctive finished-art example without relying on reposts, inferred prompt text, or ambiguous model attribution.
+
+### 239. German tongue-twister timing benchmark across eight video models — Vincent Schramke
+
+- **Creator:** Vincent Schramke
+- **Published:** 2026-09-18 (based on LinkedIn’s activity timestamp).
+- **Original source:** [Vincent Schramke’s LinkedIn creator post with attached comparison video and transcript](https://de.linkedin.com/posts/vincentschramke_fischt-ki-fritz-frische-fische-zeit-activity-7506388703590809600-rhEn)
+- **Model attribution:** Schramke explicitly lists **Flux 3 Video** among the eight tested models and gives a separate creator-side evaluation of its German speech result.
+- **Summary:** One spoken-German tongue-twister challenge compares Gemini Omni Flash 1.1, Happy Horse Video, Flux 3 Video, MiniMax H3, Seedance 2.5, Kling 3.0, Grok Imagine 1.5, and Wan 3.0 Prime, with the attached video/transcript making pronunciation and pacing directly comparable.
+- **Workflow/details:** Schramke says the shown FLUX 3 test was prompted as a 10-second video: it contained one small speech error, while a rerender eliminated the error. He separately reports that asking FLUX 3 for 5 seconds makes it deliver the same type of speech faster and, in his judgment, more naturally. The public post does not expose the exact prompt, provider, resolution, seed, reference media, or post-production, so none are inferred.
+- **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly refers to “my prompt” and discusses 10-second versus 5-second prompting, but the exact prompt text is not visible in the verified public source. The visible transcript is treated as output evidence, not reconstructed into a generation prompt.
+- **Why included:** Fresh primary creator source with an attached comparison video and transcript, explicit Flux 3 attribution, and a controlled eight-model native-dialogue test. The rerender result and 10s-versus-5s pacing observation add reproducible evaluation value around German pronunciation, speech rate, and natural delivery rather than generic visual aesthetics.
 
 ## How updates work
 
