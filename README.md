@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-20 · Entries: 239_
+_Last updated: 2026-09-21 · Entries: 240_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2778,6 +2778,17 @@ _Last updated: 2026-09-20 · Entries: 239_
 - **Workflow/details:** Schramke says the shown FLUX 3 test was prompted as a 10-second video: it contained one small speech error, while a rerender eliminated the error. He separately reports that asking FLUX 3 for 5 seconds makes it deliver the same type of speech faster and, in his judgment, more naturally. The public post does not expose the exact prompt, provider, resolution, seed, reference media, or post-production, so none are inferred.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator explicitly refers to “my prompt” and discusses 10-second versus 5-second prompting, but the exact prompt text is not visible in the verified public source. The visible transcript is treated as output evidence, not reconstructed into a generation prompt.
 - **Why included:** Fresh primary creator source with an attached comparison video and transcript, explicit Flux 3 attribution, and a controlled eight-model native-dialogue test. The rerender result and 10s-versus-5s pacing observation add reproducible evaluation value around German pronunciation, speech rate, and natural delivery rather than generic visual aesthetics.
+
+### 240. “Cursed Infomercials” surreal faux-ad montage — indiegameplus
+
+- **Creator:** [indiegameplus](https://www.reddit.com/user/indiegameplus/)
+- **Published:** Exact date not exposed; verified 2026-09-21 (Reddit showed the original creator post as 7 days old).
+- **Original source:** [Cursed Infomercials](https://www.reddit.com/r/aivideo/comments/1veepam/cursed_infomercials/)
+- **Model attribution:** The original creator explicitly says the attached set of clips was made with **Flux 3**. In a follow-up, the creator says they had been using Flux 3 through Nous Portal and Hermes Agent.
+- **Summary:** A finished montage of deliberately cursed/surreal faux-infomercial clips pushes FLUX 3 toward bizarre consumer-advertising concepts instead of a conventional cinematic-realism demo.
+- **Workflow/details:** The creator identifies Nous Portal and Hermes Agent as the access path used for Flux 3 during the period when the clips were made. The public post does not expose the exact generation prompts, clip-level duration or resolution, seed, reference inputs, audio setup, assembly method, or further post-production details, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified primary source, and nothing has been reconstructed from the video.
+- **Why included:** Primary creator source with attached video and explicit Flux 3 attribution, plus a traceable access workflow. The piece is a coherent multi-clip surreal-advertising/art montage rather than an isolated model test, providing a strong originality signal and showing the model used for deliberately strange, comedic commercial concepts.
 
 ## How updates work
 
