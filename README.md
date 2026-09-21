@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-21 · Entries: 240_
+_Last updated: 2026-09-21 · Entries: 241_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2789,6 +2789,17 @@ _Last updated: 2026-09-21 · Entries: 240_
 - **Workflow/details:** The creator identifies Nous Portal and Hermes Agent as the access path used for Flux 3 during the period when the clips were made. The public post does not expose the exact generation prompts, clip-level duration or resolution, seed, reference inputs, audio setup, assembly method, or further post-production details, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified primary source, and nothing has been reconstructed from the video.
 - **Why included:** Primary creator source with attached video and explicit Flux 3 attribution, plus a traceable access workflow. The piece is a coherent multi-clip surreal-advertising/art montage rather than an isolated model test, providing a strong originality signal and showing the model used for deliberately strange, comedic commercial concepts.
+
+### 241. Fifty-years-late courier same-face sci-fi camera-control test — Dreamega AI
+
+- **Creator:** [Dreamega AI](https://www.dreamega.ai/) — first-party FLUX 3 integration and gallery.
+- **Published:** Date not shown; verified 2026-09-21.
+- **Original source:** [Dreamega FLUX 3 model gallery](https://www.dreamega.ai/models/flux-3)
+- **Model attribution:** Dreamega explicitly identifies the gallery as **FLUX 3** from Black Forest Labs and says the displayed examples are clips generated with FLUX 3 from text prompts in a single pass with native synchronized audio.
+- **Summary:** A bicycle courier races through rain-soaked neon streets, reaches an apartment door whose display is fifty years in the future, and meets an elderly version of himself with the same face; the shot grammar shifts from fast tracking to a deliberate still beat and then a slow orbit around both characters.
+- **Workflow/details:** First-party text-to-video example on Dreamega. The visible prompt directs realistic acting, controlled camera movement, lightning, a glowing food bag, and nearby objects floating into the air. Dreamega documents FLUX 3 on its platform at 5–20 seconds, 720p or 1080p, with native synchronized audio; it also exposes image-to-video, Start-End, and Video Extend modes, with Extend accepting one MP4 up to 15 seconds / 50 MB. The service is described as using WaveSpeed. The example page does not expose a verified seed, exact sample duration/resolution, or post-production, so none are inferred.
+- **Prompt provenance:** `verbatim_in_post` — “A young bicycle courier arrives at an apartment door during a thunderstorm, but the digital display shows a date fifty years in the future.” The complete prompt remains visibly published with the first-party video example.
+- **Why included:** Newly surfaced first-party prompt-to-video evidence with explicit FLUX 3 attribution, an attached/gallery clip, visible prompt, and concrete platform controls. It is a strong temporal/identity benchmark because one generation must preserve same-face age identity while executing distinct camera states, weather/light changes, prop effects, and a coherent supernatural reveal.
 
 ## How updates work
 
