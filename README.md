@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-21 · Entries: 241_
+_Last updated: 2026-09-22 · Entries: 242_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -339,7 +339,7 @@ _Last updated: 2026-09-21 · Entries: 241_
 - **Creator:** [Justine Moore (@venturetwins)](https://x.com/venturetwins)
 - **Published:** 2026-07-27
 - **Verification source:** [Secondary profile mirror preserving the original creator wording, attached-video context, and engagement](https://site.twstalker.com/venturetwins)
-- **Model attribution:** Moore explicitly says the video was made with FLUX 3.
+- **Model attribution:** Moore explicitly says the result is strong enough that she is considering expanding the concept into a full National Geographic-style documentary.
 - **Summary:** Moore says the result is strong enough that she is considering expanding the concept into a full National Geographic-style documentary.
 - **Workflow/details:** A single-prompt FLUX 3 generation; the exact duration, input references, camera plan, and post-production details are not disclosed.
 - **Prompt provenance:** `mentioned_not_in_post` — the creator states that the clip was made with one prompt, but the prompt text is not visible in the verified source.
@@ -2800,6 +2800,17 @@ _Last updated: 2026-09-21 · Entries: 241_
 - **Workflow/details:** First-party text-to-video example on Dreamega. The visible prompt directs realistic acting, controlled camera movement, lightning, a glowing food bag, and nearby objects floating into the air. Dreamega documents FLUX 3 on its platform at 5–20 seconds, 720p or 1080p, with native synchronized audio; it also exposes image-to-video, Start-End, and Video Extend modes, with Extend accepting one MP4 up to 15 seconds / 50 MB. The service is described as using WaveSpeed. The example page does not expose a verified seed, exact sample duration/resolution, or post-production, so none are inferred.
 - **Prompt provenance:** `verbatim_in_post` — “A young bicycle courier arrives at an apartment door during a thunderstorm, but the digital display shows a date fifty years in the future.” The complete prompt remains visibly published with the first-party video example.
 - **Why included:** Newly surfaced first-party prompt-to-video evidence with explicit FLUX 3 attribution, an attached/gallery clip, visible prompt, and concrete platform controls. It is a strong temporal/identity benchmark because one generation must preserve same-face age identity while executing distinct camera states, weather/light changes, prop effects, and a coherent supernatural reveal.
+
+### 242. Ferrari CZ26 continuous cinematic photoreal automotive test — Alberto Bermejo Perea / Pythonist_AI
+
+- **Creator:** [Alberto Bermejo Perea / Pythonist_AI](https://es.linkedin.com/posts/alberto-bermejo-perea-pythonist-ai-%F0%9F%A4%96%F0%9F%9A%80-2809825b_genfeed-generativeai-video-activity-7498528851933777920-487_)
+- **Published:** Exact date not exposed; verified 2026-09-22 (LinkedIn showed the creator post as approximately 3 weeks old).
+- **Original source:** [Ferrari CZ26 creator post on LinkedIn](https://es.linkedin.com/posts/alberto-bermejo-perea-pythonist-ai-%F0%9F%A4%96%F0%9F%9A%80-2809825b_genfeed-generativeai-video-activity-7498528851933777920-487_)
+- **Model attribution:** Bermejo Perea explicitly says the Ferrari CZ26 piece was created by pushing the new **Flux 3** model and tags the post `#Flux3`.
+- **Summary:** A Ferrari CZ26 automotive-film piece built around long, continuous cinematic shots and photoreal presentation, framed by the creator as a technical and visual exploration for his GenFEED debut.
+- **Workflow/details:** Creator-reported continuous cinematic shots up to 20 seconds. The original post directly links the finished video on GenFEED and identifies Flux 3 as the generation model. Exact prompt, clip-specific duration, resolution, seed, provider, input/reference assets, audio setup, and post-production are not publicly exposed in the verified creator post, so none are inferred.
+- **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified creator source.
+- **Why included:** Direct original-creator source with a traceable video link, explicit Flux 3 attribution, a production-oriented automotive concept, and a strong creator-side quality signal focused on long continuous shots and photorealism. It adds a distinct high-end automotive/commercial example not already present in the README.
 
 ## How updates work
 
