@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-22 · Entries: 242_
+_Last updated: 2026-09-23 · Entries: 243_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2811,6 +2811,18 @@ _Last updated: 2026-09-22 · Entries: 242_
 - **Workflow/details:** Creator-reported continuous cinematic shots up to 20 seconds. The original post directly links the finished video on GenFEED and identifies Flux 3 as the generation model. Exact prompt, clip-specific duration, resolution, seed, provider, input/reference assets, audio setup, and post-production are not publicly exposed in the verified creator post, so none are inferred.
 - **Prompt provenance:** `not_provided` — no exact generation prompt is visible in the verified creator source.
 - **Why included:** Direct original-creator source with a traceable video link, explicit Flux 3 attribution, a production-oriented automotive concept, and a strong creator-side quality signal focused on long continuous shots and photorealism. It adds a distinct high-end automotive/commercial example not already present in the README.
+
+### 243. Eleven-example German native-audio and video-editing practical test — Cinetiq
+
+- **Creator:** Cinetiq - AI Video & Marketing
+- **Published:** 2026-09-20
+- **Original source:** [Die BESTE deutsche Audio in KI-Videos!? „FLUX 3" mit 11 Beispielen im PRAXISTEST](https://www.youtube.com/watch?v=hCm_Zx6Trq0)
+- **Secondary verification source:** [kiheute summary preserving the creator attribution, publication date, original-video title, and direct YouTube link](https://kiheute.ch/praxistest-flux-3-von-black-forest-labs-liefert-starke-deutsche-audio/)
+- **Model attribution:** The original source title explicitly identifies **FLUX 3**, and the secondary verification page identifies the creator's eleven examples as a practical test of Black Forest Labs' Flux 3 video model.
+- **Summary:** Eleven examples test native German speech and synchronization, nostalgic black-and-white footage, influencer-vlog delivery, anime and motion-graphics text, plus a real-video edit, combining strong outputs with candid failure cases rather than a cherry-picked reel.
+- **Workflow/details:** The verified source reports a 14-second Draft render at $0.84 and the same duration in regular HD at $2.38; a 20-second 4K render at roughly $16; and a 7.2-second person-removal edit at $0.24. German speech is described as authentic and clean in several examples, although timing can trail the English version; the edit worked but reduced image quality. Text-to-video results up to 20 seconds were judged convincing across nostalgic, anime, and motion-graphics-text styles, while complex reference-style/card-count tasks were weaker. Exact clip prompts, seeds, and post-production settings are not visible in the verified public source and are not inferred.
+- **Prompt provenance:** `not_provided` — no verbatim generation prompt is visible in the verified public source, so none is reconstructed from the video or summary.
+- **Why included:** Newly surfaced, traceable creator video with explicit FLUX 3 attribution, eleven actual examples, varied production styles, concrete duration/quality/cost data, and unusually useful notes on German native audio, editing quality, text-to-video range, and failure modes. Because the original YouTube page could not be directly fetched by the public index, creator attribution and the source URL are verified through a credible secondary page that directly names and links the original video.
 
 ## How updates work
 
