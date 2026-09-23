@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-23 · Entries: 243_
+_Last updated: 2026-09-24 · Entries: 244_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2816,13 +2816,24 @@ _Last updated: 2026-09-23 · Entries: 243_
 
 - **Creator:** Cinetiq - AI Video & Marketing
 - **Published:** 2026-09-20
-- **Original source:** [Die BESTE deutsche Audio in KI-Videos!? „FLUX 3" mit 11 Beispielen im PRAXISTEST](https://www.youtube.com/watch?v=hCm_Zx6Trq0)
+- **Original source:** [Die BESTE deutsche Audio in KI-Videos!? „FLUX 3\" mit 11 Beispielen im PRAXISTEST](https://www.youtube.com/watch?v=hCm_Zx6Trq0)
 - **Secondary verification source:** [kiheute summary preserving the creator attribution, publication date, original-video title, and direct YouTube link](https://kiheute.ch/praxistest-flux-3-von-black-forest-labs-liefert-starke-deutsche-audio/)
 - **Model attribution:** The original source title explicitly identifies **FLUX 3**, and the secondary verification page identifies the creator's eleven examples as a practical test of Black Forest Labs' Flux 3 video model.
 - **Summary:** Eleven examples test native German speech and synchronization, nostalgic black-and-white footage, influencer-vlog delivery, anime and motion-graphics text, plus a real-video edit, combining strong outputs with candid failure cases rather than a cherry-picked reel.
 - **Workflow/details:** The verified source reports a 14-second Draft render at $0.84 and the same duration in regular HD at $2.38; a 20-second 4K render at roughly $16; and a 7.2-second person-removal edit at $0.24. German speech is described as authentic and clean in several examples, although timing can trail the English version; the edit worked but reduced image quality. Text-to-video results up to 20 seconds were judged convincing across nostalgic, anime, and motion-graphics-text styles, while complex reference-style/card-count tasks were weaker. Exact clip prompts, seeds, and post-production settings are not visible in the verified public source and are not inferred.
 - **Prompt provenance:** `not_provided` — no verbatim generation prompt is visible in the verified public source, so none is reconstructed from the video or summary.
 - **Why included:** Newly surfaced, traceable creator video with explicit FLUX 3 attribution, eleven actual examples, varied production styles, concrete duration/quality/cost data, and unusually useful notes on German native audio, editing quality, text-to-video range, and failure modes. Because the original YouTube page could not be directly fetched by the public index, creator attribution and the source URL are verified through a credible secondary page that directly names and links the original video.
+
+### 244. FLUX 3 Action real-arm, game, and drone world-action video suite — Black Forest Labs
+
+- **Creator:** [Black Forest Labs](https://huggingface.co/black-forest-labs)
+- **Published:** 2026-09-23
+- **Original source:** [FLUX 3 Action: a world action model you can fine-tune](https://huggingface.co/blog/black-forest-labs/flux-3-action)
+- **Model attribution:** The first-party Black Forest Labs-authored source explicitly identifies the system as **FLUX 3 Action**, an open-weights 7B world action model that predicts future video frames and actions jointly.
+- **Summary:** The embedded video suite spans an SO-101 robot arm doing pick-and-place tasks, manipulating objects and containers it did not see in training, recovering from a screwdriver mistake, working under changed camera positions, playing the GRUNT shooter and VECTOR racer, and controlling an indoor drone through unseen rooms and natural-language goals.
+- **Workflow/details:** Each call takes one or more camera frames, a state vector, and a text caption, then returns 32 actions and optionally 32 decoded future frames covering roughly the next two seconds; control executes only the first few actions before observing and replanning. The SO-101 policy shown was adapted on about 200 teleoperated episodes, and the trained-task clip is shown from the top camera at 4× speed with planning pauses removed. BFL documents three 544×736 DROID camera views, two side-by-side SO-101 views, or one 512×512 game frame; the GRUNT and VECTOR policies use 800 scripted-bot episodes per game. The indoor-drone setup uses a 256×256 onboard camera, outputs `[forward, lateral, up, yaw]`, and fine-tunes on 800 Isaac Sim flights. Weights, code, LeRobot integration, PEFT recipes, games, and fine-tuning documentation are public.
+- **Prompt provenance:** `verbatim_in_post` — visible policy instruction: “put the white box from the green cup to the container”. The same first-party page visibly publishes additional task captions and drone instructions; no hidden or inferred prompt wording is used.
+- **Why included:** Newly published first-party Black Forest Labs material with embedded videos, explicit FLUX 3 attribution, visible language instructions, open weights/code, and unusually reproducible training/control details. It extends the collection beyond passive video generation into a difficult closed-loop video-and-action setting with real-hardware rollouts, out-of-distribution objects/containers, recovery behavior, game control, and semantic drone navigation.
 
 ## How updates work
 
