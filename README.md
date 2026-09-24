@@ -34,7 +34,7 @@ _Last updated: 2026-08-23 · Entries: 160_
 
 ## Curated videos
 
-_Last updated: 2026-09-24 · Entries: 244_
+_Last updated: 2026-09-25 · Entries: 245_
 
 ### 1. Multi-shot realism favorites — Justine Moore
 
@@ -2834,6 +2834,18 @@ _Last updated: 2026-09-24 · Entries: 244_
 - **Workflow/details:** Each call takes one or more camera frames, a state vector, and a text caption, then returns 32 actions and optionally 32 decoded future frames covering roughly the next two seconds; control executes only the first few actions before observing and replanning. The SO-101 policy shown was adapted on about 200 teleoperated episodes, and the trained-task clip is shown from the top camera at 4× speed with planning pauses removed. BFL documents three 544×736 DROID camera views, two side-by-side SO-101 views, or one 512×512 game frame; the GRUNT and VECTOR policies use 800 scripted-bot episodes per game. The indoor-drone setup uses a 256×256 onboard camera, outputs `[forward, lateral, up, yaw]`, and fine-tunes on 800 Isaac Sim flights. Weights, code, LeRobot integration, PEFT recipes, games, and fine-tuning documentation are public.
 - **Prompt provenance:** `verbatim_in_post` — visible policy instruction: “put the white box from the green cup to the container”. The same first-party page visibly publishes additional task captions and drone instructions; no hidden or inferred prompt wording is used.
 - **Why included:** Newly published first-party Black Forest Labs material with embedded videos, explicit FLUX 3 attribution, visible language instructions, open weights/code, and unusually reproducible training/control details. It extends the collection beyond passive video generation into a difficult closed-loop video-and-action setting with real-hardware rollouts, out-of-distribution objects/containers, recovery behavior, game control, and semantic drone navigation.
+
+
+### 245. ImagineArt blind nine-model benchmark with identical prompts — Tooba Siddiqui / ImagineArt
+
+- **Creator:** [Tooba Siddiqui / ImagineArt](https://www.imagine.art/insights/best-ai-video-generation-models)
+- **Published:** 2026-09-23; updated 2026-09-24.
+- **Original source:** [Best AI Video Generation Models 2026: We Tested 9 Models on the Same Prompts](https://www.imagine.art/insights/best-ai-video-generation-models)
+- **Model attribution:** ImagineArt’s first-party test explicitly identifies **Flux 3 (Black Forest Labs)** as one of the nine tested video models.
+- **Summary:** A controlled 27-clip benchmark runs the same three tasks across nine current models: rainy running motion, a perfume-bottle image-to-video orbit with label preservation, and a cinematic fisherman dialogue shot with native ambience and lip-sync.
+- **Workflow/details:** All 27 generations were made in one session on 2026-09-22, one generation per model per prompt, at 5 seconds, 16:9, highest supported resolution up to 1080p, with audio on where supported; filenames were randomized before blind scoring. For Flux 3, ImagineArt reports 1080p, 67-second render time, $0.54/sec on its Ultimate-plan credit rate, and scores of 8 prompt adherence, 7.5 temporal consistency, 7 visual fidelity, 8 motion quality, and 8.5 cinematic realism (7.8 overall). The author highlights temporal visual consistency and prompt adherence as its strongest areas and motion/camera control as its best fit.
+- **Prompt provenance:** `verbatim_in_post` — all three prompts are visibly published word for word. Verified excerpt from the dialogue prompt: “Dawn on a small wooden pier at the edge of a misty lake.”
+- **Why included:** Newly published first-party provider evidence with actual comparison clips, fixed settings, visible prompts, blind scoring, and model-specific measurements. It makes Flux 3 directly reproducible against eight peers instead of relying on a hand-picked showcase.
 
 ## How updates work
 
